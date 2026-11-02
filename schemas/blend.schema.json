@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "blend.schema.json",
+  "title": "Spice blend",
+  "type": "object",
+  "required": ["id", "name", "summary", "components", "review_status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "local_name": {"type": "string"},
+    "country": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "region": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "summary": {"type": "string"},
+    "history": {"type": "string", "description": "Markdown."},
+    "components": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["ingredient"], "additionalProperties": false,
+        "properties": {
+          "ingredient": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+          "proportion_note": {"type": "string", "description": "Free text; blends vary by cook, e.g. 'dominant' or 'a pinch'."},
+          "optional": {"type": "boolean"}
+        }
+      }
+    },
+    "sources": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}},
+    "review_status": {"enum": ["draft", "reviewed", "published"]}
+  }
+}

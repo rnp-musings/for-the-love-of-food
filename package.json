@@ -7,9 +7,20 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "validate": "python3 scripts/validate.py"
+    "validate": "python3 scripts/validate.py",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx db/migrate.ts",
+    "db:import": "tsx db/import.ts",
+    "db:smoke": "tsx db/smoke.ts"
   },
   "dependencies": {
     "astro": "^7.4.4"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.14",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.4",
+    "postgres": "^4.0.0",
+    "tsx": "^4.23.15"
   }
 }

@@ -68,6 +68,8 @@ sources = check("source", records("sources.json", "sources/*.json"), schema("sou
 festivals = check("festival", records("festivals.json", "festivals/*.json"), schema("festival"))
 dishes = check("dish", records("dishes/*.json"), schema("dish"))
 recipes = check("recipe", records("recipes/*.json"), schema("recipe"))
+spices = check("spice", records("spices.json", "spices/*.json"), schema("spice"))
+blends = check("blend", records("blends.json", "blends/*.json"), schema("blend"))
 fest_dishes = records("festival-dishes.json", "festival-dishes/*.json")
 fd_validator = schema("festival-dish")
 for rel, rec in fest_dishes:
@@ -128,6 +130,27 @@ for did in dishes:
     if did not in dish_recipes:
         err(f"dish {did}: has no recipe")
 
+for sp in spices.values():
+    need(sp["id"], ingredients, f"spice {sp['id']}")
+    if sp["id"] in ingredients and ingredients[sp["id"]]["category"] != "herb-spice":
+        err(f"spice {sp['id']}: ingredient category must be herb-spice")
+    for o in sp.get("origins", []):
+        need(o["country"], countries, f"spice {sp['id']} origins")
+    for sub in sp.get("substitutes", []):
+        need(sub["ingredient"], ingredients, f"spice {sp['id']} substitutes")
+    for s_ in sp.get("sources", []):
+        need(s_, sources, f"spice {sp['id']}")
+
+for b in blends.values():
+    if "country" in b:
+        need(b["country"], countries, f"blend {b['id']}")
+    if "region" in b:
+        need(b["region"], regions, f"blend {b['id']}")
+    for c in b["components"]:
+        need(c["ingredient"], ingredients, f"blend {b['id']} components")
+    for s_ in b.get("sources", []):
+        need(s_, sources, f"blend {b['id']}")
+
 for rel, fd in fest_dishes:
     need(fd["festival"], festivals, f"festival-dish {fd['festival']}/{fd['dish']}")
     need(fd["dish"], dishes, f"festival-dish {fd['festival']}/{fd['dish']}")
@@ -161,7 +184,7 @@ for did, recs in dish_recipes.items():
 
 n = lambda x: len(x)
 print(f"countries={n(countries)} regions={n(regions)} dishes={n(dishes)} recipes={n(recipes)} "
-      f"ingredients={n(ingredients)} festivals={n(festivals)} festival_dishes={n(fest_dishes)} sources={n(sources)}")
+      f"ingredients={n(ingredients)} spices={n(spices)} blends={n(blends)} festivals={n(festivals)} festival_dishes={n(fest_dishes)} sources={n(sources)}")
 if errors:
     print(f"\n{len(errors)} error(s):")
     for e in errors:

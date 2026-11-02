@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spice.schema.json",
+  "title": "Spice",
+  "description": "Profile for an ingredient in the herb-spice category. The id must equal an existing ingredient id.",
+  "type": "object",
+  "required": ["id", "review_status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "scientific_name": {"type": "string"},
+    "part_used": {"enum": ["seed", "bark", "root", "rhizome", "fruit", "berry", "pod", "flower", "stigma", "bud", "leaf", "resin", "aril", "mixed", "other"]},
+    "heat_level": {"type": "integer", "minimum": 0, "maximum": 5},
+    "heat_shu": {"type": "integer", "minimum": 0, "description": "Scoville heat units, only where a figure is documented."},
+    "flavour_notes": {"type": "array", "items": {"enum": ["sweet", "sour", "salty", "bitter", "umami", "spicy", "smoky", "tangy", "aromatic", "rich"]}},
+    "aroma": {"type": "string"},
+    "history": {"type": "string", "description": "Markdown. Origin, trade and cultural use, in our own words."},
+    "storage": {"type": "string"},
+    "buying_tips": {"type": "string"},
+    "origins": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["country", "role"], "additionalProperties": false,
+        "properties": {
+          "country": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+          "role": {"enum": ["native", "major-producer", "historic-trade"]}
+        }
+      }
+    },
+    "substitutes": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["ingredient"], "additionalProperties": false,
+        "properties": {
+          "ingredient": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+          "note": {"type": "string", "description": "Ratio and how close the match is."}
+        }
+      }
+    },
+    "sources": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}},
+    "review_status": {"enum": ["draft", "reviewed", "published"]}
+  }
+}
