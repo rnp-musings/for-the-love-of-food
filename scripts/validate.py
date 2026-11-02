@@ -32,9 +32,10 @@ def schema(name):
     return Draft202012Validator(load(SCHEMAS / f"{name}.schema.json"))
 
 
-def records(pattern):
+def records(*patterns):
     out = []
-    for p in sorted(glob.glob(str(CONTENT / pattern))):
+    paths = sorted(p for pat in patterns for p in glob.glob(str(CONTENT / pat)))
+    for p in paths:
         data = load(p)
         rel = str(Path(p).relative_to(ROOT))
         if not isinstance(data, list):
@@ -53,19 +54,21 @@ def check(kind, items, validator):
         rid = rec.get("id")
         if rid:
             if rid in ids:
-                err(f"{rel}: duplicate {kind} id '{rid}'")
+                if ids[rid] == rec:
+                    continue  # identical copy (merge_collections.py folds these together)
+                err(f"{rel}: duplicate {kind} id '{rid}' with different content")
             ids[rid] = rec
     return ids
 
 
-countries = check("country", records("countries.json"), schema("country"))
-regions = check("region", records("regions.json"), schema("region"))
-ingredients = check("ingredient", records("ingredients.json"), schema("ingredient"))
-sources = check("source", records("sources.json"), schema("source"))
-festivals = check("festival", records("festivals.json"), schema("festival"))
+countries = check("country", records("countries.json", "countries/*.json"), schema("country"))
+regions = check("region", records("regions.json", "regions/*.json"), schema("region"))
+ingredients = check("ingredient", records("ingredients.json", "ingredients/*.json"), schema("ingredient"))
+sources = check("source", records("sources.json", "sources/*.json"), schema("source"))
+festivals = check("festival", records("festivals.json", "festivals/*.json"), schema("festival"))
 dishes = check("dish", records("dishes/*.json"), schema("dish"))
 recipes = check("recipe", records("recipes/*.json"), schema("recipe"))
-fest_dishes = records("festival-dishes.json")
+fest_dishes = records("festival-dishes.json", "festival-dishes/*.json")
 fd_validator = schema("festival-dish")
 for rel, rec in fest_dishes:
     for e in fd_validator.iter_errors(rec):
