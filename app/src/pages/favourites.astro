@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Favourites" description="Dishes you saved in this browser." noindex>
+  <h1>Favourites</h1>
+  <p class="muted">Saved only in this browser. Nothing is sent to a server except the list of dish ids needed to show them.</p>
+  <p id="empty" class="callout" hidden>No favourites yet. Tap ♡ on any dish to save it here.</p>
+  <ul class="grid" id="list"></ul>
+  <script>
+    import { initFavButtons, readFavs } from '../scripts/favourites';
+    const ids = readFavs();
+    const list = document.getElementById('list')!;
+    const empty = document.getElementById('empty')!;
+    if (!ids.length) empty.hidden = false;
+    else fetch('/api/dishes?ids=' + encodeURIComponent(ids.join(',')))
+      .then((r) => r.json())
+      .then((d: { dishes: any[] }) => {
+        d.dishes.forEach((x) => {
+          const li = document.createElement('li'); li.className = 'card';
+          const h = document.createElement('h3'); const a = document.createElement('a');
+          a.href = '/dishes/' + encodeURIComponent(x.id); a.textContent = x.name; h.appendChild(a);
+          const meta = document.createElement('div'); meta.className = 'muted'; meta.textContent = (x.regionName ? x.regionName + ', ' : '') + x.countryName;
+          const p = document.createElement('p'); p.textContent = x.summary;
+          const b = document.createElement('button'); b.type = 'button'; b.className = 'fav'; b.dataset.fav = x.id; b.setAttribute('aria-pressed', 'true'); b.setAttribute('aria-label', 'Remove ' + x.name + ' from favourites'); b.textContent = '♥';
+          li.append(h, b, meta, p); list.appendChild(li);
+        });
+        initFavButtons(() => { /* keep card visible until reload so an accidental tap can be undone */ });
+        if (!d.dishes.length) empty.hidden = false;
+      });
+  </script>
+</Base>

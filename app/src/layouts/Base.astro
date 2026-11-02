@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string; noindex?: boolean }
+const { title, description = 'A filterable atlas of regional cuisine, recipes, dish stories, food festivals and spices.', noindex = false } = Astro.props;
+const full = title === 'For the Love of Food' ? title : `${title} · For the Love of Food`;
+const path = Astro.url.pathname;
+const cur = (p: string) => (path === p || path.startsWith(p + '/') ? 'page' : undefined);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <title>{full}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="/">For the Love of Food</a>
+        <nav aria-label="Main">
+          <a href="/dishes" aria-current={cur('/dishes')}>Dishes</a>
+          <a href="/countries" aria-current={cur('/countries')}>Countries</a>
+          <a href="/festivals" aria-current={cur('/festivals')}>Festivals</a>
+          <a href="/spices" aria-current={cur('/spices')}>Spices</a>
+          <a href="/favourites" aria-current={cur('/favourites')}>♥</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Stories and recipes are AI-drafted and marked <span class="chip draft">Draft</span> until a person has reviewed them against their sources. Treat history as indicative and check food-safety steps yourself.</p>
+      </div>
+    </footer>
+  </body>
+</html>

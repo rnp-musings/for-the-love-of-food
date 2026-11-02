@@ -17,9 +17,18 @@ Status: early seed collection, live at https://rnp-musings.github.io/for-the-lov
 | `content/sources.json` | Every source cited by other records |
 | `scripts/validate.py` | Schema, cross-reference and diet-tag checks |
 | `src/` | Astro pages, components and the favourites script |
-| `.github/workflows/deploy.yml` | Validates content, builds and deploys to GitHub Pages |
+| `app/` | Database-backed app (Astro server rendering + Postgres) |
+| `db/` | Schema, migrations, importer, queries |
+| `.github/workflows/deploy.yml` | Validates content, builds and deploys the static site to GitHub Pages |
+| `.github/workflows/ci.yml` | Validates, builds both sites, runs the database and app tests |
+| `Dockerfile` | Production image for the app |
 
-## Run the site
+## Two sites
+
+- **Static site** (repo root, `src/`): reads `/content` at build time and deploys to GitHub Pages.
+- **App** (`app/`): the database-backed version with server-side filters, the spice library and a reviewer screen. See [app/README.md](app/README.md).
+
+## Run the static site
 
 ```bash
 npm install

@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getDb } from '../../lib/db';
+import { label } from '../../lib/format';
+import { ALL_STATUSES, listCountries, recentReviews, reviewQueue, type Status } from '../../../../db/queries';
+
+const db = await getDb();
+const p = Astro.url.searchParams;
+const status = ALL_STATUSES.includes(p.get('status') as Status) ? (p.get('status') as Status) : undefined;
+const page = Math.max(1, Number(p.get('page')) || 1);
+const SIZE = 50;
+const [queue, countries, recent] = await Promise.all([
+  reviewQueue(db, { status, country: p.get('country') || undefined, q: p.get('q') || undefined, limit: SIZE, offset: (page - 1) * SIZE }),
+  listCountries(db), recentReviews(db, 8),
+]);
+const count = (s: string) => queue.byStatus.find((r: any) => r.status === s)?.n ?? 0;
+const pages = Math.max(1, Math.ceil(queue.total / SIZE));
+const qs = (o: Record<string, string>) => { const q = new URLSearchParams(p); for (const [k, v] of Object.entries(o)) v ? q.set(k, v) : q.delete(k); const s = q.toString(); return s ? '?' + s : ''; };
+const reviewer = Astro.cookies.get('ftlof_reviewer')?.value ?? '';
+---
+<Base title="Review queue" noindex>
+  <h1>Review queue</h1>
+  <p class="muted">Signed in as {reviewer || 'unknown'}.
+    <form method="post" action="/admin/logout" style="display:inline"><button class="btn secondary" type="submit">Sign out</button></form></p>
+  <ul class="stats">
+    {ALL_STATUSES.map((s) => <li><a href={`/admin${qs({ status: s, page: '' })}`}><strong>{count(s)}</strong></a> {s}</li>)}
+  </ul>
+  <form class="filters" method="get">
+    <div class="row">
+      <label>Status<select name="status"><option value="">All</option>{ALL_STATUSES.map((s) => <option value={s} selected={status === s}>{label(s)}</option>)}</select></label>
+      <label>Country<select name="country"><option value="">All</option>{countries.map((c: any) => <option value={c.id} selected={p.get('country') === c.id}>{c.name}</option>)}</select></label>
+      <label class="wide">Dish name<input name="q" value={p.get('q') ?? ''} /></label>
+      <button class="btn" type="submit">Filter</button>
+    </div>
+  </form>
+  <p class="result-count">{queue.total} dishes</p>
+  <table>
+    <thead><tr><th>Dish</th><th>Country</th><th>Status</th><th>Unverified sources</th></tr></thead>
+    <tbody>
+      {queue.rows.map((r: any) => (
+        <tr><td><a href={`/admin/review/${r.id}`}>{r.name}</a></td><td>{r.countryName}</td>
+          <td><span class={`chip ${r.reviewStatus === 'draft' ? 'draft' : 'ok'}`}>{r.reviewStatus}</span></td><td>{r.unchecked}</td></tr>
+      ))}
+    </tbody>
+  </table>
+  {pages > 1 && (
+    <nav class="pager" aria-label="Pages">
+      {page > 1 ? <a class="btn secondary" href={`/admin${qs({ page: String(page - 1) })}`}>← Previous</a> : <span></span>}
+      <span>Page {page} of {pages}</span>
+      {page < pages ? <a class="btn secondary" href={`/admin${qs({ page: String(page + 1) })}`}>Next →</a> : <span></span>}
+    </nav>
+  )}
+  {recent.length > 0 && (
+    <>
+      <h2>Recent activity</h2>
+      <ul>{recent.map((r: any) => <li>{r.reviewer} moved {r.entityType} <code>{r.entityId}</code> {r.fromStatus} → {r.toStatus}{r.note ? ` ("${r.note}")` : ''} · {new Date(r.at).toISOString().slice(0, 16).replace('T', ' ')}</li>)}</ul>
+    </>
+  )}
+</Base>

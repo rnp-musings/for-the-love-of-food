@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ftlof
+          POSTGRES_PASSWORD: ftlof-ci
+          POSTGRES_DB: ftlof
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U ftlof" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PG_URL: postgres://ftlof:ftlof-ci@localhost:5432/ftlof
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate content
+        run: |
+          pip install jsonschema
+          python3 scripts/validate.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Static site builds
+        run: npm run build
+      - name: Database import and queries (embedded Postgres)
+        run: npm run db:smoke
+      - name: App builds
+        run: npm run app:build
+      - name: App tests (embedded Postgres)
+        run: npm run app:test
+      - name: Migrate and import into real Postgres
+        run: |
+          DATABASE_URL=$PG_URL npx tsx db/migrate.ts
+          DATABASE_URL=$PG_URL npx tsx db/import.ts --skip-validate
+      - name: App tests (real Postgres)
+        run: TEST_DATABASE_URL=$PG_URL npm run app:test

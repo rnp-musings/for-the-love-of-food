@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getDb } from '../../lib/db';
+import { label, paragraphs } from '../../lib/format';
+import { getBlend } from '../../../../db/queries';
+const data = await getBlend(await getDb(), Astro.params.id!);
+if (!data) return Astro.rewrite('/404');
+const { blend, country, components, sources } = data;
+---
+<Base title={blend.name} description={blend.summary}>
+  <p class="muted"><a href="/spices">← Spice library</a></p>
+  <h1>{blend.name} {blend.localName && <small class="muted">{blend.localName}</small>}</h1>
+  {country && <p class="muted"><a href={`/countries/${country.id}`}>{country.name}</a></p>}
+  <p class="lead">{blend.summary}</p>
+  {blend.reviewStatus !== 'published' && <p><span class="chip draft">{label(blend.reviewStatus)}</span></p>}
+  <h2>What goes in</h2>
+  <p class="muted">Blends vary from cook to cook and region to region. These are the usual components.</p>
+  <ul>{components.map((c: any) => <li><a href={`/spices/${c.id}`}>{c.name}</a>{c.proportionNote ? `: ${c.proportionNote}` : ''}{c.optional ? ' (optional)' : ''}</li>)}</ul>
+  {blend.historyMd && <><h2>History</h2>{paragraphs(blend.historyMd).map((p: string) => <p>{p}</p>)}</>}
+  {sources.length > 0 && <><h2>Sources</h2><ul>{sources.map((s: any) => <li><a href={s.url} rel="noopener noreferrer">{s.title}</a></li>)}</ul></>}
+</Base>

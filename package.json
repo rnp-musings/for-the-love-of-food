@@ -11,16 +11,21 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx db/migrate.ts",
     "db:import": "tsx db/import.ts",
-    "db:smoke": "tsx db/smoke.ts"
+    "db:smoke": "tsx db/smoke.ts",
+    "app:dev": "astro dev --root app",
+    "app:build": "astro build --root app",
+    "app:start": "node app/dist/server/entry.mjs",
+    "app:test": "tsx --test app/test/app.test.ts"
   },
   "dependencies": {
-    "astro": "^7.4.4"
-  },
-  "devDependencies": {
+    "@astrojs/node": "^11.1.9",
     "@electric-sql/pglite": "^0.5.14",
-    "drizzle-kit": "^0.31.11",
+    "astro": "^7.4.5",
     "drizzle-orm": "^0.45.4",
     "postgres": "^4.0.0",
     "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.11"
   }
 }

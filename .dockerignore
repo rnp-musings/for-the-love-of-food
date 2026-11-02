@@ -1,0 +1,7 @@
+node_modules
+dist
+app/dist
+.astro
+.git
+.pgdata
+docs

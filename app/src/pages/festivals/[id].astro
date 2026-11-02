@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { getDb } from '../../lib/db';
+import { label, monthList, paragraphs } from '../../lib/format';
+import { getFestival } from '../../../../db/queries';
+const data = await getFestival(await getDb(), Astro.params.id!);
+if (!data) return Astro.rewrite('/404');
+const { festival: f, countries, dishes, sources } = data;
+---
+<Base title={f.name} description={f.summary}>
+  <p class="muted"><a href="/festivals">← All festivals</a></p>
+  <h1>{f.name} {f.localName && <small class="muted">{f.localName}</small>}</h1>
+  <p class="muted">{countries.map((c: any, i: number) => <>{i > 0 && ', '}<a href={`/countries/${c.id}`}>{c.name}</a></>)} · {f.timing}{f.duration ? ` · ${f.duration}` : ''} · {monthList(f.months)} · {label(f.type)}</p>
+  <p class="lead">{f.summary}</p>
+  <h2>The story</h2>
+  {paragraphs(f.storyMd).map((p: string) => <p>{p}</p>)}
+  {f.foodTraditionsMd && <><h2>Food traditions</h2>{paragraphs(f.foodTraditionsMd).map((p: string) => <p>{p}</p>)}</>}
+  <h2>Dishes</h2>
+  <ul class="grid">{dishes.map((d: any) => <DishCard dish={d} />)}</ul>
+  <ul>{dishes.map((d: any) => <li><strong>{d.name}</strong> ({label(d.role)}){d.note ? `: ${d.note}` : ''}</li>)}</ul>
+  {sources.length > 0 && <><h2>Sources</h2><ul>{sources.map((s: any) => <li><a href={s.url} rel="noopener noreferrer">{s.title}</a></li>)}</ul></>}
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

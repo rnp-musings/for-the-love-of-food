@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getDb } from '../../lib/db';
+import { label, monthList } from '../../lib/format';
+import { listFestivals } from '../../../../db/queries';
+const festivals = await listFestivals(await getDb());
+---
+<Base title="Festivals" description="Food festivals around the world and the dishes eaten at each.">
+  <h1>Festivals and their dishes</h1>
+  <ul class="grid">
+    {festivals.map((f: any) => (
+      <li class="card">
+        <h3><a href={`/festivals/${f.id}`}>{f.name}</a></h3>
+        <p class="muted">{f.countries} · {monthList(f.months)}</p>
+        <p>{f.summary}</p>
+        <ul class="chips"><li class="chip">{label(f.type)}</li><li class="chip">{f.dishes} {f.dishes === 1 ? 'dish' : 'dishes'}</li></ul>
+      </li>
+    ))}
+  </ul>
+</Base>

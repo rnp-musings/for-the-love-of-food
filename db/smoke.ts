@@ -7,7 +7,7 @@ import { execFileSync } from 'node:child_process';
 import { count } from 'drizzle-orm';
 import { connect } from './client';
 import * as t from './schema';
-import { dishesUsingSpice, searchDishes } from './queries';
+import { countDishes, dishesUsingSpice, searchDishes } from './queries';
 
 let failed = 0;
 const check = (label: string, got: unknown, want: unknown) => {
@@ -43,7 +43,8 @@ try {
     (await import('drizzle-orm')).sql`select (select count(*) from spices)::int = (select count(*) from ingredients where category = 'herb-spice') as ok`)).rows[0].ok, true);
 
   // 2. the same questions the static site's browser test asked
-  check('all dishes', (await searchDishes(db, { limit: 1000 })).length, 298);
+  check('all dishes (counted)', await countDishes(db, {}), 298);
+  check('page size is capped at 200', (await searchDishes(db, { limit: 1000 })).length, 200);
   check('country=germany + festival=oktoberfest', (await searchDishes(db, { country: 'germany', festival: 'oktoberfest' })).map((d: any) => d.name).sort(),
     ['Bavarian pretzel', 'Käsespätzle', 'Weisswurst', 'Wiesn-Hendl (Oktoberfest roast chicken)']);
   check('diet=vegan', (await searchDishes(db, { diet: ['vegan'], limit: 1000 })).length, 69);

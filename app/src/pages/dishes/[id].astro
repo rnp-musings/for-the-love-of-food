@@ -1,0 +1,119 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { getDb } from '../../lib/db';
+import { HEAT, amountText, label, monthList, paragraphs } from '../../lib/format';
+import { getDish } from '../../../../db/queries';
+
+const db = await getDb();
+const data = await getDish(db, Astro.params.id!);
+if (!data) return Astro.rewrite('/404');
+const { dish, country, region, recipes, claims, festivals, sources, related } = data;
+const groups = (lines: any[]) => [...new Set(lines.map((l) => l.groupName ?? ''))] as string[];
+const isSpice = (l: any) => l.category === 'herb-spice';
+const recipeLd = recipes[0] && {
+  '@context': 'https://schema.org', '@type': 'Recipe', name: dish.name, description: dish.summary,
+  recipeYield: `${recipes[0].servings} servings`, recipeCuisine: country.name,
+  prepTime: `PT${recipes[0].prepMinutes}M`, cookTime: `PT${recipes[0].cookMinutes}M`,
+  recipeIngredient: recipes[0].lines.map((l: any) => `${amountText(l.amount, l.unit)} ${l.ingredientName.toLowerCase()}`),
+  recipeInstructions: recipes[0].steps.map((s: string) => ({ '@type': 'HowToStep', text: s })),
+};
+---
+<Base title={dish.name} description={dish.summary}>
+  <p class="muted"><a href="/dishes">← All dishes</a></p>
+  <h1>{dish.name} {dish.localName && <small class="muted">{dish.localName}</small>}</h1>
+  <p class="muted">
+    {region && <><a href={`/countries/${country.id}#${region.id}`}>{region.name}</a>, </>}<a href={`/countries/${country.id}`}>{country.name}</a>
+    <button type="button" class="fav" style="position:static;font-size:1.1rem" data-fav={dish.id} aria-pressed="false" aria-label={`Save ${dish.name} to favourites`}>♡</button>
+  </p>
+  <p class="lead">{dish.summary}</p>
+  <ul class="chips">
+    <li class="chip">{label(dish.type)}</li>
+    {dish.course.map((c: string) => <li class="chip">{c}</li>)}
+    {dish.flavours.map((f: string) => <li><a class="chip" href={`/dishes?flavour=${f}`}>{f}</a></li>)}
+    {dish.diet.map((d: string) => <li><a class="chip" href={`/dishes?diet=${d}`}>{label(d)}</a></li>)}
+    <li class="chip">Spice: {HEAT[dish.spiceLevel]} ({dish.spiceLevel}/5)</li>
+    {dish.reviewStatus !== 'published' && <li class="chip draft" title="Not yet reviewed by a person">{label(dish.reviewStatus)}</li>}
+  </ul>
+
+  <h2>The story</h2>
+  {paragraphs(dish.storyMd).map((p: string) => <p>{p}</p>)}
+  {dish.originPeriod && <p class="muted">Period: {dish.originPeriod}</p>}
+
+  {claims.length > 0 && (
+    <>
+      <h2>Where does it come from?</h2>
+      <ul>
+        {claims.map((c: any) => (
+          <li>{c.claim} <span class="chip">{label(c.confidence)}</span>{c.sourceUrl && <> <a href={c.sourceUrl} rel="noopener noreferrer">[source]</a></>}</li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {festivals.length > 0 && (
+    <>
+      <h2>Festivals</h2>
+      <ul>{festivals.map((f: any) => <li><a href={`/festivals/${f.id}`}>{f.name}</a> ({monthList(f.months)}){f.note ? `: ${f.note}` : ''}</li>)}</ul>
+    </>
+  )}
+
+  {recipes.map((r: any) => (
+    <section class="recipe" data-servings={r.servings}>
+      <h2>Recipe: {r.title}</h2>
+      <p class="recipe-meta muted">
+        <span>Prep {r.prepMinutes} min</span><span>Cook {r.cookMinutes} min</span>
+        {r.passiveMinutes > 0 && <span>Resting {r.passiveMinutes} min</span>}
+        <span>{label(r.difficulty)}</span><span>{label(r.version)} version</span>
+        <label>Servings <input class="field scale" type="number" min="1" max="50" value={r.servings} style="width:4.5rem" aria-label="Servings" /></label>
+      </p>
+      <h3>Ingredients</h3>
+      {groups(r.lines).map((g) => (
+        <>
+          {g && <h4>{g}</h4>}
+          <ul>
+            {r.lines.filter((l: any) => (l.groupName ?? '') === g).map((l: any) => (
+              <li>
+                <span class="amt" data-base={l.amount ?? ''} data-unit={l.unit}>{amountText(l.amount, l.unit)}</span>{' '}
+                {isSpice(l) ? <a href={`/spices/${l.ingredientId}`}>{l.ingredientName.toLowerCase()}</a> : <a href={`/ingredients/${l.ingredientId}`}>{l.ingredientName.toLowerCase()}</a>}{l.note ? `, ${l.note}` : ''}{l.optional ? ' (optional)' : ''}
+              </li>
+            ))}
+          </ul>
+        </>
+      ))}
+      <h3>Method</h3>
+      <ol>{r.steps.map((s: string) => <li>{s}</li>)}</ol>
+      {r.notes && <p class="callout">{r.notes}</p>}
+    </section>
+  ))}
+
+  <h2>Sources</h2>
+  <ul>{sources.map((s: any) => <li><a href={s.url} rel="noopener noreferrer">{s.title}</a> {s.checked ? <span class="chip ok">verified</span> : <span class="chip">not yet verified</span>}</li>)}</ul>
+
+  {related.length > 0 && (
+    <>
+      <h2>Related</h2>
+      <ul class="chips">{related.map((d: any) => <li><a class="chip" href={`/dishes/${d.id}`}>{d.name} · {d.countryName}</a></li>)}</ul>
+    </>
+  )}
+  {recipeLd && <script type="application/ld+json" set:html={JSON.stringify(recipeLd).replace(/</g, '\\u003c')} />}
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+    // Scale ingredient amounts when the servings box changes.
+    const fmt = (n: number) => (Math.abs(n - Math.round(n)) < 0.01 ? String(Math.round(n)) : String(Math.round(n * 100) / 100));
+    document.querySelectorAll<HTMLElement>('.recipe').forEach((sec) => {
+      const base = Number(sec.dataset.servings);
+      const input = sec.querySelector<HTMLInputElement>('.scale')!;
+      input.addEventListener('input', () => {
+        const n = Number(input.value);
+        if (!(n >= 1)) return;
+        sec.querySelectorAll<HTMLElement>('.amt').forEach((el) => {
+          if (el.dataset.base === '' || el.dataset.unit === 'to-taste') return;
+          const unit = el.dataset.unit === 'piece' ? '' : ' ' + el.dataset.unit;
+          el.textContent = fmt((Number(el.dataset.base) * n) / base) + unit;
+        });
+      });
+    });
+  </script>
+</Base>

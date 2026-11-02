@@ -1,0 +1,96 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getDb, t } from '../../../lib/db';
+import { HEAT, amountText, label, paragraphs } from '../../../lib/format';
+import { ALL_STATUSES, getDish, setReviewStatus, setSourceChecked, type Status } from '../../../../../db/queries';
+import { and, desc, eq } from 'drizzle-orm';
+
+const db = await getDb();
+const id = Astro.params.id!;
+const reviewer = Astro.cookies.get('ftlof_reviewer')?.value ?? 'unknown';
+let message = '';
+
+if (Astro.request.method === 'POST') {
+  const form = await Astro.request.formData();
+  const action = String(form.get('action') ?? '');
+  try {
+    if (action === 'status') {
+      const to = String(form.get('to')) as Status;
+      if (!ALL_STATUSES.includes(to)) throw new Error('bad status');
+      const note = String(form.get('note') ?? '').trim();
+      const data = await getDish(db, id);
+      // Guard: publishing needs every source verified, and a note saying what was checked.
+      if (to !== 'draft' && data && data.sources.some((s: any) => !s.checked)) throw new Error('Verify every source before moving past draft.');
+      if (to !== 'draft' && !note) throw new Error('Add a note describing what you checked.');
+      await setReviewStatus(db, 'dish', id, to, reviewer, note);
+      for (const r of data?.recipes ?? []) await setReviewStatus(db, 'recipe', r.id, to, reviewer, note);
+    } else if (action === 'source') {
+      const sid = String(form.get('source') ?? '');
+      const owned = (await getDish(db, id))?.sources.some((s: any) => s.id === sid);
+      if (!owned) throw new Error('unknown source');
+      await setSourceChecked(db, sid, form.get('checked') === '1', reviewer);
+    }
+    return Astro.redirect(`/admin/review/${id}`, 303);
+  } catch (e: any) {
+    message = e.message ?? 'Something went wrong';
+  }
+}
+
+const data = await getDish(db, id);
+if (!data) return Astro.rewrite('/404');
+const { dish, country, region, recipes, claims, festivals, sources } = data;
+const history = await db.select().from(t.reviewLog).where(and(eq(t.reviewLog.entityType, 'dish'), eq(t.reviewLog.entityId, id))).orderBy(desc(t.reviewLog.at));
+const allChecked = sources.every((s: any) => s.checked);
+---
+<Base title={`Review: ${dish.name}`} noindex>
+  <p class="muted"><a href="/admin">← Review queue</a> · <a href={`/dishes/${dish.id}`}>public page</a></p>
+  <h1>{dish.name} <span class={`chip ${dish.reviewStatus === 'draft' ? 'draft' : 'ok'}`}>{dish.reviewStatus}</span></h1>
+  <p class="muted">{region ? `${region.name}, ` : ''}{country.name} · {label(dish.type)} · spice {HEAT[dish.spiceLevel]}</p>
+  {message && <p class="callout" role="alert">{message}</p>}
+
+  <h2>1. Check the sources</h2>
+  <p class="muted">Open each source, confirm it supports the claims below, then tick it.</p>
+  <ul>
+    {sources.map((s: any) => (
+      <li>
+        <a href={s.url} rel="noopener noreferrer" target="_blank">{s.title}</a> {s.checked ? <span class="chip ok">verified</span> : <span class="chip draft">unverified</span>}
+        <form method="post" style="display:inline"><input type="hidden" name="action" value="source" /><input type="hidden" name="source" value={s.id} />
+          <input type="hidden" name="checked" value={s.checked ? '0' : '1'} /><button class="btn secondary" type="submit">{s.checked ? 'Un-verify' : 'Mark verified'}</button></form>
+      </li>
+    ))}
+  </ul>
+
+  <h2>2. Read the content</h2>
+  <p class="lead">{dish.summary}</p>
+  {paragraphs(dish.storyMd).map((p: string) => <p>{p}</p>)}
+  <h3>Origin claims</h3>
+  <ul>{claims.map((c: any) => <li>{c.claim} <span class="chip">{label(c.confidence)}</span></li>)}</ul>
+  {festivals.length > 0 && <><h3>Festival links</h3><ul>{festivals.map((f: any) => <li>{f.name} ({label(f.role)}){f.note ? `: ${f.note}` : ''}</li>)}</ul></>}
+  {recipes.map((r: any) => (
+    <>
+      <h3>Recipe: {r.title} ({r.servings} servings, prep {r.prepMinutes} + cook {r.cookMinutes} min)</h3>
+      <ul>{r.lines.map((l: any) => <li>{amountText(l.amount, l.unit)} {l.ingredientName.toLowerCase()}{l.note ? `, ${l.note}` : ''}</li>)}</ul>
+      <ol>{r.steps.map((s: string) => <li>{s}</li>)}</ol>
+      {r.notes && <p class="callout">{r.notes}</p>}
+    </>
+  ))}
+
+  <h2>3. Decide</h2>
+  <form method="post" class="filters" style="max-width:34rem">
+    <input type="hidden" name="action" value="status" />
+    <div class="row">
+      <label>New status<select name="to">{ALL_STATUSES.map((s) => <option value={s} selected={s === dish.reviewStatus}>{label(s)}</option>)}</select></label>
+    </div>
+    <div class="row"><label class="wide">What did you check or change? (required to leave draft)<textarea class="field" name="note" rows="3" maxlength="500"></textarea></label></div>
+    {!allChecked && <p class="muted">Not every source is verified yet, so only “Draft” will be accepted.</p>}
+    <button class="btn" type="submit">Save as {reviewer}</button>
+  </form>
+  <p class="muted">Corrections to the text itself are made in the JSON files in git. Re-importing keeps the status you set here.</p>
+
+  {history.length > 0 && (
+    <>
+      <h2>History</h2>
+      <ul>{history.map((h: any) => <li>{new Date(h.at).toISOString().slice(0, 16).replace('T', ' ')} · {h.reviewer}: {h.fromStatus} → {h.toStatus}{h.note ? ` · ${h.note}` : ''}</li>)}</ul>
+    </>
+  )}
+</Base>

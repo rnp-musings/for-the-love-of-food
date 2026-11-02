@@ -23,7 +23,7 @@ export interface Conn {
 export async function connect(opts: { pglite?: boolean | string } = {}): Promise<Conn> {
   const url = process.env.DATABASE_URL;
   if (url && !opts.pglite) {
-    const client = postgres(url, { max: 5, prepare: false }); // prepare:false works with pooled Supabase/Neon URLs
+    const client = postgres(url, { max: 5, prepare: false, onnotice: () => {} }); // prepare:false works with pooled Supabase/Neon URLs
     const db = drizzlePg(client, { schema });
     return {
       db, kind: 'postgres',

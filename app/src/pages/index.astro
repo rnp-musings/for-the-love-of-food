@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import { getDb } from '../lib/db';
+import { CONTINENTS, monthList } from '../lib/format';
+import { listCountries, listFestivals, siteStats } from '../../../db/queries';
+
+const db = await getDb();
+const [stats, countries, festivals] = await Promise.all([siteStats(db), listCountries(db), listFestivals(db)]);
+const month = new Date().getMonth() + 1;
+const thisMonth = festivals.filter((f: any) => f.months.includes(month) && f.months.length < 12).slice(0, 6);
+const byContinent = Object.keys(CONTINENTS).map((k) => ({ key: k, name: CONTINENTS[k], list: countries.filter((c: any) => c.continent === k) }));
+---
+<Base title="For the Love of Food">
+  <h1>For the Love of Food</h1>
+  <p class="lead">How the same country can taste completely different from one region to the next: the dishes, the stories behind them, the recipes, the festivals that bring them to the table, and the spices that make them.</p>
+  <form action="/dishes" method="get" role="search" class="filters">
+    <div class="row">
+      <label class="wide">Find a dish or ingredient
+        <input type="search" name="q" placeholder="e.g. paella, saffron, besan" />
+      </label>
+      <button class="btn" type="submit">Search</button>
+      <a class="btn secondary" href="/dishes">Browse and filter all</a>
+    </div>
+  </form>
+  <ul class="stats">
+    <li><strong>{stats.dishes}</strong> dishes</li>
+    <li><strong>{stats.countries}</strong> countries</li>
+    <li><strong>{stats.regions}</strong> regions</li>
+    <li><strong>{stats.festivals}</strong> festivals</li>
+    <li><strong>{stats.spices}</strong> spice profiles</li>
+  </ul>
+
+  {thisMonth.length > 0 && (
+    <>
+      <h2>Celebrating this month</h2>
+      <ul class="grid">
+        {thisMonth.map((f: any) => (
+          <li class="card"><h3><a href={`/festivals/${f.id}`}>{f.name}</a></h3><p class="muted">{f.countries} · {monthList(f.months)}</p><p>{f.summary}</p></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <h2>Explore by country</h2>
+  {byContinent.filter((c) => c.list.length).map((c) => (
+    <section>
+      <h3>{c.name}</h3>
+      <ul class="chips">{c.list.map((x: any) => <li><a class="chip" href={`/countries/${x.id}`}>{x.name} ({x.dishes})</a></li>)}</ul>
+    </section>
+  ))}
+  <script>
+    import { initFavButtons } from '../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

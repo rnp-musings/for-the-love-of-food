@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { getDb } from '../../lib/db';
+import { HEAT, label, paragraphs } from '../../lib/format';
+import { getSpice } from '../../../../db/queries';
+const data = await getSpice(await getDb(), Astro.params.id!);
+if (!data) return Astro.rewrite('/404');
+const { spice: s, ingredient, aliases, origins, substitutes, blends, dishes, sources } = data;
+const hasProfile = !!(s.scientificName || s.historyMd);
+const role: Record<string, string> = { native: 'Native to', 'major-producer': 'Major producer', 'historic-trade': 'Historic trade' };
+---
+<Base title={ingredient.name} description={`${ingredient.name}: flavour, origins and the dishes that use it.`}>
+  <p class="muted"><a href="/spices">← Spice library</a></p>
+  <h1>{ingredient.name}</h1>
+  {s.scientificName && <p class="muted"><em>{s.scientificName}</em></p>}
+  {aliases.length > 0 && <p class="muted">Also called {aliases.join(', ')}</p>}
+  <ul class="chips">
+    {s.partUsed && <li class="chip">Part used: {label(s.partUsed)}</li>}
+    {s.heatLevel !== null && <li class="chip">Heat: {HEAT[s.heatLevel]}{s.heatShu ? ` (about ${s.heatShu.toLocaleString('en')} SHU)` : ''}</li>}
+    {s.flavourNotes.map((f: string) => <li class="chip">{f}</li>)}
+    {s.reviewStatus !== 'published' && <li class="chip draft">{label(s.reviewStatus)}</li>}
+  </ul>
+  {!hasProfile && <p class="callout">The full profile for this spice has not been written yet. The dishes below already use it.</p>}
+  {s.aroma && <><h2>Aroma</h2><p>{s.aroma}</p></>}
+  {s.historyMd && <><h2>History</h2>{paragraphs(s.historyMd).map((p: string) => <p>{p}</p>)}</>}
+  {origins.length > 0 && <><h2>Where it comes from</h2><ul>{origins.map((o: any) => <li>{role[o.role]} <a href={`/countries/${o.id}`}>{o.name}</a></li>)}</ul></>}
+  {substitutes.length > 0 && <><h2>Substitutes</h2><ul>{substitutes.map((x: any) => <li><a href={`/ingredients/${x.id}`}>{x.name}</a>{x.note ? `: ${x.note}` : ''}</li>)}</ul></>}
+  {(s.storage || s.buyingTips) && <><h2>Buying and storing</h2>{s.buyingTips && <p>{s.buyingTips}</p>}{s.storage && <p>{s.storage}</p>}</>}
+  {blends.length > 0 && <><h2>Found in blends</h2><ul class="chips">{blends.map((b: any) => <li><a class="chip" href={`/blends/${b.id}`}>{b.name}</a></li>)}</ul></>}
+  <h2>{dishes.length} {dishes.length === 1 ? 'dish uses' : 'dishes use'} it</h2>
+  <ul class="grid">{dishes.map((d: any) => <DishCard dish={d} />)}</ul>
+  {dishes.length > 0 && <p><a class="btn secondary" href={`/dishes?inc=${encodeURIComponent(ingredient.name)}`}>Combine with other filters</a></p>}
+  {sources.length > 0 && <><h2>Sources</h2><ul>{sources.map((x: any) => <li><a href={x.url} rel="noopener noreferrer">{x.title}</a></li>)}</ul></>}
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

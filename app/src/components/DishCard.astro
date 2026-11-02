@@ -1,0 +1,15 @@
+---
+import { label } from '../lib/format';
+const { dish } = Astro.props;
+---
+<li class="card">
+  <h3><a href={`/dishes/${dish.id}`}>{dish.name}</a></h3>
+  <button type="button" class="fav" data-fav={dish.id} aria-pressed="false" aria-label={`Save ${dish.name} to favourites`} title="Save to favourites">♡</button>
+  <div class="muted">{dish.regionName ? `${dish.regionName}, ` : ''}{dish.countryName}</div>
+  <p>{dish.summary}</p>
+  <ul class="chips">
+    <li class="chip">{label(dish.type)}</li>
+    {dish.flavours?.slice(0, 3).map((f: string) => <li class="chip">{f}</li>)}
+    {dish.reviewStatus && dish.reviewStatus !== 'published' && <li class="chip draft" title="Not yet reviewed by a person">{label(dish.reviewStatus)}</li>}
+  </ul>
+</li>

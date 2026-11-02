@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getDb } from '../../lib/db';
+import { HEAT, label } from '../../lib/format';
+import { listBlends, listSpices } from '../../../../db/queries';
+import { spicePart, flavour } from '../../../../db/schema';
+const db = await getDb();
+const p = Astro.url.searchParams;
+const spices = await listSpices(db, {
+  q: p.get('q') ?? undefined, part: p.get('part') ?? undefined, flavour: p.get('flavour') ?? undefined,
+  maxHeat: p.get('heat') !== null && p.get('heat') !== '' ? Number(p.get('heat')) : undefined, profileOnly: p.get('profile') === '1',
+});
+const blends = await listBlends(db);
+const g = (k: string) => p.get(k) ?? '';
+const withProfile = spices.filter((s: any) => s.hasProfile).length;
+---
+<Base title="Spice library" description="Spices and spice blends: where they come from, how they taste, and the dishes that use them." noindex={[...p.keys()].length > 0}>
+  <h1>Spice library</h1>
+  <p>Every spice used in a recipe on this site, with the dishes that use it. {withProfile} of {spices.length} shown have a full profile so far.</p>
+  <form class="filters" method="get" action="/spices" role="search">
+    <div class="row">
+      <label class="wide">Search<input type="search" name="q" value={g('q')} placeholder="Name or botanical name" /></label>
+      <label>Part used<select name="part"><option value="">Any</option>{spicePart.enumValues.map((x) => <option value={x} selected={g('part') === x}>{label(x)}</option>)}</select></label>
+      <label>Flavour<select name="flavour"><option value="">Any</option>{flavour.enumValues.map((x) => <option value={x} selected={g('flavour') === x}>{x}</option>)}</select></label>
+      <label>Max heat<select name="heat"><option value="">Any</option>{HEAT.map((h, i) => <option value={i} selected={g('heat') === String(i)}>{h}</option>)}</select></label>
+      <label class="check"><input type="checkbox" name="profile" value="1" checked={g('profile') === '1'} /> Full profiles only</label>
+      <button class="btn" type="submit">Apply</button>
+      <a class="btn secondary" href="/spices">Clear</a>
+    </div>
+  </form>
+  <ul class="grid">
+    {spices.map((s: any) => (
+      <li class="card">
+        <h3><a href={`/spices/${s.id}`}>{s.name}</a></h3>
+        {s.scientificName && <p class="muted"><em>{s.scientificName}</em></p>}
+        <ul class="chips">
+          {s.partUsed && <li class="chip">{label(s.partUsed)}</li>}
+          {s.heatLevel !== null && <li class="chip">{HEAT[s.heatLevel]}</li>}
+          {s.flavourNotes?.slice(0, 3).map((f: string) => <li class="chip">{f}</li>)}
+          <li class="chip">{s.dishes} {s.dishes === 1 ? 'dish' : 'dishes'}</li>
+          {!s.hasProfile && <li class="chip draft">profile coming</li>}
+        </ul>
+      </li>
+    ))}
+  </ul>
+  {blends.length > 0 && (
+    <>
+      <h2 id="blends">Spice blends</h2>
+      <ul class="grid">{blends.map((b: any) => (
+        <li class="card"><h3><a href={`/blends/${b.id}`}>{b.name}</a></h3><p>{b.summary}</p><p class="muted">{b.components}</p></li>
+      ))}</ul>
+    </>
+  )}
+</Base>

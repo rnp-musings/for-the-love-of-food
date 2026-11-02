@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getDb } from '../../lib/db';
+import { CONTINENTS } from '../../lib/format';
+import { listCountries } from '../../../../db/queries';
+const countries = await listCountries(await getDb());
+---
+<Base title="Countries" description="Regional cuisines by country.">
+  <h1>Countries</h1>
+  {Object.entries(CONTINENTS).map(([key, name]) => {
+    const list = countries.filter((c: any) => c.continent === key);
+    return list.length ? (
+      <section>
+        <h2>{name}</h2>
+        <ul class="grid">{list.map((c: any) => (
+          <li class="card"><h3><a href={`/countries/${c.id}`}>{c.name}</a></h3><p>{c.summary}</p><p class="muted">{c.regions} regions · {c.dishes} dishes</p></li>
+        ))}</ul>
+      </section>
+    ) : null;
+  })}
+</Base>

@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { getDb } from '../../lib/db';
+import { paragraphs } from '../../lib/format';
+import { getCountry } from '../../../../db/queries';
+const data = await getCountry(await getDb(), Astro.params.id!);
+if (!data) return Astro.rewrite('/404');
+const { country, regions, dishes, festivals, sources } = data;
+const noRegion = dishes.filter((d: any) => !d.regionId);
+---
+<Base title={country.name} description={country.summary}>
+  <p class="muted"><a href="/countries">← All countries</a></p>
+  <h1>{country.name} {country.localName && <small class="muted">{country.localName}</small>}</h1>
+  <p class="lead">{country.summary}</p>
+  <h2>How the cuisine varies by region</h2>
+  {paragraphs(country.regionalVariation).map((p: string) => <p>{p}</p>)}
+  <p><a class="btn secondary" href={`/dishes?country=${country.id}`}>Filter all {dishes.length} dishes from {country.name}</a></p>
+
+  {regions.map((r: any) => (
+    <section id={r.id}>
+      <h3>{r.name} {r.localName && <small class="muted">{r.localName}</small>}</h3>
+      <p>{r.summary}</p>
+      {r.signature.length > 0 && <p class="muted">Signature ingredients: {r.signature.map((s: any, i: number) => <>{i > 0 && ', '}<a href={`/ingredients/${s.id}`}>{s.name.toLowerCase()}</a></>)}</p>}
+      <ul class="grid">{dishes.filter((d: any) => d.regionId === r.id).map((d: any) => <DishCard dish={d} />)}</ul>
+    </section>
+  ))}
+  {noRegion.length > 0 && (
+    <section><h3>Found across the country</h3><ul class="grid">{noRegion.map((d: any) => <DishCard dish={d} />)}</ul></section>
+  )}
+  {festivals.length > 0 && (
+    <><h2>Festivals</h2><ul>{festivals.map((f: any) => <li><a href={`/festivals/${f.id}`}>{f.name}</a>: {f.timing}</li>)}</ul></>
+  )}
+  {sources.length > 0 && <><h2>Sources</h2><ul>{sources.map((s: any) => <li><a href={s.url} rel="noopener noreferrer">{s.title}</a></li>)}</ul></>}
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

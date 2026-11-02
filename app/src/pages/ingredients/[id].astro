@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { getDb } from '../../lib/db';
+import { label } from '../../lib/format';
+import { getIngredient, getSpice } from '../../../../db/queries';
+const db = await getDb();
+const id = Astro.params.id!;
+if (await getSpice(db, id)) return Astro.redirect(`/spices/${id}`);
+const data = await getIngredient(db, id);
+if (!data) return Astro.rewrite('/404');
+const { ingredient, aliases, dishes } = data;
+---
+<Base title={ingredient.name} description={`Dishes made with ${ingredient.name.toLowerCase()}.`}>
+  <p class="muted"><a href="/dishes">← All dishes</a></p>
+  <h1>{ingredient.name}</h1>
+  <p class="muted">{label(ingredient.category)}{aliases.length ? ` · also called ${aliases.join(', ')}` : ''}{ingredient.allergens.length ? ` · allergens: ${ingredient.allergens.join(', ')}` : ''}</p>
+  <h2>{dishes.length} {dishes.length === 1 ? 'dish uses' : 'dishes use'} {ingredient.name.toLowerCase()}</h2>
+  <ul class="grid">{dishes.map((d: any) => <DishCard dish={d} />)}</ul>
+  <p><a class="btn secondary" href={`/dishes?inc=${encodeURIComponent(ingredient.name)}`}>Combine with other filters</a></p>
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

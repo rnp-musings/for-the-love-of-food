@@ -1,0 +1,105 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { getDb } from '../../lib/db';
+import { PAGE_SIZE, parseDishFilters, withParams } from '../../lib/filters';
+import { MONTHS, label } from '../../lib/format';
+import { countDishes, facetOptions, ingredientOptions, searchDishes } from '../../../../db/queries';
+
+const db = await getDb();
+const { filters, raw, page, include, exclude, unknown } = await parseDishFilters(Astro.url);
+const [dishes, total, facets, ingredientNames] = await Promise.all([
+  searchDishes(db, filters), countDishes(db, filters), facetOptions(db), ingredientOptions(db),
+]);
+const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+const regions = facets.regions.filter((r: any) => !filters.country || r.countryId === filters.country);
+const g = (k: string) => raw.get(k) ?? '';
+const has = (k: string, v: string) => raw.getAll(k).includes(v);
+const anyFilter = [...raw.keys()].some((k) => k !== 'page');
+const names = (xs: { name: string }[]) => xs.map((x) => x.name).join(', ');
+---
+<Base title="Dishes" description="Filter dishes by country, region, ingredient, flavour, type, diet and festival." noindex={anyFilter}>
+  <h1>Dishes</h1>
+  <form id="filters" class="filters" method="get" action="/dishes" role="search" aria-label="Filter dishes">
+    <div class="row">
+      <label class="wide">Search<input type="search" name="q" value={g('q')} placeholder="Name, ingredient, local name…" /></label>
+      <label>Country
+        <select name="country"><option value="">All</option>{facets.countries.map((c: any) => <option value={c.id} selected={g('country') === c.id}>{c.name} ({c.n})</option>)}</select>
+      </label>
+      <label>Region
+        <select name="region"><option value="">All</option>{regions.map((r: any) => <option value={r.id} selected={g('region') === r.id}>{r.name} ({r.n})</option>)}</select>
+      </label>
+      <label>Dish type
+        <select name="type"><option value="">All</option>{facets.types.map((x: any) => <option value={x.id} selected={g('type') === x.id}>{label(x.id)} ({x.n})</option>)}</select>
+      </label>
+      <label>Course
+        <select name="course"><option value="">All</option>{facets.courses.map((x: any) => <option value={x.id} selected={g('course') === x.id}>{label(x.id)}</option>)}</select>
+      </label>
+      <label>Festival
+        <select name="festival"><option value="">Any</option>{facets.festivals.map((x: any) => <option value={x.id} selected={g('festival') === x.id}>{x.name}</option>)}</select>
+      </label>
+      <label>Festival month
+        <select name="month"><option value="">Any</option>{facets.months.map((x: any) => <option value={x.id} selected={g('month') === String(x.id)}>{MONTHS[x.id - 1]}</option>)}</select>
+      </label>
+      <label>Active time
+        <select name="time"><option value="">Any</option>{[30, 60, 120].map((m) => <option value={m} selected={g('time') === String(m)}>{m < 60 ? `${m} min or less` : `${m / 60} hour${m > 60 ? 's' : ''} or less`}</option>)}</select>
+      </label>
+      <label>Max spice level: <output id="spice-out">{g('spice') || '5'}</output>
+        <input type="range" name="spice" min="0" max="5" value={g('spice') || '5'} />
+      </label>
+    </div>
+    <div class="row">
+      <fieldset><legend>Flavour (all selected)</legend>
+        {facets.flavours.map((x: any) => <label class="check"><input type="checkbox" name="flavour" value={x.id} checked={has('flavour', x.id)} /> {x.id}</label>)}
+      </fieldset>
+      <fieldset><legend>Diet</legend>
+        {facets.diets.map((x: any) => <label class="check"><input type="checkbox" name="diet" value={x.id} checked={has('diet', x.id)} /> {label(x.id)}</label>)}
+      </fieldset>
+    </div>
+    <div class="row">
+      <label class="wide">Includes ingredients (comma separated)
+        <input type="text" name="inc" list="ingredient-list" value={names(include) || g('inc')} placeholder="e.g. saffron, tamarind" />
+      </label>
+      <label class="wide">Excludes ingredients
+        <input type="text" name="exc" list="ingredient-list" value={names(exclude) || g('exc')} placeholder="e.g. pork, fish sauce" />
+      </label>
+      <datalist id="ingredient-list">{ingredientNames.map((n: string) => <option value={n}></option>)}</datalist>
+    </div>
+    {unknown.length > 0 && <p class="callout" role="alert">Not recognised as an ingredient: {unknown.join(', ')}. Use the suggestions in the box.</p>}
+    <div class="row">
+      <button class="btn" type="submit">Apply filters</button>
+      <a class="btn secondary" href="/dishes">Clear all</a>
+      <span class="result-count" role="status" aria-live="polite">{total} {total === 1 ? 'dish' : 'dishes'}</span>
+    </div>
+  </form>
+
+  {dishes.length === 0 ? (
+    <p class="callout">No dishes match these filters. Try removing one.</p>
+  ) : (
+    <ul class="grid">{dishes.map((d: any) => <DishCard dish={d} />)}</ul>
+  )}
+
+  {pages > 1 && (
+    <nav class="pager" aria-label="Pages">
+      {page > 1 ? <a class="btn secondary" href={`/dishes${withParams(raw, { page: String(page - 1) })}`} rel="prev">← Previous</a> : <span></span>}
+      <span>Page {page} of {pages}</span>
+      {page < pages ? <a class="btn secondary" href={`/dishes${withParams(raw, { page: String(page + 1) })}`} rel="next">Next →</a> : <span></span>}
+    </nav>
+  )}
+
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+    // Progressive enhancement: apply filters as soon as they change. Works without JS via the button.
+    const form = document.getElementById('filters') as HTMLFormElement;
+    const spice = form.elements.namedItem('spice') as HTMLInputElement;
+    const out = document.getElementById('spice-out')!;
+    spice.addEventListener('input', () => (out.textContent = spice.value));
+    let timer: number | undefined;
+    form.addEventListener('change', (e) => {
+      if ((e.target as HTMLElement).tagName === 'INPUT' && (e.target as HTMLInputElement).type === 'text') return;
+      clearTimeout(timer);
+      timer = window.setTimeout(() => form.requestSubmit(), 250);
+    });
+  </script>
+</Base>
