@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "festival.schema.json",
+  "title": "Festival",
+  "type": "object",
+  "required": ["id", "name", "type", "countries", "timing", "months", "summary", "story", "review_status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"$ref": "#/$defs/slug"},
+    "name": {"type": "string"},
+    "local_name": {"type": "string"},
+    "type": {"enum": ["harvest", "religious", "beverage", "street-food", "seasonal", "commemorative", "national"]},
+    "countries": {"type": "array", "items": {"$ref": "#/$defs/slug"}, "minItems": 1, "description": "Countries where it is celebrated. Dishes are linked separately."},
+    "regions": {"type": "array", "items": {"$ref": "#/$defs/slug"}},
+    "timing": {"type": "string", "description": "Human-readable rule, e.g. 'New moon of Kartika, Oct or Nov'."},
+    "months": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 12}, "minItems": 1, "description": "Months it can fall in, for the month filter."},
+    "duration": {"type": "string"},
+    "summary": {"type": "string"},
+    "story": {"type": "string", "description": "Markdown."},
+    "food_traditions": {"type": "string", "description": "Markdown. How food is used in the celebration."},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/slug"}},
+    "review_status": {"enum": ["draft", "reviewed", "published"]}
+  },
+  "$defs": {"slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}}
+}

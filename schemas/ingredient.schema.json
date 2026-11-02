@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ingredient.schema.json",
+  "title": "Ingredient",
+  "type": "object",
+  "required": ["id", "name", "category"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "aliases": {"type": "array", "items": {"type": "string"}, "description": "Other names, e.g. aubergine for eggplant. Used by search."},
+    "category": {"enum": ["meat", "poultry", "fish-seafood", "dairy", "egg", "grain-flour", "legume", "vegetable", "fruit", "herb-spice", "fat-oil", "sweetener", "nut-seed", "condiment", "alcohol", "other"]},
+    "allergens": {"type": "array", "items": {"enum": ["gluten", "dairy", "egg", "fish", "shellfish", "peanut", "tree-nut", "sesame", "soy", "mustard", "sulphites"]}}
+  }
+}

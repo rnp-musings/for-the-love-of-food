@@ -1,0 +1,63 @@
+[
+  {
+    "id": "mole-negro", "name": "Mole negro", "local_name": "Mole negro oaxaqueño", "country": "mexico", "region": "oaxaca",
+    "type": "sauce", "course": ["main"], "flavours": ["rich", "smoky", "sweet", "spicy", "bitter"], "diet": ["dairy-free", "egg-free"],
+    "cook_methods": ["roasted", "simmered"], "spice_level": 3,
+    "summary": "A dark, complex Oaxacan sauce of toasted chiles, nuts, seeds, spices and chocolate, served over chicken or turkey.",
+    "story": "Mole comes from the Nahuatl word molli, meaning sauce. Oaxaca is known for seven moles, and mole negro is the darkest and most elaborate, built from toasted chiles, seeds, nuts, fruit, spices and a little chocolate. Making it can take days and many hands, so it is traditionally cooked for weddings, baptisms and the Day of the Dead. Its blend of indigenous chiles and seeds with Old World spices such as cinnamon and clove reflects Mexico's history after the Spanish conquest.",
+    "origin_period": "Pre-Hispanic roots, colonial period",
+    "origin_claims": [
+      {"claim": "Moles descend from indigenous chile-and-seed sauces that took on Old World spices after the 16th century.", "confidence": "widely-told", "source": "wiki-mole"},
+      {"claim": "Mole poblano was invented by nuns in a Puebla convent for a visiting archbishop.", "confidence": "legend", "source": "wiki-mole"}
+    ],
+    "sources": ["wiki-mole"], "review_status": "draft"
+  },
+  {
+    "id": "cochinita-pibil", "name": "Cochinita pibil", "local_name": "Cochinita pibil", "country": "mexico", "region": "yucatan",
+    "type": "meat-dish", "course": ["main"], "flavours": ["tangy", "smoky", "aromatic"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["slow-cooked", "roasted"], "spice_level": 1,
+    "summary": "Pork marinated in achiote and sour orange, wrapped in banana leaf and slow-roasted until it falls apart.",
+    "story": "Pibil comes from the Maya word for cooking in an underground pit, called a pib. Pork was brought by the Spanish, but the technique of burying meat with leaves and hot stones belongs to Maya cooking. The red colour comes from achiote paste, and sour orange gives the meat a distinctive tang. Today most of it is baked in ordinary ovens, and it is served in tacos with pickled red onion and habanero salsa.",
+    "origin_period": "Colonial period (pork) on Maya techniques",
+    "origin_claims": [
+      {"claim": "A Maya pit-cooking technique adapted to pork after the Spanish introduced pigs.", "confidence": "well-documented", "source": "wiki-cochinita-pibil"}
+    ],
+    "sources": ["wiki-cochinita-pibil"], "review_status": "draft"
+  },
+  {
+    "id": "chiles-en-nogada", "name": "Chiles en nogada", "local_name": "Chiles en nogada", "country": "mexico", "region": "puebla",
+    "type": "meat-dish", "course": ["main"], "flavours": ["sweet", "rich", "tangy"], "diet": ["egg-free"],
+    "cook_methods": ["roasted", "simmered"], "spice_level": 1,
+    "summary": "Roasted poblano chiles stuffed with a sweet-and-savoury fruit and meat filling, covered in walnut cream and pomegranate.",
+    "story": "This dish is a showpiece of Puebla's cooking and is eaten in late summer, when walnuts and pomegranates are in season. Its green chile, white walnut sauce and red pomegranate seeds match the colours of the Mexican flag. A popular legend says Augustinian nuns in Puebla created it in 1821 to honour Agustín de Iturbide after Mexico's independence. Historians have not found evidence for the story, and a version of the dish may be older.",
+    "origin_period": "19th century (claimed 1821)",
+    "origin_claims": [
+      {"claim": "Created by nuns in Puebla in 1821 to honour Agustín de Iturbide.", "confidence": "legend", "source": "wiki-chiles-en-nogada"}
+    ],
+    "sources": ["wiki-chiles-en-nogada"], "review_status": "draft"
+  },
+  {
+    "id": "pescado-a-la-veracruzana", "name": "Pescado a la veracruzana", "local_name": "Huachinango a la veracruzana", "country": "mexico", "region": "veracruz",
+    "type": "fish-dish", "course": ["main"], "flavours": ["tangy", "salty", "umami"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["simmered", "sauteed"], "spice_level": 2,
+    "summary": "Red snapper simmered in a sauce of tomatoes, olives, capers and pickled chiles.",
+    "story": "A dish of the Gulf port of Veracruz, where Spanish ships landed for centuries. Olives, capers, olive oil and garlic came from Spain and are combined with local tomatoes, chiles and red snapper (huachinango). It is a clear case of Mexican cooking blending Old World and New World ingredients, and it is a Christmas Eve and Lent dish in many homes.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {"claim": "Developed in colonial Veracruz by combining Spanish ingredients with local ones.", "confidence": "widely-told", "source": "wiki-veracruzana"}
+    ],
+    "sources": ["wiki-veracruzana"], "review_status": "draft"
+  },
+  {
+    "id": "pan-de-muerto", "name": "Pan de muerto", "local_name": "Pan de muerto", "country": "mexico",
+    "type": "bread", "course": ["breakfast", "snack", "dessert"], "flavours": ["sweet", "aromatic"], "diet": ["vegetarian", "nut-free"],
+    "cook_methods": ["baked"], "spice_level": 0,
+    "summary": "A soft, orange- and anise-scented sweet bread baked for the Day of the Dead.",
+    "story": "Pan de muerto (\"bread of the dead\") is baked in the weeks before 1 and 2 November. The round loaf is decorated with strips of dough shaped like bones, and the top is dusted with sugar. Families place it on altars as an offering and eat it with hot chocolate or atole. Its roots are tied to the blending of Spanish bread-baking and indigenous rituals for the dead, though the exact path is debated. Recipes and shapes vary: in some regions it is shaped like a person or animal.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {"claim": "Combines European bread with pre-Hispanic offerings to the dead.", "confidence": "widely-told", "source": "wiki-pan-de-muerto"}
+    ],
+    "sources": ["wiki-pan-de-muerto"], "review_status": "draft"
+  }
+]

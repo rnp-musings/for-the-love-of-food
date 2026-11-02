@@ -1,0 +1,136 @@
+[
+  {
+    "id": "butter-chicken-home", "dish": "butter-chicken", "title": "Butter chicken", "version": "home", "servings": 4,
+    "prep_minutes": 20, "cook_minutes": 40, "passive_minutes": 60, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "chicken", "amount": 700, "unit": "g", "note": "boneless thighs, cut into chunks", "group": "Marinade"},
+      {"ingredient": "yogurt", "amount": 120, "unit": "g", "group": "Marinade"},
+      {"ingredient": "ginger", "amount": 1, "unit": "tbsp", "note": "grated", "group": "Marinade"},
+      {"ingredient": "garlic", "amount": 4, "unit": "clove", "note": "crushed", "group": "Marinade"},
+      {"ingredient": "kashmiri-chilli-powder", "amount": 2, "unit": "tsp", "group": "Marinade"},
+      {"ingredient": "garam-masala", "amount": 1, "unit": "tsp", "group": "Marinade"},
+      {"ingredient": "lemon-juice", "amount": 1, "unit": "tbsp", "group": "Marinade"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"},
+      {"ingredient": "butter", "amount": 60, "unit": "g", "group": "Sauce"},
+      {"ingredient": "tomato", "amount": 500, "unit": "g", "note": "ripe, chopped, or 400 g canned", "group": "Sauce"},
+      {"ingredient": "cream", "amount": 100, "unit": "ml", "group": "Sauce"},
+      {"ingredient": "kasuri-methi", "amount": 1, "unit": "tbsp", "note": "dried fenugreek leaves, crushed", "group": "Sauce"},
+      {"ingredient": "sugar", "amount": 1, "unit": "tsp", "optional": true, "group": "Sauce"}
+    ],
+    "steps": [
+      "Mix the chicken with all the marinade ingredients and leave for at least 1 hour, or overnight in the fridge.",
+      "Cook the chicken in a hot, lightly oiled pan or under a very hot grill for 8 to 10 minutes, turning once, until charred at the edges. It does not need to be cooked through.",
+      "Melt half the butter in a wide pan. Add the tomatoes with a pinch of salt and cook for about 15 minutes until soft and jammy.",
+      "Blend the tomatoes until smooth and return the sauce to the pan.",
+      "Add the chicken and a splash of water if the sauce is thick. Simmer for 10 minutes until the chicken is tender.",
+      "Stir in the cream, crushed kasuri methi, sugar if using, and the remaining butter. Warm through for 2 minutes and adjust the salt.",
+      "Serve with naan or basmati rice."
+    ],
+    "notes": "Use a small amount of chilli powder for mild heat; kashmiri chilli adds colour more than heat.",
+    "sources": ["wiki-butter-chicken"], "review_status": "draft"
+  },
+  {
+    "id": "masala-dosa-home", "dish": "masala-dosa", "title": "Masala dosa with potato filling", "version": "home", "servings": 4,
+    "prep_minutes": 40, "cook_minutes": 40, "passive_minutes": 600, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "rice", "amount": 300, "unit": "g", "note": "parboiled or idli rice", "group": "Batter"},
+      {"ingredient": "urad-dal", "amount": 100, "unit": "g", "note": "whole or split, skinned", "group": "Batter"},
+      {"ingredient": "fenugreek-seeds", "amount": 0.5, "unit": "tsp", "group": "Batter"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste", "group": "Batter"},
+      {"ingredient": "oil", "amount": 4, "unit": "tbsp", "note": "for cooking, divided", "group": "Batter"},
+      {"ingredient": "potato", "amount": 600, "unit": "g", "note": "boiled, peeled and roughly mashed", "group": "Filling"},
+      {"ingredient": "onion", "amount": 2, "unit": "piece", "note": "sliced", "group": "Filling"},
+      {"ingredient": "mustard-seeds", "amount": 1, "unit": "tsp", "group": "Filling"},
+      {"ingredient": "curry-leaves", "amount": 10, "unit": "piece", "group": "Filling"},
+      {"ingredient": "green-chilli", "amount": 2, "unit": "piece", "note": "chopped", "group": "Filling"},
+      {"ingredient": "turmeric", "amount": 0.5, "unit": "tsp", "group": "Filling"}
+    ],
+    "steps": [
+      "Soak the rice, and separately the urad dal with the fenugreek seeds, in plenty of water for 5 to 6 hours.",
+      "Grind the dal to a fluffy, light batter, adding cold water a little at a time. Grind the rice more coarsely. Combine, add salt and mix well with your hand.",
+      "Cover and leave in a warm place for 8 to 12 hours until bubbly and slightly sour. The batter should roughly double.",
+      "For the filling, heat 2 tbsp oil. Add the mustard seeds, and when they pop add the curry leaves, chilli and onion. Cook until soft.",
+      "Add the turmeric, potatoes, salt and a splash of water. Mix and cook for 5 minutes, then keep warm.",
+      "Heat a flat non-stick or cast-iron pan until hot. Pour a ladle of batter into the centre and spiral it outward into a thin circle. Drizzle a little oil around the edge.",
+      "Cook until the underside is deep golden and the top is dry. Spoon the filling along the centre, fold and serve at once with coconut chutney and sambar."
+    ],
+    "notes": "The first dosa usually tears. Wipe the pan with half an onion between dosas to stop sticking.",
+    "sources": ["wiki-masala-dosa"], "review_status": "draft"
+  },
+  {
+    "id": "shorshe-ilish-home", "dish": "shorshe-ilish", "title": "Hilsa in mustard sauce", "version": "home", "servings": 4,
+    "prep_minutes": 20, "cook_minutes": 15, "passive_minutes": 15, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "hilsa", "amount": 600, "unit": "g", "note": "cut into steaks, rinsed"},
+      {"ingredient": "mustard-seeds", "amount": 3, "unit": "tbsp", "note": "black or yellow, soaked in warm water 15 minutes and ground with 2 green chillies and a pinch of salt"},
+      {"ingredient": "green-chilli", "amount": 4, "unit": "piece", "note": "2 ground in the paste, 2 slit"},
+      {"ingredient": "turmeric", "amount": 0.5, "unit": "tsp"},
+      {"ingredient": "mustard-oil", "amount": 4, "unit": "tbsp"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Rub the fish with salt and half the turmeric and set aside for 10 minutes.",
+      "Grind the soaked mustard seeds with 2 green chillies and a pinch of salt to a smooth paste. Avoid over-grinding, which makes the paste bitter. Mix it with 150 ml cold water.",
+      "Heat the mustard oil until it just starts to smoke, then lower the heat. Add the fish and fry lightly for 1 to 2 minutes per side without browning.",
+      "Pour the mustard mixture over the fish, add the slit chillies and the remaining turmeric, and cover.",
+      "Cook gently for 8 to 10 minutes, shaking the pan rather than stirring so the fish stays intact.",
+      "Finish with a drizzle of raw mustard oil and serve with plain steamed rice."
+    ],
+    "notes": "Hilsa has many fine bones. Frozen hilsa is available at South Asian grocers. Rohu or another oily fish can stand in.",
+    "sources": ["wiki-hilsa"], "review_status": "draft"
+  },
+  {
+    "id": "dhokla-home", "dish": "dhokla", "title": "Instant khaman dhokla", "version": "quick", "servings": 6,
+    "prep_minutes": 15, "cook_minutes": 20, "passive_minutes": 10, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "gram-flour", "amount": 200, "unit": "g", "note": "besan, sifted", "group": "Batter"},
+      {"ingredient": "yogurt", "amount": 100, "unit": "g", "group": "Batter"},
+      {"ingredient": "sugar", "amount": 2, "unit": "tsp", "group": "Batter"},
+      {"ingredient": "ginger", "amount": 1, "unit": "tsp", "note": "grated", "group": "Batter"},
+      {"ingredient": "green-chilli", "amount": 1, "unit": "piece", "note": "minced", "group": "Batter"},
+      {"ingredient": "turmeric", "amount": 0.25, "unit": "tsp", "group": "Batter"},
+      {"ingredient": "lemon-juice", "amount": 1, "unit": "tbsp", "group": "Batter"},
+      {"ingredient": "baking-soda", "amount": 1, "unit": "tsp", "note": "added just before steaming", "group": "Batter"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste", "group": "Batter"},
+      {"ingredient": "oil", "amount": 2, "unit": "tbsp", "group": "Tempering"},
+      {"ingredient": "mustard-seeds", "amount": 1, "unit": "tsp", "group": "Tempering"},
+      {"ingredient": "curry-leaves", "amount": 8, "unit": "piece", "group": "Tempering"},
+      {"ingredient": "sugar", "amount": 1, "unit": "tbsp", "note": "dissolved in 60 ml hot water", "group": "Tempering"}
+    ],
+    "steps": [
+      "Grease a 20 cm round tin and set up a steamer with boiling water.",
+      "Whisk the besan, yogurt, sugar, ginger, chilli, turmeric, lemon juice and salt with about 200 ml water into a smooth, pourable batter. Rest for 10 minutes.",
+      "Stir in the baking soda just before steaming. The batter will foam up.",
+      "Pour into the tin and steam, covered, for 15 to 18 minutes until a skewer comes out clean.",
+      "Heat the oil, add the mustard seeds and curry leaves, and when they crackle pour in the sugar water and bring to a boil.",
+      "Cut the dhokla into squares, spoon the tempering over the top and leave 5 minutes to absorb. Serve with green chutney."
+    ],
+    "sources": ["wiki-dhokla"], "review_status": "draft"
+  },
+  {
+    "id": "gulab-jamun-home", "dish": "gulab-jamun", "title": "Gulab jamun with milk powder", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 30, "passive_minutes": 120, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "milk-powder", "amount": 150, "unit": "g", "group": "Dough"},
+      {"ingredient": "wheat-flour", "amount": 40, "unit": "g", "note": "plain flour", "group": "Dough"},
+      {"ingredient": "baking-soda", "amount": 0.25, "unit": "tsp", "group": "Dough"},
+      {"ingredient": "ghee", "amount": 2, "unit": "tbsp", "note": "melted", "group": "Dough"},
+      {"ingredient": "milk", "amount": 80, "unit": "ml", "note": "warm, added gradually", "group": "Dough"},
+      {"ingredient": "ghee", "amount": 400, "unit": "ml", "note": "or neutral oil, for frying", "group": "Frying"},
+      {"ingredient": "sugar", "amount": 350, "unit": "g", "group": "Syrup"},
+      {"ingredient": "water", "amount": 400, "unit": "ml", "group": "Syrup"},
+      {"ingredient": "cardamom", "amount": 4, "unit": "piece", "note": "pods, crushed", "group": "Syrup"},
+      {"ingredient": "rose-water", "amount": 1, "unit": "tsp", "group": "Syrup"}
+    ],
+    "steps": [
+      "Boil the sugar, water and cardamom for 5 to 6 minutes until lightly sticky. Add the rose water and keep the syrup warm.",
+      "Mix the milk powder, flour and baking soda. Rub in the melted ghee, then add the warm milk a spoonful at a time to make a soft, smooth dough. Do not knead hard.",
+      "Rest the dough for 10 minutes, then roll into about 16 smooth, crack-free balls. They will double in size.",
+      "Heat the frying fat to a low medium heat, about 130 to 140 C. Fry the balls in batches, turning constantly, for 8 to 10 minutes until deep golden brown all over.",
+      "Lift out, drain briefly and drop into the warm syrup.",
+      "Soak for at least 2 hours so they swell and absorb the syrup. Serve warm."
+    ],
+    "notes": "If the fat is too hot the outside browns while the centre stays raw. Cracks in the balls mean the dough was too dry.",
+    "sources": ["wiki-gulab-jamun"], "review_status": "draft"
+  }
+]

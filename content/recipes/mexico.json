@@ -1,0 +1,148 @@
+[
+  {
+    "id": "mole-negro-home", "dish": "mole-negro", "title": "Simplified mole negro with chicken", "version": "home", "servings": 8,
+    "prep_minutes": 60, "cook_minutes": 120, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "chicken", "amount": 1.5, "unit": "kg", "note": "bone-in pieces, poached in water with onion and salt, broth reserved"},
+      {"ingredient": "dried-chiles", "amount": 150, "unit": "g", "note": "a mix of mulato, pasilla and guajillo, stemmed and seeded", "group": "Sauce"},
+      {"ingredient": "tomato", "amount": 300, "unit": "g", "note": "roasted", "group": "Sauce"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "roasted", "group": "Sauce"},
+      {"ingredient": "garlic", "amount": 5, "unit": "clove", "note": "roasted", "group": "Sauce"},
+      {"ingredient": "almonds", "amount": 50, "unit": "g", "note": "toasted", "group": "Sauce"},
+      {"ingredient": "peanuts", "amount": 50, "unit": "g", "note": "toasted", "group": "Sauce"},
+      {"ingredient": "sesame-seeds", "amount": 50, "unit": "g", "note": "toasted", "group": "Sauce"},
+      {"ingredient": "raisins", "amount": 50, "unit": "g", "group": "Sauce"},
+      {"ingredient": "plantain", "amount": 1, "unit": "piece", "note": "ripe, sliced and fried", "group": "Sauce"},
+      {"ingredient": "tortilla", "amount": 2, "unit": "piece", "note": "corn, charred black", "group": "Sauce"},
+      {"ingredient": "chocolate", "amount": 60, "unit": "g", "note": "Mexican table chocolate", "group": "Sauce"},
+      {"ingredient": "cinnamon", "amount": 1, "unit": "piece", "note": "stick", "group": "Sauce"},
+      {"ingredient": "cloves", "amount": 4, "unit": "piece", "group": "Sauce"},
+      {"ingredient": "black-pepper", "amount": 0.5, "unit": "tsp", "group": "Sauce"},
+      {"ingredient": "oregano", "amount": 1, "unit": "tsp", "group": "Sauce"},
+      {"ingredient": "oil", "amount": 4, "unit": "tbsp", "group": "Sauce"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Poach the chicken with onion and salt until just cooked. Keep the chicken warm and reserve about 1.5 l of the broth.",
+      "Toast the chiles briefly on a dry pan until fragrant, then soak in hot water for 20 minutes. Take care not to burn them, which makes the sauce bitter.",
+      "Toast the almonds, peanuts, sesame, spices and raisins separately in a dry pan. Fry the plantain and char the tortillas until black.",
+      "Blend everything with the drained chiles and about 500 ml of broth until completely smooth, in batches.",
+      "Heat the oil in a wide pot until hot and add the paste. It will spit. Fry, stirring constantly, for 15 minutes until it darkens and thickens.",
+      "Add the chocolate and enough broth to loosen, then simmer for 45 to 60 minutes, stirring often. Season with salt, and add a little sugar if it tastes harsh.",
+      "Add the chicken to the sauce and warm through. Serve with rice or tortillas."
+    ],
+    "notes": "This is a shortcut version. Authentic Oaxacan mole uses chilhuacle negro chiles and a longer list of ingredients, and may take a full day.",
+    "sources": ["wiki-mole"], "review_status": "draft"
+  },
+  {
+    "id": "cochinita-pibil-home", "dish": "cochinita-pibil", "title": "Oven cochinita pibil", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 240, "passive_minutes": 480, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "pork", "amount": 1.5, "unit": "kg", "note": "shoulder, cut into large chunks"},
+      {"ingredient": "achiote", "amount": 50, "unit": "g", "note": "achiote paste"},
+      {"ingredient": "sour-orange", "amount": 200, "unit": "ml", "note": "juice, or 120 ml orange juice mixed with 80 ml lime juice"},
+      {"ingredient": "garlic", "amount": 6, "unit": "clove"},
+      {"ingredient": "cumin", "amount": 1, "unit": "tsp"},
+      {"ingredient": "oregano", "amount": 1, "unit": "tsp"},
+      {"ingredient": "allspice", "amount": 0.5, "unit": "tsp"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"},
+      {"ingredient": "banana-leaf", "amount": 2, "unit": "piece", "note": "softened over a flame"},
+      {"ingredient": "red-onion", "amount": 2, "unit": "piece", "note": "sliced and pickled in lime juice with salt and habanero", "group": "To serve"}
+    ],
+    "steps": [
+      "Blend the achiote, sour orange juice, garlic, cumin, oregano, allspice and 2 tsp salt into a smooth marinade.",
+      "Coat the pork in the marinade, cover and refrigerate overnight.",
+      "Heat the oven to 160 C. Line a baking dish with the banana leaves, add the pork and juices, and fold the leaves over to wrap.",
+      "Cover the dish tightly with foil and bake for about 4 hours, until the pork is very tender and shreds easily.",
+      "Shred the meat in its juices and serve in warm corn tortillas with the pickled onion."
+    ],
+    "notes": "Banana leaves are sold frozen in Latin and Asian shops. Baking parchment and foil work if you cannot find them, with less aroma.",
+    "sources": ["wiki-cochinita-pibil"], "review_status": "draft"
+  },
+  {
+    "id": "chiles-en-nogada-home", "dish": "chiles-en-nogada", "title": "Chiles en nogada", "version": "traditional", "servings": 6,
+    "prep_minutes": 90, "cook_minutes": 60, "passive_minutes": 60, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "poblano-chile", "amount": 6, "unit": "piece", "note": "roasted, peeled, with a slit and seeds removed", "group": "Chiles"},
+      {"ingredient": "pork", "amount": 400, "unit": "g", "note": "minced", "group": "Filling"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "diced", "group": "Filling"},
+      {"ingredient": "garlic", "amount": 2, "unit": "clove", "group": "Filling"},
+      {"ingredient": "tomato", "amount": 300, "unit": "g", "note": "peeled and chopped", "group": "Filling"},
+      {"ingredient": "peach", "amount": 2, "unit": "piece", "note": "diced", "group": "Filling"},
+      {"ingredient": "apple", "amount": 1, "unit": "piece", "note": "diced", "group": "Filling"},
+      {"ingredient": "raisins", "amount": 40, "unit": "g", "group": "Filling"},
+      {"ingredient": "almonds", "amount": 40, "unit": "g", "note": "chopped", "group": "Filling"},
+      {"ingredient": "cinnamon", "amount": 0.5, "unit": "tsp", "group": "Filling"},
+      {"ingredient": "walnuts", "amount": 150, "unit": "g", "note": "fresh if possible, peeled and soaked in milk overnight", "group": "Nogada"},
+      {"ingredient": "cream", "amount": 150, "unit": "ml", "group": "Nogada"},
+      {"ingredient": "queso-fresco", "amount": 100, "unit": "g", "group": "Nogada"},
+      {"ingredient": "sherry", "amount": 2, "unit": "tbsp", "group": "Nogada"},
+      {"ingredient": "pomegranate", "amount": 1, "unit": "piece", "note": "seeds", "group": "To serve"},
+      {"ingredient": "parsley", "amount": 1, "unit": "bunch", "group": "To serve"},
+      {"ingredient": "oil", "amount": 2, "unit": "tbsp"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Roast the chiles over a flame until blistered, steam in a covered bowl for 10 minutes, then peel. Slit down one side and remove the seeds without tearing the chile.",
+      "Fry the onion and garlic in oil, add the pork and brown it. Add the tomato and cook until the sauce has reduced.",
+      "Add the peach, apple, raisins, almonds, cinnamon and salt, and cook for 15 minutes until the fruit is soft and the mixture holds together.",
+      "Blend the walnuts with the cream, queso fresco and sherry until smooth. Add a pinch of salt.",
+      "Stuff each chile with filling and press the slit closed. Warm them in a low oven for 10 minutes.",
+      "Spoon the cold walnut sauce over the chiles, scatter with pomegranate seeds and parsley, and serve."
+    ],
+    "notes": "The sauce is traditionally served cool and the chiles room-temperature or warm. Contains tree nuts.",
+    "sources": ["wiki-chiles-en-nogada"], "review_status": "draft"
+  },
+  {
+    "id": "pescado-a-la-veracruzana-home", "dish": "pescado-a-la-veracruzana", "title": "Red snapper a la veracruzana", "version": "home", "servings": 4,
+    "prep_minutes": 20, "cook_minutes": 35, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "red-snapper", "amount": 4, "unit": "piece", "note": "fillets, about 180 g each"},
+      {"ingredient": "lime-juice", "amount": 2, "unit": "tbsp"},
+      {"ingredient": "olive-oil", "amount": 4, "unit": "tbsp"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "sliced"},
+      {"ingredient": "garlic", "amount": 4, "unit": "clove", "note": "minced"},
+      {"ingredient": "tomato", "amount": 600, "unit": "g", "note": "ripe, peeled and chopped"},
+      {"ingredient": "olives", "amount": 80, "unit": "g", "note": "green, pitted"},
+      {"ingredient": "capers", "amount": 2, "unit": "tbsp"},
+      {"ingredient": "pickled-jalapeno", "amount": 3, "unit": "piece", "note": "sliced"},
+      {"ingredient": "bay-leaf", "amount": 2, "unit": "piece"},
+      {"ingredient": "oregano", "amount": 1, "unit": "tsp"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Season the fish with salt and lime juice and leave for 15 minutes.",
+      "Heat the olive oil and cook the onion until soft, then add the garlic for 1 minute.",
+      "Add the tomatoes, bay leaves and oregano and simmer for 15 minutes until thick.",
+      "Stir in the olives, capers and jalapeños with a splash of water.",
+      "Place the fish in the sauce, spoon sauce over the top, cover and cook gently for 8 to 10 minutes until the fish flakes.",
+      "Serve with white rice."
+    ],
+    "sources": ["wiki-veracruzana"], "review_status": "draft"
+  },
+  {
+    "id": "pan-de-muerto-home", "dish": "pan-de-muerto", "title": "Pan de muerto", "version": "home", "servings": 8,
+    "prep_minutes": 40, "cook_minutes": 30, "passive_minutes": 150, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 500, "unit": "g", "note": "bread flour"},
+      {"ingredient": "yeast", "amount": 7, "unit": "g", "note": "instant dried"},
+      {"ingredient": "sugar", "amount": 120, "unit": "g", "note": "plus extra for dusting"},
+      {"ingredient": "salt", "amount": 1, "unit": "tsp"},
+      {"ingredient": "milk", "amount": 120, "unit": "ml", "note": "warm"},
+      {"ingredient": "butter", "amount": 120, "unit": "g", "note": "softened, plus extra to brush"},
+      {"ingredient": "eggs", "amount": 3, "unit": "piece", "note": "plus 1 beaten to glaze"},
+      {"ingredient": "orange-zest", "amount": 1, "unit": "tbsp"},
+      {"ingredient": "anise-seed", "amount": 1, "unit": "tsp"},
+      {"ingredient": "orange-blossom-water", "amount": 1, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Combine the flour, yeast, sugar, salt, anise and zest. Add the warm milk, 3 eggs and orange blossom water and mix to a dough.",
+      "Knead in the butter a little at a time until smooth and elastic, about 10 minutes.",
+      "Cover and let rise until doubled, about 1.5 hours.",
+      "Take off a quarter of the dough. Shape the rest into 8 rounds, and from the reserved dough make bone-shaped strips and a small ball for each loaf. Lay the strips across the top and set the ball in the middle.",
+      "Rest for 45 minutes. Heat the oven to 180 C. Brush with beaten egg and bake for 20 to 25 minutes until golden.",
+      "Brush the hot loaves with melted butter and roll or dust them in sugar."
+    ],
+    "sources": ["wiki-pan-de-muerto"], "review_status": "draft"
+  }
+]

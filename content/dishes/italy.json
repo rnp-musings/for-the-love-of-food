@@ -1,0 +1,66 @@
+[
+  {
+    "id": "pizza-napoletana", "name": "Neapolitan pizza", "local_name": "Pizza napoletana", "country": "italy", "region": "campania",
+    "type": "bread", "course": ["main"], "flavours": ["tangy", "salty", "umami"], "diet": ["vegetarian", "nut-free", "egg-free"],
+    "cook_methods": ["baked"], "spice_level": 0,
+    "summary": "A soft, blistered, wood-fired pizza topped with tomato, mozzarella and basil.",
+    "story": "Flatbreads with toppings have long existed around the Mediterranean, but pizza as we know it grew up among the working poor of 18th and 19th century Naples, who ate it as cheap street food. The tomato topping became common after tomatoes arrived from the Americas. A popular story says the Margherita was made for Queen Margherita of Savoy in 1889, using the colours of the Italian flag; historians doubt parts of that tale. In 2017 UNESCO recognised the art of the Neapolitan pizzaiuolo as intangible cultural heritage.",
+    "origin_period": "18th to 19th century",
+    "origin_claims": [
+      {"claim": "Pizza developed as street food in Naples and spread worldwide with Italian emigration.", "confidence": "well-documented", "source": "wiki-neapolitan-pizza"},
+      {"claim": "The Margherita was created in 1889 for Queen Margherita, using red, white and green toppings.", "confidence": "disputed", "source": "wiki-neapolitan-pizza"}
+    ],
+    "sources": ["unesco-neapolitan-pizza", "wiki-neapolitan-pizza"], "review_status": "draft"
+  },
+  {
+    "id": "tagliatelle-al-ragu", "name": "Tagliatelle al ragù", "local_name": "Tagliatelle al ragù", "country": "italy", "region": "emilia-romagna",
+    "type": "pasta-noodle", "course": ["main"], "flavours": ["umami", "rich", "salty"], "diet": ["nut-free"],
+    "cook_methods": ["simmered", "slow-cooked", "boiled"], "spice_level": 0,
+    "summary": "Ribbons of fresh egg pasta in a slow-cooked meat sauce, the dish that spaghetti bolognese is loosely based on.",
+    "story": "Bologna's ragù is a slow-simmered sauce of beef and pork, a little tomato, soffritto vegetables, milk and wine. It is served with fresh egg tagliatelle rather than spaghetti, a pairing that holds the sauce well. The Accademia Italiana della Cucina registered a reference recipe in Bologna in 1982, and the dish shows how seriously the region treats its food traditions. Outside Italy the dish became spaghetti bolognese, which differs considerably from the original.",
+    "origin_period": "18th to 19th century (recipe documented from 1891)",
+    "origin_claims": [
+      {"claim": "The meat sauce is documented in Italian cookbooks from the late 19th century, including one by Pellegrino Artusi.", "confidence": "well-documented", "source": "wiki-ragu"},
+      {"claim": "A reference recipe was deposited with the Bologna Chamber of Commerce by the Accademia Italiana della Cucina in 1982.", "confidence": "well-documented", "source": "wiki-ragu"}
+    ],
+    "sources": ["wiki-ragu"], "review_status": "draft"
+  },
+  {
+    "id": "arancini", "name": "Arancini", "local_name": "Arancini / Arancine", "country": "italy", "region": "sicily",
+    "type": "street-food", "course": ["snack", "starter"], "flavours": ["rich", "umami", "salty"], "diet": ["nut-free"],
+    "cook_methods": ["deep-fried"], "spice_level": 0,
+    "summary": "Golden fried rice balls filled with ragù, peas and cheese, from Sicily.",
+    "story": "Arancini (\"little oranges\") are rice balls coated in breadcrumbs and deep-fried. The dish is connected with the period of Arab rule in Sicily, when rice and saffron arrived on the island, though the breadcrumb-coated version is probably later. Palermo and Catania argue over the name and shape: in the west they are arancine and round, in the east arancini and cone-shaped. They are traditionally eaten on 13 December, the feast of Saint Lucy, when bread and pasta are avoided in some places.",
+    "origin_period": "Medieval origins, modern form uncertain",
+    "origin_claims": [
+      {"claim": "Linked to Arab-era Sicily, when rice and saffron were introduced.", "confidence": "widely-told", "source": "wiki-arancini"},
+      {"claim": "Palermo and Catania disagree on whether they are feminine (arancine, round) or masculine (arancini, conical).", "confidence": "well-documented", "source": "wiki-arancini"}
+    ],
+    "sources": ["wiki-arancini"], "review_status": "draft"
+  },
+  {
+    "id": "risotto-alla-milanese", "name": "Risotto alla milanese", "local_name": "Risòtt a la milanesa", "country": "italy", "region": "lombardy",
+    "type": "rice-dish", "course": ["main"], "flavours": ["rich", "aromatic", "umami"], "diet": ["gluten-free", "egg-free", "nut-free"],
+    "cook_methods": ["simmered", "sauteed"], "spice_level": 0,
+    "summary": "Creamy saffron risotto finished with butter and Parmesan, the classic companion of braised veal shank.",
+    "story": "Risotto alla milanese gets its yellow colour from saffron and is made with butter, stock and the short-grain rice grown in the Po valley. A well-known legend says a glassmaker's apprentice added saffron to a wedding feast at the Milan cathedral in the 16th century, since saffron was used to colour glass. That story is very likely a legend, and the first written recipes only appear in the 19th century. It is the traditional accompaniment to ossobuco.",
+    "origin_period": "19th century (documented)",
+    "origin_claims": [
+      {"claim": "A glassmaker's apprentice added saffron to rice at a 1574 wedding feast during the building of Milan Cathedral.", "confidence": "legend", "source": "wiki-risotto-milanese"},
+      {"claim": "Written recipes appear in 19th century cookbooks.", "confidence": "well-documented", "source": "wiki-risotto-milanese"}
+    ],
+    "sources": ["wiki-risotto-milanese"], "review_status": "draft"
+  },
+  {
+    "id": "chiacchiere", "name": "Chiacchiere", "local_name": "Chiacchiere / Frappe / Cenci", "country": "italy",
+    "type": "pastry", "course": ["dessert", "snack"], "flavours": ["sweet", "rich"], "diet": ["vegetarian", "nut-free"],
+    "cook_methods": ["deep-fried"], "spice_level": 0,
+    "summary": "Thin, crisp ribbons of fried dough dusted with icing sugar, made for Carnevale.",
+    "story": "Chiacchiere (\"chatter\") are strips of enriched dough, fried until blistered and crisp, then dusted with icing sugar. The idea of fried carnival pastry goes back to ancient Rome, where similar sweets, sometimes called frictilia, were cooked in lard during winter festivals; a direct line to the modern pastry is hard to prove. Every region has its own name for them, including frappe in Lazio, cenci in Tuscany, bugie in Piedmont and crostoli in the north-east.",
+    "origin_period": "Ancient roots (claimed); modern forms unclear",
+    "origin_claims": [
+      {"claim": "Descended from fried dough sweets made at Roman festivals.", "confidence": "widely-told", "source": "wiki-chiacchiere"}
+    ],
+    "sources": ["wiki-chiacchiere"], "review_status": "draft"
+  }
+]

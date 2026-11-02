@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dish.schema.json",
+  "title": "Dish",
+  "type": "object",
+  "required": ["id", "name", "country", "type", "course", "flavours", "diet", "cook_methods", "spice_level", "summary", "story", "origin_claims", "sources", "review_status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"$ref": "#/$defs/slug"},
+    "name": {"type": "string"},
+    "local_name": {"type": "string", "description": "Name in the original language and script."},
+    "country": {"$ref": "#/$defs/slug"},
+    "region": {"$ref": "#/$defs/slug"},
+    "type": {"enum": ["soup", "stew", "curry", "salad", "bread", "rice-dish", "pasta-noodle", "dumpling", "grill-bbq", "street-food", "dessert", "drink", "pickle-ferment", "sauce", "snack", "pastry", "fish-dish", "meat-dish", "other"]},
+    "course": {"type": "array", "items": {"enum": ["breakfast", "starter", "main", "side", "dessert", "snack", "drink"]}, "minItems": 1},
+    "flavours": {"type": "array", "items": {"enum": ["sweet", "sour", "salty", "bitter", "umami", "spicy", "smoky", "tangy", "aromatic", "rich"]}, "minItems": 1},
+    "diet": {"type": "array", "uniqueItems": true, "items": {"enum": ["vegetarian", "vegan", "gluten-free", "dairy-free", "nut-free", "egg-free"]}, "description": "Applies to the baseline recipe. Checked against ingredients by scripts/validate.py."},
+    "cook_methods": {"type": "array", "items": {"enum": ["fried", "deep-fried", "steamed", "baked", "grilled", "raw", "fermented", "slow-cooked", "simmered", "sauteed", "roasted", "boiled"]}, "minItems": 1},
+    "spice_level": {"type": "integer", "minimum": 0, "maximum": 5},
+    "summary": {"type": "string", "description": "One or two sentences for cards and search results."},
+    "story": {"type": "string", "description": "Markdown. History and cultural context, in our own words."},
+    "origin_period": {"type": "string", "description": "Free text, e.g. '1940s' or 'pre-Columbian'."},
+    "origin_claims": {
+      "type": "array",
+      "description": "Competing or supporting claims about where the dish came from. Never state a contested origin as fact.",
+      "items": {
+        "type": "object",
+        "required": ["claim", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "claim": {"type": "string"},
+          "confidence": {"enum": ["well-documented", "widely-told", "disputed", "legend"]},
+          "source": {"$ref": "#/$defs/slug"}
+        }
+      }
+    },
+    "image": {"type": "string"},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/slug"}, "minItems": 1},
+    "review_status": {"enum": ["draft", "reviewed", "published"]}
+  },
+  "$defs": {"slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}}
+}

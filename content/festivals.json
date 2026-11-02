@@ -1,0 +1,26 @@
+[
+  {
+    "id": "diwali", "name": "Diwali", "local_name": "दीपावली", "type": "religious",
+    "countries": ["india"], "timing": "Around the new moon of the Hindu month of Kartika, usually October or November", "months": [10, 11], "duration": "Five days",
+    "summary": "The festival of lights, marked by lamps, fireworks, family visits and large quantities of sweets.",
+    "story": "Diwali is celebrated by Hindus, Jains, Sikhs and some Buddhists, and each tradition tells its own story of it. In many Hindu traditions it marks the return of Rama to Ayodhya, in others the worship of Lakshmi, goddess of prosperity. Houses are cleaned and lit with oil lamps, and families exchange gifts of sweets and dry fruit.",
+    "food_traditions": "Homes prepare or buy sweets (mithai) and fried savoury snacks (farsan) in advance and share them with neighbours and relatives. Milk-based sweets such as gulab jamun, along with laddus and barfi, are common across regions, while the exact snacks vary by state.",
+    "sources": ["wiki-diwali"], "review_status": "draft"
+  },
+  {
+    "id": "dia-de-muertos", "name": "Day of the Dead", "local_name": "Día de Muertos", "type": "commemorative",
+    "countries": ["mexico"], "timing": "1 to 2 November", "months": [11], "duration": "Two days, with preparations beginning earlier",
+    "summary": "A Mexican celebration in which families remember the dead with altars (ofrendas), flowers and the foods their loved ones enjoyed.",
+    "story": "The festivity blends pre-Hispanic indigenous beliefs about death with Catholic All Saints and All Souls observances. It is recognised by UNESCO as intangible cultural heritage. Families build altars at home and decorate graves, believing the dead return to visit.",
+    "food_traditions": "Altars carry the favourite foods and drinks of the departed, plus pan de muerto, fruit, chocolate and sometimes mole. Foods are prepared in large amounts and shared among the living after the offering.",
+    "sources": ["wiki-day-of-the-dead", "unesco-day-of-the-dead"], "review_status": "draft"
+  },
+  {
+    "id": "carnevale", "name": "Carnevale", "local_name": "Carnevale", "type": "seasonal",
+    "countries": ["italy"], "timing": "The weeks before Lent, usually February or early March", "months": [2, 3], "duration": "Varies by town, from days to weeks",
+    "summary": "Italy's pre-Lent carnival, known for masks, parades and fried sweets. Venice and Viareggio are among the best-known celebrations.",
+    "story": "Carnival comes from the period of feasting before the Lenten fast in the Christian calendar. Italian towns celebrate it with parades, costumes and masked balls, and each area has its own customs.",
+    "food_traditions": "Fried sweets use up butter, eggs and sugar before Lent. They share the same idea under different names across Italy: chiacchiere, frappe, bugie, cenci, crostoli and others.",
+    "sources": ["wiki-carnival"], "review_status": "draft"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {"festival": "diwali", "dish": "gulab-jamun", "role": "traditional", "note": "One of the most widely shared Diwali sweets across India and the diaspora."},
+  {"festival": "dia-de-muertos", "dish": "pan-de-muerto", "role": "signature", "note": "Sweet bread placed on altars and eaten by families."},
+  {"festival": "dia-de-muertos", "dish": "mole-negro", "role": "offering", "note": "Mole is a common festive dish and in Oaxaca is often prepared for the ofrenda."},
+  {"festival": "carnevale", "dish": "chiacchiere", "role": "signature", "note": "Fried pastry ribbons dusted with sugar. Regional names include frappe, cenci and crostoli."}
+]

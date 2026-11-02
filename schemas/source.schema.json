@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Source",
+  "type": "object",
+  "required": ["id", "title", "url", "type", "checked"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "title": {"type": "string"},
+    "url": {"type": "string", "format": "uri"},
+    "type": {"enum": ["encyclopedia", "unesco", "academic", "book", "news", "official", "other"]},
+    "licence_note": {"type": "string", "description": "e.g. 'CC BY-SA: cite, do not copy text'."},
+    "checked": {"type": "boolean", "description": "True once a human has opened the URL and confirmed it supports the claim."}
+  }
+}

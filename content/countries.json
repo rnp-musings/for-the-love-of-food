@@ -1,0 +1,20 @@
+[
+  {
+    "id": "india", "name": "India", "local_name": "भारत", "iso2": "IN", "continent": "asia",
+    "summary": "Indian cuisine is a family of regional cuisines rather than one tradition. Spice blends, cooking fats, staple grains and vegetarian or non-vegetarian customs differ from state to state.",
+    "regional_variation": "Climate, religion and trade shape what each region eats. The north leans on wheat breads, dairy and tandoor cooking. The south and east centre on rice, with coconut, tamarind or mustard depending on the coast. The west splits between vegetarian Gujarat and the seafood and coconut of the Konkan coast.",
+    "review_status": "draft", "sources": ["wiki-indian-cuisine"]
+  },
+  {
+    "id": "italy", "name": "Italy", "local_name": "Italia", "iso2": "IT", "continent": "europe",
+    "summary": "Italian food is built on local ingredients and short ingredient lists. Many dishes belong to one town or province, and national unification only came in 1861.",
+    "regional_variation": "The north cooks with butter, rice and polenta and makes fresh egg pasta. The south uses olive oil, dried durum-wheat pasta, tomatoes and strong flavours from the sea. Islands such as Sicily add Arab, Greek and Spanish influences.",
+    "review_status": "draft", "sources": ["wiki-italian-cuisine"]
+  },
+  {
+    "id": "mexico", "name": "Mexico", "local_name": "México", "iso2": "MX", "continent": "north-america",
+    "summary": "Mexican cuisine rests on maize, beans and chiles, layered with Spanish, African and Asian ingredients since the 16th century. UNESCO lists traditional Mexican cuisine as intangible cultural heritage.",
+    "regional_variation": "Oaxaca and Puebla are known for moles and indigenous ingredients. The Yucatan peninsula has a Maya base with Caribbean and Middle Eastern touches. Veracruz, on the Gulf coast, blends Spanish, African and Caribbean cooking and relies on seafood.",
+    "review_status": "draft", "sources": ["wiki-mexican-cuisine", "unesco-mexican-cuisine"]
+  }
+]

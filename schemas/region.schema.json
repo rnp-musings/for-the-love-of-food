@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "region.schema.json",
+  "title": "Region",
+  "type": "object",
+  "required": ["id", "country", "name", "summary", "signature_ingredients"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"$ref": "#/$defs/slug"},
+    "country": {"$ref": "#/$defs/slug"},
+    "name": {"type": "string"},
+    "local_name": {"type": "string"},
+    "summary": {"type": "string", "description": "What makes this region's food distinct."},
+    "signature_ingredients": {"type": "array", "items": {"$ref": "#/$defs/slug"}, "minItems": 1},
+    "review_status": {"enum": ["draft", "reviewed", "published"]},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/slug"}}
+  },
+  "$defs": {"slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}}
+}

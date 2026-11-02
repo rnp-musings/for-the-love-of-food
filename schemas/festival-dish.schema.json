@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "festival-dish.schema.json",
+  "title": "FestivalDish",
+  "description": "Links a dish to a festival. A dish can appear in many festivals and vice versa.",
+  "type": "object",
+  "required": ["festival", "dish", "role"],
+  "additionalProperties": false,
+  "properties": {
+    "festival": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "dish": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "role": {"enum": ["traditional", "signature", "seasonal", "offering"]},
+    "note": {"type": "string"}
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "pizza-napoletana-home", "dish": "pizza-napoletana", "title": "Neapolitan-style pizza Margherita", "version": "home", "servings": 4,
+    "prep_minutes": 30, "cook_minutes": 10, "passive_minutes": 1440, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 500, "unit": "g", "note": "type 00 pizza flour", "group": "Dough"},
+      {"ingredient": "water", "amount": 325, "unit": "ml", "note": "at room temperature", "group": "Dough"},
+      {"ingredient": "salt", "amount": 15, "unit": "g", "group": "Dough"},
+      {"ingredient": "yeast", "amount": 1, "unit": "g", "note": "fresh yeast, or 0.4 g dried", "group": "Dough"},
+      {"ingredient": "tomato", "amount": 400, "unit": "g", "note": "canned whole peeled San Marzano style, crushed by hand", "group": "Topping"},
+      {"ingredient": "mozzarella", "amount": 250, "unit": "g", "note": "fior di latte, torn and drained", "group": "Topping"},
+      {"ingredient": "basil", "amount": 1, "unit": "bunch", "group": "Topping"},
+      {"ingredient": "olive-oil", "amount": 2, "unit": "tbsp", "group": "Topping"}
+    ],
+    "steps": [
+      "Dissolve the salt in the water, then add the yeast. Add the flour and mix until combined, then knead for about 10 minutes until smooth.",
+      "Cover and rest 2 hours at room temperature, then divide into 4 balls and refrigerate in a covered container for 18 to 24 hours.",
+      "Take the dough out 1 to 2 hours before baking. Heat the oven with a pizza stone or steel as hot as it will go, at least 250 C, for 45 minutes.",
+      "Stretch each ball by hand from the centre outward, leaving a thicker rim. Do not use a rolling pin.",
+      "Spread a few spoonfuls of crushed tomato over the base, then add torn mozzarella and a pinch of salt.",
+      "Bake for 6 to 8 minutes until the crust is puffed and charred in places and the cheese has melted.",
+      "Finish with basil leaves and a drizzle of olive oil."
+    ],
+    "notes": "A home oven cannot match a 450 C wood-fired oven, so expect a slightly less charred crust.",
+    "sources": ["unesco-neapolitan-pizza", "wiki-neapolitan-pizza"], "review_status": "draft"
+  },
+  {
+    "id": "tagliatelle-al-ragu-home", "dish": "tagliatelle-al-ragu", "title": "Tagliatelle with Bolognese-style ragù", "version": "traditional", "servings": 6,
+    "prep_minutes": 40, "cook_minutes": 180, "passive_minutes": 30, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "beef", "amount": 300, "unit": "g", "note": "minced chuck or similar", "group": "Ragù"},
+      {"ingredient": "pancetta", "amount": 100, "unit": "g", "note": "finely diced", "group": "Ragù"},
+      {"ingredient": "pork", "amount": 150, "unit": "g", "note": "minced", "group": "Ragù"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "finely diced", "group": "Ragù"},
+      {"ingredient": "carrot", "amount": 1, "unit": "piece", "note": "finely diced", "group": "Ragù"},
+      {"ingredient": "celery", "amount": 1, "unit": "piece", "note": "stalk, finely diced", "group": "Ragù"},
+      {"ingredient": "tomato-paste", "amount": 2, "unit": "tbsp", "group": "Ragù"},
+      {"ingredient": "red-wine", "amount": 120, "unit": "ml", "note": "or dry white", "group": "Ragù"},
+      {"ingredient": "milk", "amount": 120, "unit": "ml", "group": "Ragù"},
+      {"ingredient": "butter", "amount": 30, "unit": "g", "group": "Ragù"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"},
+      {"ingredient": "wheat-flour", "amount": 300, "unit": "g", "note": "type 00 flour", "group": "Pasta"},
+      {"ingredient": "eggs", "amount": 3, "unit": "piece", "group": "Pasta"},
+      {"ingredient": "parmesan", "amount": 40, "unit": "g", "note": "grated, to serve"}
+    ],
+    "steps": [
+      "Melt the butter in a heavy pot and cook the pancetta until the fat runs. Add the onion, carrot and celery and cook gently for 10 minutes until soft.",
+      "Add the beef and pork and break them up. Cook, stirring, until the meat is no longer pink and has begun to brown.",
+      "Stir in the tomato paste, then pour in the wine and let it bubble until almost gone.",
+      "Add the milk and cook until absorbed, then add about 300 ml hot water. Cover partly and simmer on the lowest heat for 2.5 to 3 hours, adding water if it dries out. Season with salt.",
+      "For the pasta, pile the flour on a board, make a well, crack in the eggs and work them into a dough. Knead 10 minutes, rest 30 minutes, roll thin and cut into ribbons about 6 mm wide.",
+      "Cook the tagliatelle in salted boiling water for 2 to 3 minutes. Toss with the ragù and a little pasta water, and serve with Parmesan."
+    ],
+    "notes": "Dried egg tagliatelle can be used when short of time. Cook according to the package.",
+    "sources": ["wiki-ragu"], "review_status": "draft"
+  },
+  {
+    "id": "arancini-home", "dish": "arancini", "title": "Sicilian arancini with ragù and peas", "version": "home", "servings": 6,
+    "prep_minutes": 60, "cook_minutes": 50, "passive_minutes": 120, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "arborio-rice", "amount": 400, "unit": "g", "group": "Rice"},
+      {"ingredient": "stock", "amount": 1.2, "unit": "l", "note": "hot chicken or vegetable stock", "group": "Rice"},
+      {"ingredient": "saffron", "amount": 1, "unit": "pinch", "group": "Rice"},
+      {"ingredient": "butter", "amount": 40, "unit": "g", "group": "Rice"},
+      {"ingredient": "parmesan", "amount": 60, "unit": "g", "note": "grated", "group": "Rice"},
+      {"ingredient": "beef", "amount": 200, "unit": "g", "note": "minced", "group": "Filling"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "small, diced", "group": "Filling"},
+      {"ingredient": "tomato", "amount": 200, "unit": "g", "note": "passata", "group": "Filling"},
+      {"ingredient": "peas", "amount": 100, "unit": "g", "group": "Filling"},
+      {"ingredient": "mozzarella", "amount": 100, "unit": "g", "note": "cut into small cubes", "group": "Filling"},
+      {"ingredient": "wheat-flour", "amount": 60, "unit": "g", "group": "Coating"},
+      {"ingredient": "eggs", "amount": 2, "unit": "piece", "note": "beaten with a splash of water", "group": "Coating"},
+      {"ingredient": "breadcrumbs", "amount": 200, "unit": "g", "group": "Coating"},
+      {"ingredient": "oil", "amount": 1, "unit": "l", "note": "neutral oil, for deep frying"}
+    ],
+    "steps": [
+      "Cook the rice in the hot stock with the saffron, stirring, for about 18 minutes until tender and sticky. Stir in the butter and Parmesan, spread on a tray and chill completely.",
+      "For the filling, fry the onion in a little oil, add the beef and brown it, then add the passata and peas and simmer 15 minutes until thick. Cool.",
+      "Wet your hands and take a golf-ball-sized handful of rice. Make a hollow, add a spoonful of ragù and a cube of mozzarella, then close the rice around it and shape into a ball or cone.",
+      "Roll each ball in flour, dip in egg, then coat in breadcrumbs. Chill for 30 minutes.",
+      "Heat the oil to 170 C and fry the arancini in batches for 4 to 5 minutes until deep golden. Drain on paper and serve hot."
+    ],
+    "notes": "Cold rice holds its shape. Day-old risotto works well.",
+    "sources": ["wiki-arancini"], "review_status": "draft"
+  },
+  {
+    "id": "risotto-alla-milanese-home", "dish": "risotto-alla-milanese", "title": "Risotto alla milanese", "version": "traditional", "servings": 4,
+    "prep_minutes": 10, "cook_minutes": 25, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "carnaroli-rice", "amount": 320, "unit": "g", "note": "or arborio"},
+      {"ingredient": "stock", "amount": 1.2, "unit": "l", "note": "beef or chicken stock, kept hot"},
+      {"ingredient": "saffron", "amount": 1, "unit": "pinch", "note": "threads, soaked in a ladle of hot stock"},
+      {"ingredient": "onion", "amount": 0.5, "unit": "piece", "note": "finely chopped"},
+      {"ingredient": "butter", "amount": 80, "unit": "g", "note": "divided"},
+      {"ingredient": "white-wine", "amount": 100, "unit": "ml"},
+      {"ingredient": "parmesan", "amount": 60, "unit": "g", "note": "grated"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Melt half the butter over a low heat and soften the onion without browning, about 5 minutes.",
+      "Add the rice and stir for 2 minutes until the grains are glossy and hot.",
+      "Pour in the wine and cook until it has evaporated.",
+      "Add the hot stock a ladle at a time, stirring often and waiting for each addition to be absorbed. After about 10 minutes, add the saffron and its stock.",
+      "Keep going for another 8 minutes or so until the rice is creamy but still has a slight bite.",
+      "Take off the heat, beat in the remaining butter and the Parmesan, cover, and rest for 2 minutes. The risotto should be loose and wavy, not stiff."
+    ],
+    "notes": "Traditionally served with ossobuco.",
+    "sources": ["wiki-risotto-milanese"], "review_status": "draft"
+  },
+  {
+    "id": "chiacchiere-home", "dish": "chiacchiere", "title": "Carnevale chiacchiere", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 20, "passive_minutes": 30, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 300, "unit": "g"},
+      {"ingredient": "sugar", "amount": 40, "unit": "g"},
+      {"ingredient": "eggs", "amount": 2, "unit": "piece"},
+      {"ingredient": "butter", "amount": 40, "unit": "g", "note": "softened"},
+      {"ingredient": "white-wine", "amount": 40, "unit": "ml", "note": "or grappa"},
+      {"ingredient": "lemon-zest", "amount": 1, "unit": "tsp"},
+      {"ingredient": "salt", "amount": 1, "unit": "pinch"},
+      {"ingredient": "oil", "amount": 1, "unit": "l", "note": "for deep frying"},
+      {"ingredient": "icing-sugar", "amount": 4, "unit": "tbsp", "note": "to dust"}
+    ],
+    "steps": [
+      "Mix the flour, sugar, salt and lemon zest. Add the eggs, butter and wine and knead into a firm, smooth dough.",
+      "Wrap and rest for 30 minutes.",
+      "Roll the dough out very thin, 1 to 2 mm, in batches. Cut into rectangles or ribbons with a fluted wheel and make a slit in the middle if you like.",
+      "Heat the oil to 170 C and fry a few pieces at a time for about 1 minute per side until pale gold and blistered.",
+      "Drain on paper and dust generously with icing sugar when cool."
+    ],
+    "notes": "The thinner the dough, the crisper the result. Store in a tin for up to a few days.",
+    "sources": ["wiki-chiacchiere"], "review_status": "draft"
+  }
+]
