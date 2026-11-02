@@ -1,65 +1,443 @@
 [
-  {
-    "id": "butter-chicken", "name": "Butter chicken", "local_name": "मक्खनी मुर्ग / मुर्ग मखनी", "country": "india", "region": "punjab",
-    "type": "curry", "course": ["main"], "flavours": ["rich", "tangy", "aromatic", "umami"], "diet": ["gluten-free", "egg-free"],
-    "cook_methods": ["grilled", "simmered"], "spice_level": 2,
-    "summary": "Tandoor-style chicken in a smooth, mildly spiced tomato, butter and cream gravy.",
-    "story": "Butter chicken is usually traced to Delhi in the years after the 1947 Partition, when Punjabi restaurateurs who had left Peshawar and Lahore opened eateries in the capital. The familiar story is that cooks at the Moti Mahal restaurant avoided wasting leftover tandoori chicken by simmering it in a tomato and butter sauce. The dish went on to become one of the most recognised Indian dishes worldwide, and it is a staple of Indian restaurant menus abroad.\n\nWho deserves credit is still argued: more than one restaurant family has claimed to have invented it, and the dispute has even reached court.",
-    "origin_period": "1940s to 1950s",
-    "origin_claims": [
-      {"claim": "Created at Moti Mahal in Delhi by cooks who simmered leftover tandoori chicken in a tomato-butter sauce.", "confidence": "widely-told", "source": "wiki-butter-chicken"},
-      {"claim": "Rival restaurant families dispute who invented the dish first.", "confidence": "disputed", "source": "wiki-butter-chicken"}
-    ],
-    "sources": ["wiki-butter-chicken"], "review_status": "draft"
-  },
-  {
-    "id": "masala-dosa", "name": "Masala dosa", "local_name": "ಮಸಾಲೆ ದೋಸೆ", "country": "india", "region": "karnataka",
-    "type": "street-food", "course": ["breakfast", "main", "snack"], "flavours": ["salty", "tangy", "aromatic"], "diet": ["vegetarian", "vegan", "gluten-free", "dairy-free", "nut-free", "egg-free"],
-    "cook_methods": ["fermented", "fried"], "spice_level": 2,
-    "summary": "A thin, crisp pancake made from fermented rice and lentil batter, folded around spiced potato.",
-    "story": "Dosa is an old South Indian dish made from a fermented batter of rice and urad dal, and it is mentioned in early Tamil and Kannada literature. The potato-filled masala dosa is generally linked with the Udupi restaurants of Karnataka, whose vegetarian kitchens spread across India and abroad in the 20th century. Fermentation gives the dosa its sour note and crisp edges, and it is served with coconut chutney and sambar.",
-    "origin_period": "Dosa is ancient; masala dosa is modern (early 20th century)",
-    "origin_claims": [
-      {"claim": "The potato filling and the restaurant version are associated with Udupi cooks in Karnataka.", "confidence": "widely-told", "source": "wiki-masala-dosa"},
-      {"claim": "Dosa itself has been traced to the Tamil country; Karnataka and Tamil Nadu both claim it.", "confidence": "disputed", "source": "wiki-masala-dosa"}
-    ],
-    "sources": ["wiki-masala-dosa"], "review_status": "draft"
-  },
-  {
-    "id": "shorshe-ilish", "name": "Shorshe ilish", "local_name": "সর্ষে ইলিশ", "country": "india", "region": "west-bengal",
-    "type": "fish-dish", "course": ["main"], "flavours": ["spicy", "umami", "rich"], "diet": ["gluten-free", "dairy-free", "nut-free", "egg-free"],
-    "cook_methods": ["steamed", "simmered"], "spice_level": 3,
-    "summary": "Hilsa fish cooked in a pungent mustard paste with mustard oil and green chillies.",
-    "story": "Hilsa (ilish) is the best-loved fish of Bengal, and the monsoon season, when it swims upriver to spawn, is the time to eat it. Cooking it in ground mustard and mustard oil is a classic Bengali treatment: the sharp heat of the mustard offsets the richness of the fish. Both West Bengal and Bangladesh claim hilsa as a cultural icon, and the dish is served with plain rice. The fish is very bony, and eating it is a skill in itself.",
-    "origin_period": "Not documented",
-    "origin_claims": [
-      {"claim": "A traditional Bengali preparation shared by Bengali communities in India and Bangladesh; the exact origin is unknown.", "confidence": "widely-told", "source": "wiki-hilsa"}
-    ],
-    "sources": ["wiki-hilsa"], "review_status": "draft"
-  },
-  {
-    "id": "dhokla", "name": "Dhokla", "local_name": "ઢોકળા", "country": "india", "region": "gujarat",
-    "type": "snack", "course": ["breakfast", "snack", "starter"], "flavours": ["tangy", "sweet", "salty"], "diet": ["vegetarian", "gluten-free", "nut-free", "egg-free"],
-    "cook_methods": ["steamed"], "spice_level": 1,
-    "summary": "A soft, spongy steamed cake made from fermented gram flour batter, finished with a mustard seed tempering.",
-    "story": "Dhokla is a farsan, or savoury snack, from Gujarat. The batter is made from chickpea (gram) flour and sometimes fermented rice and lentils, then steamed into a soft cake and topped with tempered mustard seeds, curry leaves and green chilli. A sugar syrup is often drizzled over to balance the tang. It is mentioned in medieval Gujarati texts, which suggests the dish has long been part of the region's cooking, but the early forms are not well documented.",
-    "origin_period": "Medieval or earlier (disputed)",
-    "origin_claims": [
-      {"claim": "A dish resembling dhokla appears in Jain texts from about the 11th century.", "confidence": "widely-told", "source": "wiki-dhokla"}
-    ],
-    "sources": ["wiki-dhokla"], "review_status": "draft"
-  },
-  {
-    "id": "gulab-jamun", "name": "Gulab jamun", "local_name": "गुलाब जामुन", "country": "india",
-    "type": "dessert", "course": ["dessert"], "flavours": ["sweet", "aromatic", "rich"], "diet": ["vegetarian", "nut-free", "egg-free"],
-    "cook_methods": ["deep-fried", "simmered"], "spice_level": 0,
-    "summary": "Soft milk-solid dumplings fried golden and soaked in rose and cardamom sugar syrup.",
-    "story": "Gulab jamun is made across South Asia from milk solids (khoya) or milk powder, shaped into balls, fried and soaked in syrup. Its name combines the Persian words for rose water (gulab) and the Hindi word for the jamun fruit, which the round, dark balls resemble. Some food historians connect it to Persian and Central Asian fried-dough sweets that arrived with the Mughal court, while others see it as an Indian development; the debate is unresolved. Today it is served at weddings, Diwali and Eid.",
-    "origin_period": "Medieval (disputed)",
-    "origin_claims": [
-      {"claim": "Descended from fried dough in syrup brought from Persia and Central Asia.", "confidence": "widely-told", "source": "wiki-gulab-jamun"},
-      {"claim": "An independent Indian invention using milk solids.", "confidence": "disputed", "source": "wiki-gulab-jamun"}
-    ],
-    "sources": ["wiki-gulab-jamun"], "review_status": "draft"
-  }
+ {
+  "id": "butter-chicken",
+  "name": "Butter chicken",
+  "local_name": "मक्खनी मुर्ग / मुर्ग मखनी",
+  "country": "india",
+  "region": "punjab",
+  "type": "curry",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "tangy",
+   "aromatic",
+   "umami"
+  ],
+  "diet": [
+   "gluten-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "grilled",
+   "simmered"
+  ],
+  "spice_level": 2,
+  "summary": "Tandoor-style chicken in a smooth, mildly spiced tomato, butter and cream gravy.",
+  "story": "Butter chicken is usually traced to Delhi in the years after the 1947 Partition, when Punjabi restaurateurs who had left Peshawar and Lahore opened eateries in the capital. The familiar story is that cooks at the Moti Mahal restaurant avoided wasting leftover tandoori chicken by simmering it in a tomato and butter sauce. The dish went on to become one of the most recognised Indian dishes worldwide, and it is a staple of Indian restaurant menus abroad.\n\nWho deserves credit is still argued: more than one restaurant family has claimed to have invented it, and the dispute has even reached court.",
+  "origin_period": "1940s to 1950s",
+  "origin_claims": [
+   {
+    "claim": "Created at Moti Mahal in Delhi by cooks who simmered leftover tandoori chicken in a tomato-butter sauce.",
+    "confidence": "widely-told",
+    "source": "wiki-butter-chicken"
+   },
+   {
+    "claim": "Rival restaurant families dispute who invented the dish first.",
+    "confidence": "disputed",
+    "source": "wiki-butter-chicken"
+   }
+  ],
+  "sources": [
+   "wiki-butter-chicken"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "masala-dosa",
+  "name": "Masala dosa",
+  "local_name": "ಮಸಾಲೆ ದೋಸೆ",
+  "country": "india",
+  "region": "karnataka",
+  "type": "street-food",
+  "course": [
+   "breakfast",
+   "main",
+   "snack"
+  ],
+  "flavours": [
+   "salty",
+   "tangy",
+   "aromatic"
+  ],
+  "diet": [
+   "vegetarian",
+   "vegan",
+   "gluten-free",
+   "dairy-free",
+   "nut-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "fermented",
+   "fried"
+  ],
+  "spice_level": 2,
+  "summary": "A thin, crisp pancake made from fermented rice and lentil batter, folded around spiced potato.",
+  "story": "Dosa is an old South Indian dish made from a fermented batter of rice and urad dal, and it is mentioned in early Tamil and Kannada literature. The potato-filled masala dosa is generally linked with the Udupi restaurants of Karnataka, whose vegetarian kitchens spread across India and abroad in the 20th century. Fermentation gives the dosa its sour note and crisp edges, and it is served with coconut chutney and sambar.",
+  "origin_period": "Dosa is ancient; masala dosa is modern (early 20th century)",
+  "origin_claims": [
+   {
+    "claim": "The potato filling and the restaurant version are associated with Udupi cooks in Karnataka.",
+    "confidence": "widely-told",
+    "source": "wiki-masala-dosa"
+   },
+   {
+    "claim": "Dosa itself has been traced to the Tamil country; Karnataka and Tamil Nadu both claim it.",
+    "confidence": "disputed",
+    "source": "wiki-masala-dosa"
+   }
+  ],
+  "sources": [
+   "wiki-masala-dosa"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "shorshe-ilish",
+  "name": "Shorshe ilish",
+  "local_name": "সর্ষে ইলিশ",
+  "country": "india",
+  "region": "west-bengal",
+  "type": "fish-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "spicy",
+   "umami",
+   "rich"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "nut-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "steamed",
+   "simmered"
+  ],
+  "spice_level": 3,
+  "summary": "Hilsa fish cooked in a pungent mustard paste with mustard oil and green chillies.",
+  "story": "Hilsa (ilish) is the best-loved fish of Bengal, and the monsoon season, when it swims upriver to spawn, is the time to eat it. Cooking it in ground mustard and mustard oil is a classic Bengali treatment: the sharp heat of the mustard offsets the richness of the fish. Both West Bengal and Bangladesh claim hilsa as a cultural icon, and the dish is served with plain rice. The fish is very bony, and eating it is a skill in itself.",
+  "origin_period": "Not documented",
+  "origin_claims": [
+   {
+    "claim": "A traditional Bengali preparation shared by Bengali communities in India and Bangladesh; the exact origin is unknown.",
+    "confidence": "widely-told",
+    "source": "wiki-hilsa"
+   }
+  ],
+  "sources": [
+   "wiki-hilsa"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "dhokla",
+  "name": "Dhokla",
+  "local_name": "ઢોકળા",
+  "country": "india",
+  "region": "gujarat",
+  "type": "snack",
+  "course": [
+   "breakfast",
+   "snack",
+   "starter"
+  ],
+  "flavours": [
+   "tangy",
+   "sweet",
+   "salty"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "nut-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "steamed"
+  ],
+  "spice_level": 1,
+  "summary": "A soft, spongy steamed cake made from fermented gram flour batter, finished with a mustard seed tempering.",
+  "story": "Dhokla is a farsan, or savoury snack, from Gujarat. The batter is made from chickpea (gram) flour and sometimes fermented rice and lentils, then steamed into a soft cake and topped with tempered mustard seeds, curry leaves and green chilli. A sugar syrup is often drizzled over to balance the tang. It is mentioned in medieval Gujarati texts, which suggests the dish has long been part of the region's cooking, but the early forms are not well documented.",
+  "origin_period": "Medieval or earlier (disputed)",
+  "origin_claims": [
+   {
+    "claim": "A dish resembling dhokla appears in Jain texts from about the 11th century.",
+    "confidence": "widely-told",
+    "source": "wiki-dhokla"
+   }
+  ],
+  "sources": [
+   "wiki-dhokla"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "gulab-jamun",
+  "name": "Gulab jamun",
+  "local_name": "गुलाब जामुन",
+  "country": "india",
+  "type": "dessert",
+  "course": [
+   "dessert"
+  ],
+  "flavours": [
+   "sweet",
+   "aromatic",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "nut-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "deep-fried",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Soft milk-solid dumplings fried golden and soaked in rose and cardamom sugar syrup.",
+  "story": "Gulab jamun is made across South Asia from milk solids (khoya) or milk powder, shaped into balls, fried and soaked in syrup. Its name combines the Persian words for rose water (gulab) and the Hindi word for the jamun fruit, which the round, dark balls resemble. Some food historians connect it to Persian and Central Asian fried-dough sweets that arrived with the Mughal court, while others see it as an Indian development; the debate is unresolved. Today it is served at weddings, Diwali and Eid.",
+  "origin_period": "Medieval (disputed)",
+  "origin_claims": [
+   {
+    "claim": "Descended from fried dough in syrup brought from Persia and Central Asia.",
+    "confidence": "widely-told",
+    "source": "wiki-gulab-jamun"
+   },
+   {
+    "claim": "An independent Indian invention using milk solids.",
+    "confidence": "disputed",
+    "source": "wiki-gulab-jamun"
+   }
+  ],
+  "sources": [
+   "wiki-gulab-jamun"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "vada-pav",
+  "name": "Vada pav",
+  "local_name": "वडा पाव",
+  "country": "india",
+  "region": "maharashtra",
+  "type": "street-food",
+  "course": [
+   "snack"
+  ],
+  "flavours": [
+   "spicy",
+   "tangy",
+   "salty"
+  ],
+  "diet": [
+   "vegetarian",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "deep-fried"
+  ],
+  "spice_level": 3,
+  "summary": "A spiced potato fritter in a soft bread bun with chutneys, sold across Mumbai and Maharashtra.",
+  "story": "Vada pav is a cheap, filling snack that is strongly associated with Mumbai. A potato mash flavoured with green chilli, ginger, garlic and curry leaves is coated in a gram-flour batter, deep-fried, and tucked into a pav, a soft bread roll of Portuguese-influenced baking tradition, with dry garlic chutney and a green or tamarind chutney.\n\nIt is commonly said to have taken off in the 1960s as quick food for mill workers and commuters. Stall owners in Mumbai are often credited, but who first made it is not firmly settled.",
+  "origin_period": "1960s (commonly told)",
+  "origin_claims": [
+   {
+    "claim": "Popularised from a stall near Dadar station in Mumbai in the 1960s as a cheap meal for workers.",
+    "confidence": "widely-told",
+    "source": "wiki-vada-pav"
+   },
+   {
+    "claim": "Exact inventor and date are not firmly documented.",
+    "confidence": "disputed",
+    "source": "wiki-vada-pav"
+   }
+  ],
+  "sources": [
+   "wiki-vada-pav",
+   "wiki-maharashtrian-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "kerala-fish-curry",
+  "name": "Kerala fish curry",
+  "local_name": "മീൻ കറി",
+  "country": "india",
+  "region": "kerala",
+  "type": "curry",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "spicy",
+   "tangy",
+   "rich"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 3,
+  "summary": "Fish simmered in a red chilli and coconut-oil gravy soured with tamarind or kodampuli, eaten with rice.",
+  "story": "Fish curries are an everyday dish along Kerala's coast, where fish and rice are staples. The red colour comes from chilli powder, and the sourness from a souring fruit such as kodampuli (Malabar tamarind) or tamarind. Households and regions differ: some add coconut milk, others cook it with only coconut oil, shallots and curry leaves, and it is traditionally cooked in an earthen pot and often tastes better a day after it is made.\n\nSpices arriving through coastal trade, including black pepper, are a long part of Kerala's story, though no single origin story exists for this dish.",
+  "origin_claims": [
+   {
+    "claim": "Kerala's coastal fish curries developed as everyday home food within a long spice-trade history.",
+    "confidence": "widely-told",
+    "source": "wiki-kerala-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-kerala-cuisine",
+   "wiki-fish-curry"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "dal-baati-churma",
+  "name": "Dal baati churma",
+  "local_name": "दाल बाटी चूरमा",
+  "country": "india",
+  "region": "rajasthan",
+  "type": "other",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "aromatic",
+   "sweet"
+  ],
+  "diet": [
+   "vegetarian",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "baked",
+   "simmered"
+  ],
+  "spice_level": 2,
+  "summary": "Baked wheat balls served with spiced lentils and a sweet crumbled churma, a classic Rajasthani meal.",
+  "story": "Dal baati churma is among the best-known dishes of Rajasthan. Baati are hard, round wheat dough balls baked until crisp and then soaked in ghee, eaten with a mixed lentil dal, and with churma, a sweet crumble of crushed baati with ghee and jaggery or sugar.\n\nThe baked bread suits a dry region with little water, and it is a common festive and family meal. A popular story links baati to Mewar warriors baking dough on hot sand or embers on campaign; it is told often but is not firmly documented, so treat it as a legend.",
+  "origin_claims": [
+   {
+    "claim": "Baati originated as bread baked on embers by Mewar soldiers.",
+    "confidence": "legend",
+    "source": "wiki-dal-bati-churma"
+   },
+   {
+    "claim": "A traditional dry-region meal built around baked wheat, lentils and ghee.",
+    "confidence": "widely-told",
+    "source": "wiki-rajasthani-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-dal-bati-churma",
+   "wiki-rajasthani-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "hyderabadi-biryani",
+  "name": "Hyderabadi biryani",
+  "local_name": "హైదరాబాదీ బిర్యానీ",
+  "country": "india",
+  "region": "telangana",
+  "type": "rice-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "aromatic",
+   "rich",
+   "spicy"
+  ],
+  "diet": [
+   "gluten-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "slow-cooked"
+  ],
+  "spice_level": 3,
+  "summary": "Marinated lamb or chicken layered with basmati rice and sealed to cook slowly in its own steam.",
+  "story": "Biryani came to the Deccan with Mughal-era cooking, and Hyderabad developed its own forms under the Nizams, who ruled the state. The best-known style is kachchi (raw) biryani, where raw marinated meat is layered with part-cooked rice and sealed in a pot to cook in its own steam on a very low heat, a method called dum. The result is fragrant with saffron, mint and fried onions.\n\nHyderabadi biryani is among the city's signature foods and is made for celebrations such as Eid. Exactly how biryani spread across South Asia is debated by food historians.",
+  "origin_period": "Established under the Nizams (18th century onward)",
+  "origin_claims": [
+   {
+    "claim": "Biryani arrived in the Deccan through Mughal-era court cooking and was refined in Hyderabad.",
+    "confidence": "widely-told",
+    "source": "wiki-hyderabadi-biryani"
+   },
+   {
+    "claim": "A story that biryani was invented for a particular royal kitchen is not reliably documented.",
+    "confidence": "legend",
+    "source": "wiki-hyderabadi-biryani"
+   }
+  ],
+  "sources": [
+   "wiki-hyderabadi-biryani",
+   "wiki-hyderabadi-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "rogan-josh",
+  "name": "Rogan josh",
+  "local_name": "रोगन जोश",
+  "country": "india",
+  "region": "kashmir",
+  "type": "curry",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "aromatic",
+   "spicy"
+  ],
+  "diet": [
+   "gluten-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "slow-cooked",
+   "simmered"
+  ],
+  "spice_level": 3,
+  "summary": "Lamb slow-braised in a red Kashmiri chilli, fennel and ginger gravy, deep red and fragrant.",
+  "story": "Rogan josh is a signature meat dish of Kashmir. Its deep red colour comes from Kashmiri chilli, rather than tomato in the traditional version, and its flavour from ginger, fennel, and warm spices. The lamb is braised in oil or ghee until tender with yogurt, and the dish is served with rice.\n\nThe name is usually explained as rogan (oil or fat) and josh (heat or passion), but the exact origin of both the name and the dish is not clear. Many accounts link it to Persian-influenced Mughal cooking in Kashmir.",
+  "origin_claims": [
+   {
+    "claim": "Arrived through Persian and Mughal culinary influence in Kashmir.",
+    "confidence": "widely-told",
+    "source": "wiki-rogan-josh"
+   },
+   {
+    "claim": "The meaning of the name (oil plus heat) is commonly given but not certain.",
+    "confidence": "disputed",
+    "source": "wiki-rogan-josh"
+   }
+  ],
+  "sources": [
+   "wiki-rogan-josh",
+   "wiki-kashmiri-cuisine"
+  ],
+  "review_status": "draft"
+ }
 ]

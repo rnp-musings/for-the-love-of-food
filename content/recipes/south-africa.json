@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "bobotie-home",
+    "dish": "bobotie",
+    "title": "Cape Malay bobotie",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "white-bread",
+        "amount": 2,
+        "unit": "piece",
+        "note": "slices, crusts removed",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 1.5,
+        "unit": "tbsp",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 600,
+        "unit": "g",
+        "note": "minced; lamb also works",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "chutney",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "fruit chutney",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "apricot-jam",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 50,
+        "unit": "g",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 30,
+        "unit": "g",
+        "note": "flaked or chopped",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 4,
+        "unit": "piece",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 150,
+        "unit": "ml",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 180 C. Soak the bread in the 250 ml of milk. Squeeze out the milk, keep it, and mash the bread with a fork.",
+      "Heat the oil in a pan and soften the onions for 8 minutes. Add the garlic, curry powder and turmeric and cook for 1 minute.",
+      "Add the mince and brown it, breaking it up, for 8 to 10 minutes. Stir in the chutney, jam, raisins, vinegar, almonds, the mashed bread and salt.",
+      "Spread the mixture in a greased baking dish and press down firmly. Tuck two bay leaves into the surface.",
+      "Beat the eggs with the 150 ml of milk plus 2 tablespoons of the milk squeezed from the bread, and a pinch of salt. Pour evenly over the meat and top with the other two bay leaves.",
+      "Bake for 30 to 35 minutes until the custard is set and golden. Rest for 5 minutes and serve with yellow rice and sambals."
+    ],
+    "notes": "Yellow rice with raisins is traditional on the side; it is made by cooking rice with turmeric, cinnamon and sugar.",
+    "sources": [
+      "wiki-bobotie"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bunny-chow-home",
+    "dish": "bunny-chow",
+    "title": "Lamb bunny chow",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 90,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "grated",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "curry-leaves",
+        "amount": 10,
+        "unit": "piece",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "ground-coriander",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "chilli-powder",
+        "amount": 1.5,
+        "unit": "tsp",
+        "note": "adjust to taste",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "garam-masala",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "lamb",
+        "amount": 700,
+        "unit": "g",
+        "note": "shoulder, cubed",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 300,
+        "unit": "g",
+        "note": "chopped",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 300,
+        "unit": "g",
+        "note": "peeled, cut into 3 cm chunks",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "water",
+        "amount": 400,
+        "unit": "ml",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "white-bread",
+        "amount": 1,
+        "unit": "piece",
+        "note": "one large unsliced white loaf, cut into 4 quarters",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a heavy pot and fry the onions for 8 to 10 minutes until golden.",
+      "Add the garlic, ginger and curry leaves and fry for 1 minute. Stir in the cumin, coriander, turmeric and chilli powder for 30 seconds.",
+      "Add the lamb and brown on all sides. Add the tomatoes and salt, and cook for 5 minutes until broken down.",
+      "Pour in the water, cover and simmer on low heat for 45 minutes. Add the potatoes and cook 25 to 30 minutes more until the lamb and potatoes are tender and the gravy is thick.",
+      "Stir in the garam masala. Cut the loaf into quarters, scoop out the soft centre of each, keeping the pulled bread to use as a lid and for dipping.",
+      "Fill the hollowed bread with the curry and serve with the bread lid on top, with a carrot and onion salad if you like."
+    ],
+    "notes": "The traditional bunny uses a very soft unsliced white loaf. A bean (butter bean) curry version is also popular and is vegetarian.",
+    "sources": [
+      "wiki-bunny-chow"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "boerewors-home",
+    "dish": "boerewors",
+    "title": "Homemade boerewors",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "passive_minutes": 60,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 800,
+        "unit": "g",
+        "note": "chuck, coarsely minced",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 400,
+        "unit": "g",
+        "note": "shoulder, coarsely minced",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "pork-fat",
+        "amount": 150,
+        "unit": "g",
+        "note": "back fat, diced small",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "ground-coriander",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "toasted",
+        "group": "Spice"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "freshly ground",
+        "group": "Spice"
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "freshly grated",
+        "group": "Spice"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 0.25,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Spice"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Spice"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 60,
+        "unit": "ml",
+        "note": "brown or cider vinegar",
+        "group": "Spice"
+      },
+      {
+        "ingredient": "sausage-casing",
+        "amount": 3,
+        "unit": "piece",
+        "note": "about 3 metres of natural hog casing, rinsed and soaked",
+        "group": "Casing"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 20,
+        "unit": "g",
+        "group": "Spice"
+      }
+    ],
+    "steps": [
+      "Chill all the meat and fat well; cold meat gives a better texture. Mix the beef, pork, fat, salt, coriander, pepper, nutmeg, cloves and allspice with your hands until sticky and evenly blended.",
+      "Work in the vinegar a little at a time. Fry a small patty to taste and adjust the seasoning.",
+      "Rinse the soaked casing, thread onto a sausage stuffer and fill with the mixture, coiling it loosely without trapping air. Prick any air pockets with a pin.",
+      "Chill for at least 1 hour or overnight to let the flavours settle.",
+      "Cook on a braai or in a pan over medium heat for 15 to 20 minutes, turning once, until browned and cooked through with no pink. Avoid piercing the casing.",
+      "Serve with pap and chakalaka, or in a soft roll."
+    ],
+    "notes": "A sausage stuffer or a mincer with a stuffing attachment is needed. Always cook pork-containing sausage until well done.",
+    "sources": [
+      "wiki-boerewors"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "chakalaka-home",
+    "dish": "chakalaka",
+    "title": "Chakalaka relish",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "grated"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 1,
+        "unit": "piece",
+        "note": "diced"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "grated"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "chilli-powder",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "adjust to taste"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "chopped, or one tin"
+      },
+      {
+        "ingredient": "baked-beans",
+        "amount": 410,
+        "unit": "g",
+        "note": "one tin"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil and soften the onion for 5 minutes. Add the garlic, ginger and green pepper and cook for 3 minutes.",
+      "Add the carrots, curry powder and chilli powder and stir for 1 minute until fragrant.",
+      "Add the tomatoes and a pinch of salt and simmer for 10 minutes until thick.",
+      "Stir in the baked beans with their sauce and cook 5 minutes more.",
+      "Serve warm or at room temperature with pap, bread or braaied meat."
+    ],
+    "notes": "Chakalaka keeps in the fridge for about a week and the flavour improves overnight.",
+    "sources": [
+      "wiki-chakalaka"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "koesisters-home",
+    "dish": "koesisters",
+    "title": "Cape Malay koesisters",
+    "version": "home",
+    "servings": 12,
+    "prep_minutes": 40,
+    "cook_minutes": 25,
+    "passive_minutes": 75,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "one sachet instant dried yeast",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 80,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 100,
+        "unit": "g",
+        "note": "boiled and mashed",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 50,
+        "unit": "g",
+        "note": "melted",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 200,
+        "unit": "ml",
+        "note": "warm",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "anise-seed",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "l",
+        "note": "for deep frying",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 300,
+        "unit": "g",
+        "group": "Syrup"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Syrup"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick",
+        "group": "Syrup"
+      },
+      {
+        "ingredient": "coconut",
+        "amount": 80,
+        "unit": "g",
+        "note": "desiccated",
+        "group": "To finish"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Make the syrup first: simmer the sugar, water and cinnamon stick for 10 minutes until slightly thick. Cool completely, then chill.",
+      "Mix the flour, yeast, sugar, spices and a pinch of salt. Add the potato, butter, egg and milk and knead for 10 minutes until smooth and soft. The dough should be slightly sticky.",
+      "Cover and prove in a warm place for 1 hour until doubled.",
+      "Knock back, then shape into oval or round patties about 6 cm across, about 60 g each. Rest for 15 minutes.",
+      "Heat the oil to about 170 C. Fry the koesisters in batches for 3 to 4 minutes per side until deep golden and cooked through.",
+      "Drain briefly on paper and, while still hot, dunk each in the cold syrup for about 20 seconds. Roll in the desiccated coconut and serve the same day."
+    ],
+    "notes": "The contrast of hot dough with cold syrup is what gives the koesisters their syrupy but light finish.",
+    "sources": [
+      "wiki-koesister"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "biltong-home",
+    "dish": "biltong",
+    "title": "Homemade beef biltong",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "passive_minutes": 7200,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 1,
+        "unit": "kg",
+        "note": "silverside or topside, in one piece",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 120,
+        "unit": "ml",
+        "note": "brown malt or cider vinegar",
+        "group": "Cure"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 30,
+        "unit": "g",
+        "note": "coarse",
+        "group": "Cure"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 15,
+        "unit": "g",
+        "note": "brown sugar",
+        "group": "Cure"
+      },
+      {
+        "ingredient": "ground-coriander",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "dry-toasted and coarsely crushed",
+        "group": "Cure"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "coarsely ground",
+        "group": "Cure"
+      }
+    ],
+    "steps": [
+      "Trim the beef of most fat and cut with the grain into strips about 2.5 cm thick and 20 cm long.",
+      "Mix the salt, sugar, coriander and pepper. Lay the beef in a non-metal dish, sprinkle with the vinegar and the spice mix and turn to coat. Cover and refrigerate for 8 to 12 hours.",
+      "Shake off excess spice and pat dry. Hang the strips from hooks in a ventilated box or well-aired cupboard, with a small fan or a low-wattage bulb for gentle warmth, keeping air moving but not hot.",
+      "Dry for 4 to 6 days, depending on humidity and thickness, until the meat is firm outside and just soft in the centre when pressed.",
+      "Slice thinly against the grain and store in a paper bag in a cool place for a few days, or in the freezer for longer."
+    ],
+    "notes": "Use clean equipment and fresh meat, and keep the drying space dry and ventilated to avoid spoilage. Cut thinner strips for a drier result.",
+    "sources": [
+      "wiki-biltong"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "umngqusho-home",
+    "dish": "umngqusho",
+    "title": "Samp and beans (umngqusho)",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 180,
+    "passive_minutes": 720,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "samp",
+        "amount": 300,
+        "unit": "g",
+        "note": "dried",
+        "group": "Pot"
+      },
+      {
+        "ingredient": "sugar-beans",
+        "amount": 200,
+        "unit": "g",
+        "note": "dried",
+        "group": "Pot"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.8,
+        "unit": "l",
+        "group": "Pot"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Flavour"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Flavour"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced, adjust to taste",
+        "group": "Flavour"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Flavour"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Rinse the samp and beans and soak them together in plenty of cold water overnight, 8 to 12 hours. Drain.",
+      "Put them in a heavy pot with the fresh water. Bring to a boil, skim off any foam, then cover and simmer on low heat for 2 to 2.5 hours, stirring occasionally, until the samp is tender. Top up with hot water if it runs dry.",
+      "Meanwhile, heat the oil and fry the onion for 8 minutes until golden. Add the garlic and chilli and cook for 1 more minute.",
+      "When the samp and beans are soft and creamy, stir in the onion mixture and salt. Simmer for 20 minutes more.",
+      "Serve as a side with braaied meat or stew, or on its own as a main."
+    ],
+    "notes": "Samp takes a long time to soften; a pressure cooker cuts the cooking time to about 50 minutes. Some cooks add a potato or a splash of butter at the end.",
+    "sources": [
+      "wiki-umngqusho"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "potjiekos-home",
+    "dish": "potjiekos",
+    "title": "Beef potjiekos",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 180,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Base"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Base"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 1,
+        "unit": "kg",
+        "note": "stewing beef or lamb shanks, cut in large pieces",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "group": "Base"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried",
+        "group": "Base"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Base"
+      },
+      {
+        "ingredient": "red-wine",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Liquid"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 250,
+        "unit": "ml",
+        "note": "beef",
+        "group": "Liquid"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 4,
+        "unit": "piece",
+        "note": "cut into chunks",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 600,
+        "unit": "g",
+        "note": "peeled, in large chunks",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": 300,
+        "unit": "g",
+        "note": "cut into wedges",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Light a fire and let it burn down to steady hot coals, or use a heavy casserole in a 160 C oven. Heat the oil in the pot.",
+      "Brown the meat in batches, seasoning with salt and pepper, and remove. Soften the onions in the same pot for 5 minutes.",
+      "Return the meat to the pot, add the garlic, thyme and bay leaves, then pour in the wine and stock. Cover and simmer very gently for 1.5 hours.",
+      "Without stirring, layer on the carrots, then the potatoes, then the cabbage, adding a splash of water if the pot is dry. Cover again.",
+      "Cook for another 1 to 1.5 hours until the meat and vegetables are tender. Keep the heat low; add or remove coals to control it.",
+      "Serve with rice or fresh bread, tasting for seasoning first."
+    ],
+    "notes": "Traditionally the lid is lifted as little as possible and nothing is stirred, so the layers cook in steam. Oven cooking gives a similar result indoors.",
+    "sources": [
+      "wiki-potjiekos"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "malva-pudding-home",
+    "dish": "malva-pudding",
+    "title": "Malva pudding with cream sauce",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 150,
+        "unit": "g",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 150,
+        "unit": "g",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "apricot-jam",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "melted",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "baking-soda",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 125,
+        "unit": "ml",
+        "group": "Pudding"
+      },
+      {
+        "ingredient": "cream",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 100,
+        "unit": "g",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 100,
+        "unit": "g",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "water",
+        "amount": 125,
+        "unit": "ml",
+        "note": "hot",
+        "group": "Sauce"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 180 C and grease a 1.5 litre ovenproof dish.",
+      "Whisk the egg and sugar until thick and pale, about 3 minutes. Beat in the apricot jam and melted butter.",
+      "Dissolve the baking soda in the vinegar and stir in. Fold in the flour alternately with the milk until just combined.",
+      "Pour into the dish and bake for 35 to 40 minutes until risen, deep golden and a skewer comes out clean.",
+      "While the pudding bakes, gently heat the cream, butter, sugar and hot water until the butter melts and the sugar dissolves.",
+      "Prick the hot pudding all over with a skewer and pour the hot sauce over. Leave to soak for 10 minutes and serve warm with custard or ice cream."
+    ],
+    "notes": "It reheats well in a low oven. The pudding should be pricked well so the sauce soaks all the way through.",
+    "sources": [
+      "wiki-malva-pudding"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "vetkoek-home",
+    "dish": "vetkoek",
+    "title": "Vetkoek with savoury mince",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "passive_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "one sachet instant yeast",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "water",
+        "amount": 300,
+        "unit": "ml",
+        "note": "lukewarm, as needed",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "l",
+        "note": "for deep frying",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Mince"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Mince"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "group": "Mince"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 400,
+        "unit": "g",
+        "note": "minced",
+        "group": "Mince"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Mince"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 200,
+        "unit": "g",
+        "note": "chopped",
+        "group": "Mince"
+      }
+    ],
+    "steps": [
+      "Mix the flour, yeast, sugar and salt. Add the water gradually and knead for 8 to 10 minutes to a soft, slightly sticky dough.",
+      "Cover and leave in a warm place for 1 hour until doubled in size.",
+      "Meanwhile, soften the onion in the oil for 6 minutes, add the garlic and mince and brown for 8 minutes. Stir in the curry powder and tomatoes, season with salt and simmer for 15 minutes until thick and dry.",
+      "Divide the dough into 8 pieces and shape each into a ball. Rest for 10 minutes.",
+      "Heat the oil to about 170 C. Fry the balls a few at a time, turning, for 5 to 6 minutes until deep golden and cooked through; if the oil is too hot the centre stays raw.",
+      "Drain, split open while hot and fill with the mince. Serve at once."
+    ],
+    "notes": "The dough alone is vegan; the mince filling here contains beef. Fill with jam or syrup for a sweet version.",
+    "sources": [
+      "wiki-vetkoek"
+    ],
+    "review_status": "draft"
+  }
+]

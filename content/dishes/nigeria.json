@@ -1,0 +1,416 @@
+[
+  {
+    "id": "jollof-rice",
+    "name": "Jollof rice",
+    "local_name": "Jollof rice",
+    "country": "nigeria",
+    "type": "rice-dish",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "spicy",
+      "umami",
+      "smoky"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 3,
+    "summary": "Long-grain rice cooked in a rich tomato, red pepper and scotch bonnet base until each grain is coloured and fragrant.",
+    "story": "Jollof rice is a one-pot dish found across West Africa, and in Nigeria it is the standard rice at parties, weddings and Sunday meals. It is usually said to descend from the Wolof rice-and-fish dish of Senegambia, which spread through the region, though how it travelled is not fully documented. Nigerian cooks typically fry a blended base of tomatoes, red peppers and scotch bonnets until the water has cooked off, then steam the rice in it so it takes on a deep orange-red colour. A slight scorch at the bottom, called party jollof, is prized by many.\n\nWhich country makes the best jollof, Nigeria or Ghana above all, is a long-running good-natured argument that has spilled into social media and food events.",
+    "origin_claims": [
+      {
+        "claim": "The dish is generally traced to the Wolof people of Senegambia and their rice-and-fish dish, spreading across West Africa from there.",
+        "confidence": "widely-told",
+        "source": "wiki-jollof-rice"
+      },
+      {
+        "claim": "Nigeria and Ghana each claim the best version; this is a cultural rivalry, not a historical dispute.",
+        "confidence": "widely-told",
+        "source": "wiki-jollof-rice"
+      }
+    ],
+    "sources": [
+      "wiki-jollof-rice",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egusi-soup",
+    "name": "Egusi soup",
+    "local_name": "Obe egusi / Ofe egusi",
+    "country": "nigeria",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "spicy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "sauteed"
+    ],
+    "spice_level": 3,
+    "summary": "A thick soup of ground melon seeds cooked in palm oil with leafy greens, meat or fish and peppers, eaten with swallow foods like pounded yam.",
+    "story": "Egusi is the name for the protein-rich seeds of certain gourd and melon plants, ground and used to thicken soups in many parts of West and Central Africa. In Nigeria egusi soup is made across ethnic groups, with Yoruba, Igbo and other communities each preferring their own way of cooking it, such as dropping the egusi in clumps or stirring it in smooth. It is eaten with pounded yam, eba (cassava dough) or other swallows, and often features at celebrations because it is filling and rich.\n\nBecause the seeds are widely used in the region, no single place can be named as its origin.",
+    "origin_claims": [
+      {
+        "claim": "Egusi seeds have been used as a soup thickener across West Africa for a very long time, and no single place of origin is established.",
+        "confidence": "widely-told",
+        "source": "wiki-egusi"
+      }
+    ],
+    "sources": [
+      "wiki-egusi",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "suya",
+    "name": "Suya",
+    "local_name": "Tsire / Suya",
+    "country": "nigeria",
+    "region": "hausa",
+    "type": "street-food",
+    "course": [
+      "snack",
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "smoky",
+      "umami"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "gluten-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 4,
+    "summary": "Thin slices of beef grilled on skewers and rubbed with a spicy ground peanut mixture called yaji.",
+    "story": "Suya is the best-known grilled meat of northern Nigeria, associated with the Hausa, and today it is sold at roadside grills and night stands across the country. Thin slices of beef, sometimes ram, chicken or offal, are coated in yaji, a dry rub of ground roasted peanuts, ginger, paprika, chilli and other spices, then grilled over open heat. It is eaten straight from the paper with raw onion, tomato and extra yaji. In the north the sellers are often called mai suya.",
+    "origin_claims": [
+      {
+        "claim": "Suya is generally credited to the Hausa of northern Nigeria and spread south with migration and trade.",
+        "confidence": "widely-told",
+        "source": "wiki-suya"
+      }
+    ],
+    "sources": [
+      "wiki-suya",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pounded-yam",
+    "name": "Pounded yam",
+    "local_name": "Iyan",
+    "country": "nigeria",
+    "region": "yoruba",
+    "type": "other",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "Boiled yam beaten into a smooth, stretchy dough, eaten by hand with soups and stews.",
+    "story": "Pounded yam, called iyan in Yoruba, is one of the most prized swallow foods of southern Nigeria. White yam is peeled and boiled, then pounded with a heavy pestle in a wooden mortar until it forms a smooth elastic dough. Pieces are pinched off, rolled into balls, dipped in soup and swallowed rather than chewed. Pounding is hard work and the dish is associated with celebrations and respected guests. Today many cooks make the dough with a stand mixer, a food processor, or with instant yam flour.",
+    "origin_claims": [
+      {
+        "claim": "Yam cultivation has deep roots in West Africa, and pounded yam is a long-established way to prepare it among the Yoruba and neighbouring groups.",
+        "confidence": "widely-told",
+        "source": "wiki-pounded-yam"
+      }
+    ],
+    "sources": [
+      "wiki-pounded-yam",
+      "wiki-yam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moi-moi",
+    "name": "Moi moi",
+    "local_name": "Mọ́ín mọ́ín",
+    "country": "nigeria",
+    "region": "yoruba",
+    "type": "other",
+    "course": [
+      "main",
+      "side",
+      "breakfast"
+    ],
+    "flavours": [
+      "umami",
+      "spicy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "steamed"
+    ],
+    "spice_level": 2,
+    "summary": "A soft steamed pudding of skinned black-eyed peas blended with peppers and onion.",
+    "story": "Moi moi, also written moin moin, is a Yoruba dish of cowpeas that are soaked, skinned and blended with peppers, onion and oil, then steamed until set like a savoury custard. It is traditionally cooked in leaves, such as banana or uma leaves, and today often in foil packets, ramekins or tins. It is served at breakfast with pap, as a side to jollof rice at parties, or on its own. Cooks add boiled eggs, fish or corned beef inside for a richer version, while the plain version is vegan.",
+    "origin_claims": [
+      {
+        "claim": "A Yoruba bean dish steamed in leaves; the precise age of the dish is not documented.",
+        "confidence": "widely-told",
+        "source": "wiki-moi-moi"
+      }
+    ],
+    "sources": [
+      "wiki-moi-moi",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "akara",
+    "name": "Akara",
+    "local_name": "Àkàrà",
+    "country": "nigeria",
+    "region": "yoruba",
+    "type": "snack",
+    "course": [
+      "breakfast",
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "spicy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 2,
+    "summary": "Crisp-edged, fluffy fritters of skinned black-eyed peas, onion and pepper, fried in hot oil.",
+    "story": "Akara is a Yoruba street breakfast of black-eyed pea batter deep-fried in spoonfuls, usually eaten with pap (ogi), bread or custard. The same bean fritter travelled across the Atlantic with enslaved West Africans and survives in Brazil as acarajé, particularly in Bahia, where it has deep religious and cultural importance. Akara sellers are often women frying fresh batches at dawn, and the whipping of the batter to add air is key to the light texture.",
+    "origin_claims": [
+      {
+        "claim": "Akara is a long-standing Yoruba dish, and the Brazilian acarajé is generally accepted to descend from it.",
+        "confidence": "well-documented",
+        "source": "wiki-akara"
+      }
+    ],
+    "sources": [
+      "wiki-akara"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ofada-stew",
+    "name": "Ofada stew",
+    "local_name": "Ẹ̀bẹ̀ ayamase",
+    "country": "nigeria",
+    "region": "yoruba",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "smoky",
+      "umami"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "sauteed"
+    ],
+    "spice_level": 4,
+    "summary": "A fiery stew of green peppers, scotch bonnets and palm oil with locust beans and meat, traditionally served with local ofada rice.",
+    "story": "Ofada stew, also known as ayamase, is a south-western Nigerian stew linked with ofada rice, an unpolished local rice grown in Ogun state, named for the town of Ofada. The stew is made from blended green bell peppers and hot scotch bonnets cooked down in palm oil until the oil separates, with fermented locust beans for savoury depth and assorted meats. The palm oil is traditionally heated until it darkens and turns smoky, which gives the stew its distinctive flavour. It was long served wrapped in leaves with the rice and is now a common feature at Yoruba parties.",
+    "origin_claims": [
+      {
+        "claim": "The rice is named after Ofada town in Ogun State; the stew is closely tied to it, though the exact history of the combination is not well documented.",
+        "confidence": "widely-told",
+        "source": "wiki-ofada-rice"
+      }
+    ],
+    "sources": [
+      "wiki-ofada-rice",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ji-mmanu",
+    "name": "Ji mmanu (yam with palm oil sauce)",
+    "local_name": "Jī mmanụ",
+    "country": "nigeria",
+    "region": "igbo",
+    "type": "other",
+    "course": [
+      "main",
+      "breakfast"
+    ],
+    "flavours": [
+      "rich",
+      "spicy",
+      "smoky"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "roasted",
+      "boiled"
+    ],
+    "spice_level": 2,
+    "summary": "Roasted or boiled yam eaten with a warm sauce of palm oil, onion and hot pepper.",
+    "story": "The words ji mmanu in Igbo mean yam and oil, and the dish is a simple, celebrated way of eating the staple. Yam is roasted over open coals or boiled, then dipped into palm oil seasoned with pepper and sometimes onion or ground crayfish. It is closely associated with the New Yam Festival, where the first harvest is eaten in this plain way, and it is also an everyday breakfast or snack in the south-east and elsewhere in southern Nigeria.",
+    "origin_claims": [
+      {
+        "claim": "Yam with palm oil is a traditional pairing among the Igbo and features in the first meal of the New Yam Festival.",
+        "confidence": "widely-told",
+        "source": "wiki-igbo-yam-festivals"
+      }
+    ],
+    "sources": [
+      "wiki-igbo-yam-festivals",
+      "wiki-yam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banga-soup",
+    "name": "Banga soup",
+    "local_name": "Banga",
+    "country": "nigeria",
+    "region": "niger-delta",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "spicy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 3,
+    "summary": "A thick orange-red soup made from palm fruit extract with meat, fish and aromatic spices, from the Niger Delta.",
+    "story": "Banga soup is a palm fruit soup of the Urhobo, Isoko and neighbouring peoples of the Niger Delta, and similar palm-fruit soups are made by other coastal groups under other names, such as ofe akwu among the Igbo. Cooks boil the palm fruits, pound them and strain out the pulp, which is simmered with aromatic spices, peppers, fish and meat until the oil rises. In the Urhobo tradition it is eaten with starch, a smooth cassava-starch swallow, and it can also be served with pounded yam, eba or rice.",
+    "origin_claims": [
+      {
+        "claim": "Banga soup is closely identified with the Urhobo and Isoko peoples of the Niger Delta, with related palm-fruit soups elsewhere in southern Nigeria.",
+        "confidence": "widely-told",
+        "source": "wiki-banga-soup"
+      }
+    ],
+    "sources": [
+      "wiki-banga-soup",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fura-da-nono",
+    "name": "Fura da nono",
+    "local_name": "Fura da nono",
+    "country": "nigeria",
+    "region": "hausa",
+    "type": "drink",
+    "course": [
+      "drink",
+      "snack"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "fermented"
+    ],
+    "spice_level": 1,
+    "summary": "Spiced millet balls crumbled into soured milk, a cooling Hausa and Fulani drink and light meal.",
+    "story": "Fura is a ball of ground millet seasoned with ginger, cloves and pepper that is crumbled into a gourd or bowl of nono, a soured cow's milk, to make a refreshing, slightly tangy drink thick enough to eat with a spoon. It is a long-established food of the Hausa and Fulani of northern Nigeria and the wider Sahel, where pastoralists keep cattle. In the north it is sold by hawkers, often women carrying gourds, and drunk especially in hot weather. Nono is a fermented dairy drink; fura on its own is also made as a snack.",
+    "origin_claims": [
+      {
+        "claim": "A traditional food of the Fulani and Hausa of the Sahel region, linked to cattle-keeping communities.",
+        "confidence": "widely-told",
+        "source": "wiki-fura"
+      }
+    ],
+    "sources": [
+      "wiki-fura",
+      "wiki-nigerian-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

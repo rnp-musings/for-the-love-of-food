@@ -1,0 +1,623 @@
+[
+  {
+    "id": "doro-wat-home",
+    "dish": "doro-wat",
+    "title": "Doro wat",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "passive_minutes": 20,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "legs and thighs, skin removed"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 1,
+        "unit": "kg",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "niter-kibbeh",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 6,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "grated"
+      },
+      {
+        "ingredient": "berbere",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 6,
+        "unit": "piece",
+        "note": "hard-boiled, peeled"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Wash the chicken with the lemon juice and a pinch of salt, then leave it for 20 minutes.",
+      "Put the onions in a wide heavy pot over medium-low heat with no fat. Cook for 25 to 30 minutes, stirring often and adding a splash of water if they stick, until they are reduced, soft and sweet.",
+      "Add the niter kibbeh, garlic and ginger and cook for 10 minutes, then stir in the berbere and cook for 15 minutes, until the sauce is a thick dark red paste.",
+      "Add the chicken and water, turn to coat, cover and simmer on low for 45 minutes, stirring now and then.",
+      "Prick the eggs lightly with a fork and add them. Simmer 10 minutes more, until the sauce is thick and the chicken is tender. Adjust the salt. Serve with injera."
+    ],
+    "notes": "The long cooking of the onions is the secret to the sauce. A tablespoon of tej or white wine can be added with the chicken.",
+    "sources": [
+      "wiki-doro-wat"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-injera-home",
+    "dish": "ethiopian-injera",
+    "title": "Injera",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "passive_minutes": 4320,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "teff-flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 700,
+        "unit": "ml",
+        "note": "plus extra for the starter"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 0.25,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Mix the teff flour with 500 ml of the water in a large bowl. Add the yeast if using. Cover with a cloth and leave at room temperature for 2 to 3 days, until bubbly and sour-smelling. A layer of water forms on top.",
+      "Pour off the water on top. Bring 100 ml of the remaining water to a boil, whisk in 3 tbsp of the batter to make a paste, and stir it back into the batter. Add water gradually until it has the consistency of thin crepe batter. Rest 30 minutes and add the salt.",
+      "Heat a lightly oiled non-stick pan of about 28 cm over medium heat. Pour in a ladle of batter and swirl in a spiral from the outside in, covering the pan.",
+      "Cover and cook for 2 to 3 minutes, without flipping, until the surface is covered in small holes and the edges lift. Slide onto a cloth.",
+      "Cool each injera flat, not stacked, before piling them. Cover until serving."
+    ],
+    "notes": "Traditional injera is cooked on a clay mitad; a non-stick pan with a lid is a workable home substitute. Check pure teff flour if gluten matters.",
+    "sources": [
+      "wiki-injera"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "shiro-home",
+    "dish": "shiro",
+    "title": "Shiro wat",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "shiro-powder",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "berbere",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped",
+        "optional": true
+      },
+      {
+        "ingredient": "water",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Cook the onion in a dry pan on medium heat for 5 minutes, then add the oil, garlic and berbere and cook another 3 minutes.",
+      "Add the tomato if using and cook until soft.",
+      "Whisk the shiro powder into the cold water until there are no lumps. Pour into the pan, stirring.",
+      "Bring to a simmer, lower the heat and cook for 20 minutes, stirring often, until thick and smooth. Add water if it gets too thick. Season with salt.",
+      "Serve hot on injera."
+    ],
+    "notes": "If you cannot find shiro powder, use chickpea flour (besan) with an extra pinch of berbere and a little garlic and ginger powder.",
+    "sources": [
+      "wiki-shiro"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "kitfo-home",
+    "dish": "kitfo",
+    "title": "Kitfo",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "very fresh lean cut, trimmed"
+      },
+      {
+        "ingredient": "niter-kibbeh",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "mitmita",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "cottage-cheese",
+        "amount": 150,
+        "unit": "g",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      "Chill the beef well, then chop it by hand or mince it coarsely in a grinder. Keep it cold.",
+      "Warm the niter kibbeh gently in a small pan until just melted. Stir in the mitmita and cardamom, off the heat.",
+      "Mix the spiced butter into the beef with the salt. Warm very gently in a pan for 1 to 2 minutes if you want it leb leb (warmed), or cook further, until done to your liking, for a fully cooked version.",
+      "Serve with cottage cheese, injera and a side of gomen."
+    ],
+    "notes": "If serving raw, use the freshest beef from a trusted butcher. Cook through for children, pregnant guests or if unsure of the meat.",
+    "sources": [
+      "wiki-kitfo"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-tibs-home",
+    "dish": "ethiopian-tibs",
+    "title": "Beef tibs",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 600,
+        "unit": "g",
+        "note": "sirloin, cut in 2 cm cubes"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "niter-kibbeh",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 1,
+        "unit": "piece",
+        "note": "diced",
+        "optional": true
+      },
+      {
+        "ingredient": "berbere",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat a wide pan very hot and add the niter kibbeh and onions. Cook for 3 minutes until just softened.",
+      "Add the beef in a single layer and sear without stirring for 2 minutes, then toss and cook for another 4 minutes.",
+      "Add the garlic, chilli, rosemary and berbere and tomato if using. Cook for 3 minutes more until the meat is browned and the liquid has cooked off.",
+      "Season and serve immediately with injera."
+    ],
+    "sources": [
+      "wiki-tibs"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "misir-wat-home",
+    "dish": "misir-wat",
+    "title": "Misir wat",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "red-lentils",
+        "amount": 300,
+        "unit": "g",
+        "note": "rinsed"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "grated"
+      },
+      {
+        "ingredient": "berbere",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Cook the onions in a dry pot over medium heat for 8 minutes, stirring, adding a splash of water if they stick.",
+      "Add the oil, garlic and ginger and cook for 3 minutes. Stir in the berbere and tomato paste and cook for 5 minutes.",
+      "Add the lentils and water. Bring to a boil, then simmer on low for 25 minutes, stirring often, until the lentils are completely soft and the stew is thick.",
+      "Season with salt and serve with injera."
+    ],
+    "sources": [
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "gomen-home",
+    "dish": "gomen",
+    "title": "Gomen",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "collard-greens",
+        "amount": 600,
+        "unit": "g",
+        "note": "stems removed, finely chopped"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "grated"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Boil the collards in salted water for 10 minutes, then drain well and squeeze out the water.",
+      "Cook the onion in the oil over medium heat for 8 minutes until soft.",
+      "Add the garlic, ginger and chilli and cook for 2 minutes. Add the collards and the water.",
+      "Cover and simmer for 15 minutes, until the greens are very tender and the liquid has gone. Season with salt and serve."
+    ],
+    "notes": "Swap the oil for niter kibbeh on non-fasting days.",
+    "sources": [
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-tej-home",
+    "dish": "ethiopian-tej",
+    "title": "Tej",
+    "version": "home",
+    "servings": 12,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "passive_minutes": 30240,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "honey",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2.5,
+        "unit": "l",
+        "note": "non-chlorinated, boiled and cooled"
+      },
+      {
+        "ingredient": "gesho",
+        "amount": 20,
+        "unit": "g",
+        "note": "dried stems and leaves"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 0.25,
+        "unit": "tsp",
+        "note": "optional, wine yeast",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Sterilise a large glass jar (4 l) with boiling water and let it cool.",
+      "Boil 500 ml of the water with the gesho for 10 minutes, then cool completely.",
+      "Dissolve the honey in 500 ml of warm water, add the rest of the water, and add the cooled gesho tea with the gesho. Add the yeast if using.",
+      "Cover the jar with a cloth or fit an airlock. Leave in a warm place for 2 to 4 weeks, stirring briefly every few days if using a cloth.",
+      "When bubbling slows and the taste is as dry as you like, strain, bottle and refrigerate. Drink within a few weeks."
+    ],
+    "notes": "Strength and sweetness depend on fermentation time. Fermentation produces gas, so keep the jar vented.",
+    "sources": [
+      "wiki-tej"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-buna-home",
+    "dish": "ethiopian-buna",
+    "title": "Buna",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "green-coffee-beans",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Rinse the green beans and dry them. Roast in a heavy pan over medium heat for 10 to 15 minutes, stirring or shaking constantly, until dark brown and shiny with a little oil.",
+      "Let the beans cool for a few minutes, then grind finely with a mortar and pestle or a grinder.",
+      "Heat the water in a jebena or small pot until boiling. Add the ground coffee and stir.",
+      "Bring back to a boil, remove from the heat for a minute, and repeat twice more. Let it settle for 2 minutes without stirring.",
+      "Pour slowly into small cups and add sugar if you like. Serve with popcorn or bread, and refill twice."
+    ],
+    "notes": "In the full ceremony, incense is burned and the coffee is served in three rounds.",
+    "sources": [
+      "wiki-ethiopian-coffee-ceremony"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "firfir-home",
+    "dish": "firfir",
+    "title": "Firfir",
+    "version": "home",
+    "servings": 3,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "injera",
+        "amount": 300,
+        "unit": "g",
+        "note": "stale or fresh, torn into 3 cm pieces"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "berbere",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "water",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Cook the onion in a dry pan over medium heat for 5 minutes, then add the oil and garlic and cook for 2 minutes.",
+      "Add the berbere and tomato and cook for 3 minutes. Add the water and simmer for 5 minutes to make a loose sauce.",
+      "Add the injera pieces and toss for 2 to 3 minutes until they have soaked up the sauce.",
+      "Season with salt and serve right away, with a spoon or more injera."
+    ],
+    "notes": "Non-fasting versions use niter kibbeh instead of oil or add chopped cooked meat.",
+    "sources": [
+      "wiki-fit-fit"
+    ],
+    "review_status": "draft"
+  }
+]

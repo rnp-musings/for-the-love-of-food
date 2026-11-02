@@ -1,0 +1,399 @@
+[
+ {
+  "id": "asado",
+  "name": "Asado",
+  "country": "argentina",
+  "region": "argentine-pampas",
+  "type": "grill-bbq",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "salty",
+   "rich"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "grilled"
+  ],
+  "spice_level": 0,
+  "summary": "A long, social barbecue of beef ribs, sausages and offal cooked slowly over wood embers on a grill, seasoned with coarse salt.",
+  "story": "Asado means both the food and the gathering. A fire is prepared well ahead, and the asador slowly grills a series of cuts on a parrilla: beef ribs (tira de asado), flank, sausages such as chorizo and morcilla, and sometimes sweetbreads. Seasoning is usually coarse salt, with chimichurri on the side. It is typically a weekend family occasion. Cattle-herding gauchos of the Pampas cooked beef over open fires from the colonial period, and this is the commonly told ancestry of the modern asado, shared with Uruguay and southern Brazil.",
+  "origin_period": "Colonial era onward",
+  "origin_claims": [
+   {
+    "claim": "Asado descends from the open-fire meat cooking of gaucho cattle herders on the Pampas.",
+    "confidence": "widely-told",
+    "source": "wiki-asado"
+   }
+  ],
+  "sources": [
+   "wiki-asado",
+   "wiki-argentine-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "locro",
+  "name": "Locro",
+  "country": "argentina",
+  "region": "argentine-northwest",
+  "type": "stew",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "umami",
+   "smoky"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "slow-cooked",
+   "simmered"
+  ],
+  "spice_level": 1,
+  "summary": "A thick, hearty stew of white corn, beans, squash and several cuts of meat, linked to the national holidays of 25 May and 9 July.",
+  "story": "Locro is an Andean corn stew eaten across the highlands of South America, with local versions in Ecuador, Peru and Bolivia. The Argentine version combines hominy, white beans, pumpkin, beef, pork and sausages, simmered for hours, and is served with a spiced topping of spring onion and paprika oil. It is especially made on 25 May, the day of the May Revolution, and 9 July, Independence Day, when it is regarded as a patriotic dish. The name is believed to come from Quechua. Pre-Hispanic maize-and-squash stews are its ancestors, though the cuts of meat in today's dish reflect Spanish influence.",
+  "origin_period": "Pre-Hispanic roots",
+  "origin_claims": [
+   {
+    "claim": "Locro derives from pre-Hispanic Andean stews of maize, squash and beans, with meat added after the Spanish arrival.",
+    "confidence": "widely-told",
+    "source": "wiki-locro"
+   }
+  ],
+  "sources": [
+   "wiki-locro"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "empanadas-de-salta",
+  "name": "Empanadas salteñas",
+  "local_name": "Empanadas salteñas",
+  "country": "argentina",
+  "region": "argentine-northwest",
+  "type": "street-food",
+  "course": [
+   "snack",
+   "starter",
+   "main"
+  ],
+  "flavours": [
+   "umami",
+   "spicy",
+   "aromatic"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "baked"
+  ],
+  "spice_level": 2,
+  "summary": "Small, juicy baked empanadas of hand-chopped beef, onion, cumin and egg, with a hand-pleated edge, from the province of Salta.",
+  "story": "Every Argentine province has its own empanada, and the Salta type is famous for its filling of knife-cut beef, plenty of onion and spring onion, cumin, paprika and often hard-boiled egg, baked in a thin lard-enriched pastry and closed with a decorative braided edge (repulgue). The empanada is a Spanish-introduced pastry idea, itself with older Middle Eastern roots, that was adapted with local spices. In Salta they are eaten at celebrations, patriotic holidays like 25 May and everyday meals, and there is a friendly rivalry with neighbouring Tucuman over whose is best.",
+  "origin_claims": [
+   {
+    "claim": "Empanadas arrived with Spanish colonists and were adapted with local ingredients in the Andean north.",
+    "confidence": "widely-told",
+    "source": "wiki-empanada"
+   }
+  ],
+  "sources": [
+   "wiki-empanada",
+   "wiki-argentine-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "milanesa-napolitana",
+  "name": "Milanesa napolitana",
+  "country": "argentina",
+  "region": "argentine-pampas",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "salty",
+   "rich",
+   "tangy"
+  ],
+  "diet": [
+   "nut-free"
+  ],
+  "cook_methods": [
+   "fried",
+   "baked"
+  ],
+  "spice_level": 0,
+  "summary": "A breaded beef cutlet topped with tomato sauce, ham and melted cheese, a staple of Buenos Aires restaurants.",
+  "story": "The milanesa came to Argentina with Italian immigrants, as a cousin of the cotoletta alla milanese. In Argentina it is usually made with beef and breadcrumbs, and has become a household and tavern staple. The napolitana version, topped with tomato sauce and cheese and often ham, is associated with Buenos Aires, although the dish does not have the Naples origin its name suggests. A popular story attributes it to a Buenos Aires restaurant called Napoli in the mid-20th century, but this is not firmly documented.",
+  "origin_period": "20th century",
+  "origin_claims": [
+   {
+    "claim": "The milanesa was brought by Italian immigrants in the 19th and 20th centuries.",
+    "confidence": "widely-told",
+    "source": "wiki-milanesa"
+   },
+   {
+    "claim": "The napolitana topping was devised in a Buenos Aires restaurant in the 20th century.",
+    "confidence": "disputed",
+    "source": "wiki-milanesa"
+   }
+  ],
+  "sources": [
+   "wiki-milanesa",
+   "wiki-argentine-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "chimichurri",
+  "name": "Chimichurri",
+  "country": "argentina",
+  "type": "sauce",
+  "course": [
+   "side"
+  ],
+  "flavours": [
+   "tangy",
+   "aromatic",
+   "spicy"
+  ],
+  "diet": [
+   "vegetarian",
+   "vegan",
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "raw"
+  ],
+  "spice_level": 1,
+  "summary": "A vivid, uncooked sauce of parsley, garlic, oregano, vinegar and oil, served with grilled meat.",
+  "story": "Chimichurri is the table sauce of the Argentine asado, also common in Uruguay and elsewhere. It is made from finely chopped parsley, garlic, dried oregano, chilli flakes, vinegar and oil, left to rest so the flavours blend. Its name has many explanations: one story says it comes from a Basque word, another claims it comes from the nickname of an Englishman called Jimmy McCurry, but there is no firm evidence for either, so the name's origin should be treated as unknown.",
+  "origin_claims": [
+   {
+    "claim": "The name comes from a Basque word.",
+    "confidence": "legend",
+    "source": "wiki-chimichurri"
+   },
+   {
+    "claim": "The name derives from an English or Irish man named Jimmy McCurry.",
+    "confidence": "legend",
+    "source": "wiki-chimichurri"
+   }
+  ],
+  "sources": [
+   "wiki-chimichurri"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "alfajores-de-maicena",
+  "name": "Alfajores de maicena",
+  "country": "argentina",
+  "type": "pastry",
+  "course": [
+   "dessert",
+   "snack"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "baked"
+  ],
+  "spice_level": 0,
+  "summary": "Delicate cornstarch shortbread sandwiches filled with dulce de leche and rolled in coconut.",
+  "story": "Alfajores are sandwich cookies found across Latin America, and Argentina has many forms, from chocolate-covered industrial ones to the tender cornstarch version, alfajores de maicena, which crumbles on the tongue. The word is generally traced to an Arabic term for a sweet, with the confection reaching the Americas through Spain. The Argentine versions use dulce de leche, a slow-cooked sweet milk caramel whose own origin is argued over by several South American countries.",
+  "origin_claims": [
+   {
+    "claim": "Alfajores came to the Americas through Spain, with Arabic origins for the name and sweet.",
+    "confidence": "widely-told",
+    "source": "wiki-alfajor"
+   }
+  ],
+  "sources": [
+   "wiki-alfajor"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "humita-en-chala",
+  "name": "Humita en chala",
+  "country": "argentina",
+  "region": "argentine-northwest",
+  "type": "other",
+  "course": [
+   "main",
+   "snack"
+  ],
+  "flavours": [
+   "sweet",
+   "aromatic",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled"
+  ],
+  "spice_level": 0,
+  "summary": "A soft, creamy parcel of fresh corn, onion and cheese steamed or boiled in the husk, from the Andean North-West.",
+  "story": "Humita is a fresh-corn preparation of Andean origin that is also found in Chile, Bolivia, Peru and Ecuador. In North-Western Argentina, ground sweet corn is cooked with onion, pepper and cheese and wrapped in the husk (chala), then boiled; it can also be served as a stew, humita en olla. The name is generally taken to come from Quechua. It is a seasonal food of the corn harvest, and is also served at community festivals in the north.",
+  "origin_period": "Pre-Hispanic roots",
+  "origin_claims": [
+   {
+    "claim": "Humita is an indigenous Andean preparation of fresh corn, found in several countries.",
+    "confidence": "widely-told",
+    "source": "wiki-humita"
+   }
+  ],
+  "sources": [
+   "wiki-humita"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "cordero-patagonico",
+  "name": "Cordero patagonico",
+  "local_name": "Cordero patagónico",
+  "country": "argentina",
+  "region": "patagonia",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "rich",
+   "salty"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "roasted",
+   "grilled",
+   "slow-cooked"
+  ],
+  "spice_level": 0,
+  "summary": "Patagonian lamb slowly roasted over embers on an iron cross, basted with salt brine.",
+  "story": "In Patagonia whole lambs are split, stretched on an iron cross (asador) and slanted over a wood fire for around three to four hours, then basted from time to time with salt water (salmuera). Sheep farming spread across the region from the 19th century and has been a major activity ever since. The method is a local expression of the wider Argentine asado tradition, and the long, gentle roast is typically followed by carving at the fire for a large group.",
+  "origin_claims": [
+   {
+    "claim": "Large-scale sheep farming in Patagonia dates from the 19th century.",
+    "confidence": "widely-told",
+    "source": "wiki-argentine-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-argentine-cuisine",
+   "wiki-asado"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "chipa",
+  "name": "Chipa",
+  "country": "argentina",
+  "region": "argentine-litoral",
+  "type": "snack",
+  "course": [
+   "snack",
+   "breakfast"
+  ],
+  "flavours": [
+   "salty",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "baked"
+  ],
+  "spice_level": 0,
+  "summary": "Small, crusty and chewy cheese breads made from cassava starch, a snack of the Litoral shared with Paraguay.",
+  "story": "Chipa is made of cassava starch, cheese, eggs and fat, and has a firm crust and chewy centre. It is a common snack across Paraguay, where it is considered a national food, and in neighbouring north-eastern Argentina (Misiones and Corrientes) and Bolivia. The name is from Guarani, the language of the people native to the region, and the use of cassava starch points to indigenous cooking. Today it is sold from baskets at bus stops and eaten with mate or coffee.",
+  "origin_claims": [
+   {
+    "claim": "Chipa is a Guarani food that was later enriched with cheese and animal fat after the Spanish arrival.",
+    "confidence": "widely-told",
+    "source": "wiki-chipa"
+   }
+  ],
+  "sources": [
+   "wiki-chipa"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pastelitos-criollos",
+  "name": "Pastelitos criollos",
+  "country": "argentina",
+  "type": "pastry",
+  "course": [
+   "dessert",
+   "snack"
+  ],
+  "flavours": [
+   "sweet"
+  ],
+  "diet": [
+   "vegetarian",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "deep-fried"
+  ],
+  "spice_level": 0,
+  "summary": "Square fried pastries filled with quince or sweet-potato paste and glazed with syrup, traditional for 25 May.",
+  "story": "Pastelitos are sold at bakeries across Argentina, filled with membrillo (quince paste) or batata (sweet-potato paste), and are associated with the 25 de Mayo holiday, when they are eaten with mate on cold autumn afternoons. The fried filled pastry is of Iberian ancestry, while the sweet fillings and the criollo (locally born) naming reflect their adaptation in the Rio de la Plata region. Their history is not well recorded in detail.",
+  "origin_period": "Colonial era",
+  "origin_claims": [
+   {
+    "claim": "Pastelitos are a colonial-era pastry of Spanish inheritance adapted in the Rio de la Plata region.",
+    "confidence": "widely-told",
+    "source": "wiki-pastelito"
+   }
+  ],
+  "sources": [
+   "wiki-pastelito",
+   "wiki-argentine-cuisine"
+  ],
+  "review_status": "draft"
+ }
+]

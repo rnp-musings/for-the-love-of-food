@@ -1,0 +1,129 @@
+[
+  {
+    "id": "new-england-clam-chowder", "name": "New England clam chowder", "local_name": "New England clam chowder", "country": "united-states", "region": "new-england",
+    "type": "soup", "course": ["starter", "main"], "flavours": ["rich", "salty", "umami"], "diet": ["egg-free", "nut-free"],
+    "cook_methods": ["simmered"], "spice_level": 0,
+    "summary": "A thick, creamy soup of clams, potatoes, onion and bacon, traditionally eaten with oyster crackers.",
+    "story": "Chowders are fish or shellfish stews thickened with ship's biscuit, bread or potatoes, and they are tied to the fishing ports of the north Atlantic coast. In New England the clam version made with milk or cream became the regional standard, while other chowders use tomatoes or clear broth. The word is often traced to the French chaudière, a cooking pot, but the path by which it reached North America is uncertain. By the 19th century chowder was a staple in the region's cookbooks and restaurants, and a bowl of it with crackers is still a familiar meal at seaside shacks from Massachusetts to Maine.",
+    "origin_period": "18th to 19th century",
+    "origin_claims": [
+      {"claim": "The name chowder may come from the French word chaudière (cooking pot), brought by Breton or English-Channel fishing communities.", "confidence": "disputed", "source": "wiki-new-england-clam-chowder"},
+      {"claim": "Cream-based clam chowder was established in New England cooking by the 19th century.", "confidence": "well-documented", "source": "wiki-new-england-clam-chowder"}
+    ],
+    "sources": ["wiki-new-england-clam-chowder", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "southern-fried-chicken", "name": "Southern fried chicken", "local_name": "Southern fried chicken", "country": "united-states", "region": "the-south",
+    "type": "meat-dish", "course": ["main"], "flavours": ["rich", "salty", "spicy"], "diet": ["egg-free", "nut-free"],
+    "cook_methods": ["deep-fried"], "spice_level": 1,
+    "summary": "Buttermilk-soaked chicken pieces coated in seasoned flour and fried until crisp and deep golden.",
+    "story": "Fried chicken in the American South draws on two older traditions: the Scottish and British habit of frying chicken in fat, and the seasoning and frying techniques of West African cooks. Enslaved and, later, free Black cooks played a central role in turning it into a Southern specialty, and after the Civil War it became a food that Black women sold at train stations and which spread to family tables and restaurants. It remains a dish for Sunday meals, church suppers and picnics. Today most of the South has its own habits about brines, spices and sides, such as biscuits, greens, mashed potatoes and coleslaw.",
+    "origin_period": "18th and 19th century",
+    "origin_claims": [
+      {"claim": "Combines Scottish frying traditions with West African seasoning and frying methods.", "confidence": "widely-told", "source": "wiki-fried-chicken"},
+      {"claim": "Black cooks were central to making it a Southern specialty, including as street and station vendors after the Civil War.", "confidence": "well-documented", "source": "wiki-fried-chicken"}
+    ],
+    "sources": ["wiki-fried-chicken", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "gumbo", "name": "Gumbo", "local_name": "Gumbo", "country": "united-states", "region": "louisiana",
+    "type": "stew", "course": ["main"], "flavours": ["rich", "smoky", "spicy", "umami"], "diet": ["dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["simmered", "slow-cooked"], "spice_level": 2,
+    "summary": "A dark Louisiana stew built on a browned flour roux, onion, celery and bell pepper, with sausage, chicken or seafood, served over rice.",
+    "story": "Gumbo is one of the signature dishes of Louisiana and shows how several food cultures meet there. The thickener may be a roux, a French technique, okra, which is associated with West African cooking and whose name in some languages resembles the word gumbo, or filé powder from ground sassafras leaves, a use associated with the Choctaw people. Creole gumbo in New Orleans often includes seafood and tomato, while the country Cajun version tends toward a darker roux with chicken and smoked sausage. Where exactly the dish first came together is not documented, and different groups have claimed pieces of it. It is a classic for gatherings and for Mardi Gras season.",
+    "origin_period": "18th century",
+    "origin_claims": [
+      {"claim": "The dish arose in colonial Louisiana from a blend of West African, French, Native American and Spanish influences.", "confidence": "widely-told", "source": "wiki-gumbo"},
+      {"claim": "The word gumbo derives from a West African word for okra, such as the Bantu ki ngombo.", "confidence": "disputed", "source": "wiki-gumbo"}
+    ],
+    "sources": ["wiki-gumbo", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "jambalaya", "name": "Jambalaya", "local_name": "Jambalaya", "country": "united-states", "region": "louisiana",
+    "type": "rice-dish", "course": ["main"], "flavours": ["spicy", "smoky", "umami", "rich"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["simmered"], "spice_level": 3,
+    "summary": "A one-pot Louisiana rice dish cooked with sausage, chicken or shrimp, vegetables and Creole or Cajun seasoning.",
+    "story": "Jambalaya is a rice dish cooked in one pot with meat, stock and the Louisiana trio of onion, celery and green pepper. Creole jambalaya in New Orleans includes tomato and is sometimes called red jambalaya, while the Cajun version of the countryside is browned and has no tomatoes. Cooks often compare it with Spanish paella, and some historians see West African rice dishes in it too, but the precise lineage is not settled. Large pots of jambalaya are cooked at festivals, football games and family gatherings in south Louisiana.",
+    "origin_period": "18th century",
+    "origin_claims": [
+      {"claim": "An adaptation of Spanish paella by colonists who lacked saffron, using local ingredients and tomatoes.", "confidence": "widely-told", "source": "wiki-jambalaya"},
+      {"claim": "Also shaped by West African rice dishes such as jollof.", "confidence": "disputed", "source": "wiki-jambalaya"}
+    ],
+    "sources": ["wiki-jambalaya", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "texas-brisket", "name": "Texas-style smoked brisket", "local_name": "Texas brisket", "country": "united-states", "region": "the-south",
+    "type": "grill-bbq", "course": ["main"], "flavours": ["smoky", "salty", "rich"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["slow-cooked", "roasted"], "spice_level": 1,
+    "summary": "A large beef brisket rubbed only with salt and pepper and smoked for many hours over post oak or other wood until it is tender with a dark bark.",
+    "story": "Central Texas barbecue grew out of the meat markets run by German and Czech immigrants in the 19th century, where cuts that did not sell fresh were smoked and sold by the pound on butcher paper. Brisket, a tough cut from the cow's chest, becomes tender with long, low smoke. The Texas style keeps the seasoning simple, often salt and coarse black pepper, and serves the sliced meat with pickles, onions, white bread and sauce on the side if at all. Regional styles in east and south Texas differ, with sweeter sauces or chopped meat. Barbecue is a centrepiece of cookouts, including Fourth of July gatherings, across the United States.",
+    "origin_period": "19th century",
+    "origin_claims": [
+      {"claim": "Central Texas barbecue developed from German and Czech immigrant meat markets in the 19th century.", "confidence": "well-documented", "source": "wiki-texas-barbecue"}
+    ],
+    "sources": ["wiki-texas-barbecue", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "thanksgiving-roast-turkey", "name": "Thanksgiving roast turkey", "local_name": "Roast turkey", "country": "united-states",
+    "type": "meat-dish", "course": ["main"], "flavours": ["umami", "rich"], "diet": ["gluten-free", "egg-free", "nut-free"],
+    "cook_methods": ["roasted"], "spice_level": 0,
+    "summary": "A whole roast turkey, the centrepiece of the American Thanksgiving table, served with gravy, stuffing, cranberry sauce and vegetables.",
+    "story": "The turkey is a bird native to North America, and roast turkey became the standard centre of the Thanksgiving meal over the 19th century. Popular stories link it to a harvest feast held by the Pilgrims and the Wampanoag at Plymouth in 1621, but contemporary accounts mention wildfowl and venison without establishing a turkey tradition, so the association is better understood as one that grew over time. Thanksgiving was declared a national holiday in 1863 during the Civil War. Today families prepare turkey in many ways, such as brined, roasted, smoked or fried, and serve it with side dishes that vary by region and heritage.",
+    "origin_period": "19th century as a holiday tradition",
+    "origin_claims": [
+      {"claim": "Turkey became the standard Thanksgiving centrepiece over the 19th century.", "confidence": "widely-told", "source": "wiki-thanksgiving-dinner"},
+      {"claim": "The 1621 Plymouth harvest feast featured turkey as its main dish.", "confidence": "disputed", "source": "wiki-thanksgiving-dinner"}
+    ],
+    "sources": ["wiki-thanksgiving-dinner", "wiki-roast-turkey"], "review_status": "draft"
+  },
+  {
+    "id": "pumpkin-pie", "name": "Pumpkin pie", "local_name": "Pumpkin pie", "country": "united-states", "region": "new-england",
+    "type": "dessert", "course": ["dessert"], "flavours": ["sweet", "aromatic", "rich"], "diet": ["vegetarian", "nut-free"],
+    "cook_methods": ["baked"], "spice_level": 0,
+    "summary": "A spiced pumpkin custard baked in a pastry shell, served with whipped cream at Thanksgiving and through the autumn.",
+    "story": "Pumpkins and other squashes were grown across North America long before European settlers arrived, and early colonial cooks stuffed and baked them in many ways. Recipes for pumpkin baked in pastry appear in English-language cookbooks by the 17th and 18th century, and by the 19th century a custard-style pumpkin pie with eggs, milk and spice was common in New England kitchens. It became firmly tied to Thanksgiving through the 19th-century campaign to make the holiday national. Warm spices such as cinnamon, ginger and nutmeg are standard, and many American cooks today use canned pumpkin purée.",
+    "origin_period": "17th to 19th century",
+    "origin_claims": [
+      {"claim": "Pumpkin pie recipes are documented in English-language cookbooks from the 17th and 18th century and in New England by the 19th century.", "confidence": "well-documented", "source": "wiki-pumpkin-pie"}
+    ],
+    "sources": ["wiki-pumpkin-pie", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "fried-cheese-curds", "name": "Fried cheese curds", "local_name": "Fried cheese curds", "country": "united-states", "region": "midwest",
+    "type": "snack", "course": ["snack", "starter"], "flavours": ["rich", "salty"], "diet": ["vegetarian", "egg-free", "nut-free"],
+    "cook_methods": ["deep-fried"], "spice_level": 0,
+    "summary": "Bite-sized pieces of fresh cheddar curd in a light batter, deep-fried until crisp outside and molten within.",
+    "story": "Cheese curds are the fresh, young lumps of curd that form when cheese is made, before it is pressed into blocks. Fresh curds squeak against the teeth, and are eaten plain at dairy farms and cheese shops in Wisconsin and nearby states of the Upper Midwest. Battering and frying them is a popular snack at bars, supper clubs and state fairs. No one is sure who first fried them, and several Midwestern places and restaurants claim to have started the practice. The same curds are used in Quebec's poutine, which shows how closely the dairy cultures of the northern United States and Canada are linked.",
+    "origin_period": "20th century",
+    "origin_claims": [
+      {"claim": "Deep-fried cheese curds were popularised in Wisconsin and neighbouring states, but no single inventor is documented.", "confidence": "disputed", "source": "wiki-cheese-curd"}
+    ],
+    "sources": ["wiki-cheese-curd", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "cedar-planked-salmon", "name": "Cedar-planked salmon", "local_name": "Cedar-planked salmon", "country": "united-states", "region": "west-coast",
+    "type": "fish-dish", "course": ["main"], "flavours": ["smoky", "aromatic", "sweet"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["grilled", "roasted"], "spice_level": 0,
+    "summary": "A salmon fillet cooked on a soaked cedar board over a fire or in a hot oven so that it takes on a gentle woodsmoke aroma.",
+    "story": "Salmon is central to the foodways and cultures of the Native peoples of the Pacific Northwest, who have long cooked it on wooden stakes or boards set beside open fires, fed by the annual runs of the fish. Modern cedar-plank salmon is a restaurant and backyard-grill version of this idea, and the board keeps the delicate flesh from sticking and lends it fragrance. It is often finished with a simple maple or honey glaze. The dish is found from Washington and Oregon through British Columbia, and the technique is credited to these Indigenous traditions; the commercial plank-grilling products and recipes are more recent.",
+    "origin_period": "Indigenous tradition, modern adaptation",
+    "origin_claims": [
+      {"claim": "Cooking salmon on wood planks or stakes by an open fire is an Indigenous technique of the Pacific Northwest.", "confidence": "well-documented", "source": "wiki-plank-cooking"}
+    ],
+    "sources": ["wiki-plank-cooking", "wiki-american-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "san-francisco-sourdough", "name": "San Francisco sourdough", "local_name": "San Francisco sourdough", "country": "united-states", "region": "west-coast",
+    "type": "bread", "course": ["side", "breakfast"], "flavours": ["tangy", "sour"], "diet": ["vegetarian", "vegan", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["baked", "fermented"], "spice_level": 0,
+    "summary": "A crusty, chewy loaf with a pronounced tang from a long fermentation with a wild-yeast sourdough starter.",
+    "story": "Sourdough is among the oldest ways of leavening bread, and it was used by many cultures before commercial yeast. In California it is linked to the Gold Rush of the mid 19th century, when prospectors and bakers kept a starter going to make bread, and the city of San Francisco became known for a particularly sour loaf. A lactic acid bacterium found in these starters was later given the species name sanfranciscensis. Bakeries in the city have kept long-lived starters, sometimes advertised as being over a century old, a claim that is hard to verify. Sourdough is eaten as toast, with soup or clam chowder in a bread bowl, and as sandwich bread.",
+    "origin_period": "Mid 19th century",
+    "origin_claims": [
+      {"claim": "Sourdough baking was associated with Gold Rush era San Francisco, where bakeries became known for a tangy loaf.", "confidence": "widely-told", "source": "wiki-sourdough"},
+      {"claim": "A lactic acid bacterium in the local starters was named Lactobacillus sanfranciscensis after the city.", "confidence": "well-documented", "source": "wiki-sourdough"},
+      {"claim": "Individual bakeries' starters are continuous lines going back to the Gold Rush.", "confidence": "legend", "source": "wiki-sourdough"}
+    ],
+    "sources": ["wiki-sourdough", "wiki-american-cuisine"], "review_status": "draft"
+  }
+]

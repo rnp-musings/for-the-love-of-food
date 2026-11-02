@@ -1,0 +1,420 @@
+[
+  {
+    "id": "ajiaco-santafereno",
+    "name": "Ajiaco santafereño",
+    "local_name": "Ajiaco santafereño",
+    "country": "colombia",
+    "region": "andean-highlands",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "A thick Bogotá chicken and potato soup scented with guascas and finished with cream, capers and avocado.",
+    "story": "Ajiaco is the signature soup of Bogotá and the cold Andean highlands around it. Its defining feature is the use of several kinds of potato: a floury kind that breaks down and thickens the broth, and waxy ones that keep their shape, often with small yellow papas criollas added near the end. Corn on the cob, shredded chicken and the herb guascas complete the pot. At the table each person adds cream and capers, and often avocado, and rice is served alongside. Versions with the same name exist elsewhere in the Andes and in Cuba, but the Bogotá version is the one most Colombians mean by the word.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "The word and the idea of a potato-based stew with chilli (ají) are of indigenous Andean origin, with later Spanish additions such as chicken and dairy.",
+        "confidence": "widely-told",
+        "source": "wiki-ajiaco"
+      },
+      {
+        "claim": "Guascas and the potato varieties used are native to the Colombian Andes.",
+        "confidence": "well-documented",
+        "source": "wiki-ajiaco"
+      }
+    ],
+    "sources": [
+      "wiki-ajiaco",
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bandeja-paisa",
+    "name": "Bandeja paisa",
+    "local_name": "Bandeja paisa",
+    "country": "colombia",
+    "region": "andean-highlands",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "salty",
+      "smoky"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "simmered",
+      "grilled"
+    ],
+    "spice_level": 0,
+    "summary": "A very large platter from Antioquia with beans, rice, crisp pork belly, minced beef, sausage, fried egg, plantain, arepa and avocado.",
+    "story": "Bandeja means tray, and the dish is a heaped platter that has become an emblem of the paisa region around Medellín in Antioquia. The core is red beans cooked with pork, white rice, ground beef and fried pork belly (chicharrón), joined by chorizo, a fried egg, sweet fried plantain, a small arepa, avocado and a tomato-onion sauce called hogao. Its exact origin is not settled: it is often described as a plate for hardworking rural labourers, while the full modern version with so many components is usually dated to the 20th century. Nowadays it is served in restaurants across Colombia and is associated with paisa identity.",
+    "origin_period": "20th century (modern form)",
+    "origin_claims": [
+      {
+        "claim": "Descended from the hearty beans-and-pork meals of Antioquian farm workers.",
+        "confidence": "widely-told",
+        "source": "wiki-bandeja-paisa"
+      },
+      {
+        "claim": "The oversized restaurant platter took its present form in the 20th century and spread nationally from there.",
+        "confidence": "widely-told",
+        "source": "wiki-bandeja-paisa"
+      }
+    ],
+    "sources": [
+      "wiki-bandeja-paisa",
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "arepa-de-huevo",
+    "name": "Arepa de huevo",
+    "local_name": "Arepa de huevo",
+    "country": "colombia",
+    "region": "caribbean-coast",
+    "type": "street-food",
+    "course": [
+      "snack",
+      "breakfast"
+    ],
+    "flavours": [
+      "rich",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "A corn arepa fried until puffed, then split and filled with a whole egg and fried again.",
+    "story": "Arepas of ground or pre-cooked maize are eaten across Colombia, but the egg-filled arepa is closely tied to the Caribbean coast, especially Barranquilla, Cartagena and the towns on the coast road. A disc of dough is deep-fried until it puffs, opened, filled with a raw egg and sealed, then fried again so the egg sets inside a crisp shell. It is sold from street carts and stalls at breakfast and as a snack, often with a spicy sauce or a little hogao. Maize flatbreads predate the arrival of Europeans in the Americas; the egg filling is a later regional addition and its exact origin is not well documented.",
+    "origin_period": "Pre-Columbian maize base, filled version of unclear date",
+    "origin_claims": [
+      {
+        "claim": "Maize arepas pre-date the Spanish arrival; the egg-filled coastal version is a later local development.",
+        "confidence": "widely-told",
+        "source": "wiki-arepa"
+      }
+    ],
+    "sources": [
+      "wiki-arepa",
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "encocado-de-pescado",
+    "name": "Encocado de pescado",
+    "local_name": "Encocado de pescado",
+    "country": "colombia",
+    "region": "pacific-coast",
+    "type": "fish-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "sweet"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Fish simmered in a coconut-milk sauce with onion, tomato and herbs, a staple of the Afro-Colombian Pacific coast.",
+    "story": "Encocado means cooked with coconut, and on Colombia's Pacific coast, in places such as Tumaco, Buenaventura and Guapi, the word usually means fish or shrimp in a creamy coconut sauce. The cooking of this coast was shaped in large part by Afro-Colombian communities, and uses coconut, plantain, river and sea fish and local herbs. The dish is typically eaten with white rice and fried green plantain slices (patacones). Cooks in the region have their own preferences for herbs and seasoning, and exact recipes vary from family to family.",
+    "origin_period": "Not well documented",
+    "origin_claims": [
+      {
+        "claim": "Coconut-based fish stews of the Pacific coast reflect Afro-Colombian culinary traditions of the region.",
+        "confidence": "widely-told",
+        "source": "wiki-colombian-cuisine"
+      }
+    ],
+    "sources": [
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ternera-a-la-llanera",
+    "name": "Ternera a la llanera",
+    "local_name": "Ternera a la llanera",
+    "country": "colombia",
+    "region": "llanos",
+    "type": "grill-bbq",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "smoky",
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled",
+      "roasted"
+    ],
+    "spice_level": 0,
+    "summary": "Beef ribs or veal slowly roasted next to an open fire of the eastern plains, salted simply and served with cassava.",
+    "story": "The Llanos Orientales are a vast cattle-ranching plain in eastern Colombia (shared with Venezuela), and open-fire beef is the centrepiece of llanero cooking. Large cuts of beef or veal are salted and staked upright beside glowing embers, often for several hours, so that the fat renders and the meat becomes tender with crisp edges. It is served with boiled cassava, potato and a fresh tomato-onion sauce. Cattle came with the Spanish, so this style of cooking developed after the colonial period as ranching spread through the plains.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "The ranching culture and open-fire beef of the plains developed after cattle were introduced by the Spanish.",
+        "confidence": "widely-told",
+        "source": "wiki-colombian-cuisine"
+      }
+    ],
+    "sources": [
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bunuelos",
+    "name": "Buñuelos",
+    "local_name": "Buñuelos colombianos",
+    "country": "colombia",
+    "type": "pastry",
+    "course": [
+      "snack",
+      "breakfast"
+    ],
+    "flavours": [
+      "salty",
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Round fried fritters of fresh cheese and starch, crisp outside and soft inside, eaten at Christmas.",
+    "story": "Fried dough balls called buñuelos came to the Americas with Spain, where similar fritters had long been made. The Colombian version is made from a salty fresh cheese and cornstarch (and sometimes cassava starch) rather than wheat flour, with egg and a little sugar, and is fried until golden. They are served with natilla during the Christmas novena, the nine evenings of prayer before 25 December, as well as at other times of year. The exact route by which the cheese-starch form developed is not well documented.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Fritters of this kind came to the Americas with Spanish settlers and were adapted to local cheese and starches.",
+        "confidence": "widely-told",
+        "source": "wiki-bunuelo"
+      }
+    ],
+    "sources": [
+      "wiki-bunuelo",
+      "wiki-christmas-in-colombia"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "natilla",
+    "name": "Natilla",
+    "local_name": "Natilla colombiana",
+    "country": "colombia",
+    "type": "dessert",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "A set milk pudding sweetened with panela and spiced with cinnamon, served with buñuelos at Christmas.",
+    "story": "Natilla in Colombia is a firm pudding made of milk, cornstarch and panela (unrefined cane sugar), flavoured with cinnamon and sometimes clove, coconut or raisins. The name echoes the custards of Spain, but the Colombian version is thickened with starch and sweetened with local cane sugar, giving it a caramel colour. It is closely linked with the Christmas season, when it is paired with buñuelos at family gatherings during the novena. The detailed history of the recipe is not well documented.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Derived from Spanish custard desserts, adapted with panela and cornstarch.",
+        "confidence": "widely-told",
+        "source": "wiki-natilla"
+      }
+    ],
+    "sources": [
+      "wiki-natilla",
+      "wiki-christmas-in-colombia"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "patacones",
+    "name": "Patacones",
+    "local_name": "Patacones",
+    "country": "colombia",
+    "type": "snack",
+    "course": [
+      "snack",
+      "side"
+    ],
+    "flavours": [
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Twice-fried discs of green plantain, flattened between frying, crisp and salty.",
+    "story": "Patacones, also called tostones in other Spanish-speaking countries, are made by frying thick slices of unripe plantain, flattening them, and frying again. They are served in Colombia as a side to fish and meat, topped with hogao or cheese, and are popular on the Pacific and Caribbean coasts. Plantain reached the Americas after the Spanish conquest, and the dish is part of a wider Caribbean and Latin American tradition. Who first devised the technique is not known.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "A regional form of the twice-fried green plantain common across the Caribbean and Latin America.",
+        "confidence": "widely-told",
+        "source": "wiki-patacones"
+      }
+    ],
+    "sources": [
+      "wiki-patacones",
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sancocho-de-gallina",
+    "name": "Sancocho de gallina",
+    "local_name": "Sancocho de gallina",
+    "country": "colombia",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "A big, comforting soup of hen or chicken with plantain, cassava, potato and corn, cooked in many Colombian regions.",
+    "story": "Sancocho comes from the Spanish verb sancochar, to parboil, and the name is used for stews across Latin America and the Caribbean. In Colombia every region has a version, with chicken (gallina), beef, pork ribs or fish, and starchy vegetables such as plantain, cassava, potato and corn on the cob. It is cooked for family Sundays and gatherings, often outdoors over a wood fire in rural areas. It is usually served with white rice, avocado and a hot sauce. The Valle del Cauca version with hen is widely cited, though similar soups are everywhere.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Descended from Spanish boiled-meat-and-vegetable dishes, adapted to American roots and plantains.",
+        "confidence": "widely-told",
+        "source": "wiki-sancocho"
+      }
+    ],
+    "sources": [
+      "wiki-sancocho",
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "suero-costeno",
+    "name": "Suero costeño",
+    "local_name": "Suero costeño",
+    "country": "colombia",
+    "region": "caribbean-coast",
+    "type": "pickle-ferment",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "tangy",
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fermented"
+    ],
+    "spice_level": 0,
+    "summary": "A tangy, salty, spoonable soured cream from the Caribbean coast, made by fermenting milk and cream.",
+    "story": "Suero costeño is a cultured dairy product of the Colombian Caribbean coast, similar in spirit to soured cream or crème fraîche but saltier and tangier. Fresh milk and cream are left to ferment at warm room temperature until thick and sour, then salted and chilled. It is eaten as a table condiment with arepas, boiled or fried cassava, plantain, fried fish and soups. Warm temperatures and a lack of refrigeration in the past made fermenting dairy a practical way to keep it. The detailed history of the product is not well documented.",
+    "origin_period": "Traditional; exact period unclear",
+    "origin_claims": [
+      {
+        "claim": "A traditional coastal way of preserving and souring milk and cream in a hot climate.",
+        "confidence": "widely-told",
+        "source": "wiki-suero-costeno"
+      }
+    ],
+    "sources": [
+      "wiki-suero-costeno",
+      "wiki-colombian-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

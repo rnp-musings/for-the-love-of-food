@@ -144,5 +144,140 @@
       "Brush the hot loaves with melted butter and roll or dust them in sugar."
     ],
     "sources": ["wiki-pan-de-muerto"], "review_status": "draft"
+  },
+  {
+    "id": "tamales-home", "dish": "tamales", "title": "Red pork tamales in corn husks", "version": "home", "servings": 12,
+    "prep_minutes": 60, "cook_minutes": 150, "passive_minutes": 45, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "corn-husks", "amount": 30, "unit": "piece", "note": "dried, soaked in hot water until pliable"},
+      {"ingredient": "pork", "amount": 700, "unit": "g", "note": "shoulder, cut into large chunks", "group": "Filling"},
+      {"ingredient": "dried-chiles", "amount": 60, "unit": "g", "note": "guajillo, stemmed and seeded", "group": "Filling"},
+      {"ingredient": "garlic", "amount": 4, "unit": "clove", "group": "Filling"},
+      {"ingredient": "onion", "amount": 0.5, "unit": "piece", "group": "Filling"},
+      {"ingredient": "cumin", "amount": 0.5, "unit": "tsp", "group": "Filling"},
+      {"ingredient": "masa-harina", "amount": 500, "unit": "g", "note": "instant corn masa flour", "group": "Dough"},
+      {"ingredient": "lard", "amount": 180, "unit": "g", "note": "or vegetable shortening, at room temperature", "group": "Dough"},
+      {"ingredient": "baking-powder", "amount": 1, "unit": "tsp", "group": "Dough"},
+      {"ingredient": "stock", "amount": 700, "unit": "ml", "note": "warm pork cooking broth", "group": "Dough"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Put the pork, onion, half the garlic and 1 tsp salt in a pot, cover with water and simmer for 1.5 hours until tender. Shred the meat and keep about 700 ml of the broth.",
+      "Toast the chiles briefly on a dry pan, then soak them in hot water for 20 minutes. Blend with the remaining garlic, cumin, a pinch of salt and about 150 ml of the soaking water until smooth, and strain.",
+      "Fry the chile sauce in a spoonful of the lard for 5 minutes, add the shredded pork and simmer until thick and not watery. Season and cool.",
+      "Beat the rest of the lard for 3 minutes until fluffy. Mix the masa harina, baking powder and 1 tsp salt together, then add to the lard in portions with the warm broth until you have a soft, spreadable dough. Season generously, as steaming dulls the flavour.",
+      "Drain the husks and pat dry. Spread 3 tbsp of dough in a thin square over the wide end of a husk, leaving a border. Put a spoonful of filling in the middle, fold the sides over and fold up the narrow end.",
+      "Stand the tamales upright, open end up, in a steamer lined with spare husks. Cover tightly and steam for 60 to 75 minutes, topping up the water as needed.",
+      "A tamale is done when the dough pulls away cleanly from the husk. Rest for 15 minutes before serving."
+    ],
+    "notes": "Banana leaves can replace the husks for a different, moister style. Tamales freeze well and reheat by steaming.",
+    "sources": ["wiki-tamale"], "review_status": "draft"
+  },
+  {
+    "id": "pozole-rojo-home", "dish": "pozole-rojo", "title": "Pozole rojo with pork", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 180, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "pork", "amount": 1.2, "unit": "kg", "note": "shoulder on the bone, cut into large pieces"},
+      {"ingredient": "hominy", "amount": 800, "unit": "g", "note": "cooked, canned or jarred, drained and rinsed"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "halved"},
+      {"ingredient": "garlic", "amount": 6, "unit": "clove"},
+      {"ingredient": "bay-leaf", "amount": 2, "unit": "piece"},
+      {"ingredient": "dried-chiles", "amount": 80, "unit": "g", "note": "guajillo and ancho, stemmed and seeded", "group": "Chile sauce"},
+      {"ingredient": "oregano", "amount": 2, "unit": "tsp", "note": "dried, plus more to serve", "group": "Chile sauce"},
+      {"ingredient": "cumin", "amount": 0.5, "unit": "tsp", "group": "Chile sauce"},
+      {"ingredient": "cabbage", "amount": 250, "unit": "g", "note": "finely shredded", "group": "To serve"},
+      {"ingredient": "radish", "amount": 6, "unit": "piece", "note": "thinly sliced", "group": "To serve"},
+      {"ingredient": "lime-juice", "amount": 4, "unit": "tbsp", "note": "from about 3 limes, or serve as wedges", "group": "To serve"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Cover the pork with 3 l of cold water in a large pot with the onion, 3 cloves of garlic, bay leaves and 1 tbsp salt. Bring to a simmer, skim off foam, and cook gently for 1.5 hours until the meat is tender.",
+      "Toast the chiles on a dry pan for under a minute until fragrant, then soak in hot water for 20 minutes.",
+      "Blend the chiles with the remaining garlic, oregano, cumin and about 250 ml of the soaking water until smooth. Strain into the pot.",
+      "Add the hominy and simmer another 45 to 60 minutes. Remove the pork bones, shred the meat roughly and return it.",
+      "Taste and adjust the salt. The broth should be rich and slightly thick.",
+      "Serve in deep bowls with the cabbage, radish, lime and more oregano on the table for each person to add."
+    ],
+    "notes": "Dried hominy (maiz cacahuazintle) gives the best texture but needs overnight soaking and 2 to 3 hours of cooking.",
+    "sources": ["wiki-pozole"], "review_status": "draft"
+  },
+  {
+    "id": "tacos-al-pastor-home", "dish": "tacos-al-pastor", "title": "Oven tacos al pastor", "version": "home", "servings": 6,
+    "prep_minutes": 30, "cook_minutes": 30, "passive_minutes": 480, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "pork", "amount": 1, "unit": "kg", "note": "boneless shoulder, sliced about 5 mm thick", "group": "Pork"},
+      {"ingredient": "dried-chiles", "amount": 50, "unit": "g", "note": "guajillo, stemmed, seeded and soaked", "group": "Marinade"},
+      {"ingredient": "achiote", "amount": 30, "unit": "g", "note": "achiote paste", "group": "Marinade"},
+      {"ingredient": "pineapple", "amount": 150, "unit": "g", "note": "fresh, for the marinade", "group": "Marinade"},
+      {"ingredient": "vinegar", "amount": 60, "unit": "ml", "note": "white", "group": "Marinade"},
+      {"ingredient": "garlic", "amount": 5, "unit": "clove", "group": "Marinade"},
+      {"ingredient": "cumin", "amount": 1, "unit": "tsp", "group": "Marinade"},
+      {"ingredient": "oregano", "amount": 1, "unit": "tsp", "group": "Marinade"},
+      {"ingredient": "tortilla", "amount": 18, "unit": "piece", "note": "small corn tortillas, warmed", "group": "To serve"},
+      {"ingredient": "pineapple", "amount": 200, "unit": "g", "note": "fresh, diced", "group": "To serve"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "finely chopped", "group": "To serve"},
+      {"ingredient": "cilantro", "amount": 1, "unit": "bunch", "note": "chopped", "group": "To serve"},
+      {"ingredient": "lime-juice", "amount": 3, "unit": "tbsp", "group": "To serve"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Blend the soaked chiles, achiote, the pineapple for the marinade, vinegar, garlic, cumin, oregano and 2 tsp salt until smooth.",
+      "Coat the pork slices in the marinade, cover and refrigerate for at least 8 hours or overnight.",
+      "Heat the oven to 240 C with a rack in the upper third. Thread the slices onto skewers or stack them tightly on a rack over a tray so the edges can crisp.",
+      "Roast for 25 to 30 minutes, turning once, until the edges are charred and the pork is cooked through.",
+      "Chop the pork finely. Pile it onto warm tortillas and top with diced pineapple, onion, coriander and lime.",
+      "Serve at once with a red or green salsa."
+    ],
+    "notes": "A vertical spit gives the traditional shaved texture. The oven method trades that for convenience, so use high heat and thin slices to get crisp edges.",
+    "sources": ["wiki-al-pastor"], "review_status": "draft"
+  },
+  {
+    "id": "tlayuda-home", "dish": "tlayuda", "title": "Vegetarian tlayuda", "version": "home", "servings": 4,
+    "prep_minutes": 25, "cook_minutes": 25, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "tortilla", "amount": 4, "unit": "piece", "note": "large corn tortillas, 25 cm or bigger; or double-layered small ones"},
+      {"ingredient": "black-beans", "amount": 400, "unit": "g", "note": "cooked, with a little of their cooking liquid", "group": "Bean spread"},
+      {"ingredient": "oil", "amount": 2, "unit": "tbsp", "group": "Bean spread"},
+      {"ingredient": "garlic", "amount": 2, "unit": "clove", "group": "Bean spread"},
+      {"ingredient": "oaxaca-cheese", "amount": 200, "unit": "g", "note": "shredded or pulled into strands; mozzarella works", "group": "Toppings"},
+      {"ingredient": "cabbage", "amount": 150, "unit": "g", "note": "finely shredded", "group": "Toppings"},
+      {"ingredient": "avocado", "amount": 2, "unit": "piece", "note": "sliced", "group": "Toppings"},
+      {"ingredient": "tomato", "amount": 2, "unit": "piece", "note": "sliced", "group": "Toppings"},
+      {"ingredient": "dried-chiles", "amount": 20, "unit": "g", "note": "guajillo or pasilla, toasted and soaked, blended into a salsa with 1 clove garlic and lime", "group": "Toppings"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Fry the garlic in the oil for 1 minute, add the beans and mash with a little cooking liquid to a spreadable paste. Season with salt.",
+      "Toast each tortilla directly on a hot griddle or grill pan for 2 to 3 minutes per side until dry and slightly crisp but still foldable.",
+      "Spread the bean paste over each tortilla, leaving a rim.",
+      "Scatter over the cheese and return to the heat for a minute or two until it starts to melt.",
+      "Top with the cabbage, avocado, tomato and salsa. Fold in half or serve open."
+    ],
+    "notes": "For a traditional version add grilled cecina (thin salted beef), tasajo or chorizo. Authentic bean paste is often made with lard.",
+    "sources": ["wiki-tlayuda"], "review_status": "draft"
+  },
+  {
+    "id": "esquites-home", "dish": "esquites", "title": "Esquites in a cup", "version": "home", "servings": 4,
+    "prep_minutes": 10, "cook_minutes": 15, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "sweet-corn", "amount": 600, "unit": "g", "note": "kernels, fresh cut from about 4 cobs or thawed frozen"},
+      {"ingredient": "butter", "amount": 1, "unit": "tbsp"},
+      {"ingredient": "onion", "amount": 0.25, "unit": "piece", "note": "finely chopped"},
+      {"ingredient": "green-chilli", "amount": 1, "unit": "piece", "note": "serrano or jalapeno, finely chopped"},
+      {"ingredient": "epazote", "amount": 1, "unit": "bunch", "note": "a few leaves, optional; or use coriander", "optional": true},
+      {"ingredient": "mayonnaise", "amount": 4, "unit": "tbsp", "group": "To serve"},
+      {"ingredient": "queso-fresco", "amount": 60, "unit": "g", "note": "crumbled; cotija also works", "group": "To serve"},
+      {"ingredient": "lime-juice", "amount": 2, "unit": "tbsp", "group": "To serve"},
+      {"ingredient": "chili-powder", "amount": 1, "unit": "tsp", "note": "pure ground chile, not a spice mix", "group": "To serve"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Melt the butter in a wide pan over medium-high heat and cook the onion and chilli for 2 minutes.",
+      "Add the corn, a pinch of salt and the epazote if using. Cook for 8 to 10 minutes, stirring now and then, until the kernels are tender and just starting to brown.",
+      "Spoon the warm corn into cups with a little of the pan juices.",
+      "Top each with mayonnaise, crumbled cheese, a squeeze of lime and chile powder, and eat with a spoon."
+    ],
+    "notes": "Use a splash of water if the pan dries out. Some cooks use stock instead of water, but water keeps it vegetarian.",
+    "sources": ["wiki-esquites"], "review_status": "draft"
   }
 ]

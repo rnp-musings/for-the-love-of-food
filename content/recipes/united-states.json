@@ -1,0 +1,259 @@
+[
+  {
+    "id": "new-england-clam-chowder-home", "dish": "new-england-clam-chowder", "title": "New England clam chowder", "version": "home", "servings": 6,
+    "prep_minutes": 25, "cook_minutes": 40, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "clams", "amount": 1.5, "unit": "kg", "note": "littleneck or cherrystone in the shell, scrubbed"},
+      {"ingredient": "bacon", "amount": 100, "unit": "g", "note": "smoked, diced"},
+      {"ingredient": "butter", "amount": 30, "unit": "g"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "finely chopped"},
+      {"ingredient": "celery", "amount": 2, "unit": "piece", "note": "stalks, finely chopped"},
+      {"ingredient": "wheat-flour", "amount": 30, "unit": "g"},
+      {"ingredient": "potato", "amount": 500, "unit": "g", "note": "waxy, peeled and cut into 1 cm cubes"},
+      {"ingredient": "milk", "amount": 400, "unit": "ml"},
+      {"ingredient": "cream", "amount": 150, "unit": "ml"},
+      {"ingredient": "thyme", "amount": 1, "unit": "tsp", "note": "fresh leaves"},
+      {"ingredient": "bay-leaf", "amount": 1, "unit": "piece"},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Put the clams and 250 ml water in a large pot, cover and steam over high heat for 5 to 8 minutes until the shells open. Discard any that stay closed.",
+      "Lift out the clams, strain the cooking liquid through a fine sieve or cloth to remove grit, and reserve it. Remove the clam meat from the shells and chop roughly.",
+      "In a clean pot, cook the bacon over medium heat until the fat renders and it begins to crisp. Add the butter, onion and celery and cook 6 to 8 minutes until soft.",
+      "Stir in the flour and cook for 2 minutes. Gradually stir in the reserved clam liquid, then add the potatoes, thyme and bay leaf. Simmer 12 to 15 minutes until the potatoes are tender.",
+      "Add the milk, cream and chopped clams. Warm gently for 5 minutes without boiling, which can toughen the clams and split the dairy.",
+      "Season with black pepper and salt only if needed, as the clam liquid and bacon are salty. Serve with oyster crackers."
+    ],
+    "notes": "Canned chopped clams with 400 ml bottled clam juice (about 400 g clam meat) can replace fresh clams. Let the chowder rest off the heat for 20 minutes for a thicker texture.",
+    "sources": ["wiki-new-england-clam-chowder"], "review_status": "draft"
+  },
+  {
+    "id": "southern-fried-chicken-home", "dish": "southern-fried-chicken", "title": "Buttermilk fried chicken", "version": "home", "servings": 4,
+    "prep_minutes": 20, "cook_minutes": 30, "passive_minutes": 480, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "chicken", "amount": 1.5, "unit": "kg", "note": "cut into 8 pieces, bone-in and skin on"},
+      {"ingredient": "buttermilk", "amount": 500, "unit": "ml", "group": "Marinade"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste", "group": "Marinade"},
+      {"ingredient": "wheat-flour", "amount": 250, "unit": "g", "group": "Coating"},
+      {"ingredient": "paprika", "amount": 2, "unit": "tsp", "group": "Coating"},
+      {"ingredient": "garlic-powder", "amount": 1, "unit": "tsp", "group": "Coating"},
+      {"ingredient": "cayenne", "amount": 0.5, "unit": "tsp", "group": "Coating"},
+      {"ingredient": "black-pepper", "amount": 1, "unit": "tsp", "group": "Coating"},
+      {"ingredient": "oil", "amount": 1.5, "unit": "l", "note": "vegetable or peanut oil for frying, about 4 cm deep in a heavy pan"}
+    ],
+    "steps": [
+      "Put the chicken in a bowl with the buttermilk and 1 tbsp salt. Cover and refrigerate for at least 4 hours, ideally overnight.",
+      "Mix the flour, paprika, garlic powder, cayenne, black pepper and 2 tsp salt in a wide dish.",
+      "Take the chicken from the buttermilk, letting the excess drip off, and press each piece firmly into the flour. Pat to coat thickly, then rest on a rack for 15 minutes.",
+      "Heat the oil in a deep, heavy pan to 165 C. Fry in two batches, 4 pieces at a time, so the temperature does not fall too far.",
+      "Cook breasts for 12 to 14 minutes and thighs and drumsticks for 14 to 16 minutes, turning once, until deep golden and a thermometer in the thickest part reads 74 C.",
+      "Drain on a rack, not paper, and rest for 5 minutes. Serve warm or at room temperature."
+    ],
+    "notes": "Keep the oil at 160 to 170 C. Too hot and the crust burns before the inside cooks; too cool and it turns greasy.",
+    "sources": ["wiki-fried-chicken"], "review_status": "draft"
+  },
+  {
+    "id": "gumbo-home", "dish": "gumbo", "title": "Chicken and andouille gumbo", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 120, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "oil", "amount": 120, "unit": "ml", "note": "neutral oil for the roux", "group": "Roux"},
+      {"ingredient": "wheat-flour", "amount": 120, "unit": "g", "group": "Roux"},
+      {"ingredient": "onion", "amount": 2, "unit": "piece", "note": "diced", "group": "Trinity"},
+      {"ingredient": "celery", "amount": 3, "unit": "piece", "note": "stalks, diced", "group": "Trinity"},
+      {"ingredient": "green-bell-pepper", "amount": 2, "unit": "piece", "note": "diced", "group": "Trinity"},
+      {"ingredient": "garlic", "amount": 4, "unit": "clove", "note": "minced", "group": "Trinity"},
+      {"ingredient": "chicken", "amount": 1, "unit": "kg", "note": "boneless, skinless thighs, cut into chunks"},
+      {"ingredient": "andouille", "amount": 400, "unit": "g", "note": "smoked sausage, sliced into rounds"},
+      {"ingredient": "stock", "amount": 2, "unit": "l", "note": "chicken, hot"},
+      {"ingredient": "bay-leaf", "amount": 2, "unit": "piece"},
+      {"ingredient": "thyme", "amount": 1, "unit": "tsp", "note": "dried"},
+      {"ingredient": "cayenne", "amount": 0.5, "unit": "tsp"},
+      {"ingredient": "okra", "amount": 250, "unit": "g", "note": "sliced", "optional": true},
+      {"ingredient": "spring-onion", "amount": 4, "unit": "piece", "note": "sliced, to finish"},
+      {"ingredient": "rice", "amount": 400, "unit": "g", "note": "long-grain, cooked separately to serve"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Make the roux: heat the oil in a heavy pot over medium heat, whisk in the flour and cook, stirring constantly, for 30 to 45 minutes until it is the colour of dark chocolate. Lower the heat if it smells scorched; burnt roux must be discarded.",
+      "Add the onion, celery and pepper straight to the roux. Stir for 6 to 8 minutes until softened, then add the garlic for 1 minute.",
+      "Pour in the hot stock a ladle at a time, stirring so the roux dissolves without lumps. Add the bay leaves, thyme and cayenne.",
+      "Brown the sausage in a separate pan, then add it with the chicken to the pot. Simmer gently, partly covered, for 1 hour. Skim off any oil that rises.",
+      "Add the okra, if using, and cook another 20 minutes. Season with salt and black pepper.",
+      "Remove the bay leaves, stir in the spring onions and serve in bowls over a scoop of rice."
+    ],
+    "notes": "Seafood gumbo uses shrimp and crab added in the last 5 to 10 minutes. Filé powder can be stirred in off the heat at the table; do not boil it, as it turns stringy.",
+    "sources": ["wiki-gumbo"], "review_status": "draft"
+  },
+  {
+    "id": "jambalaya-home", "dish": "jambalaya", "title": "Chicken and sausage jambalaya", "version": "home", "servings": 6,
+    "prep_minutes": 25, "cook_minutes": 50, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "oil", "amount": 2, "unit": "tbsp"},
+      {"ingredient": "chicken", "amount": 600, "unit": "g", "note": "boneless thighs, cut in chunks"},
+      {"ingredient": "andouille", "amount": 300, "unit": "g", "note": "smoked sausage, sliced"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "diced"},
+      {"ingredient": "celery", "amount": 2, "unit": "piece", "note": "stalks, diced"},
+      {"ingredient": "green-bell-pepper", "amount": 1, "unit": "piece", "note": "diced"},
+      {"ingredient": "garlic", "amount": 3, "unit": "clove"},
+      {"ingredient": "tomato", "amount": 400, "unit": "g", "note": "canned chopped, for the Creole style"},
+      {"ingredient": "rice", "amount": 400, "unit": "g", "note": "long-grain, rinsed"},
+      {"ingredient": "stock", "amount": 700, "unit": "ml", "note": "chicken"},
+      {"ingredient": "thyme", "amount": 1, "unit": "tsp", "note": "dried"},
+      {"ingredient": "cayenne", "amount": 0.5, "unit": "tsp"},
+      {"ingredient": "bay-leaf", "amount": 2, "unit": "piece"},
+      {"ingredient": "spring-onion", "amount": 4, "unit": "piece", "note": "sliced"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Heat the oil in a wide heavy pot or Dutch oven and brown the sausage for 5 minutes. Remove and set aside.",
+      "Season the chicken with salt, pepper and half the cayenne and brown it in the same fat, 6 to 8 minutes. Remove.",
+      "Cook the onion, celery and pepper in the pot for 6 to 8 minutes, scraping up the browned bits. Add the garlic for 1 minute.",
+      "Add the tomatoes, thyme, bay leaves and remaining cayenne and cook for 5 minutes until thick.",
+      "Return the meat to the pot, add the rice and stock and stir once. Bring to a boil, then cover and cook on very low heat for 20 minutes without stirring.",
+      "Take off the heat and leave covered for 10 minutes. Remove bay leaves, fluff with a fork, fold through the spring onions, and taste for salt."
+    ],
+    "notes": "For a Cajun brown jambalaya, leave out the tomato, use a little more stock and brown the chicken and onion more deeply. Shrimp can be pushed into the hot rice at the end and left covered for 10 minutes.",
+    "sources": ["wiki-jambalaya"], "review_status": "draft"
+  },
+  {
+    "id": "texas-brisket-home", "dish": "texas-brisket", "title": "Salt-and-pepper smoked brisket", "version": "home", "servings": 12,
+    "prep_minutes": 30, "cook_minutes": 600, "passive_minutes": 60, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "beef", "amount": 3, "unit": "kg", "note": "whole beef brisket, with a fat cap trimmed to about 6 mm"},
+      {"ingredient": "salt", "amount": 4, "unit": "tbsp", "note": "coarse kosher or sea salt"},
+      {"ingredient": "black-pepper", "amount": 4, "unit": "tbsp", "note": "coarse ground"}
+    ],
+    "steps": [
+      "Trim the brisket so the fat cap is about 6 mm thick. Mix the salt and pepper and rub it all over the meat. Rest at room temperature for an hour while you prepare the smoker.",
+      "Set a smoker or covered charcoal grill to 120 C with indirect heat and add hardwood such as oak or hickory.",
+      "Place the brisket fat side up on the grates. Smoke for about 5 to 6 hours, until the surface is a deep mahogany bark and the internal temperature is about 70 C.",
+      "Wrap tightly in pink butcher paper or foil and return to the smoker. Continue cooking 3 to 5 hours until a probe slides in with almost no resistance, at about 93 to 96 C.",
+      "Rest the wrapped brisket in a closed, empty cooler or warm oven (off) for at least 1 hour.",
+      "Slice across the grain into pencil-thick slices and serve with pickles, raw onion and white bread."
+    ],
+    "notes": "Brisket varies a lot, so judge doneness by tenderness. In an oven, cook uncovered at 120 C on a rack, then wrap, and expect less smoke flavour. Add a few drops of liquid smoke if you like.",
+    "sources": ["wiki-texas-barbecue"], "review_status": "draft"
+  },
+  {
+    "id": "thanksgiving-roast-turkey-home", "dish": "thanksgiving-roast-turkey", "title": "Dry-brined roast turkey", "version": "home", "servings": 10,
+    "prep_minutes": 30, "cook_minutes": 180, "passive_minutes": 1440, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "turkey", "amount": 5, "unit": "kg", "note": "whole, thawed completely, giblets removed"},
+      {"ingredient": "salt", "amount": 4, "unit": "tbsp", "note": "coarse kosher salt for the dry brine"},
+      {"ingredient": "butter", "amount": 100, "unit": "g", "note": "softened"},
+      {"ingredient": "thyme", "amount": 1, "unit": "bunch", "note": "fresh"},
+      {"ingredient": "onion", "amount": 2, "unit": "piece", "note": "quartered"},
+      {"ingredient": "celery", "amount": 3, "unit": "piece", "note": "stalks, chopped"},
+      {"ingredient": "lemon-zest", "amount": 1, "unit": "tbsp"},
+      {"ingredient": "stock", "amount": 500, "unit": "ml", "note": "for the roasting pan"},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "One to two days ahead, pat the turkey dry and rub the salt all over, inside and out. Refrigerate uncovered on a tray for 24 to 48 hours so the skin dries.",
+      "Heat the oven to 180 C. Mix the butter with the lemon zest, chopped thyme from half the bunch and pepper. Work it under the breast skin and over the legs.",
+      "Fill the cavity with the onion, celery and remaining thyme. Tie the legs together and tuck the wing tips under.",
+      "Set the turkey breast-up on a rack in a roasting pan with the stock in the base. Roast for 2.5 to 3 hours, basting twice, until the thickest part of the thigh reads 74 C and juices run clear.",
+      "If the skin browns too fast, tent with foil.",
+      "Rest the turkey for at least 30 minutes before carving. Use the pan juices to make gravy."
+    ],
+    "notes": "Allow 12 to 15 minutes per 500 g as a guide, but cook to temperature. Stuffing is safer baked separately in a dish.",
+    "sources": ["wiki-thanksgiving-dinner"], "review_status": "draft"
+  },
+  {
+    "id": "pumpkin-pie-home", "dish": "pumpkin-pie", "title": "Classic pumpkin pie", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 60, "passive_minutes": 150, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 190, "unit": "g", "group": "Pastry"},
+      {"ingredient": "butter", "amount": 115, "unit": "g", "note": "cold, cubed", "group": "Pastry"},
+      {"ingredient": "sugar", "amount": 1, "unit": "tbsp", "group": "Pastry"},
+      {"ingredient": "water", "amount": 4, "unit": "tbsp", "note": "ice cold", "group": "Pastry"},
+      {"ingredient": "pumpkin", "amount": 425, "unit": "g", "note": "unsweetened purée, canned or cooked and drained", "group": "Filling"},
+      {"ingredient": "eggs", "amount": 2, "unit": "piece", "group": "Filling"},
+      {"ingredient": "cream", "amount": 240, "unit": "ml", "group": "Filling"},
+      {"ingredient": "brown-sugar", "amount": 130, "unit": "g", "group": "Filling"},
+      {"ingredient": "cinnamon", "amount": 1.5, "unit": "tsp", "note": "ground", "group": "Filling"},
+      {"ingredient": "ginger", "amount": 1, "unit": "tsp", "note": "ground", "group": "Filling"},
+      {"ingredient": "nutmeg", "amount": 0.25, "unit": "tsp", "group": "Filling"},
+      {"ingredient": "cloves", "amount": 0.25, "unit": "tsp", "note": "ground", "group": "Filling"},
+      {"ingredient": "salt", "amount": 0.5, "unit": "tsp", "group": "Filling"}
+    ],
+    "steps": [
+      "Rub the cold butter into the flour, sugar and a pinch of salt until it looks like coarse crumbs. Add the water a spoonful at a time and press into a dough. Wrap and chill for 1 hour.",
+      "Roll the pastry out to fit a 23 cm pie tin, line the tin and chill 30 minutes. Heat the oven to 200 C.",
+      "Line the pastry with baking paper and weights, and blind-bake for 15 minutes. Remove the paper and bake 5 minutes more. Lower the oven to 175 C.",
+      "Whisk the pumpkin, eggs, cream, sugar, spices and salt until smooth.",
+      "Pour the filling into the warm shell and bake for 45 to 50 minutes until the edges are set and the centre just wobbles.",
+      "Cool completely on a rack, 2 hours at least, so that it sets. Serve with whipped cream."
+    ],
+    "notes": "Winter squash such as butternut can replace pumpkin; roast it, purée it and drain off the excess water.",
+    "sources": ["wiki-pumpkin-pie"], "review_status": "draft"
+  },
+  {
+    "id": "fried-cheese-curds-home", "dish": "fried-cheese-curds", "title": "Beer-battered cheese curds", "version": "home", "servings": 4,
+    "prep_minutes": 15, "cook_minutes": 10, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "cheese-curds", "amount": 300, "unit": "g", "note": "fresh cheddar curds, at room temperature"},
+      {"ingredient": "wheat-flour", "amount": 120, "unit": "g"},
+      {"ingredient": "cornstarch", "amount": 2, "unit": "tbsp"},
+      {"ingredient": "baking-powder", "amount": 1, "unit": "tsp"},
+      {"ingredient": "beer", "amount": 180, "unit": "ml", "note": "cold lager"},
+      {"ingredient": "oil", "amount": 1, "unit": "l", "note": "for deep frying"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Heat the oil in a deep pan to 180 C.",
+      "Whisk the flour, cornstarch, baking powder and 0.5 tsp salt. Add the beer and whisk to a smooth batter the thickness of single cream.",
+      "Pat the curds dry. Dip a handful in the batter, let the excess drip off, and lower them into the oil in small batches.",
+      "Fry for 1.5 to 2 minutes until golden and puffed, turning once. Do not overcook, or the cheese will leak out.",
+      "Drain on paper and sprinkle with salt. Serve right away with ranch dressing or marinara."
+    ],
+    "notes": "Fresh curds squeak when cold. If you can only find refrigerated curds, let them come to room temperature before battering.",
+    "sources": ["wiki-cheese-curd"], "review_status": "draft"
+  },
+  {
+    "id": "cedar-planked-salmon-home", "dish": "cedar-planked-salmon", "title": "Maple cedar-planked salmon", "version": "home", "servings": 4,
+    "prep_minutes": 15, "cook_minutes": 20, "passive_minutes": 60, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "cedar-plank", "amount": 1, "unit": "piece", "note": "untreated food-grade cedar board, about 35 x 15 cm"},
+      {"ingredient": "salmon", "amount": 800, "unit": "g", "note": "skin-on fillet, pin bones removed"},
+      {"ingredient": "maple-syrup", "amount": 2, "unit": "tbsp"},
+      {"ingredient": "lemon-juice", "amount": 1, "unit": "tbsp"},
+      {"ingredient": "dill", "amount": 1, "unit": "tbsp", "note": "chopped", "optional": true},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Submerge the plank in water, weighted down, for at least 1 hour.",
+      "Heat a grill to medium-high with a lid, about 200 C. Or heat an oven to 200 C.",
+      "Stir the maple syrup and lemon juice together. Season the salmon with salt and pepper and brush it with half the glaze.",
+      "Place the plank on the grill for 3 minutes until it begins to smoke, turn it over, and set the salmon skin-side down on it.",
+      "Close the lid and cook for 15 to 20 minutes until the salmon flakes but is still moist in the middle (about 55 C at the thickest point). Brush with the remaining glaze for the last 5 minutes.",
+      "Serve on the plank, scattered with dill. Keep a water spray handy in case the board flares."
+    ],
+    "notes": "Use only untreated cedar sold for cooking; never use building lumber.",
+    "sources": ["wiki-plank-cooking"], "review_status": "draft"
+  },
+  {
+    "id": "san-francisco-sourdough-home", "dish": "san-francisco-sourdough", "title": "Sourdough boule", "version": "home", "servings": 10,
+    "prep_minutes": 40, "cook_minutes": 45, "passive_minutes": 1080, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "sourdough-starter", "amount": 100, "unit": "g", "note": "active, fed 4 to 8 hours earlier"},
+      {"ingredient": "wheat-flour", "amount": 500, "unit": "g", "note": "strong white bread flour"},
+      {"ingredient": "water", "amount": 350, "unit": "ml", "note": "lukewarm"},
+      {"ingredient": "salt", "amount": 10, "unit": "g"}
+    ],
+    "steps": [
+      "Mix the starter, flour and water until no dry flour remains, cover, and rest for 45 minutes. Sprinkle over the salt, add a splash of water and fold it in.",
+      "Leave the dough covered at room temperature (about 24 C) for 4 to 5 hours, folding it over on itself every 30 to 45 minutes for the first 2 hours. It should grow by about half and look airy.",
+      "Turn onto an unfloured surface, pre-shape into a round and rest for 20 minutes. Shape tightly and place seam up in a floured banneton or bowl lined with a floured cloth.",
+      "Cover and refrigerate for 10 to 14 hours. The cold slows the yeast and gives the loaf its tang.",
+      "Heat the oven to 240 C with a lidded Dutch oven inside for 45 minutes. Tip the dough onto baking paper, slash the top with a blade, and lower it into the pot.",
+      "Bake covered for 20 minutes, then uncovered at 220 C for 20 to 25 minutes until deep brown. Cool on a rack for at least 1 hour."
+    ],
+    "notes": "A well-developed starter is essential. A longer cold ferment makes the bread more sour.",
+    "sources": ["wiki-sourdough"], "review_status": "draft"
+  }
+]

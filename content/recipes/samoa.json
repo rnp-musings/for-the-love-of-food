@@ -1,0 +1,586 @@
+[
+ {
+  "id": "oka-home",
+  "dish": "oka",
+  "title": "Samoan oka with coconut cream",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 0,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "fresh-fish",
+    "amount": 500,
+    "unit": "g",
+    "note": "very fresh tuna or other firm fish, cut into 1.5 cm cubes"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 100,
+    "unit": "ml",
+    "note": "about 4 to 5 limes"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "small, finely diced"
+   },
+   {
+    "ingredient": "tomato",
+    "amount": 2,
+    "unit": "piece",
+    "note": "deseeded and diced"
+   },
+   {
+    "ingredient": "cucumber",
+    "amount": 1,
+    "unit": "piece",
+    "note": "small, diced"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "green-chilli",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped",
+    "optional": true
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 150,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Use only very fresh fish bought from a trusted supplier. Keep it cold until you start.",
+   "Toss the fish cubes with the lime juice and a pinch of salt. Leave in the fridge for 10 to 15 minutes, until the outside turns opaque.",
+   "Drain off most of the lime juice. Mix in the onion, tomato, cucumber, spring onion and chilli, if using.",
+   "Stir in the coconut cream just before serving, taste and add more salt or lime. Serve well chilled."
+  ],
+  "notes": "Curing time changes the texture: leave it longer if you prefer firmer, more opaque fish. Pregnant, elderly or immunocompromised people should avoid raw fish.",
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "palusami-home",
+  "dish": "palusami",
+  "title": "Oven-baked palusami",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 20,
+  "cook_minutes": 60,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "taro-leaves",
+    "amount": 600,
+    "unit": "g",
+    "note": "fresh or frozen (thawed), stalks trimmed; use young leaves"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 180 C. Cut six squares of foil about 30 cm wide and, if you have them, line each with a banana leaf.",
+   "Divide the taro leaves into six piles, overlapping the leaves to form a shallow cup in the middle of each square.",
+   "Mix the onion with a good pinch of salt and spoon into the cups. Pour about 65 ml of coconut cream into each.",
+   "Fold the leaves over the filling and wrap tightly in the foil, sealing the parcels well.",
+   "Bake for 50 to 60 minutes, until the leaves are completely soft and dark. Open carefully and serve hot, with the creamy juices."
+  ],
+  "notes": "Taro leaves must be cooked thoroughly because raw leaves irritate the mouth and throat. Fresh young leaves are tender; frozen ones are easiest to find outside the Pacific. Traditionally the parcels are cooked in an umu.",
+  "sources": [
+   "wiki-palusami"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "faausi-home",
+  "dish": "faausi",
+  "title": "Taro with coconut caramel sauce",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 15,
+  "cook_minutes": 45,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "taro",
+    "amount": 800,
+    "unit": "g",
+    "note": "peeled and cut into large chunks",
+    "group": "Taro"
+   },
+   {
+    "ingredient": "water",
+    "amount": 1.5,
+    "unit": "l",
+    "group": "Taro"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 400,
+    "unit": "ml",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 120,
+    "unit": "g",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "pinch",
+    "group": "Sauce"
+   }
+  ],
+  "steps": [
+   "Boil the taro in plenty of lightly salted water for 25 to 30 minutes, until a knife slides in easily. Drain well.",
+   "Meanwhile, put the coconut cream, sugar and salt in a wide pan and bring to a gentle simmer, stirring until the sugar dissolves.",
+   "Simmer for 20 to 25 minutes, stirring often, until the sauce is thick and slightly golden. Watch it near the end so it does not catch.",
+   "Serve the warm taro with the sauce poured over it."
+  ],
+  "notes": "Taro must be cooked well, never eaten undercooked. Green bananas or breadfruit can be used in place of taro.",
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "panipopo-home",
+  "dish": "panipopo",
+  "title": "Coconut buns baked in coconut sauce",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 30,
+  "cook_minutes": 30,
+  "passive_minutes": 90,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 500,
+    "unit": "g",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "yeast",
+    "amount": 7,
+    "unit": "g",
+    "note": "instant dried yeast",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 50,
+    "unit": "g",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 250,
+    "unit": "ml",
+    "note": "lukewarm",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 1,
+    "unit": "piece",
+    "note": "beaten",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 50,
+    "unit": "g",
+    "note": "softened",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 400,
+    "unit": "ml",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 100,
+    "unit": "g",
+    "group": "Sauce"
+   }
+  ],
+  "steps": [
+   "Mix the flour, yeast, 50 g sugar and salt. Add the milk, egg and butter and knead for 8 to 10 minutes into a smooth, soft dough.",
+   "Cover and leave in a warm place for about 1 hour, until doubled.",
+   "Knock back the dough and shape into 12 balls. Arrange them in a greased baking dish with a little space between.",
+   "Cover and let rise for 30 minutes. Heat the oven to 180 C.",
+   "Stir the coconut cream and 100 g sugar until the sugar dissolves, and pour over and around the buns.",
+   "Bake for 30 minutes, until golden. Let them sit in the sauce for 10 minutes before serving warm."
+  ],
+  "notes": "The sauce thickens as it cools, and the buns keep well for a day.",
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "sapasui-home",
+  "dish": "sapasui",
+  "title": "Samoan sapasui",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 20,
+  "cook_minutes": 25,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "glass-noodles",
+    "amount": 200,
+    "unit": "g"
+   },
+   {
+    "ingredient": "beef",
+    "amount": 400,
+    "unit": "g",
+    "note": "thinly sliced against the grain"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 3,
+    "unit": "clove",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "ginger",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "grated"
+   },
+   {
+    "ingredient": "carrot",
+    "amount": 2,
+    "unit": "piece",
+    "note": "cut into thin strips"
+   },
+   {
+    "ingredient": "celery",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 4,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "water",
+    "amount": 300,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Soak the glass noodles in hot water for 10 minutes until soft, drain and cut into shorter lengths.",
+   "Heat the oil in a large pan or wok. Brown the beef over high heat for 3 to 4 minutes, then remove.",
+   "In the same pan, fry the onion, garlic and ginger for 2 minutes. Add the carrot and celery and fry for 3 minutes.",
+   "Return the beef, add the soy sauce and water and bring to a simmer.",
+   "Add the noodles and toss for 3 to 5 minutes until they absorb the liquid and turn glossy. Season and serve hot."
+  ],
+  "notes": "Chicken can replace the beef. Add cabbage or spring onion if you like.",
+  "sources": [
+   "wiki-sapasui"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "ulu-umu-home",
+  "dish": "ulu-umu",
+  "title": "Oven-baked breadfruit",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 10,
+  "cook_minutes": 90,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "breadfruit",
+    "amount": 1.2,
+    "unit": "kg",
+    "note": "one mature, firm breadfruit"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 100,
+    "unit": "ml",
+    "note": "to serve",
+    "optional": true
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200 C. Cut out the stem core of the breadfruit and make a few shallow cuts in the skin.",
+   "Wrap the whole breadfruit in foil and place on a tray.",
+   "Bake for 75 to 90 minutes, turning once, until a skewer slides through the centre with no resistance.",
+   "Let it cool for 10 minutes, then peel, remove the core and cut into thick wedges. Serve with salt or a little coconut cream."
+  ],
+  "notes": "Mature but not fully ripe breadfruit is best for baking. Traditionally it is cooked directly on the hot stones of an umu.",
+  "sources": [
+   "wiki-breadfruit"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "supo-esi-home",
+  "dish": "supo-esi",
+  "title": "Papaya in coconut milk",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "papaya",
+    "amount": 800,
+    "unit": "g",
+    "note": "ripe, peeled, seeded and cut into 2 cm chunks"
+   },
+   {
+    "ingredient": "coconut-milk",
+    "amount": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "water",
+    "amount": 200,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 50,
+    "unit": "g"
+   },
+   {
+    "ingredient": "cornstarch",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "mixed with 3 tbsp cold water"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "pinch"
+   }
+  ],
+  "steps": [
+   "Put the coconut milk, water, sugar and salt in a pan and bring to a gentle simmer.",
+   "Add the papaya and cook for 10 to 12 minutes, until soft but still holding its shape.",
+   "Stir in the cornstarch mixture and simmer for 2 to 3 minutes, until lightly thickened.",
+   "Serve warm in bowls."
+  ],
+  "notes": "Use ripe but firm papaya. Adjust the sugar to the sweetness of the fruit.",
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "koko-alaisa-home",
+  "dish": "koko-alaisa",
+  "title": "Cocoa rice porridge",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 5,
+  "cook_minutes": 35,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "rice",
+    "amount": 150,
+    "unit": "g",
+    "note": "short or medium grain, rinsed"
+   },
+   {
+    "ingredient": "water",
+    "amount": 600,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "coconut-milk",
+    "amount": 200,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "cocoa-powder",
+    "amount": 30,
+    "unit": "g",
+    "note": "unsweetened"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 80,
+    "unit": "g"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "pinch"
+   }
+  ],
+  "steps": [
+   "Put the rice and water in a pot, bring to the boil, then reduce to a low simmer and cook for 15 minutes, stirring now and then.",
+   "Whisk the cocoa with a few spoonfuls of the hot liquid to make a smooth paste, and stir it into the rice.",
+   "Add the sugar, salt and coconut milk. Simmer for 15 to 20 minutes, stirring often, until thick and creamy.",
+   "Serve hot. It thickens as it cools, so loosen with a splash of water or coconut milk if needed."
+  ],
+  "notes": "Traditionally made with Samoan cocoa balls (koko Samoa). Cocoa powder gives a milder version.",
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "puaa-umu-home",
+  "dish": "puaa-umu",
+  "title": "Slow-roasted pork, umu style",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 20,
+  "cook_minutes": 240,
+  "passive_minutes": 15,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "pork",
+    "amount": 1.8,
+    "unit": "kg",
+    "note": "shoulder joint, skin-on if possible"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "coarse"
+   },
+   {
+    "ingredient": "banana-leaf",
+    "amount": 2,
+    "unit": "piece",
+    "note": "large leaves, softened over a flame",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "Heat the oven to 160 C. Score the pork skin and rub the salt thoroughly into the meat and skin.",
+   "Wrap the pork in banana leaf if using, then in two layers of foil, sealing tightly.",
+   "Roast on a tray for about 3 hours 30 minutes, until the meat is tender and pulling away from the bone.",
+   "Unwrap, increase the oven to 220 C and roast for 15 to 20 minutes more to crisp the skin.",
+   "Rest for 15 minutes, then carve and serve."
+  ],
+  "notes": "A home oven cannot reproduce the smoky taste of an umu, but slow cooking in leaves and foil gives tender, moist meat.",
+  "sources": [
+   "wiki-umu"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "faalifu-fai-home",
+  "dish": "faalifu-fai",
+  "title": "Green bananas in coconut cream",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 10,
+  "cook_minutes": 30,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "green-banana",
+    "amount": 6,
+    "unit": "piece",
+    "note": "unripe, about 800 g"
+   },
+   {
+    "ingredient": "water",
+    "amount": 1.5,
+    "unit": "l"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 300,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Cut the ends off the bananas and slit the skins lengthwise. Boil in lightly salted water for 15 to 20 minutes until tender.",
+   "Drain, cool slightly and peel off the skins. Cut into thick chunks.",
+   "Warm the coconut cream with a good pinch of salt in a pan, add the banana and simmer gently for 8 to 10 minutes.",
+   "Serve hot, with the creamy sauce spooned over."
+  ],
+  "notes": "Unripe bananas stain, so wear gloves or oil your hands if peeling many. Taro or breadfruit also work.",
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ }
+]

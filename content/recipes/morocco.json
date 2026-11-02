@@ -1,0 +1,946 @@
+[
+  {
+    "id": "chicken-tagine-lemon-olives-home",
+    "dish": "chicken-tagine-lemon-olives",
+    "title": "Chicken tagine with preserved lemon and olives",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 75,
+    "passive_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "bone-in thighs and drumsticks"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "grated or finely chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "note": "soaked in 2 tbsp warm water"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "tied with the parsley"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "preserved-lemon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "rind only, quartered"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 100,
+        "unit": "g",
+        "note": "green, rinsed"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Mix the ginger, turmeric, pepper, garlic, saffron water, 1 tbsp of the oil and a small pinch of salt into a paste and rub it over the chicken. Leave it for at least 30 minutes.",
+      "Heat the remaining oil in a wide heavy pan or tagine base. Add the onions and a splash of water and cook gently for 10 minutes until soft and pale.",
+      "Add the chicken, the tied herbs and the water. Bring to a simmer, cover and cook over low heat for 40 minutes, turning the chicken once.",
+      "Add the preserved lemon rind and olives. Cook uncovered for 15 to 20 minutes until the sauce is reduced to a loose, glossy gravy and the chicken is tender.",
+      "Taste for salt, remembering the lemon and olives are salty. Discard the herb bunch and serve with bread."
+    ],
+    "notes": "Rinse the preserved lemon and remove the pulp if you want a milder flavour.",
+    "sources": [
+      "wiki-tagine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moroccan-couscous-home",
+    "dish": "moroccan-couscous",
+    "title": "Moroccan couscous with seven vegetables",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 120,
+    "passive_minutes": 10,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "lamb",
+        "amount": 800,
+        "unit": "g",
+        "note": "shoulder, cut into large pieces",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 30,
+        "unit": "g",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "note": "grated",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "chickpeas",
+        "amount": 200,
+        "unit": "g",
+        "note": "soaked overnight, or 400 g canned",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 3,
+        "unit": "piece",
+        "note": "cut in large pieces",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "turnip",
+        "amount": 2,
+        "unit": "piece",
+        "note": "quartered",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "zucchini",
+        "amount": 3,
+        "unit": "piece",
+        "note": "halved",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "pumpkin",
+        "amount": 400,
+        "unit": "g",
+        "note": "in wedges",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "Vegetables"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.5,
+        "unit": "l",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "couscous",
+        "amount": 500,
+        "unit": "g",
+        "note": "medium grain",
+        "group": "Couscous"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 40,
+        "unit": "g",
+        "group": "Couscous"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "In a large pot, melt the first portion of butter and cook the lamb and onions with the spices for 10 minutes, stirring. Add the tomatoes, soaked chickpeas, herb bunches and water. Bring to a boil, then simmer for 1 hour.",
+      "Add the carrots and turnips and cook for 20 minutes. Add the pumpkin and zucchini and cook 15 minutes more, until all are tender.",
+      "Meanwhile, spread the couscous in a wide dish, sprinkle with 200 ml cold water and a little salt, and rub it with your fingers to separate the grains. Rest 10 minutes.",
+      "Steam the couscous in a steamer set over the pot for 15 minutes, uncovered at first. Tip it back into the dish, break up lumps, sprinkle with another 100 ml water and rub in half the second portion of butter. Steam again for 15 minutes.",
+      "Repeat once more with the remaining butter. If using quick-cook couscous, follow the packet and fluff with butter instead.",
+      "Pile the couscous on a large dish, make a well, top with the meat and vegetables and ladle over some of the broth. Serve the rest of the broth on the side."
+    ],
+    "notes": "Number and type of vegetables vary by cook and season. Drained chickpeas can be added with the pumpkin if canned.",
+    "sources": [
+      "wiki-couscous"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "harira-home",
+    "dish": "harira",
+    "title": "Harira",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 90,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 200,
+        "unit": "g",
+        "note": "small cubes",
+        "optional": true
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "celery",
+        "amount": 2,
+        "unit": "piece",
+        "note": "stalks, finely chopped"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 500,
+        "unit": "g",
+        "note": "grated or blended"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "lentils",
+        "amount": 100,
+        "unit": "g",
+        "note": "rinsed"
+      },
+      {
+        "ingredient": "chickpeas",
+        "amount": 150,
+        "unit": "g",
+        "note": "cooked or canned, drained"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.8,
+        "unit": "l"
+      },
+      {
+        "ingredient": "vermicelli",
+        "amount": 50,
+        "unit": "g",
+        "note": "broken up"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "mixed with 150 ml cold water"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "to serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a large pot and soften the onion and celery for 5 minutes. If using beef, brown it with them.",
+      "Add the spices, tomato, tomato paste and half the herbs. Cook for 5 minutes, then add the water and lentils. Bring to a boil and simmer for 45 minutes, until the lentils are soft.",
+      "Add the chickpeas and vermicelli and cook for 10 minutes.",
+      "Whisk the flour mixture smoothly and pour it slowly into the simmering soup, stirring constantly. Simmer for 10 minutes until slightly thickened.",
+      "Add the remaining herbs and salt, and finish with lemon juice. Serve hot with dates and bread."
+    ],
+    "notes": "Leave out the beef for a vegan soup.",
+    "sources": [
+      "wiki-harira"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pastilla-home",
+    "dish": "pastilla",
+    "title": "Chicken pastilla",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 50,
+    "cook_minutes": 75,
+    "passive_minutes": 15,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 900,
+        "unit": "g",
+        "note": "bone-in thighs",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "grated",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 50,
+        "unit": "g",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 5,
+        "unit": "piece",
+        "note": "beaten",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 150,
+        "unit": "g",
+        "note": "blanched",
+        "group": "Almond layer"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Almond layer"
+      },
+      {
+        "ingredient": "filo-pastry",
+        "amount": 10,
+        "unit": "piece",
+        "note": "sheets, large",
+        "group": "Assembly"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 80,
+        "unit": "g",
+        "note": "melted, for brushing",
+        "group": "Assembly"
+      },
+      {
+        "ingredient": "icing-sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Finish"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Finish"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the chicken, onions, spices (except cinnamon for finishing), herbs, butter, water and salt in a wide pot. Cook covered for 40 minutes until the chicken is very tender.",
+      "Lift out the chicken, shred the meat and discard bones and skin. Boil the sauce until reduced to about 150 ml. Lower the heat, stir in the beaten eggs and cook gently, stirring, until they form soft curds. Combine with the chicken and cool.",
+      "Fry the almonds in a little oil until golden, chop them coarsely and mix with the 3 tbsp sugar and the first 1 tsp cinnamon.",
+      "Heat the oven to 190 C. Butter a 28 cm round tin. Lay 5 sheets of filo, overlapping and overhanging the rim, brushing each with butter.",
+      "Spread half the chicken mixture, then the almond layer, then the rest of the chicken. Fold the overhang over the top and cover with 3 more sheets, tucking the edges in. Brush with butter.",
+      "Bake for 25 minutes until golden. Invert onto a plate if you like, dust with icing sugar and finish with lines of cinnamon. Serve warm."
+    ],
+    "notes": "Traditional pastilla uses warqa pastry and often pigeon. The sweet topping is part of the dish; a lighter version leaves it out.",
+    "sources": [
+      "wiki-pastilla"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tanjia-home",
+    "dish": "tanjia",
+    "title": "Tanjia",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 240,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 1,
+        "unit": "kg",
+        "note": "shin or shoulder, in large chunks"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 6,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "note": "soaked in 2 tbsp warm water"
+      },
+      {
+        "ingredient": "preserved-lemon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "rind only, chopped"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 150 C.",
+      "Mix the garlic, cumin, saffron water, preserved lemon, oil, butter and a little salt in a bowl. Toss the beef in it.",
+      "Put everything in a heavy lidded casserole or clay pot, add the water, and seal the lid tightly with foil if it does not fit well.",
+      "Cook for about 4 hours, without opening, until the meat falls apart with a spoon. Check once after 3 hours and add a splash of water if dry.",
+      "Skim off excess fat if you like. Serve straight from the pot with bread."
+    ],
+    "notes": "The classic version cooks in a sealed jar in the embers of a bathhouse furnace; this is an oven adaptation.",
+    "sources": [
+      "wiki-tanjia"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "zaalouk-home",
+    "dish": "zaalouk",
+    "title": "Zaalouk",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "eggplant",
+        "amount": 600,
+        "unit": "g",
+        "note": "peeled in strips, diced"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 500,
+        "unit": "g",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 0.5,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 0.5,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Steam or boil the aubergine in lightly salted water for about 10 minutes until soft. Drain well.",
+      "Cook the tomatoes with the garlic, cumin, paprika and 1 tbsp of the oil in a wide pan for 10 minutes until jammy.",
+      "Add the aubergine and mash roughly with a fork. Cook for 10 minutes, stirring, until thick and most of the liquid has gone.",
+      "Stir in the herbs, remaining oil and lemon juice, and season. Serve warm or at room temperature with bread."
+    ],
+    "sources": [
+      "wiki-zaalouk"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sellou-home",
+    "dish": "sellou",
+    "title": "Sellou",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "passive_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "icing-sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 150,
+        "unit": "g",
+        "note": "melted"
+      },
+      {
+        "ingredient": "honey",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "anise-seed",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 180 C. Toast the flour on a large tray, stirring every 5 minutes, for 20 to 25 minutes until golden and nutty-smelling. Cool completely and sift.",
+      "Toast the sesame seeds in a dry pan until golden. Roast the almonds at 180 C for 10 minutes, cool, then grind coarsely.",
+      "Grind half the sesame seeds finely and keep the rest whole.",
+      "Mix flour, almonds, ground sesame, icing sugar, spices and a pinch of salt. Add the melted butter and honey and rub together until the mix holds when squeezed.",
+      "Mound onto a plate, press firmly and decorate with whole sesame seeds. Store in an airtight tin for up to 2 weeks."
+    ],
+    "notes": "Let the flour cool fully before mixing or the butter will melt out.",
+    "sources": [
+      "wiki-sellou"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moroccan-msemen-home",
+    "dish": "moroccan-msemen",
+    "title": "Msemen",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 25,
+    "passive_minutes": 35,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "ingredient": "semolina",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 300,
+        "unit": "ml",
+        "note": "approximately, warm"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 6,
+        "unit": "tbsp",
+        "note": "for brushing and frying"
+      },
+      {
+        "ingredient": "semolina",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "for dusting"
+      }
+    ],
+    "steps": [
+      "Mix the flour, semolina, salt and sugar. Add the water gradually and knead for 10 minutes to a soft, smooth dough.",
+      "Divide into 8 balls and rub each with oil. Cover and rest for 20 minutes.",
+      "On an oiled surface, stretch one ball into a very thin square with oiled hands. Sprinkle with a little semolina and fold into thirds, then thirds again, to form a small square. Repeat with all.",
+      "Rest the squares for 15 minutes, then gently flatten each to about 14 cm.",
+      "Cook in a lightly oiled pan over medium heat for 3 to 4 minutes per side until golden with crisp edges. Serve warm with honey or butter."
+    ],
+    "sources": [
+      "wiki-msemen"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fish-chermoula-home",
+    "dish": "fish-chermoula",
+    "title": "Baked fish with chermoula",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "passive_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "white-fish",
+        "amount": 800,
+        "unit": "g",
+        "note": "fillets or 4 small whole fish"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 0.5,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 300,
+        "unit": "g",
+        "note": "thinly sliced, optional",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Blend the garlic, coriander, parsley, cumin, paprika, lemon juice, oil and salt into a coarse paste.",
+      "Coat the fish thoroughly and marinate for 30 minutes in the fridge.",
+      "Heat the oven to 200 C. Lay the potato slices in an oiled dish and bake for 10 minutes if using.",
+      "Place the fish on top, cover with tomato slices and spoon over any remaining paste.",
+      "Bake for 15 to 20 minutes until the fish flakes easily. Serve with bread and lemon."
+    ],
+    "sources": [
+      "wiki-chermoula"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moroccan-preserved-lemons-home",
+    "dish": "moroccan-preserved-lemons",
+    "title": "Preserved lemons",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "passive_minutes": 40320,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "citrus",
+        "amount": 10,
+        "unit": "piece",
+        "note": "unwaxed lemons, scrubbed"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 150,
+        "unit": "g",
+        "note": "coarse"
+      }
+    ],
+    "steps": [
+      "Wash a large jar with boiling water and let it dry. Scrub the lemons well.",
+      "Cut 8 lemons almost into quarters from the top but not through the base. Pack plenty of salt into the cuts and press them into the jar, squeezing so they release juice.",
+      "Add the remaining salt and top up with the extra lemon juice (squeezed from the 2 remaining lemons, plus more if needed) until the lemons are fully covered.",
+      "Seal and keep at room temperature for about 4 weeks, turning the jar every few days. They are ready when the rind is soft and translucent.",
+      "Rinse before use and discard the pulp if you prefer; chop the rind. Store in the fridge once opened."
+    ],
+    "notes": "Use only unwaxed lemons. Keep everything submerged to prevent mould.",
+    "sources": [
+      "wiki-preserved-lemon"
+    ],
+    "review_status": "draft"
+  }
+]

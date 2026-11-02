@@ -1,0 +1,422 @@
+[
+  {
+    "id": "jerk-chicken",
+    "name": "Jerk chicken",
+    "local_name": "Jerk chicken",
+    "country": "jamaica",
+    "region": "portland",
+    "type": "grill-bbq",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "smoky",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled",
+      "roasted"
+    ],
+    "spice_level": 4,
+    "summary": "Chicken marinated in a paste of scotch bonnet, allspice, thyme and scallion, then cooked slowly over a smoky fire.",
+    "story": "Jerk is a style of seasoning and slow smoke-cooking from Jamaica, applied to chicken and pork. Its flavour comes from allspice (called pimento in Jamaica), scotch bonnet pepper, thyme and scallion, and traditionally from smoke over pimento wood. Jerk is widely linked to the Maroons, communities of formerly enslaved people who lived in the hills, and to earlier Taino barbecue methods, and the Portland area around Boston Bay is famous for it. Scholars debate how much each tradition contributed. Today jerk is sold from roadside smokers and jerk centres across the island and has spread worldwide.",
+    "origin_period": "Colonial period, with earlier indigenous cooking methods",
+    "origin_claims": [
+      {
+        "claim": "Jerk developed among the Maroons of the Jamaican hills, who combined African seasoning traditions with Taino-style smoke-cooking.",
+        "confidence": "widely-told",
+        "source": "wiki-jerk-cooking"
+      },
+      {
+        "claim": "The word jerk is often linked to the Spanish charqui, meaning dried meat, but the connection is debated.",
+        "confidence": "disputed",
+        "source": "wiki-jerk-cooking"
+      }
+    ],
+    "sources": [
+      "wiki-jerk-cooking",
+      "wiki-jamaican-cuisine",
+      "wiki-jamaican-maroons"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ackee-and-saltfish",
+    "name": "Ackee and saltfish",
+    "local_name": "Ackee and saltfish",
+    "country": "jamaica",
+    "type": "fish-dish",
+    "course": [
+      "breakfast",
+      "main"
+    ],
+    "flavours": [
+      "salty",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "sauteed"
+    ],
+    "spice_level": 1,
+    "summary": "Scrambled-egg-like ackee fruit cooked with salted cod, onion, tomato and scotch bonnet.",
+    "story": "Ackee and saltfish is widely regarded as Jamaica's national dish. The ackee tree came from West Africa to Jamaica in the 18th century, and the soft yellow flesh of its ripe fruit is cooked like a vegetable. Salted cod, shipped from the North Atlantic to feed enslaved people and later the general population, supplies the savoury balance. It is eaten at breakfast and brunch with fried dumplings, boiled green banana or breadfruit. Unripe or unopened ackee is poisonous, so only fully ripe, naturally opened fruit, or canned ackee, should be used.",
+    "origin_period": "18th century onwards",
+    "origin_claims": [
+      {
+        "claim": "Ackee was brought from West Africa to Jamaica in the 18th century; salted cod was imported as a cheap preserved protein in the colonial period.",
+        "confidence": "well-documented",
+        "source": "wiki-ackee-and-saltfish"
+      }
+    ],
+    "sources": [
+      "wiki-ackee-and-saltfish",
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "curry-goat",
+    "name": "Curry goat",
+    "local_name": "Curry goat",
+    "country": "jamaica",
+    "type": "curry",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 3,
+    "summary": "Goat meat on the bone slow-cooked with Jamaican-style curry powder, scotch bonnet, thyme and potato.",
+    "story": "Curry reached Jamaica with indentured labourers from India, who arrived from the 1840s after slavery was abolished. Over time the curry was adapted to local ingredients, with goat as a common meat and allspice, thyme, scallion and scotch bonnet joining the spice blend. It became a party and celebration dish, eaten at weddings, Christmas gatherings and cookouts, usually with rice and peas or white rice.",
+    "origin_period": "19th century",
+    "origin_claims": [
+      {
+        "claim": "Introduced by Indian indentured labourers from the mid-19th century and adapted to local ingredients.",
+        "confidence": "well-documented",
+        "source": "wiki-curry-goat"
+      }
+    ],
+    "sources": [
+      "wiki-curry-goat",
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "escovitch-fish",
+    "name": "Escovitch fish",
+    "local_name": "Escovitch fish",
+    "country": "jamaica",
+    "type": "fish-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "spicy",
+      "salty"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "simmered"
+    ],
+    "spice_level": 2,
+    "summary": "Fried whole fish topped with a hot pickle of vinegar, onion, carrot and scotch bonnet.",
+    "story": "Escovitch is Jamaica's version of escabeche, the Spanish and Portuguese method of preserving fried fish in an acidic marinade. The name is a variant of the same word. The Jamaican style uses a vinegar pickle with onion, carrot, peppers and allspice, and is served with fried dumplings or bammy. It is a Friday and Good Friday staple, and is sold at seaside spots across the island. Some writers link the Jamaican version to Spanish and Portuguese-Jewish communities, but this is not firmly documented.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Derived from Spanish escabeche, a pickled fried-fish preparation that came to Jamaica during Spanish or British rule.",
+        "confidence": "widely-told",
+        "source": "wiki-escovitch"
+      },
+      {
+        "claim": "The dish was introduced or popularised by Sephardic Jewish settlers.",
+        "confidence": "disputed",
+        "source": "wiki-escabeche"
+      }
+    ],
+    "sources": [
+      "wiki-escovitch",
+      "wiki-escabeche"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "rice-and-peas",
+    "name": "Rice and peas",
+    "local_name": "Rice and peas",
+    "country": "jamaica",
+    "type": "rice-dish",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "umami"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 1,
+    "summary": "Rice cooked in coconut milk with red kidney beans, thyme, scallion and a whole scotch bonnet.",
+    "story": "In Jamaica peas means beans, and the beans used are typically red kidney beans, also called red peas. Cooked in coconut milk with thyme, scallion, garlic and a whole unpierced scotch bonnet for fragrance without heat, the rice takes on a pink-brown colour and a creamy flavour. It is the classic accompaniment to Sunday dinner and a fixture at Christmas. Rice-and-bean dishes across the Caribbean reflect West African, Spanish and local ingredients.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Rice cooked with beans in the Caribbean reflects West African cooking traditions combined with ingredients available in the colonies.",
+        "confidence": "widely-told",
+        "source": "wiki-rice-and-peas"
+      }
+    ],
+    "sources": [
+      "wiki-rice-and-peas",
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "oxtail-stew",
+    "name": "Oxtail stew",
+    "local_name": "Oxtail",
+    "country": "jamaica",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "simmered"
+    ],
+    "spice_level": 2,
+    "summary": "Oxtail braised for hours with allspice, thyme, scotch bonnet and butter beans until the meat falls off the bone.",
+    "story": "Oxtail is a collagen-rich cut that turns tender and glossy after long, slow cooking, and the Jamaican version seasons it with allspice, thyme, scallion and scotch bonnet, often with butter beans added near the end. It is a special-occasion dish, popular for Sunday meals and holidays, served over rice and peas. Slow-braised oxtail is found in many cuisines, so the dish has no single documented origin.",
+    "origin_period": "Uncertain",
+    "origin_claims": [
+      {
+        "claim": "Braised oxtail is made in many cuisines; there is no firm record of when the Jamaican version emerged.",
+        "confidence": "widely-told",
+        "source": "wiki-oxtail-stew"
+      }
+    ],
+    "sources": [
+      "wiki-oxtail-stew",
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "jamaican-patty",
+    "name": "Jamaican patty",
+    "local_name": "Jamaican patty",
+    "country": "jamaica",
+    "type": "street-food",
+    "course": [
+      "snack"
+    ],
+    "flavours": [
+      "spicy",
+      "umami",
+      "rich"
+    ],
+    "diet": [
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 2,
+    "summary": "A turmeric-yellow pastry turnover filled with spiced minced beef, eaten hot as a snack or lunch.",
+    "story": "The patty is Jamaica's best-loved hand-held snack, sold in bakeries and shops across the island. It is generally thought to combine the British pasty and the empanada tradition with local seasoning such as scotch bonnet, thyme and curry powder, with turmeric giving the pastry its colour. Fillings include beef, chicken, vegetables and cheese. A popular way to eat one is inside coco bread, a soft sweet roll.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "The patty is a blend of the British pasty and Spanish empanada traditions with Indian-style spicing.",
+        "confidence": "widely-told",
+        "source": "wiki-jamaican-patty"
+      }
+    ],
+    "sources": [
+      "wiki-jamaican-patty",
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pepper-shrimp",
+    "name": "Pepper shrimp",
+    "local_name": "Pepper shrimp",
+    "country": "jamaica",
+    "region": "st-elizabeth",
+    "type": "street-food",
+    "course": [
+      "snack",
+      "starter"
+    ],
+    "flavours": [
+      "spicy",
+      "salty",
+      "tangy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled"
+    ],
+    "spice_level": 4,
+    "summary": "Small shrimp boiled in a peppery, herby broth and eaten shell-on from a bag, famous at Middle Quarters.",
+    "story": "Pepper shrimp is a roadside snack sold in small bags at stalls in Middle Quarters, St Elizabeth, where vendors have long sold shrimp caught in nearby rivers. The shrimp are boiled in water seasoned with scotch bonnet, thyme, scallion, allspice and vinegar, and are eaten whole, shell and all, or peeled by hand. It is eaten as a bar snack and starter and is very hot.",
+    "origin_period": "20th century (roadside sales)",
+    "origin_claims": [
+      {
+        "claim": "Strongly associated with the roadside stalls of Middle Quarters, St Elizabeth, though the exact start of the tradition is not recorded.",
+        "confidence": "widely-told",
+        "source": "wiki-jamaican-cuisine"
+      }
+    ],
+    "sources": [
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bun-and-cheese",
+    "name": "Easter bun and cheese",
+    "local_name": "Bun and cheese",
+    "country": "jamaica",
+    "type": "pastry",
+    "course": [
+      "snack",
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A dark, spiced fruit loaf eaten at Easter with slices of processed cheddar cheese.",
+    "story": "Jamaican spiced bun is a dense loaf studded with dried fruit and flavoured with cinnamon, nutmeg and allspice, and darkened with molasses or brown sugar. It descends from British spiced and fruited breads, and over time became its own Jamaican tradition, available year-round but especially linked to Easter. Eating it with a slice of processed cheese is the characteristic pairing, creating a sweet-salty combination. Families buy it from bakeries or bake it at home, and shops sell large quantities in the Easter weeks.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Derived from British spiced and fruited Easter breads, adapted with local spices and sugar.",
+        "confidence": "widely-told",
+        "source": "wiki-spiced-bun"
+      }
+    ],
+    "sources": [
+      "wiki-spiced-bun",
+      "wiki-jamaican-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sorrel-drink",
+    "name": "Sorrel drink",
+    "local_name": "Sorrel",
+    "country": "jamaica",
+    "type": "drink",
+    "course": [
+      "drink"
+    ],
+    "flavours": [
+      "sweet",
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "A ruby-red Christmas drink steeped from dried sorrel (hibiscus) calyces with ginger, clove and sugar.",
+    "story": "Sorrel in the Caribbean is the red calyx of the roselle plant, a type of hibiscus that is thought to have come from West Africa. In Jamaica it is steeped with ginger, clove and sometimes cinnamon or orange peel, sweetened and chilled, and served at Christmas. Many people add white rum. Similar hibiscus drinks are found in West Africa and across the Caribbean and Mexico.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "The plant is thought to have reached the Caribbean from West Africa during the colonial period.",
+        "confidence": "widely-told",
+        "source": "wiki-sorrel-drink"
+      }
+    ],
+    "sources": [
+      "wiki-sorrel-drink",
+      "wiki-christmas-in-jamaica"
+    ],
+    "review_status": "draft"
+  }
+]

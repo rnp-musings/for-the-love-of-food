@@ -1,0 +1,335 @@
+[
+ {
+  "id": "ota-ika",
+  "name": "'Ota 'ika",
+  "local_name": "ʻOta ʻika",
+  "country": "tonga",
+  "type": "fish-dish",
+  "course": [
+   "starter",
+   "main"
+  ],
+  "flavours": [
+   "tangy",
+   "sour",
+   "rich",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "raw"
+  ],
+  "spice_level": 0,
+  "summary": "Raw fish marinated in lime juice and mixed with vegetables and coconut milk. A fresh, much-loved dish at Tongan meals and feasts.",
+  "story": "'Ota 'ika is made by marinating small pieces of raw fish in citrus juice, then mixing in diced vegetables and coconut milk. It belongs to a Pacific family of raw fish dishes that includes Samoan oka and Fijian kokoda. In Tonga it is a common feast and family dish, using tuna or other fresh reef or ocean fish. Cooks vary the vegetables, and the coconut milk is added at the end.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "Raw fish in citrus and coconut is a shared Pacific tradition and no single island is credited with creating it.",
+    "confidence": "widely-told",
+    "source": "wiki-tongan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "lu-pulu",
+  "name": "Lu pulu",
+  "local_name": "Lū pulu",
+  "country": "tonga",
+  "type": "meat-dish",
+  "course": [
+   "main",
+   "side"
+  ],
+  "flavours": [
+   "rich",
+   "salty",
+   "umami"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "baked",
+   "steamed"
+  ],
+  "spice_level": 0,
+  "summary": "Taro-leaf parcels filled with tinned corned beef, onion and coconut cream, cooked slowly until creamy. A fixture of Tongan feasts and Sunday meals.",
+  "story": "Lu are parcels of young taro leaves cooked with coconut cream and a filling, traditionally wrapped in banana or other leaves and baked in the umu. Lu pulu uses corned beef, called pulu in Tongan, a food that arrived with trade and became popular across the Pacific. Related lu dishes use lamb or fish, and the leaf-and-coconut-cream method itself is much older than the tinned meat. It is a standard part of Tongan feasts, church gatherings and family occasions.",
+  "origin_period": "Leaf-and-cream method pre-contact; corned beef later",
+  "origin_claims": [
+   {
+    "claim": "The taro-leaf and coconut cream cooking method is a long-standing Polynesian tradition, while tinned corned beef was added after trade brought it to the islands.",
+    "confidence": "widely-told",
+    "source": "wiki-tongan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-tongan-cuisine",
+   "wiki-taro",
+   "wiki-umu"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "lu-sipi",
+  "name": "Lu sipi",
+  "local_name": "Lū sipi",
+  "country": "tonga",
+  "type": "meat-dish",
+  "course": [
+   "main",
+   "side"
+  ],
+  "flavours": [
+   "rich",
+   "salty",
+   "umami"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "baked",
+   "steamed",
+   "slow-cooked"
+  ],
+  "spice_level": 0,
+  "summary": "Taro-leaf parcels filled with fatty lamb or mutton, onion and coconut cream. A rich, popular feast dish.",
+  "story": "Lu sipi is a lu parcel in which the filling is sipi (sheep), usually lamb or mutton flaps, a fatty cut that suits slow cooking in coconut cream. Lamb flaps arrived in Tonga as an imported food, often from New Zealand, and became a favoured, affordable feast ingredient. The cooking method, leaves wrapped around coconut cream in an umu, is much older.",
+  "origin_period": "Post-contact",
+  "origin_claims": [
+   {
+    "claim": "The filling is an imported meat, so lu sipi in this form postdates European contact, though the leaf-and-cream method is older.",
+    "confidence": "widely-told",
+    "source": "wiki-tongan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-tongan-cuisine",
+   "wiki-taro"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "faikakai-topai",
+  "name": "Faikakai topai",
+  "local_name": "Faikakai topai",
+  "country": "tonga",
+  "type": "dessert",
+  "course": [
+   "dessert",
+   "snack"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Soft dumplings cooked in a sweet coconut cream sauce. A traditional Tongan sweet eaten at feasts and gatherings.",
+  "story": "Faikakai is the Tongan term for a group of sweet puddings and dumplings, and topai is the version made from a flour dough cooked in a coconut and sugar syrup. Other faikakai are made from root crops or bananas. Like similar Pacific sweets, they rely on sugar and wheat flour, which came with trade. Recipes vary between families, and the dough is sometimes leavened.",
+  "origin_period": "Post-contact",
+  "origin_claims": [
+   {
+    "claim": "Faikakai dishes combine local coconut with imported flour and sugar, so they developed after contact with traders.",
+    "confidence": "widely-told",
+    "source": "wiki-tongan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "ufi",
+  "name": "'Ufi",
+  "local_name": "ʻUfi",
+  "country": "tonga",
+  "type": "other",
+  "course": [
+   "side",
+   "main"
+  ],
+  "flavours": [
+   "sweet",
+   "aromatic"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "roasted"
+  ],
+  "spice_level": 0,
+  "summary": "Yam boiled or baked until soft and starchy. 'Ufi is the prestige root crop of Tonga and a staple at feasts.",
+  "story": "'Ufi, the greater yam, is one of Tonga's most valued root crops and has long had a ceremonial role as well as being an everyday starch. Large yams are presented at important occasions and the crop has been grown across the islands for centuries. At a meal it is eaten boiled, baked in the umu or roasted, next to fish, pork and lu.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "The greater yam has been cultivated in the Pacific islands since early settlement and has strong cultural importance in Tonga.",
+    "confidence": "well-documented",
+    "source": "wiki-yam-vegetable"
+   }
+  ],
+  "sources": [
+   "wiki-yam-vegetable",
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "otai",
+  "name": "'Otai",
+  "local_name": "ʻOtai",
+  "country": "tonga",
+  "type": "drink",
+  "course": [
+   "drink",
+   "dessert"
+  ],
+  "flavours": [
+   "sweet",
+   "tangy",
+   "aromatic"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "raw"
+  ],
+  "spice_level": 0,
+  "summary": "A chilled drink of watermelon, coconut and other fruit. Popular at celebrations and in hot weather.",
+  "story": "'Otai is a refreshing cold drink made from fresh fruit, most often watermelon, with coconut milk and sometimes pineapple or other tropical fruit. It is served at feasts, picnics and gatherings, and versions of it are found across the Pacific under different names. Watermelon is an introduced fruit, so the drink in this form is a post-contact development.",
+  "origin_period": "Post-contact",
+  "origin_claims": [
+   {
+    "claim": "The drink in its present form uses introduced fruit such as watermelon, so it postdates contact with traders.",
+    "confidence": "widely-told",
+    "source": "wiki-otai"
+   }
+  ],
+  "sources": [
+   "wiki-otai",
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "puaka-tunu",
+  "name": "Puaka tunu",
+  "local_name": "Puaka tunu",
+  "country": "tonga",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "smoky",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "roasted"
+  ],
+  "spice_level": 0,
+  "summary": "Roast pork with crisp skin, the centrepiece of a Tongan feast. At large events a whole pig is roasted over an open fire.",
+  "story": "Puaka tunu means roast pig, and a whole roast pig is the most prestigious item on a Tongan feast table. Pigs have long been the main livestock for celebrations such as weddings, funerals, church events and royal occasions. At large gatherings the pig is roasted whole over a fire or in the umu, then carved and shared along with root crops and lu.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "Pigs were brought to the islands by early settlers and have been central to feasting for centuries.",
+    "confidence": "widely-told",
+    "source": "wiki-tongan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-tongan-cuisine",
+   "wiki-umu"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "feke-lolo",
+  "name": "Feke 'i he lolo",
+  "local_name": "Feke ʻi he lolo",
+  "country": "tonga",
+  "type": "fish-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "salty",
+   "aromatic"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Tender octopus simmered in coconut cream with onion. A rich seafood dish from Tonga's reefs.",
+  "story": "Feke is the Tongan word for octopus, a reef animal caught by hand or spear in the shallows and prepared in many Pacific cuisines. Cooked in coconut cream (lolo), the octopus becomes tender and the sauce takes on its flavour. Coastal islands such as those of Vava'u and Ha'apai have especially strong reef fishing, though the dish is eaten widely.",
+  "origin_claims": [
+   {
+    "claim": "Octopus cooked in coconut cream is a common Pacific preparation, and specific origin is not documented.",
+    "confidence": "widely-told",
+    "source": "wiki-octopus-as-food"
+   }
+  ],
+  "sources": [
+   "wiki-octopus-as-food",
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ }
+]

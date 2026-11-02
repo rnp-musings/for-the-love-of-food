@@ -1,0 +1,419 @@
+[
+ {
+  "id": "jingisukan",
+  "name": "Jingisukan",
+  "local_name": "ジンギスカン",
+  "country": "japan",
+  "region": "hokkaido",
+  "type": "grill-bbq",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "grilled"
+  ],
+  "spice_level": 1,
+  "summary": "Lamb and vegetables grilled on a domed iron plate, a Hokkaido favourite.",
+  "story": "Jingisukan is grilled lamb or mutton, cooked together with vegetables such as onion, cabbage and pumpkin on a domed metal griddle that lets the meat juices run down to flavour the vegetables. It is closely associated with Hokkaido, where sheep farming was promoted in the 20th century, and is often eaten at outdoor barbecues.\n\nThe name uses the Japanese form of Genghis Khan. Where the name came from is uncertain: some say the dome shape resembles a warrior's helmet, while others link it to continental food experiences. These explanations are not settled.",
+  "origin_period": "20th century",
+  "origin_claims": [
+   {
+    "claim": "Developed in Japan in the early to mid 20th century, when sheep farming was encouraged, and became established in Hokkaido.",
+    "confidence": "widely-told",
+    "source": "wiki-jingisukan"
+   },
+   {
+    "claim": "The name is explained by the dome-shaped pan resembling a helmet; this is a common but unverified account.",
+    "confidence": "disputed",
+    "source": "wiki-jingisukan"
+   }
+  ],
+  "sources": [
+   "wiki-jingisukan"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "monjayaki",
+  "name": "Monjayaki",
+  "local_name": "もんじゃ焼き",
+  "country": "japan",
+  "region": "kanto",
+  "type": "street-food",
+  "course": [
+   "main",
+   "snack"
+  ],
+  "flavours": [
+   "umami",
+   "salty",
+   "tangy"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "fried"
+  ],
+  "spice_level": 0,
+  "summary": "A runny, savoury cabbage batter cooked on a hot plate and eaten straight from it with a tiny spatula.",
+  "story": "Monjayaki is a Tokyo-area teppan dish. Finely chopped cabbage and other toppings are cooked on an iron griddle, formed into a ring, and a thin dashi-and-flour batter is poured into the middle. As it cooks, everything is mixed into a loose paste that is scraped off the hot plate with small spatulas and eaten.\n\nThe Tsukishima district of Tokyo is famous for it. It is often described as a descendant of a children's snack in the Edo and later periods, but the early history is not well documented.",
+  "origin_claims": [
+   {
+    "claim": "Grew out of a simple snack that children cooked on a griddle in Tokyo in earlier times.",
+    "confidence": "widely-told",
+    "source": "wiki-monjayaki"
+   }
+  ],
+  "sources": [
+   "wiki-monjayaki"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "okonomiyaki",
+  "name": "Okonomiyaki",
+  "local_name": "お好み焼き",
+  "country": "japan",
+  "region": "kansai",
+  "type": "street-food",
+  "course": [
+   "main",
+   "snack"
+  ],
+  "flavours": [
+   "umami",
+   "sweet",
+   "tangy"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "fried"
+  ],
+  "spice_level": 0,
+  "summary": "A thick savoury pancake of cabbage and batter, topped with a sweet sauce, mayonnaise, bonito and seaweed.",
+  "story": "Okonomiyaki means \"grilled as you like it\": a batter of flour and dashi is mixed with a lot of shredded cabbage and toppings such as pork belly, then griddled and finished with a brown fruity sauce, mayonnaise, aonori and bonito flakes. The Osaka style mixes everything together, while the Hiroshima style layers it with noodles.\n\nSimilar flour-and-water griddled snacks existed in Japan for a long time, and the modern form is usually linked to Osaka in the early to mid 20th century, with wartime and postwar shortages helping spread it. Exact origins are debated.",
+  "origin_period": "Early to mid 20th century",
+  "origin_claims": [
+   {
+    "claim": "Modern okonomiyaki developed from earlier griddled flour snacks, and became popular in Osaka.",
+    "confidence": "widely-told",
+    "source": "wiki-okonomiyaki"
+   },
+   {
+    "claim": "Hiroshima and Osaka each have their own distinct style.",
+    "confidence": "well-documented",
+    "source": "wiki-okonomiyaki"
+   }
+  ],
+  "sources": [
+   "wiki-okonomiyaki"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "takoyaki",
+  "name": "Takoyaki",
+  "local_name": "たこ焼き",
+  "country": "japan",
+  "region": "kansai",
+  "type": "street-food",
+  "course": [
+   "snack"
+  ],
+  "flavours": [
+   "umami",
+   "salty",
+   "sweet"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "fried"
+  ],
+  "spice_level": 0,
+  "summary": "Ball-shaped batter snacks with a piece of octopus inside, crisp outside and creamy within.",
+  "story": "Takoyaki are small spheres of wheat batter containing diced octopus, cooked in a special pan with half-spherical moulds and turned with picks until round. They are brushed with sauce, topped with mayonnaise, aonori and bonito flakes, and eaten hot from street stalls and festival stands, especially in Osaka.\n\nThe snack is generally credited to a vendor in Osaka in the 1930s, often named as Tomekichi Endo, who developed it from earlier griddled batter snacks. This account is common but should be treated as a tradition.",
+  "origin_period": "1930s",
+  "origin_claims": [
+   {
+    "claim": "Invented in Osaka in the 1930s by a street vendor often named as Tomekichi Endo.",
+    "confidence": "widely-told",
+    "source": "wiki-takoyaki"
+   }
+  ],
+  "sources": [
+   "wiki-takoyaki"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "tonkotsu-ramen",
+  "name": "Tonkotsu ramen",
+  "local_name": "豚骨ラーメン",
+  "country": "japan",
+  "region": "kyushu",
+  "type": "soup",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered",
+   "boiled"
+  ],
+  "spice_level": 1,
+  "summary": "Noodles in a cloudy, creamy broth made by boiling pork bones for hours, a speciality of Fukuoka and Kyushu.",
+  "story": "Tonkotsu (\"pork bone\") ramen is served in a milky, rich broth produced by boiling pork bones hard for many hours until fat and collagen emulsify. Thin straight noodles, slices of chashu pork, spring onion, an egg and other toppings go in the bowl. The style is closely linked with Hakata in Fukuoka on Kyushu, where customers can ask for extra noodles, called kaedama.\n\nRamen itself arrived from Chinese noodle dishes in the late 19th and early 20th century. The tonkotsu style is generally said to have emerged in Kyushu in the mid 20th century, with several shops claiming to be the first.",
+  "origin_period": "Mid 20th century",
+  "origin_claims": [
+   {
+    "claim": "Tonkotsu ramen emerged in Kyushu in the mid 20th century.",
+    "confidence": "widely-told",
+    "source": "wiki-tonkotsu-ramen"
+   },
+   {
+    "claim": "Several shops in Kurume and Fukuoka claim to have been first.",
+    "confidence": "disputed",
+    "source": "wiki-tonkotsu-ramen"
+   }
+  ],
+  "sources": [
+   "wiki-tonkotsu-ramen"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "goya-champuru",
+  "name": "Goya champuru",
+  "local_name": "ゴーヤーチャンプルー",
+  "country": "japan",
+  "region": "okinawa",
+  "type": "other",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "bitter",
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "sauteed"
+  ],
+  "spice_level": 0,
+  "summary": "A stir-fry of bitter melon, tofu, egg and pork, a classic Okinawan home dish.",
+  "story": "Champuru means \"something mixed\" in Okinawan, and goya champuru is the best-known version: bitter melon (goya) stir-fried with firm tofu, egg and pork or luncheon meat, seasoned with soy sauce and finished with bonito flakes. The tofu is often pressed or crumbled to hold its texture.\n\nChampuru dishes reflect the island's trade contacts. The word is often linked to Southeast Asian or Indonesian-Malay \"mixed\" words, and the cooking blends Okinawan, Japanese and Chinese influences. Luncheon meat became common after the Second World War.",
+  "origin_claims": [
+   {
+    "claim": "The name champuru is often connected with words for mixing from Southeast Asia, but this etymology is not certain.",
+    "confidence": "disputed",
+    "source": "wiki-champuru"
+   },
+   {
+    "claim": "Part of Okinawa's everyday cooking with Chinese and Japanese influences.",
+    "confidence": "well-documented",
+    "source": "wiki-okinawan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-champuru",
+   "wiki-okinawan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "miso-soup",
+  "name": "Miso soup",
+  "local_name": "味噌汁",
+  "country": "japan",
+  "type": "soup",
+  "course": [
+   "starter",
+   "side",
+   "breakfast"
+  ],
+  "flavours": [
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "A light dashi broth stirred with fermented soybean paste, usually with tofu and wakame.",
+  "story": "Miso soup (misoshiru) is a core part of the Japanese meal. A simple dashi, made from kombu seaweed and bonito flakes, is gently warmed and miso is stirred in at the end. Common additions are tofu, wakame seaweed and spring onion, but the choice of vegetables varies with the season, region and household.\n\nMiso is a fermented paste of soybeans, salt and a mould culture, and its types range from pale and sweet to dark and strong, so the soup differs from region to region. Fermented soybean seasonings arrived in Japan from the Asian mainland many centuries ago, and soups with miso are recorded from around the medieval period.",
+  "origin_claims": [
+   {
+    "claim": "Fermented soybean pastes came to Japan from the Asian mainland; miso soup became a daily dish over centuries.",
+    "confidence": "widely-told",
+    "source": "wiki-miso-soup"
+   }
+  ],
+  "sources": [
+   "wiki-miso-soup",
+   "unesco-washoku"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "ozoni",
+  "name": "Ozoni",
+  "local_name": "お雑煮",
+  "country": "japan",
+  "type": "soup",
+  "course": [
+   "breakfast",
+   "main"
+  ],
+  "flavours": [
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered",
+   "roasted"
+  ],
+  "spice_level": 0,
+  "summary": "A New Year soup of grilled rice cake in a clear or miso broth, with regional differences.",
+  "story": "Ozoni is the soup that Japanese families eat on New Year's morning. Its main element is mochi, a sticky rice cake, and the rest differs widely between households and regions. In the Kanto region the broth is a clear soy-seasoned dashi, with square mochi that is toasted, and chicken and greens. In Kansai, white miso broth with round, unbaked mochi is more usual.\n\nThe soup is linked with the rituals of making offerings to the New Year deity. Its exact origin is not clearly documented, though it is traditionally connected to samurai households and the cooking of offerings.",
+  "origin_claims": [
+   {
+    "claim": "Associated with offerings to the New Year deity and long served at the New Year table.",
+    "confidence": "widely-told",
+    "source": "wiki-zoni"
+   },
+   {
+    "claim": "Broth and mochi shape vary by region, including Kanto and Kansai styles.",
+    "confidence": "well-documented",
+    "source": "wiki-zoni"
+   }
+  ],
+  "sources": [
+   "wiki-zoni",
+   "wiki-japanese-new-year"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "kuromame",
+  "name": "Kuromame",
+  "local_name": "黒豆",
+  "country": "japan",
+  "type": "other",
+  "course": [
+   "side"
+  ],
+  "flavours": [
+   "sweet",
+   "salty"
+  ],
+  "diet": [
+   "vegetarian",
+   "vegan",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Black soybeans slowly simmered in a lightly sweet soy syrup, a standard osechi dish.",
+  "story": "Kuromame are black soybeans cooked slowly until tender and glossy in a syrup of sugar and soy sauce. They are one of the standard dishes in osechi ryori, the boxed foods eaten at New Year, and are linked to health: the word mame means both bean and being diligent or healthy, so they carry a wish for a healthy year.\n\nThe beans are often simmered for several hours and left to soak in their liquid. Osechi dishes generally rely on such wordplay and symbolism, though meanings vary and may have developed over time.",
+  "origin_claims": [
+   {
+    "claim": "Black beans are an osechi dish whose name plays on mame, meaning healthy or hard-working.",
+    "confidence": "well-documented",
+    "source": "wiki-osechi"
+   }
+  ],
+  "sources": [
+   "wiki-osechi",
+   "unesco-washoku"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "toshikoshi-soba",
+  "name": "Toshikoshi soba",
+  "local_name": "年越しそば",
+  "country": "japan",
+  "type": "pasta-noodle",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Buckwheat noodles in hot dashi broth, eaten on New Year's Eve.",
+  "story": "Toshikoshi soba means \"year-crossing soba\". Many families eat a bowl of soba on 31 December, around midnight, as the old year turns. Reasons given include that the noodles are long, standing for a long life, and that soba is easily cut, standing for cutting off the year's troubles.\n\nThe custom is generally thought to have been established by the Edo period, but explanations vary, and none is firmly proven. The noodles are served in a hot soy-and-dashi broth, often with spring onion and sometimes tempura or fried tofu.",
+  "origin_period": "Edo period (commonly told)",
+  "origin_claims": [
+   {
+    "claim": "The custom of eating soba on New Year's Eve took hold by the Edo period.",
+    "confidence": "widely-told",
+    "source": "wiki-toshikoshi-soba"
+   },
+   {
+    "claim": "Explanations about long life and cutting off misfortune are traditional associations.",
+    "confidence": "widely-told",
+    "source": "wiki-toshikoshi-soba"
+   }
+  ],
+  "sources": [
+   "wiki-toshikoshi-soba"
+  ],
+  "review_status": "draft"
+ }
+]

@@ -1,0 +1,874 @@
+[
+ {
+  "id": "jingisukan-home",
+  "dish": "jingisukan",
+  "title": "Home-grill jingisukan",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "lamb",
+    "amount": 500,
+    "unit": "g",
+    "note": "thinly sliced shoulder or leg"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "cut in thick rings"
+   },
+   {
+    "ingredient": "white-cabbage",
+    "amount": 200,
+    "unit": "g",
+    "note": "cut in wedges"
+   },
+   {
+    "ingredient": "kabocha",
+    "amount": 200,
+    "unit": "g",
+    "note": "thin slices"
+   },
+   {
+    "ingredient": "bean-sprouts",
+    "amount": 150,
+    "unit": "g"
+   },
+   {
+    "ingredient": "green-pepper",
+    "amount": 1,
+    "unit": "piece",
+    "note": "cut in strips"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 4,
+    "unit": "tbsp",
+    "note": "Dipping sauce"
+   },
+   {
+    "ingredient": "mirin",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Dipping sauce"
+   },
+   {
+    "ingredient": "sake",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Dipping sauce"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Dipping sauce"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 2,
+    "unit": "clove",
+    "note": "grated",
+    "group": "Dipping sauce"
+   },
+   {
+    "ingredient": "ginger",
+    "amount": 1,
+    "unit": "tsp",
+    "note": "grated",
+    "group": "Dipping sauce"
+   },
+   {
+    "ingredient": "apple",
+    "amount": 0.25,
+    "unit": "piece",
+    "note": "grated",
+    "group": "Dipping sauce"
+   }
+  ],
+  "steps": [
+   "Simmer the soy sauce, mirin, sake and sugar for 2 minutes, cool, and stir in the garlic, ginger and apple.",
+   "Heat a griddle, a cast-iron pan or a table-top grill and oil it lightly.",
+   "Place the onion and pumpkin around the edges first, as they need longer.",
+   "Grill the lamb slices for 1 to 2 minutes per side until browned, adding the cabbage, pepper and sprouts as space allows.",
+   "Eat straight from the pan, dipping the lamb and vegetables in the sauce."
+  ],
+  "notes": "Use sliced lamb from a butcher or buy frozen sliced lamb. Mutton is the traditional choice.",
+  "sources": [
+   "wiki-jingisukan"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "monjayaki-home",
+  "dish": "monjayaki",
+  "title": "Cabbage monjayaki",
+  "version": "home",
+  "servings": 2,
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "white-cabbage",
+    "amount": 200,
+    "unit": "g",
+    "note": "very finely chopped"
+   },
+   {
+    "ingredient": "pork-belly",
+    "amount": 60,
+    "unit": "g",
+    "note": "thin, chopped"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "wheat-flour",
+    "amount": 50,
+    "unit": "g",
+    "note": "Batter"
+   },
+   {
+    "ingredient": "dashi",
+    "amount": 250,
+    "unit": "ml",
+    "note": "cold",
+    "group": "Batter"
+   },
+   {
+    "ingredient": "worcestershire-sauce",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Batter"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Batter"
+   },
+   {
+    "ingredient": "aonori",
+    "amount": 1,
+    "unit": "tsp",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "Whisk the flour, dashi, Worcestershire sauce and soy sauce into a thin, smooth batter.",
+   "Heat a griddle or large non-stick pan on medium-high and oil it. Fry the pork for 2 minutes.",
+   "Add the cabbage and spring onion, and stir-fry for 2 to 3 minutes until slightly softened.",
+   "Push the mixture into a ring with a hole in the middle. Stir the batter and pour a little in the middle.",
+   "When it bubbles, draw the cabbage into the batter and mix everything. Spread thin and cook for 3 to 4 minutes, so that the bottom crisps.",
+   "Sprinkle with aonori and scrape up with small spatulas to eat."
+  ],
+  "notes": "It is meant to be loose and sticky. Serve from the hot plate if you can.",
+  "sources": [
+   "wiki-monjayaki"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "okonomiyaki-home",
+  "dish": "okonomiyaki",
+  "title": "Osaka-style okonomiyaki",
+  "version": "home",
+  "servings": 2,
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 100,
+    "unit": "g",
+    "group": "Batter"
+   },
+   {
+    "ingredient": "dashi",
+    "amount": 150,
+    "unit": "ml",
+    "note": "cold",
+    "group": "Batter"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece",
+    "group": "Batter"
+   },
+   {
+    "ingredient": "white-cabbage",
+    "amount": 250,
+    "unit": "g",
+    "note": "finely shredded"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "pork-belly",
+    "amount": 100,
+    "unit": "g",
+    "note": "thin slices"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "tomato-ketchup",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "worcestershire-sauce",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "mayonnaise",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "aonori",
+    "amount": 1,
+    "unit": "tsp",
+    "optional": true,
+    "group": "Topping"
+   },
+   {
+    "ingredient": "katsuobushi",
+    "amount": 5,
+    "unit": "g",
+    "group": "Topping"
+   }
+  ],
+  "steps": [
+   "Stir the ketchup, Worcestershire sauce, soy sauce and sugar for the sauce.",
+   "Whisk flour, dashi and eggs into a smooth batter. Stir in the cabbage and spring onion until coated; the mix should be thick.",
+   "Heat 1 tbsp oil in a non-stick pan over medium heat. Pour in half the mixture and shape into a round about 2 cm thick.",
+   "Lay half the pork on top. Cook for 5 minutes until golden underneath, flip carefully and cook for 5 to 6 minutes more until cooked through.",
+   "Flip again so that the pork side is up, brush with sauce, zigzag with mayonnaise, and top with aonori and bonito flakes. Repeat for the second pancake."
+  ],
+  "notes": "Do not press the pancake down while cooking, which makes it dense.",
+  "sources": [
+   "wiki-okonomiyaki"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "takoyaki-home",
+  "dish": "takoyaki",
+  "title": "Takoyaki",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 30,
+  "cook_minutes": 20,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 150,
+    "unit": "g"
+   },
+   {
+    "ingredient": "dashi",
+    "amount": 500,
+    "unit": "ml",
+    "note": "cold"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece"
+   },
+   {
+    "ingredient": "octopus",
+    "amount": 150,
+    "unit": "g",
+    "note": "boiled, cut in 1.5 cm pieces"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 3,
+    "unit": "piece",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "pickled-ginger",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "note": "for the pan"
+   },
+   {
+    "ingredient": "tomato-ketchup",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "worcestershire-sauce",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "mayonnaise",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "aonori",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "katsuobushi",
+    "amount": 5,
+    "unit": "g",
+    "group": "Topping"
+   }
+  ],
+  "steps": [
+   "Whisk the flour, dashi and eggs into a very thin batter, with a pinch of salt. Rest for 15 minutes. Mix the sauce ingredients.",
+   "Heat a takoyaki pan and oil all the moulds generously.",
+   "Pour batter in until it overflows the moulds. Drop a piece of octopus in each, with a little spring onion and ginger.",
+   "When the edges set, about 2 minutes, cut the batter between moulds with a pick and push it back in. Add a little batter on top.",
+   "Rotate each ball a quarter turn with picks as they set, repeating until they are round and golden, about 8 to 10 minutes.",
+   "Serve with sauce, mayonnaise, aonori and bonito flakes."
+  ],
+  "notes": "A takoyaki pan is needed; a Danish aebleskiver pan is a good alternative. The batter is much thinner than a pancake batter.",
+  "sources": [
+   "wiki-takoyaki"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "tonkotsu-ramen-home",
+  "dish": "tonkotsu-ramen",
+  "title": "Home tonkotsu ramen",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 40,
+  "cook_minutes": 300,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "pork-bones",
+    "amount": 1.5,
+    "unit": "kg",
+    "note": "trotters and neck bones, blanched",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "water",
+    "amount": 3,
+    "unit": "l",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "halved",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 6,
+    "unit": "clove",
+    "note": "Broth"
+   },
+   {
+    "ingredient": "ginger",
+    "amount": 30,
+    "unit": "g",
+    "note": "sliced",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "pork-belly",
+    "amount": 500,
+    "unit": "g",
+    "note": "rolled and tied",
+    "group": "Chashu"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 100,
+    "unit": "ml",
+    "group": "Chashu"
+   },
+   {
+    "ingredient": "mirin",
+    "amount": 50,
+    "unit": "ml",
+    "group": "Chashu"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Chashu"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 4,
+    "unit": "tbsp",
+    "group": "Tare"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Tare"
+   },
+   {
+    "ingredient": "sesame-oil",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Tare"
+   },
+   {
+    "ingredient": "wheat-noodles",
+    "amount": 400,
+    "unit": "g",
+    "note": "thin ramen noodles"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 4,
+    "unit": "piece",
+    "note": "soft-boiled and halved"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 3,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "nori",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sheets",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "Blanch the bones in boiling water for 10 minutes, drain and rinse them thoroughly to clean the scum off.",
+   "Return the bones to a clean pot with 3 l fresh water, onion, garlic and ginger. Boil hard, topping up with hot water to keep the bones covered, for 4 to 5 hours until the broth is cloudy and creamy.",
+   "Meanwhile, brown the pork belly in a pan, add 100 ml soy sauce, mirin, sugar and 300 ml water. Simmer covered for 1.5 hours, turning, then leave it in the liquid to cool. Slice thickly.",
+   "Strain the broth. Mix the tare ingredients, and put 1 tbsp in each of four bowls.",
+   "Cook the noodles for 1 to 2 minutes, drain well, and put in the bowls. Pour over 350 ml boiling hot broth per bowl.",
+   "Top with slices of chashu, egg, spring onion and nori."
+  ],
+  "notes": "The cloudy broth needs a hard, rolling boil. Reduce the time to about 3 hours for a lighter, quicker home broth. Make the broth the day before and chill, then remove the excess fat if you like.",
+  "sources": [
+   "wiki-tonkotsu-ramen"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "goya-champuru-home",
+  "dish": "goya-champuru",
+  "title": "Goya champuru",
+  "version": "home",
+  "servings": 2,
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "bitter-melon",
+    "amount": 1,
+    "unit": "piece",
+    "note": "about 250 g, halved, seeds removed, thinly sliced"
+   },
+   {
+    "ingredient": "tofu",
+    "amount": 200,
+    "unit": "g",
+    "note": "firm, drained and pressed"
+   },
+   {
+    "ingredient": "pork-belly",
+    "amount": 100,
+    "unit": "g",
+    "note": "thin slices"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece",
+    "note": "beaten"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "sake",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "katsuobushi",
+    "amount": 3,
+    "unit": "g"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "black-pepper",
+    "amount": 1,
+    "unit": "pinch"
+   }
+  ],
+  "steps": [
+   "Salt the bitter melon slices lightly, leave for 10 minutes, then squeeze out the liquid. This reduces bitterness.",
+   "Heat the oil in a wok or large pan. Crumble in the tofu and cook until golden on a few sides, about 3 minutes. Remove.",
+   "Fry the pork for 2 minutes, add the bitter melon and cook for 2 to 3 minutes, so that it stays crisp.",
+   "Return the tofu, add the sake, soy sauce and pepper, and toss.",
+   "Pour the eggs over, stirring until just set. Add half the bonito flakes, mix, and top with the rest. Serve with rice."
+  ],
+  "notes": "Scrape out the white pith from the melon thoroughly. Luncheon meat is an authentic substitute for the pork.",
+  "sources": [
+   "wiki-champuru"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "miso-soup-home",
+  "dish": "miso-soup",
+  "title": "Tofu and wakame miso soup",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "water",
+    "amount": 800,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "kombu",
+    "amount": 10,
+    "unit": "g",
+    "note": "a 10 cm piece"
+   },
+   {
+    "ingredient": "katsuobushi",
+    "amount": 15,
+    "unit": "g"
+   },
+   {
+    "ingredient": "miso",
+    "amount": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "tofu",
+    "amount": 200,
+    "unit": "g",
+    "note": "soft, cut in small cubes"
+   },
+   {
+    "ingredient": "wakame",
+    "amount": 1,
+    "unit": "tbsp",
+    "note": "dried, soaked 5 minutes and drained"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced"
+   }
+  ],
+  "steps": [
+   "Put the water and kombu in a pot and heat slowly. Remove the kombu just before it boils.",
+   "Add the bonito flakes, turn off the heat after 30 seconds and let them sink. Strain.",
+   "Return the dashi to a gentle simmer and add the tofu and wakame for 2 minutes.",
+   "Dissolve the miso through a small sieve into the soup. Do not boil it again, which spoils the aroma.",
+   "Add the spring onion and serve straight away."
+  ],
+  "notes": "Use more miso for a stronger soup. For a vegetarian version replace the bonito with soaked dried shiitake in the dashi.",
+  "sources": [
+   "wiki-miso-soup"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "ozoni-home",
+  "dish": "ozoni",
+  "title": "Kanto-style ozoni",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 20,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "kombu",
+    "amount": 10,
+    "unit": "g"
+   },
+   {
+    "ingredient": "katsuobushi",
+    "amount": 15,
+    "unit": "g"
+   },
+   {
+    "ingredient": "water",
+    "amount": 1,
+    "unit": "l"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "mirin",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "chicken",
+    "amount": 200,
+    "unit": "g",
+    "note": "thigh, sliced thin"
+   },
+   {
+    "ingredient": "carrot",
+    "amount": 1,
+    "unit": "piece",
+    "note": "sliced into rounds"
+   },
+   {
+    "ingredient": "daikon",
+    "amount": 100,
+    "unit": "g",
+    "note": "sliced thin"
+   },
+   {
+    "ingredient": "komatsuna",
+    "amount": 100,
+    "unit": "g",
+    "note": "blanched, cut in 4 cm pieces"
+   },
+   {
+    "ingredient": "mochi",
+    "amount": 8,
+    "unit": "piece",
+    "note": "square cakes"
+   }
+  ],
+  "steps": [
+   "Make dashi by warming the kombu in the water, removing it before the boil, then steeping the bonito for a minute and straining.",
+   "Simmer the chicken, carrot and daikon in the dashi for 8 to 10 minutes, skimming off any scum.",
+   "Season the soup with soy sauce, salt and mirin.",
+   "Toast the mochi in a toaster oven or grill until puffed and golden, 4 to 5 minutes, or boil in a separate pot for a softer texture.",
+   "Place two mochi in each bowl, add the komatsuna, ladle on the soup and serve hot."
+  ],
+  "notes": "Mochi is very sticky and a choking risk, especially for the elderly and young children. Cut it into small pieces and eat slowly.",
+  "sources": [
+   "wiki-zoni"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "kuromame-home",
+  "dish": "kuromame",
+  "title": "Simmered black soybeans",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 15,
+  "cook_minutes": 300,
+  "passive_minutes": 480,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "black-soybeans",
+    "amount": 200,
+    "unit": "g",
+    "note": "dried, rinsed"
+   },
+   {
+    "ingredient": "water",
+    "amount": 1.2,
+    "unit": "l"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 120,
+    "unit": "g"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 0.25,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Combine the water, sugar, soy sauce and salt, and heat until the sugar dissolves. Add the beans and soak for 8 hours or overnight.",
+   "Bring to a boil in the soaking liquid, skim off any foam, then lower to a gentle simmer.",
+   "Keep at a bare simmer with a lid slightly ajar for about 4 hours, adding water as needed so the beans stay covered, until tender and soft enough to squash.",
+   "Turn off the heat and let the beans cool in the liquid, so they take on the syrup and keep a shiny, wrinkle-free skin.",
+   "Keep in the liquid in the fridge for up to a week; serve a few spoonfuls as part of New Year dishes."
+  ],
+  "notes": "A pressure cooker cuts the time to about 1 hour. A rusty iron nail is sometimes added in traditional recipes to keep the black colour; it is not needed here.",
+  "sources": [
+   "wiki-osechi"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "toshikoshi-soba-home",
+  "dish": "toshikoshi-soba",
+  "title": "Toshikoshi soba",
+  "version": "home",
+  "servings": 2,
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "soba-noodles",
+    "amount": 200,
+    "unit": "g",
+    "note": "dried"
+   },
+   {
+    "ingredient": "kombu",
+    "amount": 8,
+    "unit": "g"
+   },
+   {
+    "ingredient": "katsuobushi",
+    "amount": 12,
+    "unit": "g"
+   },
+   {
+    "ingredient": "water",
+    "amount": 600,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "mirin",
+    "amount": 3,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced thinly"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Warm the water with kombu, remove the kombu before boiling, add the bonito flakes, and strain after a minute to make dashi.",
+   "Add the soy sauce and mirin to the dashi and keep warm.",
+   "Boil the soba in plenty of water following the pack time, usually 4 to 6 minutes. Rinse under cold running water and drain well.",
+   "Briefly dip the noodles in hot water to warm them, and divide into two bowls.",
+   "Pour the hot broth over, scatter the spring onion on top and eat immediately."
+  ],
+  "notes": "Add a piece of fried tofu or tempura if you like. 100% buckwheat soba is gluten-free but the soy sauce still contains wheat.",
+  "sources": [
+   "wiki-toshikoshi-soba"
+  ],
+  "review_status": "draft"
+ }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "poutine", "name": "Poutine", "local_name": "Poutine", "country": "canada", "region": "quebec",
+    "type": "street-food", "course": ["snack", "main"], "flavours": ["rich", "salty", "umami"], "diet": ["egg-free", "nut-free"],
+    "cook_methods": ["deep-fried", "simmered"], "spice_level": 0,
+    "summary": "French fries topped with fresh cheese curds and hot brown gravy, a staple of Quebec snack bars and late-night food.",
+    "story": "Poutine is a Quebec invention of the second half of the 20th century, made from fries, squeaky fresh cheese curds and a light brown gravy that partly melts the curds. It started in rural snack bars and, over time, spread to the rest of the country and abroad, where it now has many variations, including ones with smoked meat, pulled pork or vegetarian gravy. Several towns in central Quebec claim to be the birthplace and different restaurant owners give accounts of when they first served it in the late 1950s, so the exact origin is disputed. Poutine is now widely regarded as an iconic Canadian dish.",
+    "origin_period": "1950s",
+    "origin_claims": [
+      {"claim": "Created in rural Quebec snack bars in the late 1950s, with several towns and restaurateurs claiming to be first.", "confidence": "disputed", "source": "wiki-poutine"},
+      {"claim": "Popularised across Quebec in the 1970s and later across Canada.", "confidence": "well-documented", "source": "wiki-poutine"}
+    ],
+    "sources": ["wiki-poutine", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "tourtiere", "name": "Tourtière", "local_name": "Tourtière", "country": "canada", "region": "quebec",
+    "type": "pastry", "course": ["main"], "flavours": ["rich", "aromatic", "salty"], "diet": ["nut-free"],
+    "cook_methods": ["baked"], "spice_level": 0,
+    "summary": "A double-crust Quebec meat pie of spiced minced pork, traditionally eaten at Christmas Eve réveillon.",
+    "story": "Tourtière is a savoury pie of minced meat, most often pork, scented with warm spices such as cloves, cinnamon and allspice. It is central to the réveillon, the late meal after midnight mass or on Christmas Eve, and also appears at New Year. The name may come from the French tourtière, a dish used to bake tourtes (pies), and some stories link it to the passenger pigeon, but those are better treated as folklore. Recipes differ by family and region; the Saguenay–Lac-Saint-Jean version uses cubes of meat and potato rather than mince. The dish is also cooked in French-Canadian communities in other provinces and in New England.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {"claim": "The name is from the French tourtière, referring to the dish used for baking tourtes (pies) or to the pie itself.", "confidence": "widely-told", "source": "wiki-tourtiere"},
+      {"claim": "The pie was originally made with passenger pigeons, called tourtes.", "confidence": "legend", "source": "wiki-tourtiere"}
+    ],
+    "sources": ["wiki-tourtiere", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "tire-sur-la-neige", "name": "Maple taffy on snow", "local_name": "Tire sur la neige", "country": "canada", "region": "quebec",
+    "type": "snack", "course": ["dessert", "snack"], "flavours": ["sweet"], "diet": ["vegetarian", "vegan", "gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["boiled"], "spice_level": 0,
+    "summary": "Hot maple syrup poured in ribbons onto clean snow, where it chills into soft taffy that is rolled onto a wooden stick.",
+    "story": "Tire sur la neige, or tire d'érable, is a treat of the maple season in Quebec and neighbouring areas, when sap is boiled down to syrup in the sugar shacks (cabanes à sucre). Syrup is heated further, then poured onto packed snow, where it cools to a chewy taffy within seconds and is wound onto a stick. Maple sugaring was practised by Indigenous peoples of north-eastern North America before European contact, and settlers learned and adapted the methods. The taffy is traditionally eaten with pickles and plain doughnuts, which cut through the sweetness.",
+    "origin_period": "Maple sugaring is pre-contact; the taffy tradition is colonial",
+    "origin_claims": [
+      {"claim": "Making maple sugar and syrup was an Indigenous practice before European settlement.", "confidence": "well-documented", "source": "wiki-maple-taffy"},
+      {"claim": "The snow taffy tradition developed in the sugar-bush culture of colonial Quebec.", "confidence": "widely-told", "source": "wiki-maple-taffy"}
+    ],
+    "sources": ["wiki-maple-taffy", "wiki-sugar-shack"], "review_status": "draft"
+  },
+  {
+    "id": "pouding-chomeur", "name": "Pouding chômeur", "local_name": "Pouding chômeur", "country": "canada", "region": "quebec",
+    "type": "dessert", "course": ["dessert"], "flavours": ["sweet", "rich"], "diet": ["vegetarian", "nut-free"],
+    "cook_methods": ["baked"], "spice_level": 0,
+    "summary": "A simple cake baked under a hot syrup of maple or brown sugar and cream, so that it rises through a caramel-like sauce.",
+    "story": "The name means unemployed person's pudding. A common account places its invention in the 1930s, during the Great Depression, when working women in a Quebec factory town made a cheap cake using pantry staples and covered it with hot syrup instead of expensive sugar and cream. The exact story varies and cannot be verified, but the dessert is well established in Quebec home cooking. Modern versions use maple syrup, especially at sugar shacks, where it is a fixture of the traditional meal.",
+    "origin_period": "1930s",
+    "origin_claims": [
+      {"claim": "Created in the Depression of the 1930s by factory workers in a Quebec town such as Saint-Hyacinthe.", "confidence": "widely-told", "source": "wiki-pouding-chomeur"}
+    ],
+    "sources": ["wiki-pouding-chomeur", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "montreal-smoked-meat", "name": "Montreal smoked meat", "local_name": "Viande fumée de Montréal", "country": "canada", "region": "quebec",
+    "type": "meat-dish", "course": ["main"], "flavours": ["smoky", "salty", "aromatic"], "diet": ["dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["slow-cooked", "steamed"], "spice_level": 1,
+    "summary": "Beef brisket cured in a spiced brine, smoked and steamed, and sliced thickly for rye-bread sandwiches with mustard.",
+    "story": "Montreal smoked meat is a cured, smoked beef brisket linked to the city's Jewish delicatessens, which grew with Eastern European Jewish immigration in the late 19th and early 20th centuries. The brisket is cured for days in salt and spices such as coriander, pepper and garlic, smoked, and steamed until tender, then cut by hand and served in a sandwich with yellow mustard. It is similar to pastrami and corned beef, and food historians still debate the details of how the technique reached Montreal and how it differs from its relatives. It is a cured, preserved meat with a long-keeping tradition rooted in older European methods.",
+    "origin_period": "Late 19th and early 20th century",
+    "origin_claims": [
+      {"claim": "Brought to Montreal by Eastern European Jewish immigrants and developed in delicatessens.", "confidence": "widely-told", "source": "wiki-montreal-smoked-meat"},
+      {"claim": "Said to derive from a Romanian curing tradition, with competing accounts about the first Montreal deli to make it.", "confidence": "disputed", "source": "wiki-montreal-smoked-meat"}
+    ],
+    "sources": ["wiki-montreal-smoked-meat", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "jiggs-dinner", "name": "Jiggs dinner", "local_name": "Jiggs dinner", "country": "canada", "region": "atlantic-canada",
+    "type": "meat-dish", "course": ["main"], "flavours": ["salty", "rich"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["boiled", "simmered"], "spice_level": 0,
+    "summary": "A Newfoundland boiled dinner of salt beef with cabbage, potato, carrot, turnip and pease pudding.",
+    "story": "Jiggs dinner is the traditional Sunday meal of Newfoundland and Labrador, and is also eaten at Christmas and New Year. The centrepiece is salt beef, a preserved meat that kept well for households without refrigeration, simmered in one pot with root vegetables and cabbage. Pease pudding, made from split peas boiled in a cloth bag, is the classic side. The name is often traced to Jiggs, a character in the American comic strip Bringing Up Father, who loved corned beef and cabbage, but how the name arrived in Newfoundland is not firmly documented. Some households add pickled beets or a steamed pudding such as figgy duff.",
+    "origin_period": "20th century",
+    "origin_claims": [
+      {"claim": "The name comes from the comic strip character Jiggs, a fan of corned beef and cabbage.", "confidence": "widely-told", "source": "wiki-jiggs-dinner"},
+      {"claim": "Boiled salt-meat dinners are part of the older British and Irish foodways of the island.", "confidence": "widely-told", "source": "wiki-jiggs-dinner"}
+    ],
+    "sources": ["wiki-jiggs-dinner", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "butter-tarts", "name": "Butter tarts", "local_name": "Butter tarts", "country": "canada", "region": "ontario",
+    "type": "pastry", "course": ["dessert", "snack"], "flavours": ["sweet", "rich"], "diet": ["vegetarian", "nut-free"],
+    "cook_methods": ["baked"], "spice_level": 0,
+    "summary": "Small pastry shells filled with a sweet, gooey mixture of butter, sugar and egg, sometimes with raisins.",
+    "story": "Butter tarts are considered a Canadian original, and are firmly associated with Ontario bakeries, fall fairs and farm stands. The filling is a gooey mixture of butter, sugar, syrup and egg baked until it sets with a slightly crisp top. They are related to older British tarts such as treacle and Border tarts, and early recipes with the Canadian name were published in the late 19th and early 20th century. Debates continue about whether to include raisins or nuts and whether the filling should run or set firm. Ontario holds a butter tart trail and festivals devoted to it.",
+    "origin_period": "Late 19th to early 20th century",
+    "origin_claims": [
+      {"claim": "Developed in Canada from British pastry traditions, with early printed recipes from Ontario.", "confidence": "widely-told", "source": "wiki-butter-tart"}
+    ],
+    "sources": ["wiki-butter-tart", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "pyrohy", "name": "Pyrohy (perogies)", "local_name": "Пироги (pyrohy)", "country": "canada", "region": "prairies",
+    "type": "dumpling", "course": ["main", "side"], "flavours": ["rich", "salty"], "diet": ["vegetarian", "nut-free"],
+    "cook_methods": ["boiled", "sauteed"], "spice_level": 0,
+    "summary": "Half-moon dumplings of unleavened dough filled with potato and cheese, boiled and then fried with onions and served with sour cream.",
+    "story": "Pyrohy, called perogies in Canadian English, came to the Prairies with Ukrainian immigrants, who settled in large numbers in Manitoba, Saskatchewan and Alberta from the late 19th century onwards. Their dumplings, related to Polish pierogi and found across Central and Eastern Europe, became a staple of church suppers, community fundraisers and frozen-food aisles. Potato and cheese is the best-known filling, but cabbage, sauerkraut, cottage cheese and fruit are also traditional. They are served with fried onions and sour cream, and often with sausage or beet-based borscht. The dish is one of the most visible signs of Ukrainian Canadian foodways.",
+    "origin_period": "Late 19th and early 20th century (Canadian settlement)",
+    "origin_claims": [
+      {"claim": "Brought to the Canadian Prairies by Ukrainian settlers from the late 19th century.", "confidence": "well-documented", "source": "wiki-pierogi"}
+    ],
+    "sources": ["wiki-pierogi", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "bannock", "name": "Bannock", "local_name": "Bannock", "country": "canada",
+    "type": "bread", "course": ["side", "breakfast"], "flavours": ["salty", "rich"], "diet": ["vegetarian", "vegan", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["fried", "baked"], "spice_level": 0,
+    "summary": "A simple quick bread of flour, baking powder and fat, pan-fried, baked or cooked on a stick over a fire, widely eaten in First Nations, Inuit and Metis communities.",
+    "story": "Bannock is a flat or round bread made without yeast, and it is a common food in many First Nations, Inuit and Metis communities across Canada. The word and the flour-based form come from Scottish bannocks, introduced through the fur trade, where flour, lard and baking powder were traded; Indigenous cooks adapted it, and it has been made in many different ways: fried in a pan, baked, or wrapped around a stick over a fire. Indigenous peoples also made breads from corn, roots and other plants well before European contact. Because flour, lard and sugar were issued as rations after colonisation, bannock is also associated with a difficult history of changing diets, and many communities now cook it alongside revived traditional foods. It is eaten with soup, stew, jam or fish.",
+    "origin_period": "Fur trade era, adapted from earlier traditions",
+    "origin_claims": [
+      {"claim": "The flour-based bannock in Canada comes from Scottish bannock, introduced during the fur trade, and was widely adopted by Indigenous peoples.", "confidence": "widely-told", "source": "wiki-bannock"},
+      {"claim": "Indigenous peoples made breads and cakes from corn, roots and other plants before contact with Europeans.", "confidence": "well-documented", "source": "wiki-bannock"}
+    ],
+    "sources": ["wiki-bannock", "wiki-canadian-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "nanaimo-bars", "name": "Nanaimo bars", "local_name": "Nanaimo bars", "country": "canada", "region": "british-columbia",
+    "type": "dessert", "course": ["dessert", "snack"], "flavours": ["sweet", "rich"], "diet": ["vegetarian"],
+    "cook_methods": ["raw"], "spice_level": 0,
+    "summary": "A no-bake three-layer bar with a chocolate-coconut crumb base, a pale custard-flavoured butter icing and a layer of set chocolate.",
+    "story": "Nanaimo bars are named for the city of Nanaimo on Vancouver Island in British Columbia, though the people who first made them are not known with certainty. They appear in community cookbooks from the 1950s under names such as chocolate square, and by the 1960s the Nanaimo name was in print. The base is made with cocoa, coconut, nuts and crushed biscuits, the middle layer with custard powder, and the top with melted chocolate. Because they need no oven, they are a standard of bake sales, holiday trays and coffee shops across Canada. The city of Nanaimo promotes a trail of bars and its own claims to the recipe.",
+    "origin_period": "1950s",
+    "origin_claims": [
+      {"claim": "A recipe first appeared in 1950s community cookbooks, under the name Nanaimo bar by the 1960s.", "confidence": "well-documented", "source": "wiki-nanaimo-bar"},
+      {"claim": "Invented by a specific woman in or near Nanaimo in the 1950s.", "confidence": "disputed", "source": "wiki-nanaimo-bar"}
+    ],
+    "sources": ["wiki-nanaimo-bar", "wiki-canadian-cuisine"], "review_status": "draft"
+  }
+]

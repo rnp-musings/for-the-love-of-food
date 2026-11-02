@@ -1,0 +1,420 @@
+[
+  {
+    "id": "pastel-de-choclo",
+    "name": "Pastel de choclo",
+    "local_name": "Pastel de choclo",
+    "country": "chile",
+    "region": "central-valley",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "sweet",
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A baked pie of seasoned beef and chicken filling under a thick, sweet fresh-corn and basil topping.",
+    "story": "Choclo is the Andean word for large-kernelled fresh corn, and this dish is a summer favourite of central Chile, when corn is in season. A savoury filling called pino, made of beef, onion, raisins, olives and hard-boiled egg, is covered with a thick paste of ground corn and basil, dusted with sugar and baked in individual clay dishes until the top caramelises. The mix of savoury and sweet reflects Spanish colonial cooking meeting native maize. Ground corn dishes were made by indigenous peoples before the Spanish arrived, but the exact origin of this baked pie is not well documented.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Combines indigenous corn cookery with Spanish-introduced meats, raisins and olives.",
+        "confidence": "widely-told",
+        "source": "wiki-pastel-de-choclo"
+      }
+    ],
+    "sources": [
+      "wiki-pastel-de-choclo",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "empanadas-de-pino",
+    "name": "Empanadas de pino",
+    "local_name": "Empanadas de pino",
+    "country": "chile",
+    "type": "pastry",
+    "course": [
+      "snack",
+      "main"
+    ],
+    "flavours": [
+      "salty",
+      "rich",
+      "sweet"
+    ],
+    "diet": [
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 1,
+    "summary": "Baked turnovers filled with beef and onion pino, raisin, olive and egg.",
+    "story": "The empanada, a pastry turnover, came to Chile with Spanish settlers, whose own cooking has filled pies. In Chile the baked empanada de pino is filled with minced beef, a lot of onion, cumin, a raisin, an olive and a slice of hard-boiled egg. Deep-fried cheese empanadas are also common, but the beef version is the one tied to national celebrations, and every 18 September households and bakeries make them in large numbers. Pastry fillings vary by family and region.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Pastry turnovers were brought by the Spanish, then adapted with local ingredients such as cumin and aji.",
+        "confidence": "widely-told",
+        "source": "wiki-empanada"
+      }
+    ],
+    "sources": [
+      "wiki-empanada",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "cazuela-de-vacuno",
+    "name": "Cazuela de vacuno",
+    "local_name": "Cazuela de vacuno",
+    "country": "chile",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free",
+      "gluten-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "A clear broth-based soup with a large piece of beef or chicken, a corn cob, pumpkin and potato in the bowl.",
+    "story": "Cazuela is a home-style Chilean soup-stew, made with beef (vacuno) or chicken, in which a big chunk of meat, a wedge of potato, a piece of pumpkin, rice or noodles and a section of corn on the cob are served together in a bowl of golden broth. The name comes from the clay or metal pot in which Spanish stews were cooked. Soups and boiled-meat dishes arrived with the Spanish, while corn and potatoes are native to the Americas, so the dish brings both traditions together. It is a typical lunch in homes and is also made with chicken, pork or turkey.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Spanish stew traditions combined with native American corn, potato and squash.",
+        "confidence": "widely-told",
+        "source": "wiki-cazuela"
+      }
+    ],
+    "sources": [
+      "wiki-cazuela",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "curanto",
+    "name": "Curanto",
+    "local_name": "Curanto chilote",
+    "country": "chile",
+    "region": "chiloe",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "smoky",
+      "rich",
+      "salty"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "steamed",
+      "slow-cooked"
+    ],
+    "spice_level": 0,
+    "summary": "A feast of shellfish, meats and potato breads steamed together under leaves over hot stones, the emblem of Chiloé.",
+    "story": "Curanto is the famous festive meal of the Chiloé archipelago in southern Chile. Traditionally a pit is dug and lined with stones heated in a fire. Shellfish, pork, chicken, sausages, potatoes and potato breads (milcao and chapaleles) are layered over the stones, covered with large leaves, and left to steam for around an hour. Its pit-cooking technique is of indigenous origin, shared with other peoples of the Pacific and Patagonia, and the name comes from the Mapuche language. The addition of pork, chicken and sausages came after the Spanish arrival. A version is also made in a pot (curanto en olla) when a pit is not practical.",
+    "origin_period": "Pre-Hispanic technique with later additions",
+    "origin_claims": [
+      {
+        "claim": "The pit-steaming method has indigenous origins and the name comes from Mapuche kurantu (stone-cooking).",
+        "confidence": "widely-told",
+        "source": "wiki-curanto"
+      },
+      {
+        "claim": "Meats such as pork and chicken were added after the Spanish arrival.",
+        "confidence": "well-documented",
+        "source": "wiki-curanto"
+      }
+    ],
+    "sources": [
+      "wiki-curanto",
+      "wiki-chiloe-archipelago"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "milcao",
+    "name": "Milcao",
+    "local_name": "Milcao",
+    "country": "chile",
+    "region": "chiloe",
+    "type": "other",
+    "course": [
+      "side",
+      "snack"
+    ],
+    "flavours": [
+      "rich",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "roasted"
+    ],
+    "spice_level": 0,
+    "summary": "A dense potato cake of raw grated and cooked potato with lard, often filled with crackling, from Chiloé.",
+    "story": "Milcao is a staple potato bread of Chiloé, made from grated raw potato and mashed cooked potato with pork fat, and sometimes filled with chicharrones (pork crackling). Rounds of dough are cooked on a griddle, in the embers, or are added to the curanto to steam. Potatoes have been grown on Chiloé for a very long time, and the island is known for its many native varieties. It is eaten with meals the way bread would be, and also as an accompaniment to meat.",
+    "origin_period": "Traditional; exact period unclear",
+    "origin_claims": [
+      {
+        "claim": "A traditional Chilote potato bread, important in curanto and everyday meals.",
+        "confidence": "widely-told",
+        "source": "wiki-milcao"
+      }
+    ],
+    "sources": [
+      "wiki-milcao",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pebre",
+    "name": "Pebre",
+    "local_name": "Pebre",
+    "country": "chile",
+    "type": "sauce",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "tangy",
+      "spicy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 2,
+    "summary": "A fresh table sauce of tomato, onion, coriander and chilli, served with bread, meat and empanadas.",
+    "story": "Pebre is the standard table condiment of Chile, a chopped salsa of tomato, onion, fresh coriander, garlic and green chilli with oil and vinegar or lemon. It is served with bread, grilled meats, empanadas and fried dishes. The name probably comes from Spanish and Catalan words for pepper, but the origin of the word is debated. Variations include versions with aji, or with a smoky merkén, a spice of Mapuche origin.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "The sauce resembles the sauces of Spain and shares Andean chilli traditions.",
+        "confidence": "widely-told",
+        "source": "wiki-pebre"
+      },
+      {
+        "claim": "The etymology of the name is debated.",
+        "confidence": "disputed",
+        "source": "wiki-pebre"
+      }
+    ],
+    "sources": [
+      "wiki-pebre",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sopaipillas",
+    "name": "Sopaipillas",
+    "local_name": "Sopaipillas",
+    "country": "chile",
+    "type": "street-food",
+    "course": [
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Round, golden fried discs of pumpkin dough, sold on street corners on rainy days.",
+    "story": "Sopaipillas are fried discs of dough made with pumpkin, which gives them colour and softness. They are sold from street stalls, especially in cold or rainy weather, and eaten with pebre, mustard or ketchup. A sweeter version, sopaipillas pasadas, is soaked in a syrup of chancaca (unrefined cane sugar) with orange peel and cinnamon. Fried flatbreads of this name exist in several Latin American countries and in the Spanish tradition. The word comes from Spanish, but the Chilean pumpkin version is local to the country, and its exact history is not well documented.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "The name and fried dough tradition came from Spain and were adapted using native squash.",
+        "confidence": "widely-told",
+        "source": "wiki-sopaipilla"
+      }
+    ],
+    "sources": [
+      "wiki-sopaipilla",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "mote-con-huesillo",
+    "name": "Mote con huesillo",
+    "local_name": "Mote con huesillo",
+    "country": "chile",
+    "region": "central-valley",
+    "type": "drink",
+    "course": [
+      "drink",
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "A chilled summer refreshment of husked wheat and a dried peach in a sweet, spiced syrup.",
+    "story": "This cold drink, eaten with a spoon, is made of mote (husked cooked wheat) and a huesillo, a dried peach that is rehydrated and cooked in a sweet syrup flavoured with cinnamon. It is sold by street vendors from carts, particularly in summer in Santiago and central Chile, and is also drunk at fiestas and fairs. Mote, wheat or corn grains hulled and cooked, is of indigenous origin, from the Quechua and Mapuche traditions, while wheat was brought by the Spanish. The combination of mote with peaches is well established in central Chile, but its precise history is not documented.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Combines indigenous mote with fruit preserved by drying, a Spanish-era technique.",
+        "confidence": "widely-told",
+        "source": "wiki-mote-con-huesillo"
+      }
+    ],
+    "sources": [
+      "wiki-mote-con-huesillo",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "humitas",
+    "name": "Humitas",
+    "local_name": "Humitas",
+    "country": "chile",
+    "region": "central-valley",
+    "type": "dumpling",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "steamed",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "Fresh-corn paste with onion and basil, wrapped in corn husks and steamed.",
+    "story": "Humitas are parcels of fresh ground corn mixed with sauteed onion and basil, wrapped in the corn husk and cooked in boiling water or steamed. The name comes from the Quechua word humint'a, and similar corn parcels are known across the Andes and the Southern Cone, including Argentina, Ecuador and Bolivia. In Chile they are a summer food, when fresh corn is plentiful, and are eaten with a salad of tomato and onion. Each region has its own seasonings.",
+    "origin_period": "Pre-Hispanic roots",
+    "origin_claims": [
+      {
+        "claim": "Corn parcels of this kind pre-date the Spanish arrival and were known across the Andes.",
+        "confidence": "widely-told",
+        "source": "wiki-humita"
+      }
+    ],
+    "sources": [
+      "wiki-humita",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "chicha-de-manzana",
+    "name": "Chicha de manzana",
+    "local_name": "Chicha de manzana",
+    "country": "chile",
+    "type": "drink",
+    "course": [
+      "drink"
+    ],
+    "flavours": [
+      "sweet",
+      "tangy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fermented"
+    ],
+    "spice_level": 0,
+    "summary": "A lightly alcoholic, fizzy fermented apple drink of southern Chile, drunk cold at celebrations.",
+    "story": "Chicha is a general name for fermented drinks in the Andes and the wider Americas, often corn-based. In Chile chicha is also made from grapes (chicha de uva) and, especially in the cool south, from apples. Apples were introduced after the Spanish arrival and are now widely grown in the cooler south, where the fruit is pressed and the juice left to ferment for a week or two into a drink that is sweet and sparkling. Exactly when apple chicha became established is not well documented. It is a traditional drink of Fiestas Patrias on 18 September.",
+    "origin_period": "Colonial period onward",
+    "origin_claims": [
+      {
+        "claim": "Apples arrived with Europeans and fermented chicha was adapted to the fruit, especially in the south.",
+        "confidence": "widely-told",
+        "source": "wiki-chicha"
+      }
+    ],
+    "sources": [
+      "wiki-chicha",
+      "wiki-chilean-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

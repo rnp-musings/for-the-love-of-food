@@ -1,0 +1,663 @@
+[
+  {
+    "id": "paella-valenciana-home",
+    "dish": "paella-valenciana",
+    "title": "Paella valenciana",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 600,
+        "unit": "g",
+        "note": "bone-in thighs, cut into pieces"
+      },
+      {
+        "ingredient": "rabbit",
+        "amount": 400,
+        "unit": "g",
+        "note": "jointed; use extra chicken if unavailable"
+      },
+      {
+        "ingredient": "green-beans",
+        "amount": 200,
+        "unit": "g",
+        "note": "flat green beans, cut into 4 cm pieces"
+      },
+      {
+        "ingredient": "lima-beans",
+        "amount": 150,
+        "unit": "g",
+        "note": "fresh or cooked large white beans"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 150,
+        "unit": "g",
+        "note": "grated, skins discarded"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "sweet"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "note": "soaked in 2 tbsp warm water"
+      },
+      {
+        "ingredient": "bomba-rice",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 900,
+        "unit": "ml",
+        "note": "hot"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a 40 cm paella pan or wide shallow pan over medium-high heat. Season the chicken and rabbit with salt and brown on all sides, about 12 minutes.",
+      "Push the meat to the edges, add the green beans and cook for 5 minutes. Add the lima beans.",
+      "Make a space in the centre, add the grated tomato and cook for 3 minutes until it darkens, then stir in the paprika for a few seconds.",
+      "Pour in the hot water and saffron and bring to a boil. Simmer for about 20 minutes, until the meat is tender, then taste the broth and adjust the salt; it should be a little salty.",
+      "Scatter the rice evenly over the pan and do not stir after this. Cook on high for 8 minutes, then medium for 10 minutes until the liquid is absorbed.",
+      "Turn the heat up for the last minute or two so the bottom toasts slightly, listening for a light crackle. Rest the pan off the heat for 5 minutes before serving."
+    ],
+    "notes": "Rice should be about a thumb's depth or less in the pan. Cooking on a stove with a smaller pan will need a lid and slightly more time.",
+    "sources": [
+      "wiki-paella"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "gazpacho-andaluz-home",
+    "dish": "gazpacho-andaluz",
+    "title": "Chilled gazpacho",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "passive_minutes": 120,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 1,
+        "unit": "kg",
+        "note": "very ripe, roughly chopped"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 150,
+        "unit": "g",
+        "note": "peeled"
+      },
+      {
+        "ingredient": "green-pepper",
+        "amount": 100,
+        "unit": "g",
+        "note": "deseeded"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 1,
+        "unit": "clove"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 60,
+        "unit": "g",
+        "note": "day-old white bread, crusts removed"
+      },
+      {
+        "ingredient": "sherry-vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "cold"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soak the bread in the water for 5 minutes.",
+      "Blend the tomatoes, cucumber, pepper, garlic and soaked bread until completely smooth.",
+      "With the blender running, add the vinegar, then slowly pour in the oil so it emulsifies to a pale orange colour. Season with salt.",
+      "Pass through a fine sieve for a smoother soup, then chill for at least 2 hours.",
+      "Taste again when cold and adjust salt and vinegar. Serve in glasses or bowls with a drizzle of oil."
+    ],
+    "notes": "Serve with chopped cucumber, pepper and bread as optional garnishes.",
+    "sources": [
+      "wiki-gazpacho"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tortilla-espanola-home",
+    "dish": "tortilla-espanola",
+    "title": "Tortilla de patatas",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "potato",
+        "amount": 600,
+        "unit": "g",
+        "note": "peeled, thinly sliced"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "about 150 g, finely sliced"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 6,
+        "unit": "piece",
+        "note": "large"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Warm the oil in a 24 cm non-stick pan over medium-low heat. Add the potatoes and onion with a good pinch of salt and cook gently for about 20 minutes, turning occasionally, until soft but not coloured.",
+      "Drain the potatoes in a sieve over a bowl, keeping the oil.",
+      "Beat the eggs in a large bowl with a little salt, fold in the warm potatoes and onion and leave for 5 minutes.",
+      "Heat 1 tablespoon of the reserved oil in the pan over medium heat, pour in the mixture and cook for 4 to 5 minutes until the edges set.",
+      "Place a large plate over the pan, flip the tortilla out, slide it back in and cook the other side for 3 to 4 minutes, keeping the centre slightly soft.",
+      "Rest for 5 minutes before cutting."
+    ],
+    "notes": "Leave out the onion for the purist version. Keep the leftover oil for cooking.",
+    "sources": [
+      "wiki-spanish-omelette"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pulpo-a-la-gallega-home",
+    "dish": "pulpo-a-la-gallega",
+    "title": "Octopus with potatoes and paprika",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 70,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "octopus",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "cleaned; frozen and thawed octopus is more tender"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 500,
+        "unit": "g",
+        "note": "medium, waxy"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "sweet or hot, to taste"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "note": "coarse sea salt"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of unsalted water to a boil. Holding the octopus by the head, dip the tentacles in and out three times for a few seconds each, then submerge it fully.",
+      "Reduce to a simmer and cook for 45 to 60 minutes until a knife slides easily into the thickest part of a tentacle. Turn off the heat and leave in the water for 10 minutes.",
+      "Meanwhile, boil the potatoes in their skins in a separate pan with salt for about 25 minutes. Peel and cut into 1 cm slices.",
+      "Cut the octopus tentacles into 1 cm slices with scissors.",
+      "Arrange the potatoes on a plate, top with the octopus, sprinkle with coarse salt and paprika and drizzle with the oil. Serve warm."
+    ],
+    "notes": "Cooking times vary with the size of the octopus. Do not salt the octopus water.",
+    "sources": [
+      "wiki-pulpo-a-la-gallega"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bacalao-al-pil-pil-home",
+    "dish": "bacalao-al-pil-pil",
+    "title": "Salt cod pil-pil",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "passive_minutes": 1440,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "salt-cod",
+        "amount": 600,
+        "unit": "g",
+        "note": "4 thick pieces with skin, desalted"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 200,
+        "unit": "ml",
+        "note": "mild"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "dried-chiles",
+        "amount": 1,
+        "unit": "piece",
+        "note": "small, optional",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Desalt the cod by soaking it skin-side up in cold water in the fridge for 24 to 36 hours, changing the water every 6 to 8 hours. Pat dry.",
+      "Warm the oil with the garlic (and chile, if using) in a wide pan over low heat until the garlic turns pale gold, then remove the garlic and set it aside.",
+      "Let the oil cool a little, then place the cod pieces skin-side up in the pan and cook very gently for about 5 minutes. Turn them over, skin down, and cook 5 more minutes. The oil should barely bubble.",
+      "Take out the cod and let the oil cool slightly, away from the heat.",
+      "Return the cod to the pan, skin-side up, and swirl the pan in slow circular motions for 10 minutes, letting the gelatine blend with the oil until it thickens to a creamy sauce.",
+      "Serve the cod with the sauce and the reserved garlic."
+    ],
+    "notes": "The sauce needs patience and a gentle motion. If it separates, reduce the temperature and add a spoonful of water while swirling.",
+    "sources": [
+      "wiki-pil-pil"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pa-amb-tomaquet-home",
+    "dish": "pa-amb-tomaquet",
+    "title": "Pa amb tomàquet",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "bread",
+        "amount": 4,
+        "unit": "piece",
+        "note": "thick slices of rustic bread"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "very ripe, halved"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 1,
+        "unit": "clove",
+        "note": "halved, optional",
+        "optional": true
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Toast the bread slices in a toaster, on a grill pan or under the grill until crisp at the edges.",
+      "Rub the cut side of the garlic, if using, over the warm bread.",
+      "Rub the cut side of the tomato firmly over each slice, squeezing so the pulp soaks in, until the bread is wet and red.",
+      "Drizzle with olive oil, sprinkle with salt and serve at once."
+    ],
+    "notes": "Serve with cured ham, cheese or anchovies if you like.",
+    "sources": [
+      "wiki-pa-amb-tomaquet"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sopa-de-ajo-home",
+    "dish": "sopa-de-ajo",
+    "title": "Castilian garlic soup",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "garlic",
+        "amount": 8,
+        "unit": "clove",
+        "note": "peeled and sliced"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 200,
+        "unit": "g",
+        "note": "stale bread, thinly sliced"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "sweet or smoked"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 1,
+        "unit": "l",
+        "note": "chicken or vegetable"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 4,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a pot over medium heat and fry the garlic for 1 to 2 minutes until golden but not brown.",
+      "Add the bread and fry for 2 to 3 minutes, then take off the heat and stir in the paprika, which burns easily.",
+      "Add the stock, return to the heat and simmer for 15 minutes until the bread breaks down. Season with salt.",
+      "Crack the eggs into the soup, cover and cook gently for 3 to 4 minutes until the whites set, or divide into ovenproof bowls and bake at 200 C for 5 minutes.",
+      "Serve hot."
+    ],
+    "notes": "Some cooks add a few slices of cured ham with the garlic. Stir the eggs in to thicken if you prefer.",
+    "sources": [
+      "wiki-garlic-soup"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "torrijas-home",
+    "dish": "torrijas",
+    "title": "Torrijas",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "bread",
+        "amount": 400,
+        "unit": "g",
+        "note": "8 thick slices of day-old bread"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 100,
+        "unit": "g",
+        "note": "50 g for the milk and 50 g for coating"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground, for coating"
+      },
+      {
+        "ingredient": "lemon-zest",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "note": "beaten"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 300,
+        "unit": "ml",
+        "note": "for frying"
+      }
+    ],
+    "steps": [
+      "Warm the milk with 50 g of the sugar and the lemon zest until the sugar dissolves, then let it cool.",
+      "Mix 50 g of sugar with the cinnamon in a shallow dish for coating.",
+      "Dip each bread slice in the milk until soaked but not falling apart, about 30 seconds per side, then lay on a rack for a minute to drain.",
+      "Heat the oil in a pan over medium heat. Dip each slice in beaten egg and fry for 2 minutes per side until golden.",
+      "Drain on paper, then roll in the cinnamon sugar while hot. Serve warm or at room temperature."
+    ],
+    "notes": "Some versions are soaked in sweet wine rather than milk, and others are finished with honey.",
+    "sources": [
+      "wiki-torrijas"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pestinos-home",
+    "dish": "pestinos",
+    "title": "Pestiños with honey",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 25,
+    "passive_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 60,
+        "unit": "ml",
+        "note": "mild, for the dough"
+      },
+      {
+        "ingredient": "white-wine",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "anise-seed",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "toasted"
+      },
+      {
+        "ingredient": "orange-zest",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 400,
+        "unit": "ml",
+        "note": "for frying"
+      },
+      {
+        "ingredient": "honey",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "for the syrup"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground, for the syrup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Warm the 60 ml oil gently with the anise seeds and orange zest for 3 minutes, then let it cool.",
+      "Mix the flour, sesame seeds and a pinch of salt in a bowl. Add the cooled flavoured oil and the wine and knead into a smooth dough. Rest it, covered, for 30 minutes.",
+      "Roll the dough out thinly, about 2 mm, and cut into 6 cm squares. Fold the four corners into the centre and press down lightly.",
+      "Heat the frying oil to about 170 C and fry the pestiños in batches for 1 to 2 minutes until golden. Drain on paper.",
+      "Warm the honey, water and cinnamon in a pan and simmer for 5 minutes. Dip each pestiño in the syrup, then lay on a rack to set."
+    ],
+    "notes": "The dough should be firm rather than sticky; add a spoonful of wine if it is dry.",
+    "sources": [
+      "wiki-pestinos"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bunuelos-de-calabaza-home",
+    "dish": "bunuelos-de-calabaza",
+    "title": "Pumpkin fritters",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "passive_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "pumpkin",
+        "amount": 250,
+        "unit": "g",
+        "note": "roasted and mashed, cooled"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "dried yeast"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "warm"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "anise-seed",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground, optional",
+        "optional": true
+      },
+      {
+        "ingredient": "oil",
+        "amount": 500,
+        "unit": "ml",
+        "note": "for frying"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 80,
+        "unit": "g",
+        "note": "for rolling"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Mix the warm water, 1 tablespoon sugar and yeast and leave for 10 minutes until foamy.",
+      "Combine the pumpkin, flour, a pinch of salt and the anise in a bowl, add the yeast mixture and beat to a soft, sticky dough.",
+      "Cover and let it rise for about 1 hour until almost doubled.",
+      "Heat the oil to about 170 C. With oiled hands or two oiled spoons, drop in walnut-sized pieces of dough and fry in batches for 3 to 4 minutes, turning until golden.",
+      "Drain on paper and roll in sugar while warm."
+    ],
+    "notes": "Serve with hot chocolate, honey, or sugar alone.",
+    "sources": [
+      "wiki-bunuelo"
+    ],
+    "review_status": "draft"
+  }
+]

@@ -1,0 +1,810 @@
+[
+  {
+    "id": "ropa-vieja-home",
+    "dish": "ropa-vieja",
+    "title": "Ropa vieja with peppers and olives",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 150,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 800,
+        "unit": "g",
+        "note": "flank steak or brisket, in 2 or 3 pieces",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "thinly sliced",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 2,
+        "unit": "piece",
+        "note": "thinly sliced",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "chopped or crushed",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "white-wine",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 60,
+        "unit": "g",
+        "note": "pitted, halved",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "capers",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Sauce",
+        "optional": true
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the beef, halved onion, carrot, bay leaves, 2 crushed garlic cloves and a generous pinch of salt in a pot. Cover with water, bring to a boil, then reduce the heat and simmer, partly covered, for about 2 hours until the meat shreds easily.",
+      "Lift out the beef and let it cool a little. Strain and keep 250 ml of the broth. Shred the meat into thin strands with two forks.",
+      "Heat the oil in a wide pan over medium heat. Cook the sliced onion and peppers for 8 minutes until soft, then add the minced garlic, cumin and oregano and cook for 1 minute.",
+      "Stir in the tomato and tomato paste and cook for 5 minutes, then add the wine and let it bubble for 2 minutes.",
+      "Add the shredded beef, olives, capers if using and the reserved broth. Simmer, uncovered, for 20 to 25 minutes until the sauce is thick and clings to the meat. Season with salt and pepper and serve with white rice."
+    ],
+    "notes": "The meat can be cooked a day ahead; the dish tastes better the next day.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "moros-y-cristianos-home",
+    "dish": "moros-y-cristianos",
+    "title": "Black beans and rice cooked together",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 70,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "black-beans",
+        "amount": 250,
+        "unit": "g",
+        "note": "dried, soaked overnight and drained"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.2,
+        "unit": "l"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "long-grain, rinsed"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the soaked beans, water and bay leaf in a pot. Bring to a boil, then simmer for about 1 hour until the beans are tender but intact. Do not salt yet.",
+      "Heat the oil in a wide, heavy pot. Cook the onion and pepper for 8 minutes until soft, add the garlic, cumin and oregano and cook for 1 minute.",
+      "Drain the beans, keeping the liquid. Measure out 600 ml of it (top up with water if needed) and add it to the pot with the beans, rice, vinegar and 1 teaspoon of salt.",
+      "Bring to a boil, stir once, then cover tightly and cook on the lowest heat for 20 minutes until the rice is tender and the liquid absorbed.",
+      "Rest, covered, for 10 minutes, fluff with a fork, check the seasoning and serve."
+    ],
+    "notes": "Adding salt late stops the bean skins from toughening. Use a tight lid so the rice steams properly.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "lechon-asado-home",
+    "dish": "lechon-asado",
+    "title": "Oven-roasted pork shoulder with mojo",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 240,
+    "passive_minutes": 720,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "pork",
+        "amount": 2,
+        "unit": "kg",
+        "note": "bone-in shoulder, skin on if possible"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 10,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "sour-orange",
+        "amount": 200,
+        "unit": "ml",
+        "note": "juice, or 120 ml orange juice mixed with 80 ml lime juice",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "dried",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Mojo"
+      }
+    ],
+    "steps": [
+      "Mash the garlic with the salt into a paste, then stir in the juice, cumin, oregano, pepper and oil to make the mojo.",
+      "Score the pork deeply all over and rub the mojo into the cuts. Cover and marinate in the refrigerator for 12 to 24 hours, turning once.",
+      "Heat the oven to 160°C. Put the pork in a roasting tin skin-side up, with the marinade, and cover tightly with foil.",
+      "Roast for about 3 hours, then remove the foil, raise the heat to 220°C and roast for 30 to 40 minutes more until the skin is crisp and the meat pulls apart (an internal temperature of 90°C or more).",
+      "Rest for 20 minutes, then carve or pull the meat and spoon over the pan juices."
+    ],
+    "notes": "Use the juices for dressing rice or yuca. For a more traditional result with whole pigs, a charcoal box or pit is used, which is not practical at home.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "yuca-con-mojo-home",
+    "dish": "yuca-con-mojo",
+    "title": "Cassava with garlic-citrus mojo",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "cassava",
+        "amount": 1,
+        "unit": "kg",
+        "note": "peeled, woody core removed, cut into chunks"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 80,
+        "unit": "ml",
+        "note": "olive oil",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 6,
+        "unit": "clove",
+        "note": "thinly sliced",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "sour-orange",
+        "amount": 60,
+        "unit": "ml",
+        "note": "juice, or a mix of orange and lime juice",
+        "group": "Mojo"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "thinly sliced into rings",
+        "group": "Mojo",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Put the cassava in a pot, cover with water, add a tablespoon of salt and bring to a boil. Simmer for 20 to 25 minutes until fork-tender and slightly translucent. Drain and keep warm.",
+      "Warm the oil gently in a small pan. Add the garlic and cook on low heat for 1 to 2 minutes until just pale gold. Do not let it brown or it turns bitter.",
+      "Remove from the heat, pour in the juice (it will spit) and add the onion if using. Season with salt.",
+      "Arrange the cassava on a plate and pour over the warm mojo."
+    ],
+    "notes": "Frozen peeled cassava works well and saves preparation time.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "picadillo-cubano-home",
+    "dish": "picadillo-cubano",
+    "title": "Picadillo with olives and raisins",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "minced"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 300,
+        "unit": "g",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "white-wine",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 60,
+        "unit": "g",
+        "note": "green, pitted, halved"
+      },
+      {
+        "ingredient": "capers",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a wide pan. Cook the onion and pepper over medium heat for 6 to 8 minutes until soft, then add the garlic and cook for 1 minute.",
+      "Add the beef and break it up as it browns, about 8 minutes. Stir in the cumin, oregano, bay leaf and tomato paste.",
+      "Add the tomato and wine, bring to a simmer and cook for 15 minutes, stirring now and then.",
+      "Stir in the olives, capers and raisins and cook for 5 minutes more until the mixture is moist but not watery. Season, remove the bay leaf and serve with rice."
+    ],
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "congri-oriental-home",
+    "dish": "congri-oriental",
+    "title": "Red beans and rice cooked together",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 80,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "red-kidney-beans",
+        "amount": 250,
+        "unit": "g",
+        "note": "dried, soaked overnight and drained"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.2,
+        "unit": "l"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "long-grain, rinsed"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Boil the soaked beans in the water with the bay leaf, hard for 10 minutes and then at a simmer for about 1 hour until just tender. Red kidney beans must be boiled thoroughly to be safe to eat.",
+      "In a heavy pot, heat the oil and cook the onion and pepper for 8 minutes. Add the garlic, cumin and oregano and cook for 1 minute.",
+      "Drain the beans, keeping the liquid. Add the beans to the pot with the rice, 600 ml of the bean liquid and 1 teaspoon of salt.",
+      "Bring to a boil, cover tightly and cook on the lowest heat for 20 minutes, until the rice is tender and the liquid absorbed.",
+      "Rest, covered, for 10 minutes, then fluff and serve."
+    ],
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "ajiaco-cubano-home",
+    "dish": "ajiaco-cubano",
+    "title": "Cuban ajiaco with roots and corn",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 40,
+    "cook_minutes": 120,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "stewing beef, cut into chunks"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 300,
+        "unit": "g",
+        "note": "boneless shoulder, cut into chunks"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2.5,
+        "unit": "l"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 5,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "maize",
+        "amount": 2,
+        "unit": "piece",
+        "note": "fresh cobs, cut into thick rounds"
+      },
+      {
+        "ingredient": "cassava",
+        "amount": 300,
+        "unit": "g",
+        "note": "peeled, in chunks"
+      },
+      {
+        "ingredient": "malanga",
+        "amount": 300,
+        "unit": "g",
+        "note": "peeled, in chunks"
+      },
+      {
+        "ingredient": "sweet-potato",
+        "amount": 250,
+        "unit": "g",
+        "note": "peeled, in chunks"
+      },
+      {
+        "ingredient": "pumpkin",
+        "amount": 300,
+        "unit": "g",
+        "note": "peeled, in chunks"
+      },
+      {
+        "ingredient": "plantain",
+        "amount": 1,
+        "unit": "piece",
+        "note": "green, peeled, thickly sliced"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the beef, pork, water, onion, garlic, cumin, oregano and a teaspoon of salt in a large pot. Bring to a boil, skim, then simmer for 1 hour.",
+      "Add the corn, cassava and malanga and cook for 20 minutes.",
+      "Add the sweet potato, pumpkin and plantain. Simmer for 25 to 30 minutes more until the vegetables are tender and some have broken down to thicken the broth.",
+      "Stir in the lime juice, adjust the salt and serve in deep bowls."
+    ],
+    "notes": "Malanga can be replaced with extra potato or taro if hard to find (add potato to the pot).",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "flan-cubano-home",
+    "dish": "flan-cubano",
+    "title": "Condensed-milk flan",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "passive_minutes": 240,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "sugar",
+        "amount": 150,
+        "unit": "g",
+        "group": "Caramel"
+      },
+      {
+        "ingredient": "water",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Caramel"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 5,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "condensed-milk",
+        "amount": 300,
+        "unit": "g",
+        "note": "about three-quarters of a tin"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "extract"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 160°C. Melt the sugar with the water in a small pan over medium heat, without stirring, until it is a deep amber. Pour at once into a 20 cm round dish or cake tin and tilt to coat the base.",
+      "Whisk the eggs gently with the condensed milk, milk and vanilla until smooth, trying not to make foam. Strain into the caramel-lined dish.",
+      "Set the dish in a larger roasting tin and pour hot water into the tin to come halfway up the sides. Cover the dish loosely with foil.",
+      "Bake for 50 to 60 minutes until the edge is set and the centre wobbles slightly.",
+      "Cool, then refrigerate for at least 4 hours. Run a knife around the edge and turn out onto a plate with a rim, so the caramel runs over the flan."
+    ],
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "cucurucho-home",
+    "dish": "cucurucho",
+    "title": "Coconut and guava cones",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 25,
+    "cook_minutes": 35,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "coconut",
+        "amount": 400,
+        "unit": "g",
+        "note": "freshly grated or unsweetened shredded"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "citrus",
+        "amount": 1,
+        "unit": "piece",
+        "note": "orange, finely grated zest and 3 tbsp juice"
+      },
+      {
+        "ingredient": "guava",
+        "amount": 100,
+        "unit": "g",
+        "note": "peeled, seeded and finely chopped"
+      }
+    ],
+    "steps": [
+      "Dissolve the sugar in the water in a wide pan over medium heat and bring to a simmer.",
+      "Add the coconut, guava, orange zest and juice. Cook, stirring often, for 25 to 30 minutes until thick and sticky and most of the liquid has gone.",
+      "While still warm, pack the mixture firmly into small cone shapes, using a small cup or lightly oiled hands. Traditionally each cone is wrapped in palm leaf; baking parchment twisted into a cone works at home.",
+      "Let the cones cool completely and firm up before eating."
+    ],
+    "notes": "Fresh coconut gives the best texture. If using dried shredded coconut, soak it in warm water for 10 minutes first and squeeze it out.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "tostones-home",
+    "dish": "tostones",
+    "title": "Twice-fried green plantain",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "plantain",
+        "amount": 3,
+        "unit": "piece",
+        "note": "green, firm"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 500,
+        "unit": "ml",
+        "note": "for frying"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml",
+        "note": "with 1 tsp salt dissolved, for dipping"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Cut off the ends of the plantains, score the peel lengthwise and peel. Cut into rounds about 2.5 cm thick.",
+      "Heat the oil to about 160°C. Fry the rounds for 3 to 4 minutes until pale gold and just soft, then lift out and drain.",
+      "Press each round flat to about 1 cm with the base of a glass, or a tostonera. Dip briefly in the salted water and pat dry.",
+      "Raise the oil to about 180°C and fry the flattened rounds for 2 to 3 minutes until golden and crisp. Drain, sprinkle with salt and serve at once."
+    ],
+    "notes": "Be careful of spitting oil when the dipped rounds go in; dry them well.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  }
+]

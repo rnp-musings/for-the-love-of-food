@@ -62,5 +62,241 @@
       {"claim": "Descended from fried dough sweets made at Roman festivals.", "confidence": "widely-told", "source": "wiki-chiacchiere"}
     ],
     "sources": ["wiki-chiacchiere"], "review_status": "draft"
-  }
+  },
+{
+  "id": "ribollita",
+  "name": "Ribollita",
+  "local_name": "Ribollita",
+  "country": "italy",
+  "region": "tuscany",
+  "type": "soup",
+  "course": [
+    "main",
+    "starter"
+  ],
+  "flavours": [
+    "umami",
+    "rich",
+    "aromatic"
+  ],
+  "diet": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "cook_methods": [
+    "simmered",
+    "slow-cooked"
+  ],
+  "spice_level": 0,
+  "summary": "A thick Tuscan soup of white beans, dark kale and other vegetables, thickened with stale bread and served reheated.",
+  "story": "Ribollita means \"re-boiled\": the soup is made one day, left to rest, and brought back to the boil the next, when the beans, vegetables and bread have melted together into a dense, spoonable stew. It belongs to the frugal cooking of rural Tuscany, where stale unsalted bread, beans and winter greens such as cavolo nero were everyday food. Many cooks finish it with a thread of raw olive oil, and some layer it with sliced onion in a pot and bake it. A popular tale says it grew out of leftovers gathered after the feasts of wealthy households; that explanation is hard to verify and is best read as a story.",
+  "origin_period": "Medieval to early modern, as a peasant dish",
+  "origin_claims": [
+    {
+      "claim": "A soup of bread, beans and winter vegetables was everyday rural food in Tuscany, reheated over several days.",
+      "confidence": "widely-told",
+      "source": "wiki-ribollita"
+    },
+    {
+      "claim": "It began as a way for servants to reuse the leftovers of their masters' feasts.",
+      "confidence": "legend",
+      "source": "wiki-ribollita"
+    }
+  ],
+  "sources": [
+    "wiki-ribollita"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "spaghetti-alla-carbonara",
+  "name": "Spaghetti alla carbonara",
+  "local_name": "Spaghetti alla carbonara",
+  "country": "italy",
+  "region": "lazio",
+  "type": "pasta-noodle",
+  "course": [
+    "main"
+  ],
+  "flavours": [
+    "rich",
+    "salty",
+    "umami"
+  ],
+  "diet": [
+    "nut-free"
+  ],
+  "cook_methods": [
+    "boiled",
+    "sauteed"
+  ],
+  "spice_level": 1,
+  "summary": "Spaghetti coated in a silky sauce of egg, aged pecorino cheese, cured pork cheek and black pepper, with no cream.",
+  "story": "Carbonara is a Roman pasta built from just a few ingredients: guanciale (cured pork jowl), eggs, pecorino romano and plenty of black pepper. The heat of the freshly drained pasta cooks the eggs into a creamy sauce rather than scrambling them, which is the technique that matters most. Cream, garlic and onion are not part of the traditional recipe. The name is usually linked to charcoal (carbone) but nobody knows for sure why. The dish is not found in Italian cookbooks before the middle of the 20th century, so older origin stories should be treated with caution.",
+  "origin_period": "Mid 20th century",
+  "origin_claims": [
+    {
+      "claim": "The earliest printed recipes appear in the years after the Second World War, so the dish seems to be a relatively modern one.",
+      "confidence": "well-documented",
+      "source": "wiki-carbonara"
+    },
+    {
+      "claim": "It was invented in Rome when Allied soldiers brought bacon and eggs that cooks combined with pasta.",
+      "confidence": "widely-told",
+      "source": "wiki-carbonara"
+    },
+    {
+      "claim": "It was a meal of charcoal burners (carbonari) in the Apennines.",
+      "confidence": "disputed",
+      "source": "wiki-carbonara"
+    }
+  ],
+  "sources": [
+    "wiki-carbonara"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "orecchiette-alle-cime-di-rapa",
+  "name": "Orecchiette with turnip tops",
+  "local_name": "Orecchiette alle cime di rapa",
+  "country": "italy",
+  "region": "puglia",
+  "type": "pasta-noodle",
+  "course": [
+    "main"
+  ],
+  "flavours": [
+    "bitter",
+    "umami",
+    "salty"
+  ],
+  "diet": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "cook_methods": [
+    "boiled",
+    "sauteed"
+  ],
+  "spice_level": 1,
+  "summary": "Little ear-shaped pasta tossed with bitter turnip greens, garlic, chilli and anchovy, a signature of Puglia.",
+  "story": "Orecchiette (\"little ears\") are made from durum wheat semolina and water, shaped by pressing and dragging small pieces of dough with the thumb. They are strongly associated with Puglia, especially Bari and the area around it, where they are often sold fresh in the street. The classic sauce uses cime di rapa, the leafy shoots of a bitter brassica, softened with garlic, chilli and salted anchovy in olive oil. The pairing of eggless pasta and vegetables fits the traditional cooking of southern Italy, which relied on local greens and grain. The exact age of the shape is unclear.",
+  "origin_period": "Uncertain; long regional tradition",
+  "origin_claims": [
+    {
+      "claim": "Orecchiette are a traditional hand-shaped pasta of Puglia, made from durum wheat and water.",
+      "confidence": "well-documented",
+      "source": "wiki-orecchiette"
+    },
+    {
+      "claim": "The shape originated in the Middle Ages in the Apulian countryside, with some stories pointing to Angevin-period Puglia.",
+      "confidence": "disputed",
+      "source": "wiki-orecchiette"
+    }
+  ],
+  "sources": [
+    "wiki-orecchiette"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "panettone",
+  "name": "Panettone",
+  "local_name": "Panettone",
+  "country": "italy",
+  "region": "lombardy",
+  "type": "pastry",
+  "course": [
+    "dessert",
+    "breakfast"
+  ],
+  "flavours": [
+    "sweet",
+    "rich",
+    "aromatic"
+  ],
+  "diet": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "cook_methods": [
+    "baked"
+  ],
+  "spice_level": 0,
+  "summary": "A tall, airy yeast-raised Christmas cake from Milan, studded with raisins and candied citrus peel.",
+  "story": "Panettone is a domed, soft-crumbed sweet bread enriched with butter and egg yolks and full of raisins and candied orange and citron. Traditional versions are leavened with a long-fermented sourdough starter, which gives the loaf its light texture and keeps it fresh for days. It is closely tied to Milan and to the Christmas season, and industrial production in the 20th century spread it across Italy and beyond. Several origin stories circulate, involving a nobleman, a baker named Toni, or a cook who rescued a burnt dessert; these tales are fun but not supported by documents, and the cake's medieval roots as an enriched Christmas loaf are better established.",
+  "origin_period": "Medieval origins, modern form 19th to 20th century",
+  "origin_claims": [
+    {
+      "claim": "An enriched Christmas bread has been made in Milan for centuries, and the modern tall form developed with commercial bakeries.",
+      "confidence": "widely-told",
+      "source": "wiki-panettone"
+    },
+    {
+      "claim": "It was named after a baker called Toni, whose bread (pan de Toni) was a happy accident.",
+      "confidence": "legend",
+      "source": "wiki-panettone"
+    }
+  ],
+  "sources": [
+    "wiki-panettone",
+    "wiki-christmas-in-italy"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "pandoro",
+  "name": "Pandoro",
+  "local_name": "Pandoro",
+  "country": "italy",
+  "region": "veneto",
+  "type": "pastry",
+  "course": [
+    "dessert",
+    "breakfast"
+  ],
+  "flavours": [
+    "sweet",
+    "rich",
+    "aromatic"
+  ],
+  "diet": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "cook_methods": [
+    "baked"
+  ],
+  "spice_level": 0,
+  "summary": "A buttery, golden star-shaped Christmas cake from Verona, dusted with vanilla icing sugar.",
+  "story": "Pandoro (\"golden bread\") is a soft, fruitless yeast cake rich in eggs and butter, baked in a distinctive eight-pointed star mould and dusted with icing sugar so it looks like a snowy mountain. It is associated with Verona and the Veneto and, like panettone, is a staple of the Italian Christmas table. Industrial bakers in Verona made it widely available from the late 19th century. Its ancestry is debated: some link it to older Veronese Christmas breads such as nadalin, and others to rich Austrian or Venetian sweet breads.",
+  "origin_period": "Late 19th century in its modern form",
+  "origin_claims": [
+    {
+      "claim": "The modern pandoro was developed and commercialised by bakers in Verona in the late 19th century.",
+      "confidence": "well-documented",
+      "source": "wiki-pandoro"
+    },
+    {
+      "claim": "It descends from older Veronese Christmas breads such as nadalin.",
+      "confidence": "widely-told",
+      "source": "wiki-pandoro"
+    },
+    {
+      "claim": "It derives from Venetian or Austrian enriched breads served to the nobility.",
+      "confidence": "disputed",
+      "source": "wiki-pandoro"
+    }
+  ],
+  "sources": [
+    "wiki-pandoro",
+    "wiki-christmas-in-italy"
+  ],
+  "review_status": "draft"
+}
 ]

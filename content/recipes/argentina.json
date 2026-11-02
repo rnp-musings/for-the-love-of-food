@@ -1,0 +1,794 @@
+[
+ {
+  "id": "asado-home",
+  "dish": "asado",
+  "title": "Home asado of ribs and chorizo",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 20,
+  "cook_minutes": 120,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "beef",
+    "amount": 2000,
+    "unit": "g",
+    "note": "short ribs (tira de asado), cut across the bone in 2 to 3 cm strips"
+   },
+   {
+    "ingredient": "chorizo",
+    "amount": 4,
+    "unit": "piece",
+    "note": "fresh sausages"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "coarse"
+   }
+  ],
+  "steps": [
+   "Light 2 kg of lump charcoal or hardwood and let it burn to a bed of grey, glowing embers, about 40 minutes. Push the embers to one side.",
+   "Salt the ribs generously on both sides about 15 minutes before cooking. Place them bone side down on the grill 15 cm above the embers.",
+   "Cook slowly for about 1 to 1.5 hours, turning once, until well browned and tender; add embers to keep a steady, gentle heat.",
+   "Add the sausages for the last 30 minutes, turning often until cooked through.",
+   "Rest the meat for 10 minutes. Serve with chimichurri, bread and salad."
+  ],
+  "notes": "Heat control is the whole art: the meat should never flare. Offal such as sweetbreads and blood sausage are traditional extras.",
+  "sources": [
+   "wiki-asado"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "locro-home",
+  "dish": "locro",
+  "title": "Locro for a crowd",
+  "version": "home",
+  "servings": 10,
+  "prep_minutes": 30,
+  "cook_minutes": 210,
+  "passive_minutes": 720,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "dried-white-hominy",
+    "amount": 300,
+    "unit": "g",
+    "note": "soaked overnight",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "white-beans",
+    "amount": 200,
+    "unit": "g",
+    "note": "soaked overnight",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "pork",
+    "amount": 500,
+    "unit": "g",
+    "note": "belly or ribs, in chunks",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "beef",
+    "amount": 500,
+    "unit": "g",
+    "note": "stewing beef, in chunks",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "chorizo",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "squash",
+    "amount": 600,
+    "unit": "g",
+    "note": "peeled, in cubes",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "chopped",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "cumin",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "bay-leaf",
+    "amount": 2,
+    "unit": "piece",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "water",
+    "amount": 3500,
+    "unit": "ml",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 4,
+    "unit": "piece",
+    "note": "finely sliced",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "paprika",
+    "amount": 2,
+    "unit": "tsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "chilli-flakes",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "Topping"
+   }
+  ],
+  "steps": [
+   "Put the drained corn and beans into a large pot with the water, onion and bay leaves. Bring to a boil, then simmer for 1 hour, skimming off foam.",
+   "Add the pork and beef with the cumin and simmer 1 more hour, until the meat starts to soften.",
+   "Add the squash and chorizo. Cook for another 45 to 60 minutes, stirring now and then, until the corn is tender and the stew is thick. Crush some of the squash against the pot to thicken it. Season with salt.",
+   "For the topping, heat the oil gently with the paprika and chilli flakes for 1 minute (do not burn), then stir in the spring onions.",
+   "Ladle the stew into bowls and spoon some topping over each."
+  ],
+  "notes": "Make it a day ahead; locro improves overnight. A pressure cooker shortens the cooking time to about 1.5 hours.",
+  "sources": [
+   "wiki-locro"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "empanadas-de-salta-home",
+  "dish": "empanadas-de-salta",
+  "title": "Baked Salta-style beef empanadas",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 60,
+  "cook_minutes": 20,
+  "passive_minutes": 60,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 500,
+    "unit": "g",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "lard",
+    "amount": 120,
+    "unit": "g",
+    "note": "melted",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "water",
+    "amount": 220,
+    "unit": "ml",
+    "note": "warm",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "beef",
+    "amount": 500,
+    "unit": "g",
+    "note": "tender cut, chopped by hand into very small dice",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 3,
+    "unit": "piece",
+    "note": "finely chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "spring-onion",
+    "amount": 4,
+    "unit": "piece",
+    "note": "finely sliced",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "cumin",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "paprika",
+    "amount": 2,
+    "unit": "tsp",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "chilli-flakes",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 3,
+    "unit": "piece",
+    "note": "hard-boiled and chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "olives",
+    "amount": 12,
+    "unit": "piece",
+    "note": "chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "For the dough, dissolve the salt in the warm water, mix with the melted lard and the flour, and knead until smooth. Cover and rest 30 minutes.",
+   "For the filling, soften the onion in oil for 8 minutes. Add the beef and spices and cook for just 4 to 5 minutes, season and cool. Stir in the spring onion, eggs and olives. Chill completely.",
+   "Heat the oven to 220 C. Roll the dough 2 mm thick and cut 24 rounds of about 12 cm.",
+   "Put a heaped tablespoon of filling on each, fold over, press the edges and braid them into a repulgue.",
+   "Bake on lined trays for 15 to 18 minutes until golden. Serve warm."
+  ],
+  "notes": "Cooling the filling thoroughly makes the pastry easier to seal. Traditional Salta empanadas often include a little potato and are juicy, so do not drain the filling.",
+  "sources": [
+   "wiki-empanada"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "milanesa-napolitana-home",
+  "dish": "milanesa-napolitana",
+  "title": "Milanesa napolitana",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 30,
+  "cook_minutes": 25,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "beef",
+    "amount": 600,
+    "unit": "g",
+    "note": "4 thin cutlets, pounded 5 mm thick"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 2,
+    "unit": "clove",
+    "note": "mashed"
+   },
+   {
+    "ingredient": "parsley",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "breadcrumbs",
+    "amount": 150,
+    "unit": "g"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 200,
+    "unit": "ml",
+    "note": "for shallow frying"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "tomato",
+    "amount": 4,
+    "unit": "piece",
+    "note": "ripe, chopped",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "tomato-paste",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "oregano",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "ham",
+    "amount": 4,
+    "unit": "piece",
+    "note": "slices",
+    "group": "Topping"
+   },
+   {
+    "ingredient": "mozzarella",
+    "amount": 200,
+    "unit": "g",
+    "note": "sliced",
+    "group": "Topping"
+   }
+  ],
+  "steps": [
+   "Beat the eggs with garlic, parsley and salt. Dip each cutlet in egg, then press into breadcrumbs, coating completely. Chill 15 minutes.",
+   "Cook the tomatoes with the tomato paste, oregano and salt for 15 minutes into a thick sauce.",
+   "Heat the oil and shallow-fry the cutlets for 3 minutes per side until golden. Drain on paper.",
+   "Set the cutlets on a tray, top each with ham, sauce and cheese, and grill for 3 to 5 minutes until the cheese bubbles.",
+   "Serve with French fries."
+  ],
+  "notes": "For a lighter version, bake the cutlets at 220 C for 15 minutes, turning once. The thinner the cutlet, the better.",
+  "sources": [
+   "wiki-milanesa"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "chimichurri-home",
+  "dish": "chimichurri",
+  "title": "Classic chimichurri",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 15,
+  "cook_minutes": 0,
+  "passive_minutes": 60,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "parsley",
+    "amount": 60,
+    "unit": "g",
+    "note": "flat-leaf, finely chopped"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "note": "minced"
+   },
+   {
+    "ingredient": "oregano",
+    "amount": 1,
+    "unit": "tbsp",
+    "note": "dried"
+   },
+   {
+    "ingredient": "chilli-flakes",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "vinegar",
+    "amount": 60,
+    "unit": "ml",
+    "note": "red wine vinegar"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 150,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "water",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Stir the garlic, oregano, chilli flakes and salt into the vinegar and water, and leave for 10 minutes.",
+   "Add the parsley and oil and stir. Cover and leave at room temperature for at least 1 hour before serving.",
+   "Keep in the refrigerator up to a week and bring to room temperature before use."
+  ],
+  "notes": "Chop by hand, not in a blender, to keep the texture. Some cooks add a bay leaf or sweet pepper.",
+  "sources": [
+   "wiki-chimichurri"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "alfajores-de-maicena-home",
+  "dish": "alfajores-de-maicena",
+  "title": "Cornstarch alfajores",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 40,
+  "cook_minutes": 12,
+  "passive_minutes": 60,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "cornstarch",
+    "amount": 200,
+    "unit": "g"
+   },
+   {
+    "ingredient": "wheat-flour",
+    "amount": 150,
+    "unit": "g"
+   },
+   {
+    "ingredient": "baking-powder",
+    "amount": 2,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 125,
+    "unit": "g",
+    "note": "soft"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 100,
+    "unit": "g"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 3,
+    "unit": "piece",
+    "note": "yolks only"
+   },
+   {
+    "ingredient": "vanilla",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "lemon-zest",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "dulce-de-leche",
+    "amount": 300,
+    "unit": "g",
+    "note": "thick, for filling"
+   },
+   {
+    "ingredient": "coconut",
+    "amount": 50,
+    "unit": "g",
+    "note": "desiccated, for rolling"
+   }
+  ],
+  "steps": [
+   "Whisk the cornstarch, flour and baking powder together. Cream the butter and sugar, beat in the yolks, vanilla and zest, then mix in the dry ingredients to a soft dough. Wrap and chill for 1 hour.",
+   "Heat the oven to 160 C. Roll the dough 5 mm thick and cut 5 cm rounds.",
+   "Bake on lined trays for 10 to 12 minutes; they should stay pale. Cool completely on the tray.",
+   "Sandwich pairs with a generous spoonful of dulce de leche and roll the edges in coconut."
+  ],
+  "notes": "Makes about 12 filled cookies. The dough is fragile; chill again if it softens. They keep well for several days in a tin.",
+  "sources": [
+   "wiki-alfajor"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "humita-en-chala-home",
+  "dish": "humita-en-chala",
+  "title": "Humita parcels in corn husks",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 45,
+  "cook_minutes": 45,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "maize",
+    "amount": 1000,
+    "unit": "g",
+    "note": "fresh kernels from about 8 ears; keep the husks"
+   },
+   {
+    "ingredient": "corn-husks",
+    "amount": 16,
+    "unit": "piece",
+    "note": "fresh or dried and soaked"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped"
+   },
+   {
+    "ingredient": "bell-pepper",
+    "amount": 1,
+    "unit": "piece",
+    "note": "red, finely chopped"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "paprika",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "queso-fresco",
+    "amount": 150,
+    "unit": "g",
+    "note": "cubed"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Pulse the kernels in a food processor to a coarse, creamy mash, saving the juices.",
+   "Soften the onion and pepper in oil for 8 minutes, add the paprika, then the corn mash and sugar. Cook, stirring, for 10 minutes until thick. Season, then fold in the cheese. Cool.",
+   "Lay two husks overlapping, place 3 tablespoons of filling in the middle, fold both ends over and tie with a strip of husk.",
+   "Boil the parcels in simmering water for 35 to 40 minutes. Serve hot in their husks."
+  ],
+  "notes": "If fresh corn is not in season, frozen sweet corn works, but may need a spoon of cornflour to thicken.",
+  "sources": [
+   "wiki-humita"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "cordero-patagonico-home",
+  "dish": "cordero-patagonico",
+  "title": "Patagonian-style roast lamb",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 20,
+  "cook_minutes": 210,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "lamb",
+    "amount": 3000,
+    "unit": "g",
+    "note": "bone-in shoulder or leg"
+   },
+   {
+    "ingredient": "water",
+    "amount": 300,
+    "unit": "ml",
+    "group": "Brine"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "coarse",
+    "group": "Brine"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Brine"
+   },
+   {
+    "ingredient": "bay-leaf",
+    "amount": 2,
+    "unit": "piece",
+    "group": "Brine"
+   }
+  ],
+  "steps": [
+   "Mix the brine ingredients and stir until the salt dissolves. Take the lamb out of the refrigerator 1 hour before cooking.",
+   "Heat the oven to 150 C, or build an indirect charcoal fire. Set the lamb on a rack above a tray.",
+   "Cook for about 3 to 3.5 hours, brushing with the brine every 30 minutes, until the meat is very tender and pulls from the bone (internal temperature of 85 to 90 C).",
+   "Rest for 20 minutes under foil, then carve or pull and serve with potatoes or salad."
+  ],
+  "notes": "The traditional method uses a whole lamb on an iron cross angled over embers; this is a home adaptation.",
+  "sources": [
+   "wiki-argentine-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "chipa-home",
+  "dish": "chipa",
+  "title": "Cheese chipa",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 25,
+  "cook_minutes": 22,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "tapioca-starch",
+    "amount": 300,
+    "unit": "g"
+   },
+   {
+    "ingredient": "parmesan",
+    "amount": 80,
+    "unit": "g",
+    "note": "finely grated"
+   },
+   {
+    "ingredient": "mozzarella",
+    "amount": 100,
+    "unit": "g",
+    "note": "grated"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 60,
+    "unit": "g",
+    "note": "soft"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 1,
+    "unit": "piece"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 60,
+    "unit": "ml",
+    "note": "warm"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 0.5,
+    "unit": "tsp"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200 C and line a tray.",
+   "Rub the butter into the starch, then add the cheeses, salt and egg. Add the milk gradually and knead into a smooth, non-sticky dough.",
+   "Form into small rings or balls the size of a walnut and place on the tray.",
+   "Bake for 20 to 25 minutes until golden. Eat warm."
+  ],
+  "notes": "Makes about 20. Paraguayan versions may use a drier fresh cheese and anise seed.",
+  "sources": [
+   "wiki-chipa"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pastelitos-criollos-home",
+  "dish": "pastelitos-criollos",
+  "title": "Quince-filled pastelitos",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 40,
+  "cook_minutes": 30,
+  "passive_minutes": 30,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 500,
+    "unit": "g",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 100,
+    "unit": "g",
+    "note": "melted",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 1,
+    "unit": "piece",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "water",
+    "amount": 150,
+    "unit": "ml",
+    "note": "warm",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "quince-paste",
+    "amount": 400,
+    "unit": "g",
+    "note": "in slices 5 mm thick",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 800,
+    "unit": "ml",
+    "note": "for deep frying",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 100,
+    "unit": "g",
+    "group": "Syrup"
+   },
+   {
+    "ingredient": "water",
+    "amount": 100,
+    "unit": "ml",
+    "group": "Syrup"
+   }
+  ],
+  "steps": [
+   "Mix the flour and salt, then work in the butter, egg and warm water to a smooth dough. Rest it for 30 minutes.",
+   "Roll the dough 2 mm thick and cut 12 cm squares. Place a slice of quince paste in the middle of each, fold into a triangle, seal firmly with a fork and make a small slit.",
+   "Heat the oil to 170 C and fry the pastelitos for 2 to 3 minutes per side until golden. Drain well.",
+   "Boil the sugar and water for 3 minutes to a light syrup and brush on the hot pastries."
+  ],
+  "notes": "Makes about 16. Sweet-potato paste (dulce de batata) is the other classic filling.",
+  "sources": [
+   "wiki-pastelito"
+  ],
+  "review_status": "draft"
+ }
+]

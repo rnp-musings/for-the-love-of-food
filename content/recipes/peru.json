@@ -1,0 +1,909 @@
+[
+ {
+  "id": "ceviche-home",
+  "dish": "ceviche",
+  "title": "Classic Lima fish ceviche",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 0,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "white-fish",
+    "amount": 600,
+    "unit": "g",
+    "note": "very fresh sea bass, flounder or similar, skinless, in 2 cm cubes"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 150,
+    "unit": "ml",
+    "note": "freshly squeezed, from about 8 limes"
+   },
+   {
+    "ingredient": "red-onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "thinly sliced, rinsed in cold water"
+   },
+   {
+    "ingredient": "green-chilli",
+    "amount": 1,
+    "unit": "piece",
+    "note": "ají limo if you can find it, deseeded and finely chopped"
+   },
+   {
+    "ingredient": "cilantro",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "sweet-potato",
+    "amount": 2,
+    "unit": "piece",
+    "note": "boiled, peeled and sliced, to serve"
+   },
+   {
+    "ingredient": "choclo",
+    "amount": 2,
+    "unit": "piece",
+    "note": "cobs, boiled and cut in rounds, to serve"
+   }
+  ],
+  "steps": [
+   "Keep the fish refrigerated until the last minute. Rub the cut fish with the salt in a glass bowl.",
+   "Add the chilli and half of the lime juice, stir, and leave for 2 minutes. Add the remaining lime juice, onion and coriander and stir once.",
+   "Taste and adjust salt and lime, then serve at once on a plate with slices of sweet potato and choclo, spooning over the juices."
+  ],
+  "notes": "Use only very fresh, sushi-quality fish and eat within 15 minutes of mixing. Pregnant women, the elderly and anyone immunocompromised should avoid raw fish.",
+  "sources": [
+   "wiki-ceviche"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "lomo-saltado-home",
+  "dish": "lomo-saltado",
+  "title": "Beef lomo saltado",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "beef",
+    "amount": 600,
+    "unit": "g",
+    "note": "sirloin or tenderloin, in thick strips"
+   },
+   {
+    "ingredient": "red-onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "cut in thick wedges"
+   },
+   {
+    "ingredient": "tomato",
+    "amount": 3,
+    "unit": "piece",
+    "note": "cut in wedges"
+   },
+   {
+    "ingredient": "aji-amarillo",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 3,
+    "unit": "clove",
+    "note": "minced"
+   },
+   {
+    "ingredient": "soy-sauce",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "vinegar",
+    "amount": 1,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "cumin",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "cilantro",
+    "amount": 3,
+    "unit": "tbsp",
+    "note": "chopped"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 4,
+    "unit": "tbsp",
+    "note": "for stir-frying"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "black-pepper",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "potato",
+    "amount": 600,
+    "unit": "g",
+    "note": "cut into thick chips, fried or oven-baked",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "rice",
+    "amount": 300,
+    "unit": "g",
+    "note": "cooked, to serve",
+    "group": "To serve"
+   }
+  ],
+  "steps": [
+   "Season the beef with salt, pepper and cumin. Have all other ingredients ready next to the stove.",
+   "Heat a wok or large skillet until very hot. Add 2 tablespoons of oil and stir-fry the beef in two batches for about 1 to 2 minutes each until browned. Set aside.",
+   "Add the remaining oil, stir-fry the onion and garlic for 1 minute, then the aji amarillo and tomatoes for 1 more minute.",
+   "Return the beef, add soy sauce and vinegar and toss for 30 seconds. Fold in the coriander.",
+   "Serve immediately with the hot chips and rice."
+  ],
+  "notes": "Keep the pan very hot and do not crowd it, or the beef will stew. Traditionally the chips are mixed into the stir-fry just before serving.",
+  "sources": [
+   "wiki-lomo-saltado"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "aji-de-gallina-home",
+  "dish": "aji-de-gallina",
+  "title": "Creamy aji de gallina",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "chicken",
+    "amount": 800,
+    "unit": "g",
+    "note": "breast and thighs, poached in salted water with onion and bay, broth reserved",
+    "group": "Chicken"
+   },
+   {
+    "ingredient": "white-bread",
+    "amount": 120,
+    "unit": "g",
+    "note": "crusts removed, torn",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 250,
+    "unit": "ml",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "note": "minced",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "aji-amarillo",
+    "amount": 4,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "walnuts",
+    "amount": 40,
+    "unit": "g",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "parmesan",
+    "amount": 40,
+    "unit": "g",
+    "note": "grated",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "stock",
+    "amount": 300,
+    "unit": "ml",
+    "note": "chicken poaching broth",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "potato",
+    "amount": 600,
+    "unit": "g",
+    "note": "boiled and sliced",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 3,
+    "unit": "piece",
+    "note": "hard-boiled, halved",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "olives",
+    "amount": 12,
+    "unit": "piece",
+    "note": "black",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "rice",
+    "amount": 300,
+    "unit": "g",
+    "note": "cooked",
+    "group": "To serve"
+   }
+  ],
+  "steps": [
+   "Poach the chicken until cooked, 20 to 25 minutes. Remove, cool and shred. Strain and keep the broth.",
+   "Soak the bread in the milk. Blend with the walnuts and cheese until smooth.",
+   "Soften the onion and garlic in the oil for 8 minutes, add the aji amarillo and cook for 3 more minutes.",
+   "Stir in the blended bread mixture and 300 ml broth, then cook, stirring, for 10 minutes until thick and creamy. Add the chicken and salt to taste and heat through.",
+   "Serve over potatoes with rice, egg halves and olives."
+  ],
+  "notes": "Add more broth if the sauce thickens too much. Peruvian recipes often use a hen and add evaporated milk; whole milk works well.",
+  "sources": [
+   "wiki-aji-de-gallina"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "papa-a-la-huancaina-home",
+  "dish": "papa-a-la-huancaina",
+  "title": "Papa a la huancaina",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 25,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "potato",
+    "amount": 800,
+    "unit": "g",
+    "note": "waxy, boiled in skins and peeled",
+    "group": "Base"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece",
+    "note": "hard-boiled, halved",
+    "group": "Base"
+   },
+   {
+    "ingredient": "olives",
+    "amount": 8,
+    "unit": "piece",
+    "note": "black",
+    "group": "Base"
+   },
+   {
+    "ingredient": "lettuce",
+    "amount": 4,
+    "unit": "piece",
+    "note": "leaves",
+    "group": "Base"
+   },
+   {
+    "ingredient": "queso-fresco",
+    "amount": 200,
+    "unit": "g",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "aji-amarillo",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 120,
+    "unit": "ml",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "soda-crackers",
+    "amount": 30,
+    "unit": "g",
+    "note": "about 4",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 80,
+    "unit": "ml",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "Sauce"
+   }
+  ],
+  "steps": [
+   "Boil the potatoes in salted water for 20 to 25 minutes until tender. Cool, peel and slice thickly.",
+   "Blend the cheese, aji amarillo, milk, crackers and salt, adding the oil slowly, until smooth and thick like mayonnaise. Taste and adjust.",
+   "Arrange lettuce on a plate, lay the sliced potatoes on top and pour the sauce over. Garnish with egg and olives."
+  ],
+  "notes": "Serve at room temperature or cold. Use feta mixed with a little cream cheese if queso fresco is unavailable.",
+  "sources": [
+   "wiki-papa-huancaina"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pachamanca-home",
+  "dish": "pachamanca",
+  "title": "Oven pachamanca",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 40,
+  "cook_minutes": 150,
+  "passive_minutes": 720,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "pork",
+    "amount": 700,
+    "unit": "g",
+    "note": "shoulder, in large chunks",
+    "group": "Meat"
+   },
+   {
+    "ingredient": "chicken",
+    "amount": 700,
+    "unit": "g",
+    "note": "thighs, bone in",
+    "group": "Meat"
+   },
+   {
+    "ingredient": "aji-panca",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "huacatay",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "paste or finely chopped leaves",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "cumin",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "vinegar",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1.5,
+    "unit": "tsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "potato",
+    "amount": 800,
+    "unit": "g",
+    "note": "small, unpeeled",
+    "group": "Vegetables"
+   },
+   {
+    "ingredient": "sweet-potato",
+    "amount": 500,
+    "unit": "g",
+    "note": "in thick chunks",
+    "group": "Vegetables"
+   },
+   {
+    "ingredient": "choclo",
+    "amount": 4,
+    "unit": "piece",
+    "note": "cobs, halved",
+    "group": "Vegetables"
+   },
+   {
+    "ingredient": "fava-beans",
+    "amount": 300,
+    "unit": "g",
+    "note": "fresh or frozen, podded",
+    "group": "Vegetables"
+   },
+   {
+    "ingredient": "banana-leaf",
+    "amount": 4,
+    "unit": "piece",
+    "note": "large pieces for lining and covering",
+    "group": "Vegetables"
+   }
+  ],
+  "steps": [
+   "Mix the marinade ingredients, rub into the pork and chicken, and refrigerate overnight.",
+   "Heat the oven to 170 C. Line a large heavy casserole with banana leaf, leaving an overhang.",
+   "Pack in the pork first, then the chicken. Fold over the leaf and cover tightly with the lid or foil. Cook for 1 hour.",
+   "Open, tuck in the potatoes, sweet potatoes, choclo and fava beans, cover with the leaf again and cook a further 75 minutes until all the meat and tubers are tender.",
+   "Serve straight from the pot with a fresh chilli sauce."
+  ],
+  "notes": "A real pachamanca uses hot stones in a pit and takes several hours; this is a home adaptation. Substitute fresh mint and parsley for huacatay only if you must, as the flavour is different.",
+  "sources": [
+   "wiki-pachamanca"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "anticuchos-home",
+  "dish": "anticuchos",
+  "title": "Beef heart anticuchos",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 30,
+  "cook_minutes": 12,
+  "passive_minutes": 240,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "beef-heart",
+    "amount": 700,
+    "unit": "g",
+    "note": "trimmed of sinew and fat, in 3 cm cubes"
+   },
+   {
+    "ingredient": "aji-panca",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "vinegar",
+    "amount": 80,
+    "unit": "ml",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "cumin",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "oregano",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "black-pepper",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "Marinade"
+   },
+   {
+    "ingredient": "potato",
+    "amount": 500,
+    "unit": "g",
+    "note": "boiled and sliced",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "choclo",
+    "amount": 2,
+    "unit": "piece",
+    "note": "cobs, boiled and cut in rounds",
+    "group": "To serve"
+   }
+  ],
+  "steps": [
+   "Combine the marinade ingredients and coat the beef heart. Cover and refrigerate overnight (at least 4 hours).",
+   "Soak bamboo skewers for 30 minutes, then thread 4 to 5 cubes on each.",
+   "Grill over hot charcoal or in a ridged pan for 3 to 4 minutes per side, brushing with leftover marinade for the first half of cooking only. Do not overcook or it turns tough.",
+   "Serve with boiled potato and choclo, and a chilli sauce."
+  ],
+  "notes": "Beef heart is lean and firm; sirloin may be substituted for a milder dish.",
+  "sources": [
+   "wiki-anticucho"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "turron-de-dona-pepa-home",
+  "dish": "turron-de-dona-pepa",
+  "title": "Turron de Dona Pepa",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 60,
+  "cook_minutes": 50,
+  "passive_minutes": 420,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 300,
+    "unit": "g",
+    "group": "Biscuit sticks"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 150,
+    "unit": "g",
+    "note": "cold, cubed",
+    "group": "Biscuit sticks"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 3,
+    "unit": "piece",
+    "note": "yolks only",
+    "group": "Biscuit sticks"
+   },
+   {
+    "ingredient": "anise-seed",
+    "amount": 1,
+    "unit": "tbsp",
+    "note": "simmered in 60 ml water for 5 minutes and cooled, liquid used",
+    "group": "Biscuit sticks"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 40,
+    "unit": "g",
+    "group": "Biscuit sticks"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "pinch",
+    "group": "Biscuit sticks"
+   },
+   {
+    "ingredient": "chancaca",
+    "amount": 300,
+    "unit": "g",
+    "note": "grated",
+    "group": "Syrup"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 150,
+    "unit": "g",
+    "group": "Syrup"
+   },
+   {
+    "ingredient": "water",
+    "amount": 400,
+    "unit": "ml",
+    "group": "Syrup"
+   },
+   {
+    "ingredient": "cinnamon",
+    "amount": 1,
+    "unit": "piece",
+    "note": "stick",
+    "group": "Syrup"
+   },
+   {
+    "ingredient": "cloves",
+    "amount": 4,
+    "unit": "piece",
+    "group": "Syrup"
+   },
+   {
+    "ingredient": "sprinkles",
+    "amount": 40,
+    "unit": "g",
+    "note": "coloured",
+    "group": "Topping"
+   }
+  ],
+  "steps": [
+   "Rub the butter into the flour, sugar and salt, add the yolks and enough anise liquid to make a firm dough. Chill 30 minutes.",
+   "Heat the oven to 180 C. Roll the dough 1 cm thick and cut into sticks about 1 cm wide and 8 cm long. Bake on a lined tray for 18 to 22 minutes until golden and firm. Cool.",
+   "For the syrup, simmer the chancaca, sugar, water, cinnamon and cloves for 25 to 30 minutes until thick enough to coat a spoon and falling in heavy ribbons. Remove the spices.",
+   "Lay a layer of biscuit sticks in a lined dish, pour over some of the hot syrup, and repeat in layers. Pour the last of the syrup on top.",
+   "Scatter with sprinkles and leave to set for at least 6 hours, then cut into squares."
+  ],
+  "notes": "Family recipes differ; some include other flavourings and fruit. This is a simplified home version. The syrup should be thick but still pourable, as it hardens as it cools.",
+  "sources": [
+   "wiki-lord-of-miracles"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "chicha-de-jora-home",
+  "dish": "chicha-de-jora",
+  "title": "Home-brewed chicha de jora",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 20,
+  "cook_minutes": 180,
+  "passive_minutes": 6000,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "jora",
+    "amount": 500,
+    "unit": "g",
+    "note": "from Latin American shops"
+   },
+   {
+    "ingredient": "water",
+    "amount": 4000,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "chancaca",
+    "amount": 200,
+    "unit": "g",
+    "note": "grated"
+   }
+  ],
+  "steps": [
+   "Boil the jora in the water, uncovered, for 2 to 3 hours, topping up with hot water to keep the volume about the same. The liquid should turn amber and slightly thick.",
+   "Strain through muslin into a clean pot, discard the solids, and add the chancaca. Simmer for 10 minutes until dissolved. Cool to room temperature.",
+   "Pour into a clean, sterilised glass or ceramic container, filling to three quarters. Cover loosely with a cloth.",
+   "Ferment in a warm spot (20 to 25 C) for 3 to 5 days, stirring once a day, until bubbling and pleasantly sour. Chill and drink within a few days."
+  ],
+  "notes": "Fermentation varies with temperature; stop when the taste suits you. The drink is mildly alcoholic, around 1 to 3 percent, though strength varies. Use only sterilised equipment.",
+  "sources": [
+   "wiki-chicha-de-jora"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "juane-home",
+  "dish": "juane",
+  "title": "Chicken juane in leaves",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 60,
+  "cook_minutes": 90,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "rice",
+    "amount": 400,
+    "unit": "g",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "turmeric",
+    "amount": 2,
+    "unit": "tsp",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece",
+    "note": "beaten",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 3,
+    "unit": "clove",
+    "note": "minced",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 2,
+    "unit": "tsp",
+    "group": "Rice"
+   },
+   {
+    "ingredient": "chicken",
+    "amount": 1200,
+    "unit": "g",
+    "note": "bone-in pieces, 6 portions",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "cumin",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 3,
+    "unit": "piece",
+    "note": "hard-boiled, halved",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "olives",
+    "amount": 6,
+    "unit": "piece",
+    "note": "black",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "banana-leaf",
+    "amount": 6,
+    "unit": "piece",
+    "note": "large squares, softened over a flame, in place of bijao",
+    "group": "Wrapping"
+   }
+  ],
+  "steps": [
+   "Simmer the chicken in salted water with the cumin and half the garlic for 25 minutes. Remove and keep the stock.",
+   "Soften the onion and remaining garlic in oil, add the turmeric and the rice and stir. Add 700 ml of the stock, cook covered for 10 minutes until the rice is only half cooked, then cool slightly and stir in the beaten eggs.",
+   "On each leaf place a portion of rice, then a piece of chicken, half a boiled egg and an olive, and cover with more rice. Fold into a tight parcel and tie with string.",
+   "Boil the parcels in a large pot of water, covered, for 60 to 70 minutes. Serve hot in the leaf."
+  ],
+  "notes": "Bijao leaves are traditional; banana leaves work well. Make sure the parcels are tightly tied so the rice does not escape.",
+  "sources": [
+   "wiki-juane"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "tiradito-home",
+  "dish": "tiradito",
+  "title": "Aji amarillo tiradito",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 0,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "white-fish",
+    "amount": 500,
+    "unit": "g",
+    "note": "very fresh fillet, skinless, sliced thinly across the grain"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 6,
+    "unit": "tbsp",
+    "note": "freshly squeezed",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "aji-amarillo",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 1,
+    "unit": "clove",
+    "note": "small",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "cilantro",
+    "amount": 1,
+    "unit": "tbsp",
+    "note": "leaves, to garnish"
+   },
+   {
+    "ingredient": "sweet-potato",
+    "amount": 1,
+    "unit": "piece",
+    "note": "boiled and sliced thinly, optional",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "Chill the fish. Blend the lime juice, aji amarillo, garlic and salt until smooth, then chill.",
+   "Slice the fish into thin pieces about 3 mm thick and arrange overlapping on cold plates.",
+   "Spoon the sauce over just before serving. Garnish with coriander and sweet potato if using."
+  ],
+  "notes": "Serve within minutes of dressing. As with ceviche, use very fresh fish, and avoid raw fish if pregnant or immunocompromised.",
+  "sources": [
+   "wiki-tiradito"
+  ],
+  "review_status": "draft"
+ }
+]

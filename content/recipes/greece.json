@@ -1,0 +1,917 @@
+[
+  {
+    "id": "moussaka-home",
+    "dish": "moussaka",
+    "title": "Moussaka",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 90,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "eggplant",
+        "amount": 1,
+        "unit": "kg",
+        "note": "sliced 1 cm thick",
+        "group": "Layers"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 150,
+        "unit": "ml",
+        "note": "for frying the eggplant",
+        "group": "Layers"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "minced",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "canned chopped",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "red-wine",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 0.25,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 1,
+        "unit": "piece",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Meat sauce"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 60,
+        "unit": "g",
+        "group": "Bechamel"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 60,
+        "unit": "g",
+        "group": "Bechamel"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 750,
+        "unit": "ml",
+        "note": "warm",
+        "group": "Bechamel"
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Bechamel"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Bechamel"
+      },
+      {
+        "ingredient": "kefalotyri",
+        "amount": 50,
+        "unit": "g",
+        "note": "grated",
+        "group": "Bechamel"
+      }
+    ],
+    "steps": [
+      "Salt the eggplant slices, leave for 20 minutes, then pat dry. Brush with oil and roast at 220 C for about 20 minutes, turning once, until golden. (Frying works too.)",
+      "For the meat sauce, soften the onion in a little oil for 6 minutes, add the garlic and the beef and brown, breaking up lumps.",
+      "Add the tomato paste, wine, tomatoes, cinnamon, allspice and bay and simmer for 25 minutes until thick. Stir in the parsley and season.",
+      "For the béchamel, melt the butter, stir in the flour for 2 minutes, then whisk in the milk gradually and cook until thick. Season with salt and nutmeg, cool a little, then beat in the eggs and half the cheese.",
+      "Heat the oven to 180 C. In a deep 30 x 20 cm dish, layer half the eggplant, all the meat sauce, then the remaining eggplant. Spread over the béchamel and top with the rest of the cheese.",
+      "Bake for 45 minutes until deep golden. Rest for 20 minutes before cutting so the layers hold."
+    ],
+    "notes": "Lamb or a mix of lamb and beef is also common. Thin sliced fried potatoes are layered in some regional versions.",
+    "sources": [
+      "wiki-moussaka"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "horiatiki-home",
+    "dish": "horiatiki",
+    "title": "Horiatiki salad",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 600,
+        "unit": "g",
+        "note": "ripe, cut into wedges"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 1,
+        "unit": "piece",
+        "note": "about 250 g, thickly sliced"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "thinly sliced"
+      },
+      {
+        "ingredient": "green-pepper",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced into rings"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 100,
+        "unit": "g",
+        "note": "kalamata"
+      },
+      {
+        "ingredient": "feta",
+        "amount": 200,
+        "unit": "g",
+        "note": "one block, not crumbled"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "capers",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "optional",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Combine the tomatoes, cucumber, onion, pepper and olives in a wide bowl. Add a pinch of salt.",
+      "Drizzle with about 3 tablespoons of oil and toss gently.",
+      "Lay the block of feta on top, sprinkle with oregano and drizzle with the remaining oil.",
+      "Serve straight away with bread to mop up the juices."
+    ],
+    "notes": "Salt lightly, since feta and olives are salty. Use the ripest tomatoes you can find.",
+    "sources": [
+      "wiki-greek-salad"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "spanakopita-home",
+    "dish": "spanakopita",
+    "title": "Spanakopita",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 40,
+    "cook_minutes": 50,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "spinach",
+        "amount": 800,
+        "unit": "g",
+        "note": "fresh, washed, or 500 g frozen, thawed and squeezed dry"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 6,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "dill",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 0.5,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "feta",
+        "amount": 300,
+        "unit": "g",
+        "note": "crumbled"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "note": "beaten"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 100,
+        "unit": "ml",
+        "note": "for the filling and brushing"
+      },
+      {
+        "ingredient": "phyllo",
+        "amount": 350,
+        "unit": "g",
+        "note": "about 12 sheets"
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "note": "go lightly, the feta is salty"
+      }
+    ],
+    "steps": [
+      "Heat 2 tablespoons of the oil in a large pan and soften the spring onions for 3 minutes. Add the spinach in batches and cook until wilted. Drain well and squeeze out all the liquid.",
+      "Cool, then mix with the herbs, feta, eggs, nutmeg and pepper.",
+      "Heat the oven to 180 C and brush a 30 x 24 cm baking dish with oil. Lay half the phyllo sheets in the dish, brushing each with oil and letting the edges overhang.",
+      "Spread over the filling, fold in the overhang, then layer the remaining sheets on top, brushing each with oil.",
+      "Score the top into squares, brush with oil and sprinkle with a little water to prevent curling.",
+      "Bake for 45 minutes until golden and crisp. Rest for 10 minutes before cutting."
+    ],
+    "notes": "Keep unused phyllo covered with a damp cloth so it does not dry out.",
+    "sources": [
+      "wiki-spanakopita"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "souvlaki-home",
+    "dish": "souvlaki",
+    "title": "Pork souvlaki with tzatziki",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 12,
+    "passive_minutes": 60,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "pork",
+        "amount": 700,
+        "unit": "g",
+        "note": "shoulder, cut into 2.5 cm cubes",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 4,
+        "unit": "tbsp",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Skewers"
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": 250,
+        "unit": "g",
+        "note": "thick Greek yogurt",
+        "group": "Tzatziki"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 150,
+        "unit": "g",
+        "note": "grated and squeezed dry",
+        "group": "Tzatziki"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 1,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Tzatziki"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Tzatziki"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 4,
+        "unit": "piece",
+        "note": "pita",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Mix the oil, lemon juice, oregano, garlic, salt and pepper, add the pork and marinate for at least 1 hour in the fridge.",
+      "Meanwhile mix the yogurt, cucumber, garlic, oil and a pinch of salt for the tzatziki.",
+      "Thread the pork on skewers (soak wooden ones in water first).",
+      "Grill or griddle over high heat for 10 to 12 minutes, turning, until browned and just cooked through.",
+      "Warm the pita on the grill. Fill with tomato, onion, the meat off the skewer and tzatziki, and roll up."
+    ],
+    "notes": "Chicken can replace the pork. Many shops add chips inside the pita.",
+    "sources": [
+      "wiki-souvlaki"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "dakos-home",
+    "dish": "dakos",
+    "title": "Dakos",
+    "version": "home",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "barley-rusk",
+        "amount": 2,
+        "unit": "piece",
+        "note": "large Cretan barley rusks"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 500,
+        "unit": "g",
+        "note": "very ripe, grated"
+      },
+      {
+        "ingredient": "mizithra",
+        "amount": 100,
+        "unit": "g",
+        "note": "or crumbled feta"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "capers",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "optional",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Run each rusk briefly under water, 10 to 15 seconds, or sprinkle with a tablespoon of water so it softens on the outside but stays firm inside.",
+      "Place on plates and cover with the grated tomato, pressing it into the rusk.",
+      "Top with the cheese, olives and capers and season with a little salt.",
+      "Sprinkle with oregano and drizzle with olive oil. Serve at once."
+    ],
+    "notes": "Rusks are sold in Greek shops. If you cannot find them, use dry whole-grain bread, but they will not have the same chew.",
+    "sources": [
+      "wiki-dakos"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fava-santorinis-home",
+    "dish": "fava-santorinis",
+    "title": "Fava purée",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 50,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "yellow-split-peas",
+        "amount": 250,
+        "unit": "g",
+        "note": "rinsed"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved"
+      },
+      {
+        "ingredient": "water",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "red-onion",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "finely chopped, to serve"
+      },
+      {
+        "ingredient": "capers",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "to serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the split peas, onion and water in a pan and bring to a boil. Skim the foam.",
+      "Simmer for 40 to 50 minutes, stirring now and then, until the peas collapse and the mixture is thick. Add a splash of hot water if it catches.",
+      "Remove the onion, add 3 tablespoons of oil and blend until completely smooth. Season with salt and stir in the lemon juice.",
+      "Let it rest for 10 minutes to thicken, then spoon onto a plate and top with the chopped red onion, capers and the remaining oil. Serve warm with bread."
+    ],
+    "notes": "The authentic Santorini version uses a local legume; yellow split peas are the usual home substitute.",
+    "sources": [
+      "wiki-fava-greek"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tsoureki-home",
+    "dish": "tsoureki",
+    "title": "Tsoureki",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 40,
+    "cook_minutes": 35,
+    "passive_minutes": 165,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "note": "strong bread flour"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 200,
+        "unit": "ml",
+        "note": "warm"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 80,
+        "unit": "g",
+        "note": "melted and cooled"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece",
+        "note": "plus 1 for glazing"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "note": "beaten, for glazing"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "dried"
+      },
+      {
+        "ingredient": "mahleb",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "freshly ground"
+      },
+      {
+        "ingredient": "orange-zest",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "note": "a good pinch"
+      }
+    ],
+    "steps": [
+      "Mix the warm milk, a pinch of the sugar and the yeast and leave 10 minutes until foamy.",
+      "Mix the flour, remaining sugar, mahleb and salt in a large bowl. Add the yeast mixture, eggs, butter and orange zest and knead for 10 minutes into a soft elastic dough.",
+      "Cover and let rise for 1.5 to 2 hours until doubled.",
+      "Divide into three equal ropes, braid, and place on a lined baking tray. Cover and rise for 45 minutes.",
+      "Brush with beaten egg and bake at 180 C for 30 to 35 minutes, covering with foil if it browns too fast. Cool on a rack."
+    ],
+    "notes": "Press a red-dyed egg into the braid before the final rise if you like. The dough is meant to stay a little sticky.",
+    "sources": [
+      "wiki-tsoureki"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "magiritsa-home",
+    "dish": "magiritsa",
+    "title": "Magiritsa",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 75,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "lamb-offal",
+        "amount": 500,
+        "unit": "g",
+        "note": "liver, heart and lungs, trimmed"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 6,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "dill",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": 300,
+        "unit": "g",
+        "note": "romaine, shredded"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.5,
+        "unit": "l"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Boil the offal in water for 10 minutes, drain, rinse well and chop finely.",
+      "Heat the oil in a pot and sweat the spring onions for 3 minutes. Add the chopped offal and cook for 5 minutes.",
+      "Add the water, bring to a boil, skim, then simmer for 40 minutes.",
+      "Add the lettuce, half the dill and the rice and simmer for another 15 to 20 minutes until the rice is tender. Season.",
+      "Beat the eggs with the lemon juice and slowly ladle in about 2 cups of the hot broth while whisking. Pour the mixture back into the pot, off the heat, and stir gently without boiling.",
+      "Stir in the remaining dill and serve warm."
+    ],
+    "notes": "Do not boil after adding the egg-lemon mixture, or the soup will curdle.",
+    "sources": [
+      "wiki-mayiritsa"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "taramosalata-home",
+    "dish": "taramosalata",
+    "title": "Taramosalata",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "passive_minutes": 60,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "fish-roe",
+        "amount": 100,
+        "unit": "g",
+        "note": "tarama, salted cod or carp roe"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 100,
+        "unit": "g",
+        "note": "stale white bread, crusts removed"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 30,
+        "unit": "g",
+        "note": "finely grated"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 150,
+        "unit": "ml",
+        "note": "mild"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak the bread in water for 2 minutes, then squeeze out the water.",
+      "Blend the roe, bread, lemon juice and onion to a smooth paste.",
+      "With the machine running, pour in the oil slowly, as for mayonnaise, until pale and creamy. Add the water if too thick.",
+      "Taste and add more lemon juice if you like, then chill for 1 hour. Serve with bread, olives and vegetables."
+    ],
+    "notes": "Tarama is salty; no extra salt is usually needed. A boiled, mashed potato can replace the bread.",
+    "sources": [
+      "wiki-taramasalata"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "gigantes-plaki-home",
+    "dish": "gigantes-plaki",
+    "title": "Gigantes plaki",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "passive_minutes": 720,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "giant-beans",
+        "amount": 400,
+        "unit": "g",
+        "note": "dried, soaked overnight"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "diced"
+      },
+      {
+        "ingredient": "celery",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick, diced"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "canned chopped"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "sweet"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Drain the soaked beans, cover with fresh water and simmer for 50 to 60 minutes until nearly tender. Drain, keeping 250 ml of the cooking water.",
+      "Heat the oven to 180 C. Soften the onion, carrot and celery in half of the oil for 8 minutes, add the garlic, tomato paste, oregano and paprika for 1 minute.",
+      "Add the tomatoes, sugar, bay, half the parsley and the reserved water and simmer for 10 minutes.",
+      "Stir the beans into the sauce, season with salt and pepper and pour into a baking dish. Drizzle with the remaining oil.",
+      "Bake for 50 to 60 minutes, stirring once, until the sauce is thick and the beans are very tender with a lightly browned top. Add water if it dries out.",
+      "Stir in the remaining parsley and serve warm or at room temperature."
+    ],
+    "notes": "Salt the beans only once they are tender. They taste better the next day.",
+    "sources": [
+      "wiki-gigantes-plaki"
+    ],
+    "review_status": "draft"
+  }
+]

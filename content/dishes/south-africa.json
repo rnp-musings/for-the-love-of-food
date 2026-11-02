@@ -1,0 +1,412 @@
+[
+  {
+    "id": "bobotie",
+    "name": "Bobotie",
+    "local_name": "Bobotie",
+    "country": "south-africa",
+    "region": "cape-malay",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "sweet",
+      "rich"
+    ],
+    "diet": [],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 1,
+    "summary": "Spiced minced meat baked with a savoury egg custard topping, sweetened with fruit chutney and raisins.",
+    "story": "Bobotie is a baked dish of curried minced meat with dried fruit and almonds, topped with a milk and egg custard that sets into a golden crust. It is strongly associated with the Cape Malay community of Cape Town and is often described as a national dish, though that title is informal. Its spicing and sweet-sour balance are linked to the Dutch colonial period and to Indonesian cooking, with a similar-sounding Indonesian dish, bobotok, often cited as a possible relative. It is typically served with yellow rice with raisins and sambals.",
+    "origin_claims": [
+      {
+        "claim": "The dish is usually linked to Indonesian and Dutch cooking brought to the Cape in the colonial period; the exact route and name origin are uncertain.",
+        "confidence": "widely-told",
+        "source": "wiki-bobotie"
+      }
+    ],
+    "sources": [
+      "wiki-bobotie",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bunny-chow",
+    "name": "Bunny chow",
+    "local_name": "Bunny chow",
+    "country": "south-africa",
+    "region": "durban-indian",
+    "type": "street-food",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "spicy",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 4,
+    "summary": "A hollowed-out loaf of bread filled with hot curry, a signature street food of Durban.",
+    "story": "Bunny chow is a quarter or half loaf of white bread hollowed out and filled with curry, typically mutton, chicken or beans, and eaten by hand with the bread removed from the middle as a scoop. It originated in the Indian-South-African community of Durban, and today it is served in restaurants and takeaways across South Africa. Its early history is debated: stories link it to Indian labourers and caddies, to the bania caste of merchants, or to a need for a portable, no-cutlery meal. Some say the name comes from the Gujarati term for bania.",
+    "origin_period": "20th century",
+    "origin_claims": [
+      {
+        "claim": "The dish arose among Durban's Indian community in the 20th century, as a portable meal that needed no plate.",
+        "confidence": "widely-told",
+        "source": "wiki-bunny-chow"
+      },
+      {
+        "claim": "Origin stories differ on whether it began with plantation workers, golf caddies or a trader community; the name's roots in the word bania are also debated.",
+        "confidence": "disputed",
+        "source": "wiki-bunny-chow"
+      }
+    ],
+    "sources": [
+      "wiki-bunny-chow",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "boerewors",
+    "name": "Boerewors",
+    "local_name": "Boerewors",
+    "country": "south-africa",
+    "region": "afrikaner",
+    "type": "grill-bbq",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "smoky",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 1,
+    "summary": "A coarse, spiced beef (often beef and pork) sausage in a long coil, cooked on the braai.",
+    "story": "Boerewors, meaning farmer's sausage in Afrikaans, is a coarse fresh sausage seasoned with coriander seed, clove, nutmeg, pepper and a little vinegar. It has roots in the sausage traditions of the Dutch and other European settlers, and has become one of the most recognisable South African foods. It is sold coiled in butcher shops, cooked on the braai, and served with pap, bread or in a roll called a boerie roll. There are regional recipes and legal definitions in the country about meat content.",
+    "origin_claims": [
+      {
+        "claim": "The sausage developed from European sausage traditions among the Dutch-descended farmers of the Cape and interior.",
+        "confidence": "widely-told",
+        "source": "wiki-boerewors"
+      }
+    ],
+    "sources": [
+      "wiki-boerewors",
+      "wiki-braai"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "chakalaka",
+    "name": "Chakalaka",
+    "local_name": "Chakalaka",
+    "country": "south-africa",
+    "region": "highveld",
+    "type": "sauce",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "spicy",
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 3,
+    "summary": "A spicy vegetable relish of tomato, peppers, carrot and baked beans, served with braaied meat and pap.",
+    "story": "Chakalaka is a South African relish made from onions, tomatoes, peppers, carrots, curry spice and chilli, and often canned baked beans. It is served with pap, bread or braaied meat and is common at gatherings. The dish is generally linked to Johannesburg and its townships. Many stories explain its start, including that migrant mine workers, some from Mozambique, made a relish from available vegetables, but there is no firm documentation.",
+    "origin_claims": [
+      {
+        "claim": "A relish associated with the townships of Johannesburg and mining communities, possibly shaped by Mozambican migrant workers.",
+        "confidence": "legend",
+        "source": "wiki-chakalaka"
+      }
+    ],
+    "sources": [
+      "wiki-chakalaka",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "koesisters",
+    "name": "Koesisters",
+    "local_name": "Koe'sisters",
+    "country": "south-africa",
+    "region": "cape-malay",
+    "type": "pastry",
+    "course": [
+      "breakfast",
+      "snack",
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Spiced yeasted dough fried, dunked in cold sugar syrup and rolled in coconut, a Cape Malay classic.",
+    "story": "The Cape Malay koesister is a fried, spiced dumpling with a soft, cake-like texture, finished with syrup and a coating of desiccated coconut. It is usually made on Sunday mornings and for religious holidays and is quite different from the plaited, syrup-soaked koeksister of the Afrikaners, though both share a Dutch-sounding name. The Cape Malay dough carries aniseed, cinnamon, ginger and cardamom, and the pastry is often sold on Cape Town street corners.",
+    "origin_claims": [
+      {
+        "claim": "The Cape Malay version is a distinct pastry from the Afrikaner koeksister; their relationship and the origin of the name are not well established.",
+        "confidence": "widely-told",
+        "source": "wiki-koesister"
+      }
+    ],
+    "sources": [
+      "wiki-koesister",
+      "wiki-cape-malays"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "biltong",
+    "name": "Biltong",
+    "local_name": "Biltong",
+    "country": "south-africa",
+    "region": "afrikaner",
+    "type": "snack",
+    "course": [
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "Strips of vinegar-cured, spiced beef air-dried until firm and chewy.",
+    "story": "Biltong is air-dried, cured meat, usually beef or game, sliced into strips or thick slabs and seasoned with salt, coriander, pepper and vinegar. Preserving meat by drying has a long history in southern Africa, and later European settlers added vinegar and spices. The word comes from Afrikaans and Dutch, roughly rump strip. It is eaten as a snack, sliced into shreds, and is a staple of road trips and sporting events. It differs from jerky in that it is cured with vinegar and dried without cooking.",
+    "origin_claims": [
+      {
+        "claim": "Drying meat is an old technique in southern Africa; the modern biltong with vinegar and spice is usually linked to Dutch-descended settlers.",
+        "confidence": "widely-told",
+        "source": "wiki-biltong"
+      },
+      {
+        "claim": "The story that the Voortrekkers invented biltong for long journeys is a popular but oversimplified account.",
+        "confidence": "legend",
+        "source": "wiki-biltong"
+      }
+    ],
+    "sources": [
+      "wiki-biltong",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "umngqusho",
+    "name": "Umngqusho",
+    "local_name": "Umngqusho",
+    "country": "south-africa",
+    "region": "nguni",
+    "type": "stew",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "umami",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 1,
+    "summary": "A slow-cooked stew of samp (crushed dried maize) and sugar beans, a staple of Xhosa and Zulu homes.",
+    "story": "Umngqusho, also called isitambu in Zulu cooking, is made by cooking samp, which is dried maize kernels crushed into coarse pieces, together with beans until soft and creamy. It is a traditional dish of the Xhosa of the Eastern Cape and also eaten by the Zulu and others, and is eaten at family meals, funerals and celebrations. It is often said to have been a favourite of Nelson Mandela, and in the Xhosa tradition it is a food of everyday life and ceremony. It is served plain with meat, or seasoned with onion, chilli and a little oil or butter.",
+    "origin_claims": [
+      {
+        "claim": "A long-standing Nguni dish combining maize and beans, widely eaten in the Eastern Cape and KwaZulu-Natal.",
+        "confidence": "well-documented",
+        "source": "wiki-umngqusho"
+      }
+    ],
+    "sources": [
+      "wiki-umngqusho",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "potjiekos",
+    "name": "Potjiekos",
+    "local_name": "Potjiekos",
+    "country": "south-africa",
+    "region": "afrikaner",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "smoky"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "A layered meat and vegetable stew cooked slowly over coals in a three-legged cast-iron pot.",
+    "story": "Potjiekos means small pot food in Afrikaans. It is cooked in a round, cast-iron pot with three legs, set over a wood or charcoal fire, and it is meant to be cooked slowly and not stirred, so the ingredients stay in layers. Meat goes in first, then vegetables, with a little liquid, and the cook lets it simmer for hours. The style is tied to Dutch-descended settlers and their cast-iron pots, and it is often cooked at gatherings, where the pot is the centre of the social event.",
+    "origin_claims": [
+      {
+        "claim": "Cooking in cast-iron pots over open fires is linked to Dutch-descended settlers and travellers in the 17th to 19th centuries.",
+        "confidence": "widely-told",
+        "source": "wiki-potjiekos"
+      }
+    ],
+    "sources": [
+      "wiki-potjiekos",
+      "wiki-braai"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "malva-pudding",
+    "name": "Malva pudding",
+    "local_name": "Malvapoeding",
+    "country": "south-africa",
+    "region": "afrikaner",
+    "type": "dessert",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A sticky, caramel-flavoured baked sponge soaked in a hot cream sauce.",
+    "story": "Malva pudding is a sweet, spongy baked pudding made with apricot jam, which gives the sponge a caramel tone. Right after baking it is soaked with a hot sauce of cream, butter and sugar, which makes it moist and sticky. It is served warm with custard or ice cream and is a staple dessert in South African homes and restaurants. It is associated with Cape Dutch cooking, but its origins are unclear. The name malva is variously explained as coming from the Afrikaans word for marshmallow or from the sweet Malmsey wine, and neither story is well documented.",
+    "origin_claims": [
+      {
+        "claim": "A South African dessert linked to Cape Dutch cooking, with unclear origin.",
+        "confidence": "widely-told",
+        "source": "wiki-malva-pudding"
+      },
+      {
+        "claim": "Explanations of the name malva (from marshmallow, from malvasia wine, or from a family name) are not documented.",
+        "confidence": "legend",
+        "source": "wiki-malva-pudding"
+      }
+    ],
+    "sources": [
+      "wiki-malva-pudding",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "vetkoek",
+    "name": "Vetkoek",
+    "local_name": "Vetkoek",
+    "country": "south-africa",
+    "region": "afrikaner",
+    "type": "street-food",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Golden fried dough balls, split open and filled with curried mince, cheese, jam or syrup.",
+    "story": "Vetkoek, Afrikaans for fat cake, is a ball of yeast dough deep-fried until golden and puffed, then split and filled with savoury mince, cheese or sweet jam. It is a popular food at fêtes, school fundraisers, tuck shops and road stops, and it is often made at home on cold days. It is generally traced to the Dutch-descended settlers, whose own fried dough tradition includes oliebollen, and it has been adopted by many communities, who call it by other names such as amagwinya in Zulu and Xhosa.",
+    "origin_claims": [
+      {
+        "claim": "A fried yeast dough linked to Dutch settler cooking and similar to Dutch oliebollen, since adopted by many South African communities.",
+        "confidence": "widely-told",
+        "source": "wiki-vetkoek"
+      }
+    ],
+    "sources": [
+      "wiki-vetkoek",
+      "wiki-south-african-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

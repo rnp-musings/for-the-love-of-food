@@ -46,4 +46,4 @@ python3 scripts/validate.py
 
 ## Seed slice
 
-3 countries (India, Italy, Mexico), 12 regions, 15 dishes with recipes, and 3 festivals (Diwali, Day of the Dead, Carnevale).
+30 countries (five per continent, Tonga at 8 dishes), 136 regions, 298 dishes each with a recipe, and 53 festivals. All of it is AI-drafted and unreviewed: see [docs/review-queue.md](docs/review-queue.md).

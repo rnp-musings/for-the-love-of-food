@@ -1,0 +1,432 @@
+[
+  {
+    "id": "paella-valenciana",
+    "name": "Paella valenciana",
+    "local_name": "Paella valenciana",
+    "country": "spain",
+    "region": "valencia",
+    "type": "rice-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "smoky"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free",
+      "gluten-free"
+    ],
+    "cook_methods": [
+      "sauteed",
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "A wide-pan rice dish from Valencia cooked with chicken, rabbit, flat green beans and saffron until a toasted crust forms on the base.",
+    "story": "Rice has been grown around Valencia's Albufera lagoon for many centuries, and paella grew out of rural cooking in that landscape, where rice was cooked in a shallow pan over an open fire with whatever the countryside offered. The name is commonly connected to the pan itself, called a paella. The version regarded as the original in Valencia uses chicken, rabbit, flat green beans and a local white bean, with no seafood or chorizo, though countless variations exist elsewhere in Spain and abroad. The slightly toasted layer at the bottom, the socarrat, is prized. Paella is traditionally cooked outdoors, often by the men of the family on a Sunday.",
+    "origin_period": "18th to 19th century",
+    "origin_claims": [
+      {
+        "claim": "Paella developed in the rural Valencian countryside near the Albufera, as a rice dish cooked in the open air.",
+        "confidence": "widely-told",
+        "source": "wiki-paella"
+      },
+      {
+        "claim": "Rice cultivation in the region goes back to the medieval period, though exactly when it began is debated.",
+        "confidence": "disputed",
+        "source": "wiki-paella"
+      }
+    ],
+    "sources": [
+      "wiki-paella",
+      "wiki-spanish-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "gazpacho-andaluz",
+    "name": "Andalusian gazpacho",
+    "local_name": "Gazpacho andaluz",
+    "country": "spain",
+    "region": "andalusia",
+    "type": "soup",
+    "course": [
+      "starter",
+      "drink"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "A chilled blended soup of ripe tomatoes, cucumber, pepper, garlic, bread and olive oil, served on hot days.",
+    "story": "Gazpacho is a cold soup from southern Spain, made as a way to eat bread, oil, garlic and vinegar in the heat of the day. Earlier versions were white or pale and contained no tomato at all, since tomatoes only reached Europe from the Americas; the red tomato-based version we know today became standard later. Its remote ancestry is often linked to Roman or Arab-era bread soups, but how direct that link is remains uncertain. Today it is sold in cartons and served in glasses as well as bowls, and regional relatives include salmorejo and ajoblanco.",
+    "origin_period": "before the 19th century for pale versions; tomato versions later",
+    "origin_claims": [
+      {
+        "claim": "Gazpacho began as a bread, oil, garlic and vinegar soup in southern Spain, and tomatoes were added after their arrival from the Americas.",
+        "confidence": "widely-told",
+        "source": "wiki-gazpacho"
+      },
+      {
+        "claim": "The earliest forms came from Roman or Moorish-era bread soups.",
+        "confidence": "disputed",
+        "source": "wiki-gazpacho"
+      }
+    ],
+    "sources": [
+      "wiki-gazpacho",
+      "wiki-spanish-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tortilla-espanola",
+    "name": "Spanish omelette",
+    "local_name": "Tortilla española",
+    "country": "spain",
+    "type": "other",
+    "course": [
+      "starter",
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "rich",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "dairy-free",
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "sauteed"
+    ],
+    "spice_level": 0,
+    "summary": "A thick omelette of eggs, potatoes and often onion, cooked slowly in olive oil and eaten warm or at room temperature.",
+    "story": "Tortilla de patatas is found in homes, bars and picnic baskets all over Spain. Potatoes arrived in Europe from the Americas, so the dish can only date from after that, and potato omelettes appear in Spanish records from the 19th century. Several towns and regions are named as its birthplace, and one popular story ties it to a general in the Carlist wars, but none of these claims is firmly established. A friendly national argument is whether it should contain onion and whether the middle should stay runny.",
+    "origin_period": "19th century",
+    "origin_claims": [
+      {
+        "claim": "Potato omelettes are documented in Spain from the 19th century onward.",
+        "confidence": "well-documented",
+        "source": "wiki-spanish-omelette"
+      },
+      {
+        "claim": "The dish was invented to feed a general during the Carlist wars.",
+        "confidence": "legend",
+        "source": "wiki-spanish-omelette"
+      }
+    ],
+    "sources": [
+      "wiki-spanish-omelette",
+      "wiki-spanish-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pulpo-a-la-gallega",
+    "name": "Galician-style octopus",
+    "local_name": "Pulpo á feira",
+    "country": "spain",
+    "region": "galicia",
+    "type": "fish-dish",
+    "course": [
+      "starter",
+      "main"
+    ],
+    "flavours": [
+      "smoky",
+      "salty"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free",
+      "gluten-free"
+    ],
+    "cook_methods": [
+      "boiled"
+    ],
+    "spice_level": 1,
+    "summary": "Tender boiled octopus sliced over potatoes and dressed with olive oil, coarse salt and paprika.",
+    "story": "Octopus is a classic of Galicia, where it is cooked in large copper pots at fairs and festivals by octopus cooks known as pulpeiras, then cut with scissors and served on wooden plates, which is why it is also called pulpo á feira (fair-style octopus). The simplicity is the point: the octopus is boiled, set over sliced potatoes, and seasoned with salt, paprika and oil. Exactly how long octopus has been eaten this way is not firmly documented, and the tradition is generally described as long-standing rather than dated.",
+    "origin_claims": [
+      {
+        "claim": "The dish is a long-standing Galician fair tradition prepared by pulpeiras.",
+        "confidence": "widely-told",
+        "source": "wiki-pulpo-a-la-gallega"
+      }
+    ],
+    "sources": [
+      "wiki-pulpo-a-la-gallega",
+      "wiki-spanish-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bacalao-al-pil-pil",
+    "name": "Salt cod in pil-pil sauce",
+    "local_name": "Bacalao al pil-pil",
+    "country": "spain",
+    "region": "basque-country",
+    "type": "fish-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free",
+      "gluten-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Desalted salt cod gently cooked in olive oil and garlic, with a creamy emulsified sauce made from the fish's own gelatine.",
+    "story": "Cod preserved in salt became a staple across Spain and Portugal because it kept well on long voyages and during Lent. In the Basque Country it is cooked in many ways, and pil-pil is one of the best known. The sauce forms when the gelatine in the cod skin is released into warm olive oil and the pan is swirled until the oil thickens. The name is commonly said to imitate the sound of the oil bubbling gently in the pan. Dried and salted cod from the North Atlantic has been traded for centuries; the precise history of this particular recipe is not well documented.",
+    "origin_claims": [
+      {
+        "claim": "Salt cod, imported from the North Atlantic, became a staple in the Basque Country and across Iberia.",
+        "confidence": "well-documented",
+        "source": "wiki-salt-cod"
+      },
+      {
+        "claim": "The word pil-pil imitates the sound of the sauce bubbling gently.",
+        "confidence": "widely-told",
+        "source": "wiki-pil-pil"
+      }
+    ],
+    "sources": [
+      "wiki-pil-pil",
+      "wiki-salt-cod"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pa-amb-tomaquet",
+    "name": "Bread with tomato",
+    "local_name": "Pa amb tomàquet",
+    "country": "spain",
+    "region": "catalonia",
+    "type": "bread",
+    "course": [
+      "breakfast",
+      "starter",
+      "snack"
+    ],
+    "flavours": [
+      "tangy",
+      "salty",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "Toasted or fresh bread rubbed with ripe tomato and drizzled with olive oil: Catalonia's simplest and most loved snack.",
+    "story": "Pa amb tomàquet is eaten at breakfast, as a side to cured meats and cheeses, or as a base for tapas. Tomatoes reached Spain from the Americas, and the habit of rubbing them on bread is generally believed to be from around the late 19th or early 20th century, but its exact origin is not well documented. Cooks usually choose a tomato variety grown for the purpose, with soft juicy flesh and a thin skin, and add garlic, oil and salt.",
+    "origin_period": "late 19th to early 20th century",
+    "origin_claims": [
+      {
+        "claim": "Rubbing ripe tomato on bread became a Catalan habit in the late 19th or early 20th century.",
+        "confidence": "widely-told",
+        "source": "wiki-pa-amb-tomaquet"
+      }
+    ],
+    "sources": [
+      "wiki-pa-amb-tomaquet",
+      "wiki-spanish-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sopa-de-ajo",
+    "name": "Castilian garlic soup",
+    "local_name": "Sopa de ajo",
+    "country": "spain",
+    "type": "soup",
+    "course": [
+      "starter",
+      "main"
+    ],
+    "flavours": [
+      "smoky",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "sauteed",
+      "simmered",
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A thrifty soup of stale bread, garlic and paprika in stock, finished with eggs, from the central Castilian plateau.",
+    "story": "Sopa de ajo, sometimes called sopa castellana, comes from the cold, high interior of Spain, where nothing was wasted and stale bread went into the pot. It was a typical peasant dish made from pantry staples: olive oil, garlic, bread, paprika and water or stock, with eggs poached or baked in the soup. Versions with cured ham are also common. Because it is a homely dish, its precise origins are poorly documented, and similar bread soups exist across the Mediterranean.",
+    "origin_claims": [
+      {
+        "claim": "A frugal bread soup of the Castilian interior, made from pantry ingredients.",
+        "confidence": "widely-told",
+        "source": "wiki-garlic-soup"
+      }
+    ],
+    "sources": [
+      "wiki-garlic-soup",
+      "wiki-spanish-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "torrijas",
+    "name": "Torrijas",
+    "local_name": "Torrijas",
+    "country": "spain",
+    "type": "dessert",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried"
+    ],
+    "spice_level": 0,
+    "summary": "Slices of day-old bread soaked in milk, dipped in egg, fried and finished with sugar and cinnamon, eaten around Lent and Easter.",
+    "story": "Soaking old bread and frying it is a very old way of using up leftovers, and versions of it exist across Europe. In Spain torrijas are most strongly linked to Lent and Holy Week, when bakeries and homes make them in large numbers. Some also give them to women after childbirth, according to older tradition. The word torrija is recorded in Spanish from the late medieval or early modern period, but a precise start date for the Spanish recipe is not well established. They are close relatives of French pain perdu.",
+    "origin_period": "medieval or early modern",
+    "origin_claims": [
+      {
+        "claim": "Soaked and fried bread is an old method for using stale bread, and torrijas are documented in Spain from the late medieval or early modern period.",
+        "confidence": "widely-told",
+        "source": "wiki-torrijas"
+      }
+    ],
+    "sources": [
+      "wiki-torrijas",
+      "wiki-semana-santa"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pestinos",
+    "name": "Pestiños",
+    "local_name": "Pestiños",
+    "country": "spain",
+    "region": "andalusia",
+    "type": "pastry",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Crisp fried dough folded into little squares, flavoured with anise and sesame and soaked in honey syrup.",
+    "story": "Pestiños are a traditional Andalusian sweet, made in homes and convents around Holy Week and Christmas. The dough is flavoured with wine, anise and orange, fried in olive oil and glazed with honey. Fried honey sweets are widely associated with the Arab-era influence on southern Spanish baking, though the exact path from older recipes to the modern pestiño is not clearly documented.",
+    "origin_claims": [
+      {
+        "claim": "Pestiños reflect Arab-era traditions of fried honey sweets in southern Spain.",
+        "confidence": "widely-told",
+        "source": "wiki-pestinos"
+      }
+    ],
+    "sources": [
+      "wiki-pestinos",
+      "wiki-semana-santa"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bunuelos-de-calabaza",
+    "name": "Pumpkin fritters",
+    "local_name": "Buñuelos de calabaza",
+    "country": "spain",
+    "region": "valencia",
+    "type": "pastry",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Soft, light yeasted fritters made with pumpkin and rolled in sugar, sold from stalls during the Fallas in Valencia.",
+    "story": "Buñuelos are fried dough sweets found across Spain and Latin America. In Valencia the pumpkin version is closely associated with the Fallas festival in March, when street stalls called buñolerías sell them to crowds, often with thick hot chocolate. Pumpkin is a New World crop that became established in Spanish cooking after the 16th century, so the pumpkin version is relatively recent, though fried dough fritters themselves are much older.",
+    "origin_period": "after the 16th century",
+    "origin_claims": [
+      {
+        "claim": "Fried dough fritters are very old, while pumpkin versions came after the arrival of New World squash in Spain.",
+        "confidence": "well-documented",
+        "source": "wiki-bunuelo"
+      }
+    ],
+    "sources": [
+      "wiki-bunuelo",
+      "wiki-las-fallas"
+    ],
+    "review_status": "draft"
+  }
+]

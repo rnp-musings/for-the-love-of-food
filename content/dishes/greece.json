@@ -1,0 +1,406 @@
+[
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "local_name": "Μουσακάς",
+    "country": "greece",
+    "type": "other",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked",
+      "fried"
+    ],
+    "spice_level": 0,
+    "summary": "Layers of fried eggplant and spiced minced meat topped with a thick béchamel and baked until golden.",
+    "story": "Moussaka as served in Greece today is a layered baked dish of eggplant, spiced meat sauce and béchamel. The name and the idea of eggplant dishes are shared across the Ottoman-era eastern Mediterranean and Middle East, where several different dishes go by similar names. The Greek version with its tall béchamel topping is commonly credited to the chef Nikolaos Tselementes, who published influential cookbooks in the early 20th century and favoured French-style techniques; older Greek versions were simpler. It is a staple of tavernas and Sunday family tables.",
+    "origin_period": "early 20th century for the modern form",
+    "origin_claims": [
+      {
+        "claim": "The modern Greek moussaka with béchamel was codified in the early 20th century, widely credited to the chef Nikolaos Tselementes.",
+        "confidence": "widely-told",
+        "source": "wiki-moussaka"
+      },
+      {
+        "claim": "The dish descends from eggplant dishes of the Ottoman-era eastern Mediterranean and Arab world.",
+        "confidence": "widely-told",
+        "source": "wiki-moussaka"
+      }
+    ],
+    "sources": [
+      "wiki-moussaka",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "horiatiki",
+    "name": "Greek village salad",
+    "local_name": "Χωριάτικη σαλάτα",
+    "country": "greece",
+    "type": "salad",
+    "course": [
+      "starter",
+      "side"
+    ],
+    "flavours": [
+      "tangy",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "A summer salad of ripe tomatoes, cucumber, onion, olives and a slab of feta, dressed simply with olive oil and oregano.",
+    "story": "Horiatiki means village or country salad, and it is the standard salad on Greek tables in summer. It is made with raw vegetables at their best, with no lettuce, and the feta is usually served as a whole slice on top. Tomatoes came from the Americas, so the salad in its present form is relatively recent; it spread as a taverna dish in the 20th century. Outside Greece it is simply called Greek salad.",
+    "origin_period": "20th century",
+    "origin_claims": [
+      {
+        "claim": "The salad in this form became standard in the 20th century and is a staple of Greek tavernas.",
+        "confidence": "widely-told",
+        "source": "wiki-greek-salad"
+      }
+    ],
+    "sources": [
+      "wiki-greek-salad",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "spanakopita",
+    "name": "Spinach pie",
+    "local_name": "Σπανακόπιτα",
+    "country": "greece",
+    "type": "pastry",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A crisp phyllo pie filled with spinach, feta, eggs and herbs.",
+    "story": "Savoury pies with wild or cultivated greens are an old tradition in the Greek countryside, made for fasting and non-fasting days alike, and every region has its own variants. Spanakopita is the best known, sold in bakeries all over Greece as a breakfast or snack. Where phyllo itself came from is debated, with Byzantine and Ottoman-era origins both suggested by writers, so no single origin can be stated as fact.",
+    "origin_claims": [
+      {
+        "claim": "Greens pies are a long-standing Greek tradition.",
+        "confidence": "widely-told",
+        "source": "wiki-spanakopita"
+      },
+      {
+        "claim": "Phyllo pastry has Byzantine or Ottoman-era roots.",
+        "confidence": "disputed",
+        "source": "wiki-spanakopita"
+      }
+    ],
+    "sources": [
+      "wiki-spanakopita",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "souvlaki",
+    "name": "Pork souvlaki in pita",
+    "local_name": "Σουβλάκι",
+    "country": "greece",
+    "type": "street-food",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "smoky",
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 0,
+    "summary": "Marinated skewered pork grilled over a flame and wrapped in pita with tomato, onion and tzatziki.",
+    "story": "The name comes from a Greek word for a skewer, and cooking meat on skewers is very old in the region. The wrapped souvlaki sold from small shops, with pita, chips and sauce, became a popular fast food in the mid to late 20th century and is now an everyday street meal. In Greece souvlaki usually refers to skewered meat and gyros to meat sliced from a rotating spit, though the terms are used differently in different towns.",
+    "origin_period": "20th century for the wrapped street-food form",
+    "origin_claims": [
+      {
+        "claim": "Meat grilled on skewers is ancient in Greece, while the wrapped street-food form is a more modern development.",
+        "confidence": "widely-told",
+        "source": "wiki-souvlaki"
+      }
+    ],
+    "sources": [
+      "wiki-souvlaki",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "dakos",
+    "name": "Cretan dakos",
+    "local_name": "Ντάκος",
+    "country": "greece",
+    "region": "crete",
+    "type": "salad",
+    "course": [
+      "starter",
+      "snack"
+    ],
+    "flavours": [
+      "tangy",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "A hard barley rusk softened with grated tomato and olive oil, topped with soft cheese and oregano.",
+    "story": "Dakos, also called koukouvagia in some parts of Crete, is a simple meze built around the barley rusk (paximadi), a twice-baked bread that keeps for months and was a practical staple of rural life. The rusk is moistened just enough to be chewy rather than soggy, then topped with grated tomato, crumbled mizithra or feta, olives and oregano. The dish is closely associated with Crete today; its exact history is not well documented.",
+    "origin_claims": [
+      {
+        "claim": "Dakos grew from the long-lasting twice-baked barley rusk that was a staple in Crete.",
+        "confidence": "widely-told",
+        "source": "wiki-dakos"
+      }
+    ],
+    "sources": [
+      "wiki-dakos",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fava-santorinis",
+    "name": "Fava purée",
+    "local_name": "Φάβα",
+    "country": "greece",
+    "region": "aegean-islands",
+    "type": "other",
+    "course": [
+      "starter",
+      "side"
+    ],
+    "flavours": [
+      "rich",
+      "tangy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "A smooth, warm purée of yellow split peas with olive oil and lemon, served with capers and raw onion.",
+    "story": "Despite the name, Greek fava is not made from broad beans but from a dried yellow pea-like pulse. The famous Santorini version, protected by a European designation, uses a local legume (Lathyrus clymenum) grown on the volcanic island. Elsewhere in Greece, and in home kitchens, ordinary yellow split peas are used. The purée is served warm as a meze, often with capers, onion and a drizzle of olive oil. Its long history on the islands is plausible given how long pulses have been grown there, but a specific date is not documented.",
+    "origin_claims": [
+      {
+        "claim": "Santorini fava is made from a local legume grown on the island and has a protected designation.",
+        "confidence": "well-documented",
+        "source": "wiki-fava-greek"
+      }
+    ],
+    "sources": [
+      "wiki-fava-greek",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tsoureki",
+    "name": "Tsoureki",
+    "local_name": "Τσουρέκι",
+    "country": "greece",
+    "type": "bread",
+    "course": [
+      "breakfast",
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A braided, lightly sweet Easter bread flavoured with mahleb and orange, often baked with a red egg tucked into the plait.",
+    "story": "Tsoureki is the sweet bread of Greek Orthodox Easter. The dough is enriched with eggs, milk and butter and scented with mahleb (ground cherry stone kernels) and sometimes mastic. It is braided with three strands, which some families interpret as the Trinity, and red-dyed eggs are often pressed into it. Similar sweet enriched breads are found across the Balkans and eastern Mediterranean, and the name is shared with a related Turkish bread, so the exact line of descent is not clear.",
+    "origin_claims": [
+      {
+        "claim": "Tsoureki is a long-standing Orthodox Easter bread shared with other eastern Mediterranean traditions.",
+        "confidence": "widely-told",
+        "source": "wiki-tsoureki"
+      }
+    ],
+    "sources": [
+      "wiki-tsoureki",
+      "wiki-pascha"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "magiritsa",
+    "name": "Magiritsa",
+    "local_name": "Μαγειρίτσα",
+    "country": "greece",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "tangy",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "A lemony Easter soup of lamb offal, rice, dill and spring onion, finished with egg and lemon.",
+    "story": "Magiritsa is eaten after the midnight Resurrection service on Holy Saturday, breaking the long Lenten fast. It is made from the lamb's offal, which is not used in the Easter roast, with herbs, lettuce, rice and an egg-and-lemon finish known as avgolemono. Because it is lighter than a meat feast, it is a gentler way to return to eating meat after fasting. Its precise origins are not documented.",
+    "origin_claims": [
+      {
+        "claim": "Magiritsa is the customary soup that breaks the Lenten fast after the Resurrection service.",
+        "confidence": "widely-told",
+        "source": "wiki-mayiritsa"
+      }
+    ],
+    "sources": [
+      "wiki-mayiritsa",
+      "wiki-pascha"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "taramosalata",
+    "name": "Taramosalata",
+    "local_name": "Ταραμοσαλάτα",
+    "country": "greece",
+    "type": "sauce",
+    "course": [
+      "starter",
+      "side"
+    ],
+    "flavours": [
+      "salty",
+      "tangy",
+      "rich"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "A pale pink dip of salted fish roe whipped with bread or potato, olive oil and lemon.",
+    "story": "Taramosalata is made from tarama, the salted and cured roe of fish such as cod or carp. It is blended with olive oil, lemon and a starch (stale bread or potato) to make a smooth, creamy spread eaten with bread. It is closely associated with Clean Monday, the first day of Orthodox Lent, since fish roe is allowed in the fast when meat and dairy are not. Similar roe spreads exist elsewhere in the eastern Mediterranean, and the history of this particular dish is not well documented.",
+    "origin_claims": [
+      {
+        "claim": "Taramosalata is a fasting-day dip, eaten on Clean Monday in Greece.",
+        "confidence": "widely-told",
+        "source": "wiki-taramasalata"
+      }
+    ],
+    "sources": [
+      "wiki-taramasalata",
+      "wiki-clean-monday"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "gigantes-plaki",
+    "name": "Baked giant beans",
+    "local_name": "Γίγαντες πλακί",
+    "country": "greece",
+    "region": "macedonia",
+    "type": "stew",
+    "course": [
+      "main",
+      "starter"
+    ],
+    "flavours": [
+      "rich",
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "Large white beans baked in a thick tomato, herb and olive oil sauce until soft and sweet.",
+    "story": "Gigantes plaki means giant beans baked in a pan (plaki is a cooking style of baking in tomato and olive oil). Large white beans from western Macedonia, around the lakes of Kastoria and Prespes, are especially well known. It is a staple meze and a vegan main, and as it is made without meat or dairy it fits the fasting days of the Orthodox calendar. Its precise history is not documented.",
+    "origin_claims": [
+      {
+        "claim": "Gigantes plaki is a long-standing home dish, tied to the large white beans grown in northern Greece.",
+        "confidence": "widely-told",
+        "source": "wiki-gigantes-plaki"
+      }
+    ],
+    "sources": [
+      "wiki-gigantes-plaki",
+      "wiki-greek-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

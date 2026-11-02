@@ -1,0 +1,737 @@
+[
+  {
+    "id": "jollof-rice-home",
+    "dish": "jollof-rice",
+    "title": "Nigerian party-style jollof rice",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 55,
+    "passive_minutes": 10,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "rice",
+        "amount": 500,
+        "unit": "g",
+        "note": "long-grain parboiled, rinsed until the water is fairly clear"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "ripe, roughly chopped",
+        "group": "Pepper base"
+      },
+      {
+        "ingredient": "red-bell-pepper",
+        "amount": 250,
+        "unit": "g",
+        "note": "deseeded, chopped",
+        "group": "Pepper base"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "deseeded for less heat, or use 2 for hotter rice",
+        "group": "Pepper base"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "one chopped for the base, one sliced",
+        "group": "Pepper base"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 100,
+        "unit": "ml",
+        "note": "vegetable oil"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 600,
+        "unit": "ml",
+        "note": "well-seasoned chicken or vegetable stock, hot"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Blend the tomatoes, red peppers, scotch bonnet and one onion until smooth. Pour into a pan and boil over medium heat for 15 to 20 minutes until reduced by about half and thick.",
+      "Heat the oil in a wide, heavy pot. Fry the sliced onion for 3 minutes, then stir in the tomato paste and fry for 3 more minutes until it darkens.",
+      "Add the reduced pepper mix, thyme, curry powder and bay leaves. Fry for 10 minutes, stirring often, until the oil rises to the surface and the sauce smells sweet and cooked.",
+      "Add the hot stock and salt, and bring to a boil. Taste; the liquid should be well seasoned because the rice will absorb it.",
+      "Stir in the rinsed rice so it is fully covered. Cover the pot with foil, then a tight lid, and cook over the lowest heat for 30 minutes without stirring.",
+      "Check the rice. If it is still hard, add a splash of hot water, re-cover and cook 5 to 10 minutes more. Leave the base to catch slightly for a smoky crust if you like it that way.",
+      "Rest for 10 minutes off the heat, then fluff gently and serve with fried plantain, chicken or salad."
+    ],
+    "notes": "Parboiled rice stays separate and firm; basmati or long-grain white also works but needs less liquid. The foil seal is what keeps steam inside.",
+    "sources": [
+      "wiki-jollof-rice"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egusi-soup-home",
+    "dish": "egusi-soup",
+    "title": "Egusi soup with spinach and beef",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "stewing beef, cubed"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "one chopped for boiling, one blended with the peppers"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 500,
+        "unit": "ml",
+        "note": "from boiling the beef, topped up with water"
+      },
+      {
+        "ingredient": "palm-oil",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "red-bell-pepper",
+        "amount": 200,
+        "unit": "g",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "egusi",
+        "amount": 250,
+        "unit": "g",
+        "note": "ground melon seeds"
+      },
+      {
+        "ingredient": "ground-crayfish",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "locust-beans",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "fermented, rinsed",
+        "optional": true
+      },
+      {
+        "ingredient": "spinach",
+        "amount": 300,
+        "unit": "g",
+        "note": "washed and shredded (traditionally ugu or bitterleaf)"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the beef in a pot with one onion, salt and enough water to cover. Boil for 30 to 40 minutes until tender, and keep the stock.",
+      "Blend the red peppers, scotch bonnet and the remaining onion to a coarse purée.",
+      "Heat the palm oil in a wide pot over medium heat for 2 minutes. Add the blended peppers and fry for 12 to 15 minutes, stirring, until the water cooks off and the oil separates.",
+      "Mix the ground egusi with 4 tablespoons of water to make a thick paste. Drop spoonfuls into the pepper base, cover, and cook for 8 to 10 minutes without stirring so it forms curds.",
+      "Stir gently, then add the beef, 400 ml of the stock, crayfish and locust beans if using. Simmer for 15 to 20 minutes, adding more stock if the soup is too thick.",
+      "Add the spinach and cook for 4 to 5 minutes until just wilted. Adjust the salt and serve hot with pounded yam or eba."
+    ],
+    "notes": "Smoked fish or dried fish can be added with the beef. Grind whole egusi seeds in a dry blender if you cannot buy them ground.",
+    "sources": [
+      "wiki-egusi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "suya-home",
+    "dish": "suya",
+    "title": "Beef suya with yaji spice",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 12,
+    "passive_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 800,
+        "unit": "g",
+        "note": "sirloin or rump, sliced very thin across the grain",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "peanuts",
+        "amount": 80,
+        "unit": "g",
+        "note": "roasted, unsalted",
+        "group": "Yaji"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Yaji"
+      },
+      {
+        "ingredient": "cayenne",
+        "amount": 1.5,
+        "unit": "tsp",
+        "group": "Yaji"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Yaji"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "finely grated",
+        "group": "Yaji"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "onion powder, or finely grated onion",
+        "group": "Yaji"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced into rings, to serve",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced, to serve",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soak wooden skewers in water for 30 minutes. Grind the peanuts to a coarse powder in a dry blender or pestle and mortar.",
+      "Mix the ground peanuts with the paprika, cayenne, ginger, garlic, onion powder and a good pinch of salt to make the yaji. Set aside a quarter of it for serving.",
+      "Toss the beef slices with the oil, then rub in the remaining yaji until coated. Marinate for at least 30 minutes, or up to a few hours in the fridge.",
+      "Thread the meat onto the skewers in loose folds.",
+      "Grill over hot coals, or under a very hot grill, for 3 to 4 minutes per side until browned at the edges and cooked through. Watch for peanuts burning.",
+      "Serve straight away with sliced onion, tomato and the reserved yaji for dipping."
+    ],
+    "notes": "Freezing the beef for 30 minutes first makes it easier to slice thinly. Peanuts are a major allergen; do not serve to anyone with a peanut allergy.",
+    "sources": [
+      "wiki-suya"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pounded-yam-home",
+    "dish": "pounded-yam",
+    "title": "Pounded yam",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "yam",
+        "amount": 1,
+        "unit": "kg",
+        "note": "white yam, peeled and cut into 4 cm pieces"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.2,
+        "unit": "l",
+        "note": "for boiling, plus a little extra"
+      }
+    ],
+    "steps": [
+      "Peel the yam, rinse off any slime, and cut into even pieces about 4 cm thick. Put in a pot with the water so that it is just covered, with a pinch of salt if you like.",
+      "Boil for 20 to 25 minutes until a knife slides into the pieces with no resistance. Drain, keeping a cup of the hot cooking water.",
+      "While still hot, pound the yam in a large mortar, or beat it in a stand mixer with a dough hook on low, then medium, adding a spoonful of the cooking water at a time.",
+      "Keep working for 8 to 10 minutes until it is completely smooth, elastic and free of lumps. If it is stiff, add a splash more hot water.",
+      "Scoop into a bowl or wet cling film to shape into smooth balls. Serve immediately with egusi or another soup."
+    ],
+    "notes": "Pounded yam stiffens as it cools, so serve it hot. Instant yam flour (poundo) is a much quicker substitute, stirred into boiling water.",
+    "sources": [
+      "wiki-pounded-yam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moi-moi-home",
+    "dish": "moi-moi",
+    "title": "Steamed bean pudding (moi moi)",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 50,
+    "passive_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "black-eyed-peas",
+        "amount": 300,
+        "unit": "g",
+        "note": "dried"
+      },
+      {
+        "ingredient": "red-bell-pepper",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "small"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "water",
+        "amount": 300,
+        "unit": "ml",
+        "note": "warm, as needed to blend"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soak the beans in plenty of water for 30 minutes. Rub them between your hands, or pulse briefly in a blender, to loosen the skins. Rinse repeatedly, letting the skins float away, until most are removed.",
+      "Blend the skinned beans with the red pepper, scotch bonnet, onion and about 200 ml of warm water until very smooth.",
+      "Whisk in the oil, the remaining water and salt. The batter should be thick but pourable, like a loose cake batter.",
+      "Pour into greased ramekins or small tins, or into foil or banana-leaf parcels, filling about three quarters full.",
+      "Stand the containers on a rack in a large pot with 3 cm of simmering water. Cover tightly and steam for 45 to 50 minutes until firm in the middle.",
+      "Cool for 5 minutes before turning out. Serve warm with pap or jollof rice."
+    ],
+    "notes": "For a richer version, add peeled boiled eggs or flaked fish to the middle of each portion. The recipe as written is vegan.",
+    "sources": [
+      "wiki-moi-moi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "akara-home",
+    "dish": "akara",
+    "title": "Akara bean fritters",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "passive_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "black-eyed-peas",
+        "amount": 300,
+        "unit": "g",
+        "note": "dried"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "about 60 g, roughly chopped"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "deseeded"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "cold, as needed"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 700,
+        "unit": "ml",
+        "note": "for deep frying"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soak the beans for 30 minutes, rub off the skins and rinse until mostly skin-free, as for moi moi. Drain well.",
+      "Blend the beans with the onion and scotch bonnet and just enough cold water to make a thick, fluffy paste that holds a spoon. Too much water makes the fritters absorb oil.",
+      "Add salt and beat the batter vigorously with a wooden spoon or whisk for 3 to 4 minutes until it lightens and increases in volume.",
+      "Heat the oil in a deep pan to about 180 C, or until a small drop of batter sizzles and rises at once.",
+      "Scoop heaped tablespoons of batter into the oil without crowding the pan. Fry for 3 to 4 minutes, turning once, until deep golden.",
+      "Lift out onto paper towels and serve hot with pap, bread or a hot pepper sauce."
+    ],
+    "notes": "Fry one test fritter first and adjust salt. Keep the oil at a steady temperature so the centre cooks before the outside darkens.",
+    "sources": [
+      "wiki-akara"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ofada-stew-home",
+    "dish": "ofada-stew",
+    "title": "Ofada stew (ayamase) with rice",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 75,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 600,
+        "unit": "g",
+        "note": "stewing beef, cubed",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "one chopped, one blended",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 500,
+        "unit": "g",
+        "note": "deseeded",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 3,
+        "unit": "piece",
+        "note": "green if possible; reduce for less heat",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "palm-oil",
+        "amount": 200,
+        "unit": "ml",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "locust-beans",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "rinsed",
+        "group": "Stew"
+      },
+      {
+        "ingredient": "ground-crayfish",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "group": "Stew"
+      },
+      {
+        "ingredient": "ofada-rice",
+        "amount": 400,
+        "unit": "g",
+        "note": "or brown long-grain rice",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Boil the beef with one chopped onion and salt in just enough water for 35 to 40 minutes until tender. Reserve the stock.",
+      "Blend the green peppers, scotch bonnets and remaining onion to a coarse purée. Cook it in a dry pot over medium heat for 15 to 20 minutes until the water has mostly evaporated.",
+      "In a separate heavy pot, heat the palm oil over medium heat for 4 to 5 minutes until it darkens slightly and smells smoky. Take care; it is hot.",
+      "Add the locust beans and fry for 1 minute, then add the cooked pepper mixture. Fry for 20 to 25 minutes, stirring often, until the oil separates and the stew is thick and dark green.",
+      "Add the beef, a few spoonfuls of stock, crayfish if using, and salt. Simmer for 10 minutes more.",
+      "Rinse the rice and boil in plenty of salted water for 30 to 40 minutes, depending on the variety, until tender, then drain. Serve with the stew."
+    ],
+    "notes": "Ofada rice has a distinct earthy smell and chewy grain; brown rice is the closest widely available substitute. The flavour is strong; some cooks start with less locust beans.",
+    "sources": [
+      "wiki-ofada-rice"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ji-mmanu-home",
+    "dish": "ji-mmanu",
+    "title": "Boiled yam with palm oil and pepper sauce",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "yam",
+        "amount": 1,
+        "unit": "kg",
+        "note": "peeled, cut into thick slices",
+        "group": "Yam"
+      },
+      {
+        "ingredient": "palm-oil",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "small, finely chopped",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the yam slices in a pot, cover with water, add a pinch of salt and boil for 20 to 25 minutes until soft. Drain. For a smoky version, roast peeled slices over a grill, turning, for 20 to 25 minutes until tender inside and charred at the edges.",
+      "Warm the palm oil in a small pan over low heat for 2 minutes. Do not let it smoke.",
+      "Add the onion and scotch bonnet and cook gently for 3 to 4 minutes until softened.",
+      "Add salt to taste and take the sauce off the heat.",
+      "Serve the warm yam with the sauce on the side for dipping."
+    ],
+    "notes": "Fry a little ground crayfish in the sauce for extra savouriness; the plain version is vegan. Palm oil should be unrefined red palm oil.",
+    "sources": [
+      "wiki-yam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banga-soup-home",
+    "dish": "banga-soup",
+    "title": "Banga palm fruit soup",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 400,
+        "unit": "g",
+        "note": "cubed"
+      },
+      {
+        "ingredient": "smoked-fish",
+        "amount": 250,
+        "unit": "g",
+        "note": "cleaned, bones removed where possible"
+      },
+      {
+        "ingredient": "palm-nut-cream",
+        "amount": 400,
+        "unit": "g",
+        "note": "canned palm fruit concentrate"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "ground-crayfish",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1,
+        "unit": "l"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Boil the beef with the onion, salt and 500 ml of the water for about 35 minutes until nearly tender.",
+      "Add the palm nut cream and the remaining water. Stir well, bring to a boil and simmer over medium heat for 20 minutes, stirring from time to time, until the soup thickens and an orange oil rises.",
+      "Add the smoked fish, crayfish and scotch bonnet. Simmer for 10 minutes.",
+      "Taste and adjust the salt. If the soup is too thick, add a little hot water; if thin, simmer uncovered a few minutes longer.",
+      "Serve hot with pounded yam, eba, boiled rice or starch."
+    ],
+    "notes": "Traditional banga is flavoured with a special spice mix (including oburunbebe stick and other aromatics) which can be bought in African grocers; it is left out here for simplicity. Palm nut cream is salted in some brands, so taste before adding salt.",
+    "sources": [
+      "wiki-banga-soup"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fura-da-nono-home",
+    "dish": "fura-da-nono",
+    "title": "Fura da nono (millet balls in sour milk)",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 40,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "pearl-millet",
+        "amount": 300,
+        "unit": "g",
+        "note": "millet flour",
+        "group": "Fura"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "ground",
+        "group": "Fura"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 3,
+        "unit": "piece",
+        "note": "ground",
+        "group": "Fura"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Fura"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Fura"
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": 500,
+        "unit": "g",
+        "note": "plain, unsweetened, standing in for nono",
+        "group": "Nono"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 250,
+        "unit": "ml",
+        "note": "cold",
+        "group": "Nono"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "group": "Nono"
+      }
+    ],
+    "steps": [
+      "Mix the millet flour with the ginger, cloves, pepper and a pinch of salt in a bowl. Add the water gradually and knead to a firm, smooth dough.",
+      "Shape the dough into balls about 5 cm across, wetting your hands to stop sticking.",
+      "Drop the balls into a pot of boiling water and cook for 25 to 30 minutes, until firm and cooked through.",
+      "Lift out the balls and mash them in a bowl or mortar to a smooth, sticky mass, adding a spoonful of the cooking water if needed. Shape back into balls and let cool.",
+      "Whisk the yogurt and cold milk together until smooth, with the sugar if using. Traditional nono is a thinner, slightly sour fermented milk.",
+      "Crumble the fura balls into bowls or tall glasses of nono, stir to break up the lumps, and serve cold with a spoon."
+    ],
+    "notes": "Use the freshest millet flour; old flour tastes bitter. Real nono is cultured and fermented with its own tang, so cultured plain yogurt is the best kitchen substitute.",
+    "sources": [
+      "wiki-fura"
+    ],
+    "review_status": "draft"
+  }
+]

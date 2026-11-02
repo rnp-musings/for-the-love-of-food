@@ -1,0 +1,997 @@
+[
+  {
+    "id": "pad-thai-home",
+    "dish": "pad-thai",
+    "title": "Pad thai",
+    "version": "home",
+    "servings": 2,
+    "prep_minutes": 20,
+    "cook_minutes": 12,
+    "passive_minutes": 35,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "rice-noodles",
+        "amount": 200,
+        "unit": "g",
+        "note": "flat, about 5 mm wide, dried",
+        "group": "Noodles"
+      },
+      {
+        "ingredient": "shrimp",
+        "amount": 150,
+        "unit": "g",
+        "note": "peeled"
+      },
+      {
+        "ingredient": "tofu",
+        "amount": 100,
+        "unit": "g",
+        "note": "firm, cut into small cubes"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "finely sliced"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "preserved-radish",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "ingredient": "bean-sprouts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "garlic-chives",
+        "amount": 30,
+        "unit": "g",
+        "note": "cut into 4 cm lengths"
+      },
+      {
+        "ingredient": "peanuts",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "roasted, roughly crushed"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "tamarind",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "tamarind paste",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "palm-sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "grated or chopped",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "chilli-flakes",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "or to taste, for serving",
+        "optional": true
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 30,
+        "unit": "ml",
+        "note": "from wedges, for serving"
+      }
+    ],
+    "steps": [
+      "Soak the noodles in room-temperature water for 30 to 40 minutes until pliable but still firm in the centre, then drain.",
+      "Warm the sauce ingredients in a small pan for 2 to 3 minutes, stirring until the sugar dissolves. Taste: it should be quite strong, as the noodles will dilute it.",
+      "Heat half the oil in a large wok over high heat. Fry the shallot, garlic and tofu for 2 minutes, add the shrimp and cook until pink, then push everything to one side.",
+      "Add the remaining oil and crack in the eggs. Scramble briefly until just set.",
+      "Add the noodles and the sauce. Toss constantly for 3 to 4 minutes, adding a splash of water if the noodles are still hard, until they are tender and have absorbed the sauce.",
+      "Fold in the garlic chives and half the bean sprouts and cook 30 seconds. Serve topped with peanuts, the remaining sprouts, chilli flakes and lime."
+    ],
+    "notes": "Cook in two batches if your pan is small; a crowded wok steams the noodles instead of frying them.",
+    "sources": [
+      "wiki-pad-thai"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tom-yum-goong-home",
+    "dish": "tom-yum-goong",
+    "title": "Tom yum goong",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "shrimp",
+        "amount": 400,
+        "unit": "g",
+        "note": "large, shells and heads kept if possible"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 1,
+        "unit": "l",
+        "note": "or water mixed with the shrimp shells"
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": 3,
+        "unit": "piece",
+        "note": "bruised and cut into 5 cm lengths"
+      },
+      {
+        "ingredient": "galangal",
+        "amount": 5,
+        "unit": "piece",
+        "note": "thin slices, about 2 cm each"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "amount": 5,
+        "unit": "piece",
+        "note": "torn"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 4,
+        "unit": "piece",
+        "note": "lightly crushed"
+      },
+      {
+        "ingredient": "mushrooms",
+        "amount": 150,
+        "unit": "g",
+        "note": "halved"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "cut into wedges"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "leaves and stems, chopped"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "halved",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Peel the shrimp, keeping the shells. If you have the heads, keep those too. Simmer the shells in the stock for 10 minutes, then strain and return the liquid to the pot.",
+      "Add the lemongrass, galangal, lime leaves, chillies and shallots to the stock and simmer for 5 minutes to release their aroma.",
+      "Add the mushrooms and tomatoes and simmer 3 minutes.",
+      "Add the shrimp and cook for 2 to 3 minutes until just pink and curled.",
+      "Take the pot off the heat. Stir in the fish sauce and lime juice, then taste and adjust: it should be sour, salty and hot in balance.",
+      "Scatter with coriander and serve at once with steamed rice. The lemongrass, galangal and leaves are for flavour and are not eaten."
+    ],
+    "notes": "Add the lime juice off the heat: boiling it makes the soup bitter.",
+    "sources": [
+      "wiki-tom-yum"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "green-curry-home",
+    "dish": "green-curry",
+    "title": "Green chicken curry",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "coconut-milk",
+        "amount": 400,
+        "unit": "ml",
+        "note": "one tin, shaken"
+      },
+      {
+        "ingredient": "green-curry-paste",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "adjust to taste"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 500,
+        "unit": "g",
+        "note": "boneless thighs, sliced"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "eggplant",
+        "amount": 200,
+        "unit": "g",
+        "note": "Thai or small round aubergines, cut into wedges"
+      },
+      {
+        "ingredient": "palm-sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "amount": 4,
+        "unit": "piece",
+        "note": "torn"
+      },
+      {
+        "ingredient": "thai-basil",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "leaves picked"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced, for garnish",
+        "optional": true
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Spoon the thick top layer of the coconut milk (about 100 ml) into a wok or pot over medium heat with the oil. Cook for 2 to 3 minutes until it starts to separate.",
+      "Add the curry paste and fry for 2 minutes, stirring, until fragrant.",
+      "Add the chicken and stir for 2 minutes to coat it in the paste.",
+      "Pour in the rest of the coconut milk and the stock. Bring to a gentle simmer and cook for 10 minutes.",
+      "Add the aubergine and lime leaves and simmer 8 to 10 minutes until the aubergine is tender and the chicken is cooked through.",
+      "Season with the palm sugar and fish sauce. Turn off the heat, stir through the basil, and serve with jasmine rice, topped with chilli slices if you like."
+    ],
+    "notes": "Brands of paste differ a lot in strength and salt; start with less and add more.",
+    "sources": [
+      "wiki-green-curry"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "khao-soi-home",
+    "dish": "khao-soi",
+    "title": "Chicken khao soi",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "coconut-milk",
+        "amount": 400,
+        "unit": "ml",
+        "note": "one tin"
+      },
+      {
+        "ingredient": "red-curry-paste",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "mild",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 700,
+        "unit": "g",
+        "note": "bone-in drumsticks or thighs",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 600,
+        "unit": "ml",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "palm-sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Curry"
+      },
+      {
+        "ingredient": "egg-noodles",
+        "amount": 400,
+        "unit": "g",
+        "note": "fresh, divided into two portions",
+        "group": "Noodles"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 250,
+        "unit": "ml",
+        "note": "for frying the topping",
+        "group": "Noodles"
+      },
+      {
+        "ingredient": "pickled-mustard-greens",
+        "amount": 100,
+        "unit": "g",
+        "note": "chopped",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 3,
+        "unit": "piece",
+        "note": "thinly sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 60,
+        "unit": "ml",
+        "note": "from wedges",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "chilli-flakes",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "fried in a little oil, optional",
+        "optional": true,
+        "group": "To serve"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Fry about one-quarter of the noodles: separate a small handful, heat the frying oil in a small pan to about 180 C, and fry for 30 to 60 seconds until golden and crisp. Lift out and drain on paper.",
+      "Scoop the thick cream from the top of the coconut milk into a large pot over medium heat. Cook for 3 minutes until the oil separates, then fry the curry paste, curry powder and turmeric for 2 minutes.",
+      "Add the chicken and stir to coat. Pour in the remaining coconut milk and the stock. Bring to a simmer and cook gently for 30 to 35 minutes until the chicken is very tender.",
+      "Season with the fish sauce and palm sugar. Taste: it should be rich, mildly sweet, savoury and gently hot.",
+      "Boil the remaining noodles in water for 2 to 3 minutes (or according to the pack) and divide among four bowls.",
+      "Ladle the curry and chicken over the noodles, top with the crispy noodles, and serve with the greens, shallot, lime, chilli and coriander at the table."
+    ],
+    "notes": "Fresh egg noodles are best; if using dried, cook them to the packet timings.",
+    "sources": [
+      "wiki-khao-soi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sai-oua-home",
+    "dish": "sai-oua",
+    "title": "Northern Thai herb sausage",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "pork",
+        "amount": 700,
+        "unit": "g",
+        "note": "shoulder with some fat, coarsely minced",
+        "group": "Sausage"
+      },
+      {
+        "ingredient": "sausage-casings",
+        "amount": 1,
+        "unit": "piece",
+        "note": "about 1.5 m of natural hog casing, rinsed",
+        "group": "Sausage"
+      },
+      {
+        "ingredient": "dried-chiles",
+        "amount": 8,
+        "unit": "piece",
+        "note": "dried red chillies, soaked in hot water for 15 minutes",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": 3,
+        "unit": "piece",
+        "note": "tender lower parts only, sliced",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "galangal",
+        "amount": 3,
+        "unit": "piece",
+        "note": "2 cm slices, chopped",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 4,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 6,
+        "unit": "clove",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "kaffir-lime-leaves",
+        "amount": 6,
+        "unit": "piece",
+        "note": "centre rib removed, finely shredded",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped, roots and stems included",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Paste"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Paste"
+      }
+    ],
+    "steps": [
+      "Drain the chillies and pound or blend them with the lemongrass, galangal, shallots, garlic, turmeric and a little salt to a coarse paste.",
+      "Work the paste, shredded lime leaves, coriander and fish sauce into the pork with your hands for 2 to 3 minutes until sticky. Fry a small spoonful to taste and adjust the salt.",
+      "Rinse the casing inside and out and slide it onto a funnel or sausage stuffer. Fill loosely and evenly, twisting every 15 cm or so, and prick any air pockets with a pin.",
+      "Heat a grill or oven to medium (about 180 C). Cook the sausage coil, turning, for 15 to 20 minutes until browned and cooked through with no pink inside.",
+      "Rest for 5 minutes, slice, and serve with sticky rice, fresh cabbage and chilli dips."
+    ],
+    "notes": "Pork must be fully cooked. Use a probe thermometer to confirm the centre reaches 71 C. Without a stuffer, the mixture can be shaped into patties and grilled instead.",
+    "sources": [
+      "wiki-sai-ua"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "som-tam-home",
+    "dish": "som-tam",
+    "title": "Green papaya salad",
+    "version": "home",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "green-papaya",
+        "amount": 300,
+        "unit": "g",
+        "note": "peeled and shredded into thin strips"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 3,
+        "unit": "piece",
+        "note": "adjust to taste"
+      },
+      {
+        "ingredient": "long-beans",
+        "amount": 50,
+        "unit": "g",
+        "note": "cut into 3 cm pieces"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 6,
+        "unit": "piece",
+        "note": "cherry tomatoes, halved"
+      },
+      {
+        "ingredient": "dried-shrimp",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "peanuts",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "roasted"
+      },
+      {
+        "ingredient": "palm-sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 45,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Pound the garlic and chillies lightly in a large mortar to a rough paste.",
+      "Add the palm sugar, fish sauce and lime juice and stir with a spoon until the sugar dissolves.",
+      "Add the long beans, dried shrimp and half the peanuts, and bruise gently with the pestle.",
+      "Add the papaya and tomatoes. Pound and fold with a spoon in alternating motions for about 30 seconds, until the papaya is bruised and has softened but is still crunchy.",
+      "Taste and adjust: it should be sour, salty, sweet and hot together. Serve right away with sticky rice, topped with the remaining peanuts."
+    ],
+    "notes": "Without a mortar, bruise the ingredients in a sturdy bowl with the end of a rolling pin. Omit the dried shrimp and use soy sauce for a fish-free version; it will no longer be traditional.",
+    "sources": [
+      "wiki-som-tam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "larb-home",
+    "dish": "larb",
+    "title": "Pork larb",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "pork",
+        "amount": 500,
+        "unit": "g",
+        "note": "minced"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 3,
+        "unit": "piece",
+        "note": "thinly sliced"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "mint",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "leaves picked"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "toasted-rice-powder",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "chilli-flakes",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "to taste"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": 1,
+        "unit": "piece",
+        "note": "leaves separated, for serving"
+      }
+    ],
+    "steps": [
+      "Put the pork and water in a pan over medium heat and stir, breaking up lumps, for 6 to 8 minutes until cooked through. Do not brown it; the meat should stay tender and moist.",
+      "Remove from the heat and let it cool for 2 minutes.",
+      "Stir in the fish sauce, lime juice and chilli flakes, then the toasted rice powder.",
+      "Fold in the shallots, spring onion, mint and coriander. Taste and adjust the sour, salty and hot notes.",
+      "Serve warm with lettuce leaves, raw vegetables and sticky rice."
+    ],
+    "notes": "To make toasted rice powder, dry-fry 3 tbsp sticky rice in a pan until deep golden, then grind coarsely.",
+    "sources": [
+      "wiki-larb"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "massaman-curry-home",
+    "dish": "massaman-curry",
+    "title": "Beef massaman curry",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 120,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 700,
+        "unit": "g",
+        "note": "chuck or shin, cut into 4 cm cubes"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "amount": 800,
+        "unit": "ml",
+        "note": "two tins"
+      },
+      {
+        "ingredient": "massaman-curry-paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 400,
+        "unit": "g",
+        "note": "peeled, cut into large chunks"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "cut into wedges"
+      },
+      {
+        "ingredient": "peanuts",
+        "amount": 50,
+        "unit": "g",
+        "note": "roasted"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 3,
+        "unit": "piece",
+        "note": "pods, lightly crushed"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "tamarind",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "palm-sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Spoon the thick cream from the top of one tin into a heavy pot with the oil. Heat for 3 minutes, add the curry paste and fry for 2 minutes.",
+      "Add the beef, cinnamon, cardamom and bay leaves and stir for 3 minutes.",
+      "Pour in the remaining coconut milk plus 200 ml water. Bring to a gentle simmer, partly cover and cook for 1 hour, stirring occasionally.",
+      "Add the potato, onion and peanuts. Simmer 30 to 40 minutes more until the beef is tender and the sauce is thick and glossy.",
+      "Stir in the tamarind, palm sugar and fish sauce. Taste: it should be mellow, nutty and slightly sweet-sour.",
+      "Rest for 10 minutes and serve with jasmine rice."
+    ],
+    "notes": "Lean cuts take longer; keep the heat low so the coconut milk does not split.",
+    "sources": [
+      "wiki-massaman-curry"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "mango-sticky-rice-home",
+    "dish": "mango-sticky-rice",
+    "title": "Mango sticky rice",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "passive_minutes": 240,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "sticky-rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "glutinous rice, soaked for at least 4 hours",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "amount": 300,
+        "unit": "ml",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 70,
+        "unit": "g",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "amount": 100,
+        "unit": "ml",
+        "note": "thick, for topping",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "mango",
+        "amount": 2,
+        "unit": "piece",
+        "note": "ripe, peeled and sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "toasted",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Drain the soaked rice. Line a steamer with damp muslin or baking paper pierced with holes and spread the rice on it.",
+      "Steam over boiling water for 20 to 25 minutes, until the grains are translucent and tender.",
+      "Warm the 300 ml coconut milk with the sugar and 1 tsp salt until dissolved; do not boil.",
+      "Tip the hot rice into a bowl, pour over the sweetened milk, fold and cover. Leave for 20 minutes so it is absorbed.",
+      "Warm the topping ingredients until the sugar melts.",
+      "Serve the rice with sliced mango and a spoonful of the topping, scattered with sesame if using."
+    ],
+    "notes": "Use fully ripe, fragrant mangoes. The rice is best eaten the day it is made; it hardens in the fridge.",
+    "sources": [
+      "wiki-mango-sticky-rice"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "khao-chae-home",
+    "dish": "khao-chae",
+    "title": "Simplified khao chae",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "jasmine-rice",
+        "amount": 200,
+        "unit": "g",
+        "group": "Rice and water"
+      },
+      {
+        "ingredient": "jasmine-flowers",
+        "amount": 20,
+        "unit": "g",
+        "note": "fresh, rinsed",
+        "optional": true,
+        "group": "Rice and water"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1,
+        "unit": "l",
+        "note": "cold, with ice to serve",
+        "group": "Rice and water"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 200,
+        "unit": "g",
+        "note": "minced",
+        "group": "Sweet pork"
+      },
+      {
+        "ingredient": "palm-sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Sweet pork"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Sweet pork"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Sweet pork"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Radish omelette"
+      },
+      {
+        "ingredient": "preserved-radish",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "chopped",
+        "group": "Radish omelette"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Radish omelette"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Soak the jasmine flowers in the cold water for at least 1 hour, then strain. Chill the scented water with ice.",
+      "Rinse the rice well and cook it until tender. Cool, then rinse it under cold water to remove surface starch and drain.",
+      "Cook the pork in a dry pan with the sugar, fish sauce and shallot over low heat for 12 to 15 minutes, stirring, until dry and sticky. Shred or crumble finely.",
+      "Beat the eggs with the radish and fry in the oil as a thin omelette. Cut into strips.",
+      "Serve the rice in bowls, fill with the iced scented water, and offer the pork, omelette strips, cucumber and spring onion on the side."
+    ],
+    "notes": "Traditional khao chae includes labour-intensive items such as stuffed shallots and fried shrimp-paste balls; this is a simplified home version.",
+    "sources": [
+      "wiki-khao-chae"
+    ],
+    "review_status": "draft"
+  }
+]

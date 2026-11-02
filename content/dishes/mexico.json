@@ -59,5 +59,67 @@
       {"claim": "Combines European bread with pre-Hispanic offerings to the dead.", "confidence": "widely-told", "source": "wiki-pan-de-muerto"}
     ],
     "sources": ["wiki-pan-de-muerto"], "review_status": "draft"
+  },
+  {
+    "id": "tamales", "name": "Tamales", "local_name": "Tamales", "country": "mexico",
+    "type": "dumpling", "course": ["main", "snack"], "flavours": ["rich", "aromatic", "spicy"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["steamed"], "spice_level": 2,
+    "summary": "Parcels of maize dough filled with meat, chile sauce or other fillings, wrapped in corn husks or banana leaves and steamed.",
+    "story": "Tamales are among the oldest prepared foods of Mesoamerica. Maize dough wrapped around a filling and steamed in leaves was eaten by many peoples of the region long before the Spanish arrived, and the word comes from the Nahuatl tamalli. Since then pork, chicken and cheese, which came from Europe, have joined native fillings such as chiles, squash blossoms and beans. Every region has its own versions, from the husk-wrapped tamales of central Mexico to the banana-leaf tamales of Oaxaca and the south-east. They are a typical food for gatherings: families often cook them in large batches together for Christmas, Candlemas (2 February) and the Day of the Dead.",
+    "origin_period": "Pre-Hispanic",
+    "origin_claims": [
+      {"claim": "Steamed filled maize dough was a staple of pre-Hispanic Mesoamerican peoples, including the Aztec and Maya.", "confidence": "well-documented", "source": "wiki-tamale"}
+    ],
+    "sources": ["wiki-tamale", "wiki-mexican-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "pozole-rojo", "name": "Pozole rojo", "local_name": "Pozole rojo", "country": "mexico",
+    "type": "soup", "course": ["main"], "flavours": ["rich", "spicy", "aromatic", "salty"], "diet": ["gluten-free", "dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["simmered", "slow-cooked"], "spice_level": 2,
+    "summary": "A hearty soup of large hominy kernels and pork in a broth coloured with dried red chiles, finished with fresh toppings at the table.",
+    "story": "Pozole is built on hominy, maize treated with an alkali so that the kernels swell and soften, and the dish is widely associated with western and southern Mexico, including Jalisco and Guerrero. Three styles are common: red (rojo) coloured with dried chiles, white (blanco) without them, and green (verde) using pumpkin seeds and green herbs. Pozole is served in large bowls for family celebrations, Christmas and the national holiday on 16 September, with cabbage, radish, onion, oregano and lime added by each diner. It is often said that pre-Hispanic versions had ritual meaning, but the details of such accounts are uncertain and are retold in many forms, so they are best treated as tradition rather than established fact.",
+    "origin_period": "Pre-Hispanic roots",
+    "origin_claims": [
+      {"claim": "Hominy stews existed in pre-Hispanic Mesoamerica and later took on pork after the Spanish introduced pigs.", "confidence": "widely-told", "source": "wiki-pozole"},
+      {"claim": "The earliest pozole had ceremonial significance for the Aztec.", "confidence": "disputed", "source": "wiki-pozole"}
+    ],
+    "sources": ["wiki-pozole", "wiki-mexican-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "tacos-al-pastor", "name": "Tacos al pastor", "local_name": "Tacos al pastor", "country": "mexico", "region": "mexico-city",
+    "type": "street-food", "course": ["main", "snack"], "flavours": ["smoky", "tangy", "sweet", "spicy", "aromatic"], "diet": ["dairy-free", "egg-free", "nut-free"],
+    "cook_methods": ["grilled", "roasted"], "spice_level": 2,
+    "summary": "Thin slices of chile- and achiote-marinated pork shaved from a vertical spit into small tortillas with pineapple, onion and coriander.",
+    "story": "Al pastor means shepherd style, a nod to the spit-roasted lamb that Lebanese immigrants brought to Mexico in the early 20th century, where it became known as tacos árabes, notably in Puebla. Cooks in central Mexico, and especially in Mexico City, switched to pork and a marinade of dried chiles, achiote and spices, and the meat on its vertical trompo is often topped with a piece of pineapple. The taco is a good example of how migrant food was reshaped into something distinctly Mexican, and it is one of the best-known street foods in the capital.",
+    "origin_period": "Mid 20th century",
+    "origin_claims": [
+      {"claim": "Descended from shawarma brought by Lebanese immigrants to Mexico, adapted with pork and local chiles.", "confidence": "well-documented", "source": "wiki-al-pastor"},
+      {"claim": "The pineapple topping and exact Mexico City origin are told in several versions by different taquerias.", "confidence": "widely-told", "source": "wiki-al-pastor"}
+    ],
+    "sources": ["wiki-al-pastor", "wiki-mexican-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "tlayuda", "name": "Tlayuda", "local_name": "Tlayuda", "country": "mexico", "region": "oaxaca",
+    "type": "street-food", "course": ["main", "snack"], "flavours": ["smoky", "rich", "tangy"], "diet": ["vegetarian", "egg-free", "nut-free", "gluten-free"],
+    "cook_methods": ["grilled"], "spice_level": 2,
+    "summary": "A large, thin, crisp-toasted corn tortilla from Oaxaca spread with beans and topped with shredded cheese, cabbage, avocado and salsa.",
+    "story": "The tlayuda is a big, thin tortilla, about the size of a plate, that is toasted over coals until it is dry and slightly crisp but still bendy. It is spread with a layer of mashed black beans, then topped with Oaxaca cheese, shredded cabbage, avocado, tomato and salsa, and folded in half. Many versions add grilled meats such as cecina or chorizo, and the dish is often compared to a Oaxacan pizza. It is a late-night street food in Oaxaca city and across the state, and vendors cook them on open grills at markets. The vegetarian form below is common, although traditional bean pastes are often prepared with pork lard.",
+    "origin_period": "Unknown",
+    "origin_claims": [
+      {"claim": "A regional food of the Oaxaca Valleys, built on the large dried tortilla, with no single documented inventor.", "confidence": "widely-told", "source": "wiki-tlayuda"}
+    ],
+    "sources": ["wiki-tlayuda", "wiki-mexican-cuisine"], "review_status": "draft"
+  },
+  {
+    "id": "esquites", "name": "Esquites", "local_name": "Esquites", "country": "mexico",
+    "type": "street-food", "course": ["snack", "side"], "flavours": ["tangy", "rich", "salty", "spicy"], "diet": ["vegetarian", "gluten-free", "nut-free"],
+    "cook_methods": ["boiled", "sauteed"], "spice_level": 2,
+    "summary": "Warm corn kernels cooked with epazote and served in a cup with mayonnaise, cheese, lime and chile powder.",
+    "story": "Esquites are the cup-and-spoon cousin of elote, the grilled or boiled corn on the cob that is sold from carts all over Mexico. The kernels are cut from the cob and simmered or sautéed with onion, chile and the herb epazote, then dressed with lime juice, mayonnaise, crumbly cheese and chile powder. The name comes from a Nahuatl word, and maize in snack form is much older than the mayonnaise and cheese, which are later additions. Vendors serve them in the evening and at fairs, and the exact topping varies from city to city.",
+    "origin_period": "Pre-Hispanic roots",
+    "origin_claims": [
+      {"claim": "Cooked maize kernels eaten as a snack have pre-Hispanic roots, with dairy and mayonnaise toppings added later.", "confidence": "widely-told", "source": "wiki-esquites"}
+    ],
+    "sources": ["wiki-esquites", "wiki-mexican-cuisine"], "review_status": "draft"
   }
 ]

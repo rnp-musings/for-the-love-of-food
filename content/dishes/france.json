@@ -1,0 +1,440 @@
+[
+  {
+    "id": "cassoulet",
+    "name": "Cassoulet",
+    "local_name": "Cassoulet",
+    "country": "france",
+    "region": "south-west",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "salty"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A slow-baked casserole of white beans, pork sausage and duck confit with a crisp breadcrumb crust, from Languedoc and the south-west.",
+    "story": "Cassoulet takes its name from the cassole, the deep earthenware dish in which it is baked. White beans are cooked with pork, sausage and preserved duck or goose until the beans are creamy and the top forms a golden crust, which is traditionally broken and pushed back into the pot several times during cooking. The towns of Castelnaudary, Carcassonne and Toulouse each claim to make the true version, with different meats: Castelnaudary favours pork, Carcassonne adds mutton or partridge in some accounts, and Toulouse adds the local sausage and duck confit. The beans themselves arrived from the Americas, so the dish in its current form cannot be older than the 16th century. A famous story places its birth during a siege of Castelnaudary in the Hundred Years War, but it is not documented.",
+    "origin_period": "16th century at the earliest (beans from the Americas)",
+    "origin_claims": [
+      {
+        "claim": "Castelnaudary, Carcassonne and Toulouse each claim to be the home of the dish and disagree about its ingredients.",
+        "confidence": "well-documented",
+        "source": "wiki-cassoulet"
+      },
+      {
+        "claim": "It was invented during a siege of Castelnaudary, when townspeople pooled all their remaining food in one pot.",
+        "confidence": "legend",
+        "source": "wiki-cassoulet"
+      }
+    ],
+    "sources": [
+      "wiki-cassoulet"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "coq-au-vin",
+    "name": "Coq au vin",
+    "local_name": "Coq au vin",
+    "country": "france",
+    "region": "burgundy",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "salty"
+    ],
+    "diet": [
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked",
+      "sauteed"
+    ],
+    "spice_level": 0,
+    "summary": "Chicken braised in red wine with bacon, mushrooms and small onions, a classic of French home and bistro cooking.",
+    "story": "Coq au vin is chicken (originally an older rooster, which needed long, slow cooking) braised in red wine with lardons, button mushrooms, onions and herbs. The wine tenderises the meat and becomes a dark, glossy sauce, which some cooks thicken with a little flour and butter. Burgundy and its red wines are most often named as its home, though similar wine braises exist in other French regions, including Auvergne and the Jura. Stories connecting the dish to Julius Caesar and a Gallic rooster are legend. The dish became widely known in France in the 20th century and then abroad.",
+    "origin_period": "Regional tradition; wide fame in the 20th century",
+    "origin_claims": [
+      {
+        "claim": "Braising poultry in wine is an old technique in French regional cooking, with several regions claiming their own version.",
+        "confidence": "widely-told",
+        "source": "wiki-coq-au-vin"
+      },
+      {
+        "claim": "It was created when a Gallic chieftain sent a rooster to Julius Caesar and the Romans cooked it in wine.",
+        "confidence": "legend",
+        "source": "wiki-coq-au-vin"
+      }
+    ],
+    "sources": [
+      "wiki-coq-au-vin"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bouillabaisse",
+    "name": "Bouillabaisse",
+    "local_name": "Bouillabaisse",
+    "country": "france",
+    "region": "provence",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "umami",
+      "rich"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 1,
+    "summary": "A saffron-scented fish stew from Marseille, served with garlicky rouille and toasted bread.",
+    "story": "Bouillabaisse began as a fishermen's dish in the port of Marseille, made from the bony Mediterranean rockfish that were hard to sell, simmered with onion, tomato, fennel, garlic, olive oil, orange peel and saffron. The broth and the fish are usually served separately, with croutons and rouille, a spiced garlic and saffron sauce. The name is often explained as coming from the Provencal bolhir (to boil) and abaissa (to lower the heat), which describes the cooking method. Marseille restaurateurs drew up a charter in the late 20th century to define the dish, though cooks still argue about which fish and shellfish belong. A charming tale says Venus made it to put Vulcan to sleep; that is mythology.",
+    "origin_period": "Traditional fishermen's dish; documented by the 19th century",
+    "origin_claims": [
+      {
+        "claim": "It was a fishermen's stew in Marseille, made from unsold fish of the day.",
+        "confidence": "widely-told",
+        "source": "wiki-bouillabaisse"
+      },
+      {
+        "claim": "The goddess Venus created it to send her husband Vulcan to sleep so she could meet Mars.",
+        "confidence": "legend",
+        "source": "wiki-bouillabaisse"
+      }
+    ],
+    "sources": [
+      "wiki-bouillabaisse"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "choucroute-garnie",
+    "name": "Choucroute garnie",
+    "local_name": "Choucroute garnie",
+    "country": "france",
+    "region": "alsace",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "salty",
+      "umami"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 0,
+    "summary": "Sauerkraut simmered with white wine and juniper and served with sausages, smoked pork and potatoes, a hearty dish of Alsace.",
+    "story": "Choucroute is the Alsatian name for fermented cabbage, and choucroute garnie (\"garnished\") is a platter of it simmered with Riesling or other white wine, juniper and cloves and served with potatoes and a mixture of smoked pork, bacon and sausages. The dish is rooted in the farm cooking of Alsace and neighbouring regions, where fermenting cabbage for winter was a way to keep vegetables through the cold months. The region's German-influenced food culture and long history of shifting borders are visible in it. It is a good example of a dish built on preserved food rather than fresh ingredients.",
+    "origin_period": "Long regional tradition; precise age unclear",
+    "origin_claims": [
+      {
+        "claim": "Fermenting cabbage for winter storage is old in central Europe, and choucroute became a signature of Alsace.",
+        "confidence": "widely-told",
+        "source": "wiki-choucroute"
+      }
+    ],
+    "sources": [
+      "wiki-choucroute"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "local_name": "Ratatouille niçoise",
+    "country": "france",
+    "region": "provence",
+    "type": "stew",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "aromatic",
+      "sweet",
+      "umami"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "sauteed"
+    ],
+    "spice_level": 0,
+    "summary": "A summer stew of tomato, aubergine, courgette, peppers and onion slowly cooked in olive oil with garlic and thyme.",
+    "story": "Ratatouille comes from the Nice and wider Provencal region and uses the vegetables that ripen together in summer. The name comes from the French touiller, to stir, and an older word for a rough stew. Some cooks fry each vegetable separately before combining them to keep their individual texture; others stew them together in one pot. It can be eaten hot or cold, as a side with roast meat, with eggs, or on its own with bread. The tomato, aubergine and pepper are all of American or Asian origin, so the dish in this form cannot be ancient.",
+    "origin_period": "18th to 19th century",
+    "origin_claims": [
+      {
+        "claim": "It developed in Provence and Nice as a farm dish of summer vegetables, documented by the 19th century.",
+        "confidence": "widely-told",
+        "source": "wiki-ratatouille"
+      }
+    ],
+    "sources": [
+      "wiki-ratatouille"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "galette-complete",
+    "name": "Galette complète",
+    "local_name": "Galette complète",
+    "country": "france",
+    "region": "brittany",
+    "type": "street-food",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "umami",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried"
+    ],
+    "spice_level": 0,
+    "summary": "A thin buckwheat pancake folded around ham, cheese and a fried egg, the signature savoury dish of Breton crêperies.",
+    "story": "In Brittany, savoury crêpes are made from buckwheat (blé noir), which grows on poor, acidic soil where wheat does not, and are known as galettes. The classic galette complète is topped with ham, grated cheese and an egg and folded into a square with the yolk showing. The batter contains only buckwheat flour, water and salt, and it is cooked on a large flat griddle called a billig. Galettes are often served with Breton cider. Buckwheat arrived in Europe in the medieval period and became established in Brittany over the centuries; dates in popular accounts vary, so treat precise claims with caution.",
+    "origin_period": "Medieval introduction of buckwheat; modern crêperie form 20th century",
+    "origin_claims": [
+      {
+        "claim": "Buckwheat became a staple in Brittany in the late Middle Ages and early modern period because it suited poor soils.",
+        "confidence": "widely-told",
+        "source": "wiki-galette"
+      },
+      {
+        "claim": "Galettes and crêpes were sold at street stalls and crêperies, which spread beyond Brittany in the 20th century.",
+        "confidence": "widely-told",
+        "source": "wiki-crepe"
+      }
+    ],
+    "sources": [
+      "wiki-galette",
+      "wiki-crepe"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "crepes",
+    "name": "Crêpes",
+    "local_name": "Crêpes",
+    "country": "france",
+    "type": "pastry",
+    "course": [
+      "dessert",
+      "breakfast",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried"
+    ],
+    "spice_level": 0,
+    "summary": "Thin pancakes of wheat flour, eggs and milk, eaten with sugar or lemon, especially on Chandeleur.",
+    "story": "French crêpes are very thin pancakes made from a runny batter of flour, eggs and milk, cooked in a hot pan and filled with sugar, lemon, jam or chocolate spread. They are part of everyday French eating, with crêperies and street stands serving them across the country. On 2 February, Chandeleur (Candlemas), families make them at home and some people hold a coin in one hand while flipping the crêpe with the other, a custom said to bring prosperity for the year. Their round, golden shape is often described as a symbol of the sun, although that link is a popular interpretation more than a documented origin.",
+    "origin_period": "Medieval or earlier; association with Chandeleur long-standing",
+    "origin_claims": [
+      {
+        "claim": "Crêpes are eaten at Chandeleur and their round golden shape recalls the sun.",
+        "confidence": "widely-told",
+        "source": "wiki-candlemas"
+      },
+      {
+        "claim": "Thin pancakes have been made in France since the Middle Ages.",
+        "confidence": "widely-told",
+        "source": "wiki-crepe"
+      }
+    ],
+    "sources": [
+      "wiki-crepe",
+      "wiki-candlemas"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "galette-des-rois",
+    "name": "Galette des rois",
+    "local_name": "Galette des rois",
+    "country": "france",
+    "type": "pastry",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A golden puff-pastry cake filled with almond cream, eaten around 6 January with a hidden charm.",
+    "story": "The galette des rois (\"kings' cake\") is made for Epiphany on 6 January and through that month. In northern France it is two rounds of puff pastry with a frangipane or almond cream filling; in Provence and parts of the south a ring of brioche flavoured with candied fruit takes its place. A small porcelain or plastic charm, the fève, is hidden inside, and whoever finds it in their slice becomes king or queen for the day and wears the paper crown that comes with the cake. A child, traditionally, hides under the table to call out who gets each slice. Cakes with a hidden bean are old in Europe, and some writers link them to Roman midwinter festivals, but this is a theory and not documented.",
+    "origin_period": "Medieval or earlier; modern puff-pastry version later",
+    "origin_claims": [
+      {
+        "claim": "Cakes with a hidden bean eaten at Epiphany are a long-standing European custom.",
+        "confidence": "well-documented",
+        "source": "wiki-galette-des-rois"
+      },
+      {
+        "claim": "The custom descends from Roman Saturnalia, when a king of the feast was chosen by lot.",
+        "confidence": "disputed",
+        "source": "wiki-galette-des-rois"
+      }
+    ],
+    "sources": [
+      "wiki-galette-des-rois",
+      "wiki-epiphany"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tarte-tatin",
+    "name": "Tarte Tatin",
+    "local_name": "Tarte Tatin",
+    "country": "france",
+    "type": "pastry",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked",
+      "sauteed"
+    ],
+    "spice_level": 0,
+    "summary": "An upside-down apple tart in which the apples are caramelised in butter and sugar before being covered with pastry and baked.",
+    "story": "Tarte Tatin is cooked with the fruit at the bottom: apples are cooked in butter and sugar until they turn deep amber, covered with a sheet of pastry and baked, then turned over so the glossy caramel apples are on top. It is named after the Tatin sisters who ran a hotel in Lamotte-Beuvron, in the Sologne area south of Paris, in the late 19th century. The popular version says one of them made a mistake and put the tart in the oven upside down; whether that is true is unknown, and upside-down fruit tarts are said to have existed in the region before them.",
+    "origin_period": "Late 19th century",
+    "origin_claims": [
+      {
+        "claim": "The tart is associated with the Tatin sisters and their hotel in Lamotte-Beuvron.",
+        "confidence": "widely-told",
+        "source": "wiki-tarte-tatin"
+      },
+      {
+        "claim": "It was created by accident when one sister left out the pastry base and baked it upside down.",
+        "confidence": "legend",
+        "source": "wiki-tarte-tatin"
+      }
+    ],
+    "sources": [
+      "wiki-tarte-tatin"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "soupe-a-l-oignon",
+    "name": "French onion soup",
+    "local_name": "Soupe à l'oignon gratinée",
+    "country": "france",
+    "type": "soup",
+    "course": [
+      "starter",
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "rich",
+      "sweet"
+    ],
+    "diet": [
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "sauteed",
+      "simmered",
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A deeply savoury soup of slowly browned onions in beef stock, topped with toasted bread and melted cheese.",
+    "story": "The key to French onion soup is patience: onions are cooked slowly until dark gold and sweet, then simmered with stock and a little wine. The soup is served in an ovenproof bowl with a slice of toasted bread and grated cheese and browned under the grill, which is the \"gratinée\". Onion soup was cheap food in France for centuries. It is often associated with the old Les Halles market in Paris, where it was eaten in the small hours by market workers and late-night revellers, and a popular tale claims King Louis XV invented a version at a hunting lodge; that story is not supported by documents.",
+    "origin_period": "Cheap onion soups are old; gratinée form 18th to 19th century",
+    "origin_claims": [
+      {
+        "claim": "The gratinated soup became a Parisian late-night staple around the old Les Halles market.",
+        "confidence": "widely-told",
+        "source": "wiki-french-onion-soup"
+      },
+      {
+        "claim": "King Louis XV invented it at a hunting lodge from onions, butter and champagne.",
+        "confidence": "legend",
+        "source": "wiki-french-onion-soup"
+      }
+    ],
+    "sources": [
+      "wiki-french-onion-soup"
+    ],
+    "review_status": "draft"
+  }
+]

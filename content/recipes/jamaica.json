@@ -1,0 +1,947 @@
+[
+  {
+    "id": "jerk-chicken-home",
+    "dish": "jerk-chicken",
+    "title": "Oven or grill jerk chicken",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "passive_minutes": 480,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "legs and thighs, skin on, slashed"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 2,
+        "unit": "piece",
+        "note": "seeds removed for less heat",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 6,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "fresh leaves",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "ground",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "Jerk paste"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 20,
+        "unit": "g",
+        "note": "peeled",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "brown-sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Jerk paste"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Jerk paste"
+      }
+    ],
+    "steps": [
+      "Blend all the paste ingredients into a rough purée. Wear gloves when handling the scotch bonnets.",
+      "Rub the paste well into the chicken, getting it into the slashes. Cover and marinate in the refrigerator for at least 6 hours, ideally overnight.",
+      "For the oven, heat to 200°C, place the chicken on a rack over a tray and roast for 45 to 55 minutes, turning once, until the juices run clear (74°C at the thickest point). For a grill, cook over indirect medium heat with the lid closed for 40 to 50 minutes, adding pimento wood or wood chips for smoke, then finish over direct heat for the last few minutes to char.",
+      "Rest for 10 minutes and serve with rice and peas, festival or hard dough bread."
+    ],
+    "notes": "Marinating overnight gives the best flavour. Leave the scotch bonnet seeds in for fierce heat.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "ackee-and-saltfish-home",
+    "dish": "ackee-and-saltfish",
+    "title": "Ackee and saltfish",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "saltfish",
+        "amount": 300,
+        "unit": "g",
+        "note": "salt cod, soaked 12 to 24 hours with several water changes"
+      },
+      {
+        "ingredient": "ackee",
+        "amount": 540,
+        "unit": "g",
+        "note": "canned, drained (about two tins)"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "diced"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "fresh"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "diced",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Drain the soaked saltfish, cover with fresh water and simmer for 10 to 15 minutes. Drain, remove skin and bones, and flake the fish.",
+      "Heat the oil in a wide pan. Cook the onion, scallion, bell pepper if using, thyme and scotch bonnet for 3 to 4 minutes until softened.",
+      "Add the tomato and cook 3 minutes, then add the flaked saltfish and black pepper and cook for 3 minutes.",
+      "Fold in the ackee very gently so it stays in soft pieces, and warm through for 3 to 4 minutes. Taste before adding any salt, since the fish is already salty.",
+      "Serve with fried dumplings, boiled green banana or breadfruit."
+    ],
+    "notes": "Never cook with unripe or unopened ackee. Use canned ackee from a reputable producer or fruit that has opened naturally on the tree.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "curry-goat-home",
+    "dish": "curry-goat",
+    "title": "Jamaican curry goat",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 150,
+    "passive_minutes": 120,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "goat",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "bone-in, cut into chunks"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "Jamaican-style, divided"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 15,
+        "unit": "g",
+        "note": "grated"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "fresh"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "whole, pierced once"
+      },
+      {
+        "ingredient": "water",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "peeled, in chunks"
+      }
+    ],
+    "steps": [
+      "Mix the goat with 2 tablespoons of curry powder, garlic, ginger, thyme, allspice and salt. Marinate for at least 2 hours, or overnight in the refrigerator.",
+      "Heat the oil in a heavy pot. Stir in the remaining curry powder for 30 seconds, then add the goat and brown it for 8 to 10 minutes.",
+      "Add the onion, scallion, scotch bonnet and water. Bring to a simmer, cover and cook on low heat for 1 hour 30 minutes, adding water if needed.",
+      "Add the potatoes and cook for 25 to 30 minutes until the meat is tender and the sauce has thickened. Remove the scotch bonnet and serve with rice."
+    ],
+    "notes": "Mutton or lamb can replace goat; reduce the cooking time to about 1 hour 30 minutes in total.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "escovitch-fish-home",
+    "dish": "escovitch-fish",
+    "title": "Fried red snapper with escovitch pickle",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 25,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "red-snapper",
+        "amount": 1,
+        "unit": "kg",
+        "note": "2 whole fish, cleaned and scaled, slashed"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "for dusting",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 250,
+        "unit": "ml",
+        "note": "for shallow frying",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 200,
+        "unit": "ml",
+        "note": "white",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "thinly sliced",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "cut into thin strips",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "green-bell-pepper",
+        "amount": 1,
+        "unit": "piece",
+        "note": "thinly sliced",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced thinly",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 6,
+        "unit": "piece",
+        "note": "whole berries",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "whole peppercorns",
+        "group": "Escovitch"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Escovitch"
+      }
+    ],
+    "steps": [
+      "Rub the fish inside and out with salt and pepper and dust lightly with flour.",
+      "Heat the oil in a large frying pan over medium-high heat. Fry the fish for 5 to 6 minutes per side until golden and cooked through. Drain on paper and place in a serving dish.",
+      "For the pickle, combine vinegar, water, onion, carrot, pepper, scotch bonnet, allspice, peppercorns and salt in a pan. Simmer for 5 minutes, keeping the vegetables crisp.",
+      "Pour the hot pickle over the fish. Serve warm or at room temperature, ideally after standing for at least 30 minutes."
+    ],
+    "notes": "The fish keeps a day or two in the refrigerator under the pickle.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "rice-and-peas-home",
+    "dish": "rice-and-peas",
+    "title": "Coconut rice and kidney beans",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 90,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "red-kidney-beans",
+        "amount": 200,
+        "unit": "g",
+        "note": "dried, soaked overnight and drained"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1,
+        "unit": "l"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "bruised"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sprigs"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 6,
+        "unit": "piece",
+        "note": "whole berries"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "whole, do not pierce"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 400,
+        "unit": "g",
+        "note": "long-grain, rinsed"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Boil the beans in the water hard for 10 minutes, then simmer for about 1 hour until tender. Red kidney beans must be fully boiled to be safe.",
+      "Add the coconut milk, scallion, thyme, garlic, allspice, scotch bonnet and 1 teaspoon of salt. Make sure there is about 800 ml of liquid in the pot; top up with water if needed.",
+      "Bring to a boil, stir in the rice, return to a boil, then cover tightly and cook on the lowest heat for 20 to 25 minutes until the rice is tender.",
+      "Rest for 10 minutes, remove the herbs and scotch bonnet carefully without bursting it, fluff and serve."
+    ],
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "oxtail-stew-home",
+    "dish": "oxtail-stew",
+    "title": "Slow-braised oxtail with butter beans",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 210,
+    "passive_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "oxtail",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "cut in pieces, trimmed"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 15,
+        "unit": "g",
+        "note": "grated"
+      },
+      {
+        "ingredient": "brown-sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 4,
+        "unit": "piece",
+        "note": "sprigs"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 1,
+        "unit": "piece",
+        "note": "whole"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1,
+        "unit": "l"
+      },
+      {
+        "ingredient": "butter-beans",
+        "amount": 240,
+        "unit": "g",
+        "note": "cooked or canned, drained"
+      }
+    ],
+    "steps": [
+      "Season the oxtail with salt, pepper, allspice, garlic and ginger and leave for at least 1 hour.",
+      "In a heavy pot, heat the oil and melt the brown sugar until it darkens to a deep brown without burning. Add the oxtail and brown on all sides, in batches, for about 10 minutes.",
+      "Add the onion, scallion, thyme, scotch bonnet and water. Bring to a boil, then cover and simmer on low heat for about 2 hours 30 minutes, adding water if it gets dry.",
+      "Add the carrots and cook for 30 minutes more, until the meat is very tender. Add the butter beans for the last 10 minutes.",
+      "Skim any fat from the surface, discard the scotch bonnet and serve with rice and peas."
+    ],
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "jamaican-patty-home",
+    "dish": "jamaican-patty",
+    "title": "Beef patties with turmeric pastry",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 50,
+    "cook_minutes": 35,
+    "passive_minutes": 60,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 300,
+        "unit": "g",
+        "group": "Pastry"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pastry"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pastry"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 150,
+        "unit": "g",
+        "note": "cold, cubed",
+        "group": "Pastry"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "ice cold",
+        "group": "Pastry"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 0.5,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 400,
+        "unit": "g",
+        "note": "minced",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "fresh",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "breadcrumbs",
+        "amount": 40,
+        "unit": "g",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Filling"
+      }
+    ],
+    "steps": [
+      "For the pastry, mix the flour, turmeric and salt. Rub in the butter until it forms coarse crumbs, then add the iced water a little at a time until the dough just comes together. Wrap and chill for 1 hour.",
+      "For the filling, heat the oil and soften the onion, scallion, garlic and scotch bonnet for 4 minutes. Add the beef, curry powder and thyme and cook for 8 to 10 minutes until browned.",
+      "Add the stock and breadcrumbs, simmer for 5 minutes until moist but not wet, season and cool completely.",
+      "Heat the oven to 200°C. Roll the dough to 3 mm thick and cut 8 circles about 14 cm wide. Put a heaped 2 tablespoons of filling on one half of each, fold over and press the edges closed with a fork.",
+      "Bake on a lined tray for 25 to 30 minutes until the pastry is set and lightly golden. Let cool for 5 minutes before eating."
+    ],
+    "notes": "Chicken or vegetables can be used for the filling. The breadcrumbs absorb juices and keep the pastry from becoming soggy.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "pepper-shrimp-home",
+    "dish": "pepper-shrimp",
+    "title": "Roadside-style pepper shrimp",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "shrimp",
+        "amount": 500,
+        "unit": "g",
+        "note": "small, raw, shell-on"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1,
+        "unit": "l"
+      },
+      {
+        "ingredient": "scotch-bonnet",
+        "amount": 3,
+        "unit": "piece",
+        "note": "halved"
+      },
+      {
+        "ingredient": "scallion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "bruised"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 4,
+        "unit": "piece",
+        "note": "sprigs"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 6,
+        "unit": "piece",
+        "note": "whole berries"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Combine the water, scotch bonnets, scallion, thyme, onion, garlic, allspice, vinegar and salt in a pot. Bring to a boil and simmer for 10 minutes to build a spicy broth.",
+      "Add the shrimp, return to a simmer and cook for 2 to 3 minutes until pink and curled.",
+      "Remove from the heat and leave the shrimp in the broth for 10 minutes, so they absorb the heat. Drain and serve warm or at room temperature, shell-on, with a napkin.",
+      "Use a little of the broth for dipping if wished."
+    ],
+    "notes": "Very hot; reduce the number of scotch bonnets, or remove the seeds, for a milder result.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "bun-and-cheese-home",
+    "dish": "bun-and-cheese",
+    "title": "Jamaican spiced bun",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "passive_minutes": 130,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "fast-action dried"
+      },
+      {
+        "ingredient": "brown-sugar",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 250,
+        "unit": "ml",
+        "note": "warm"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 60,
+        "unit": "g",
+        "note": "melted"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "cheddar",
+        "amount": 250,
+        "unit": "g",
+        "note": "processed or mild cheddar, sliced, to serve"
+      }
+    ],
+    "steps": [
+      "Mix the flour, yeast, sugar, spices and salt in a bowl. Stir in the warm milk, egg and melted butter and knead for 8 to 10 minutes until smooth and elastic.",
+      "Knead in the raisins, then cover and leave to rise in a warm place for about 1 hour 30 minutes until doubled.",
+      "Shape into a loaf and place in a greased 900 g loaf tin. Cover and let rise for 40 minutes until it fills the tin.",
+      "Heat the oven to 180°C and bake for 45 to 50 minutes, until deep brown and hollow-sounding when tapped, covering with foil if it browns too fast.",
+      "Cool on a rack, slice and serve each slice with a piece of cheese."
+    ],
+    "notes": "Many bakers add a little stout or molasses for a darker, richer loaf. This version uses brown sugar and milk for simplicity.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  },
+  {
+    "id": "sorrel-drink-home",
+    "dish": "sorrel-drink",
+    "title": "Christmas sorrel drink",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "passive_minutes": 480,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "sorrel-calyces",
+        "amount": 100,
+        "unit": "g",
+        "note": "dried"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 50,
+        "unit": "g",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 6,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick"
+      },
+      {
+        "ingredient": "citrus",
+        "amount": 1,
+        "unit": "piece",
+        "note": "orange, peel only, in strips",
+        "optional": true
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "l"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 200,
+        "unit": "g",
+        "note": "adjust to taste"
+      }
+    ],
+    "steps": [
+      "Rinse the sorrel. Put it in a pot with the ginger, cloves, cinnamon, orange peel if using, and the water. Bring to a boil, then switch off the heat.",
+      "Cover and steep for at least 8 hours, or overnight, at room temperature.",
+      "Strain, pressing the sorrel to release its juice, stir in the sugar until dissolved and chill. Serve over ice, adding a splash of white rum if desired."
+    ],
+    "notes": "Sorrel is very tart; add more sugar if needed. It keeps for about a week in the refrigerator.",
+    "licence": "CC-BY-4.0 (original text)",
+    "review_status": "draft"
+  }
+]

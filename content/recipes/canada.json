@@ -1,0 +1,251 @@
+[
+  {
+    "id": "poutine-home", "dish": "poutine", "title": "Poutine with oven-baked fries", "version": "home", "servings": 4,
+    "prep_minutes": 20, "cook_minutes": 45, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "potato", "amount": 1, "unit": "kg", "note": "floury, such as russet or Maris Piper, cut into 1 cm sticks", "group": "Fries"},
+      {"ingredient": "oil", "amount": 3, "unit": "tbsp", "group": "Fries"},
+      {"ingredient": "butter", "amount": 40, "unit": "g", "group": "Gravy"},
+      {"ingredient": "wheat-flour", "amount": 40, "unit": "g", "group": "Gravy"},
+      {"ingredient": "stock", "amount": 500, "unit": "ml", "note": "beef or chicken, hot", "group": "Gravy"},
+      {"ingredient": "black-pepper", "amount": 0.5, "unit": "tsp", "group": "Gravy"},
+      {"ingredient": "cheese-curds", "amount": 250, "unit": "g", "note": "fresh, at room temperature", "group": "To serve"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Soak the potato sticks in cold water for 30 minutes, drain and dry thoroughly. Heat the oven to 230 C.",
+      "Toss the fries with the oil and salt, spread on two trays in a single layer and bake 35 to 40 minutes, turning once, until crisp and golden. Deep-frying at 180 C for 4 to 5 minutes, twice, gives a more classic result.",
+      "For the gravy, melt the butter in a saucepan, stir in the flour and cook for 3 minutes until nutty and pale brown.",
+      "Whisk in the hot stock gradually, bring to a simmer and cook for 8 to 10 minutes until thick enough to coat a spoon. Season with pepper and salt.",
+      "Pile the hot fries into bowls, scatter the cheese curds over, and pour the boiling-hot gravy on top so the curds begin to soften. Eat immediately."
+    ],
+    "notes": "Curds should be fresh and mild, and squeak when bitten. Mozzarella chunks are a poor substitute but can work.",
+    "sources": ["wiki-poutine"], "review_status": "draft"
+  },
+  {
+    "id": "tourtiere-home", "dish": "tourtiere", "title": "Quebec pork tourtière", "version": "home", "servings": 8,
+    "prep_minutes": 45, "cook_minutes": 75, "passive_minutes": 60, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 350, "unit": "g", "group": "Pastry"},
+      {"ingredient": "butter", "amount": 200, "unit": "g", "note": "cold, cubed", "group": "Pastry"},
+      {"ingredient": "water", "amount": 6, "unit": "tbsp", "note": "ice cold", "group": "Pastry"},
+      {"ingredient": "pork", "amount": 700, "unit": "g", "note": "minced (ground)", "group": "Filling"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "finely chopped", "group": "Filling"},
+      {"ingredient": "garlic", "amount": 2, "unit": "clove", "group": "Filling"},
+      {"ingredient": "potato", "amount": 150, "unit": "g", "note": "peeled, boiled and mashed", "group": "Filling"},
+      {"ingredient": "stock", "amount": 150, "unit": "ml", "note": "chicken or beef", "group": "Filling"},
+      {"ingredient": "cinnamon", "amount": 0.5, "unit": "tsp", "note": "ground", "group": "Filling"},
+      {"ingredient": "cloves", "amount": 0.25, "unit": "tsp", "note": "ground", "group": "Filling"},
+      {"ingredient": "allspice", "amount": 0.25, "unit": "tsp", "note": "ground", "group": "Filling"},
+      {"ingredient": "black-pepper", "amount": 0.5, "unit": "tsp", "group": "Filling"},
+      {"ingredient": "eggs", "amount": 1, "unit": "piece", "note": "beaten, for glazing"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Make the pastry: rub the butter into the flour and 1 tsp salt until it looks like breadcrumbs, add the water and bring together into two discs, one slightly larger. Chill for 1 hour.",
+      "For the filling, cook the pork, onion and garlic in a pan over medium heat, breaking up the meat, for 10 minutes.",
+      "Add the stock and spices and simmer for 20 minutes until most of the liquid is absorbed. Stir in the mashed potato to bind, season well, and cool completely.",
+      "Heat the oven to 200 C. Roll out the larger disc to line a 23 cm pie dish. Fill with the cooled meat.",
+      "Roll out the second disc, cover the pie, trim and crimp the edges, cut steam vents, and brush with beaten egg.",
+      "Bake for 15 minutes, then lower to 180 C and bake for 30 to 35 minutes until deep golden. Rest 15 minutes before cutting."
+    ],
+    "notes": "Many families use a mix of pork and veal or beef. It is often served with ketchup or fruit chutney.",
+    "sources": ["wiki-tourtiere"], "review_status": "draft"
+  },
+  {
+    "id": "tire-sur-la-neige-home", "dish": "tire-sur-la-neige", "title": "Maple taffy on snow", "version": "home", "servings": 6,
+    "prep_minutes": 10, "cook_minutes": 15, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "maple-syrup", "amount": 500, "unit": "ml", "note": "pure maple syrup, any grade"}
+    ],
+    "steps": [
+      "Fill a large tray or pan with clean, packed snow or finely crushed ice and keep it outside or in the freezer.",
+      "Boil the syrup in a deep, heavy pan over medium-high heat. It will foam up, so use a pan at least four times its volume.",
+      "Heat to 112 to 115 C on a candy thermometer, which takes about 12 to 15 minutes.",
+      "Remove from the heat and let the bubbles settle for a moment.",
+      "Pour the syrup in thin ribbons onto the snow. After a few seconds, when it has set to a chewy taffy, roll it onto a wooden stick or fork.",
+      "Eat right away. Repeat while the syrup is still pourable; reheat gently if it thickens."
+    ],
+    "notes": "Beware of burns from boiling syrup. Do not use flavoured table syrup, which will not set.",
+    "sources": ["wiki-maple-taffy"], "review_status": "draft"
+  },
+  {
+    "id": "pouding-chomeur-home", "dish": "pouding-chomeur", "title": "Maple pouding chômeur", "version": "home", "servings": 6,
+    "prep_minutes": 20, "cook_minutes": 35, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "butter", "amount": 60, "unit": "g", "note": "softened", "group": "Batter"},
+      {"ingredient": "sugar", "amount": 100, "unit": "g", "group": "Batter"},
+      {"ingredient": "eggs", "amount": 1, "unit": "piece", "group": "Batter"},
+      {"ingredient": "wheat-flour", "amount": 190, "unit": "g", "group": "Batter"},
+      {"ingredient": "baking-powder", "amount": 2, "unit": "tsp", "group": "Batter"},
+      {"ingredient": "milk", "amount": 150, "unit": "ml", "group": "Batter"},
+      {"ingredient": "maple-syrup", "amount": 250, "unit": "ml", "group": "Sauce"},
+      {"ingredient": "cream", "amount": 250, "unit": "ml", "group": "Sauce"},
+      {"ingredient": "salt", "amount": 1, "unit": "pinch", "group": "Sauce"}
+    ],
+    "steps": [
+      "Heat the oven to 180 C and butter a 20 cm square baking dish.",
+      "Cream the butter and sugar, beat in the egg, then fold in the flour mixed with the baking powder, alternating with the milk, until a thick batter forms.",
+      "Spread the batter in the dish.",
+      "Heat the maple syrup, cream and salt together until just simmering, then pour it slowly over the batter. Do not stir.",
+      "Bake for 30 to 35 minutes until the cake is golden and risen and the sauce is bubbling around it.",
+      "Rest for 10 minutes and serve warm, spooned with plenty of sauce."
+    ],
+    "notes": "Use a dish with sides at least 5 cm high so the syrup does not overflow.",
+    "sources": ["wiki-pouding-chomeur"], "review_status": "draft"
+  },
+  {
+    "id": "montreal-smoked-meat-home", "dish": "montreal-smoked-meat", "title": "Home-cured smoked meat", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 360, "passive_minutes": 8640, "difficulty": "hard",
+    "ingredients": [
+      {"ingredient": "beef", "amount": 2, "unit": "kg", "note": "brisket flat, with some fat left on", "group": "Cure"},
+      {"ingredient": "water", "amount": 2, "unit": "l", "group": "Cure"},
+      {"ingredient": "salt", "amount": 100, "unit": "g", "note": "kosher or non-iodised", "group": "Cure"},
+      {"ingredient": "sugar", "amount": 50, "unit": "g", "group": "Cure"},
+      {"ingredient": "curing-salt", "amount": 10, "unit": "g", "note": "curing salt #1 (pink salt, sodium nitrite), measured exactly", "group": "Cure"},
+      {"ingredient": "garlic", "amount": 6, "unit": "clove", "note": "crushed", "group": "Cure"},
+      {"ingredient": "coriander-seeds", "amount": 2, "unit": "tbsp", "note": "coarsely crushed", "group": "Rub"},
+      {"ingredient": "black-pepper", "amount": 3, "unit": "tbsp", "note": "coarsely crushed", "group": "Rub"},
+      {"ingredient": "mustard-seeds", "amount": 1, "unit": "tbsp", "note": "yellow, crushed", "group": "Rub"}
+    ],
+    "steps": [
+      "Heat the water with the salt, sugar, curing salt and garlic until dissolved, then chill completely.",
+      "Submerge the brisket in the cold brine in a non-reactive container, weighting it down, and refrigerate for 6 to 7 days, turning once every day or two.",
+      "Rinse the meat and soak it in cold water for 1 hour. Pat dry.",
+      "Mix the coriander, pepper and mustard seed and press them thickly over the surface of the meat.",
+      "Smoke at about 120 C over hardwood for about 4 hours to an internal temperature of 85 C. In an oven, bake at 120 C on a rack for 4 hours with a pan of water; smoke flavour will be lighter.",
+      "Wrap tightly in foil and steam or cook in a low oven at 110 C for 2 more hours, until a probe slides in easily at about 93 C.",
+      "Rest for 20 minutes and cut thickly against the grain. Serve on rye bread with yellow mustard and a dill pickle."
+    ],
+    "notes": "Curing salt is toxic in large amounts, so use exactly the quantity given and keep it out of reach of children. Leftovers keep a week refrigerated and reheat well by steaming.",
+    "sources": ["wiki-montreal-smoked-meat"], "review_status": "draft"
+  },
+  {
+    "id": "jiggs-dinner-home", "dish": "jiggs-dinner", "title": "Newfoundland Jiggs dinner", "version": "home", "servings": 8,
+    "prep_minutes": 30, "cook_minutes": 180, "passive_minutes": 720, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "salt-beef", "amount": 1.5, "unit": "kg", "note": "salted beef brisket or navel, soaked in cold water overnight with two changes"},
+      {"ingredient": "split-peas", "amount": 300, "unit": "g", "note": "yellow, soaked overnight, for the pease pudding"},
+      {"ingredient": "potato", "amount": 1, "unit": "kg", "note": "peeled, in large chunks"},
+      {"ingredient": "carrot", "amount": 4, "unit": "piece", "note": "peeled and cut in half"},
+      {"ingredient": "turnip", "amount": 1, "unit": "piece", "note": "medium, peeled and cubed"},
+      {"ingredient": "cabbage", "amount": 1, "unit": "piece", "note": "small, cut into 8 wedges"},
+      {"ingredient": "butter", "amount": 30, "unit": "g", "note": "for mashing the turnip and peas; omit to keep the dish dairy-free", "optional": true},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Drain the soaked beef, put it in a large pot with fresh cold water to cover, and bring to a boil. Skim the foam, lower the heat and simmer for 1.5 hours.",
+      "Drain the split peas, tie them loosely in a clean cloth or a muslin bag with room to swell, and add to the pot. Simmer for another 1 hour.",
+      "Add the carrots and turnip to the pot and cook for 20 minutes, then add the potatoes for 20 minutes more.",
+      "Add the cabbage wedges for the final 15 minutes until just tender.",
+      "Lift out the beef, wrap in foil to rest. Remove the pease pudding, open the cloth, and mash the peas with the butter, pepper and a little cooking liquid.",
+      "Mash the turnip with a little butter if you like. Slice the beef and serve with all the vegetables, the pease pudding and some of the cooking liquid as gravy."
+    ],
+    "notes": "Salt beef is salty; taste the cooking liquid and change the water if it is too strong. It is sold in some butchers and Atlantic Canadian markets, or you can use home-cured or corned brisket.",
+    "sources": ["wiki-jiggs-dinner"], "review_status": "draft"
+  },
+  {
+    "id": "butter-tarts-home", "dish": "butter-tarts", "title": "Ontario butter tarts", "version": "home", "servings": 12,
+    "prep_minutes": 40, "cook_minutes": 20, "passive_minutes": 60, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 250, "unit": "g", "group": "Pastry"},
+      {"ingredient": "butter", "amount": 150, "unit": "g", "note": "cold, cubed", "group": "Pastry"},
+      {"ingredient": "water", "amount": 4, "unit": "tbsp", "note": "ice cold", "group": "Pastry"},
+      {"ingredient": "butter", "amount": 60, "unit": "g", "note": "melted", "group": "Filling"},
+      {"ingredient": "brown-sugar", "amount": 150, "unit": "g", "group": "Filling"},
+      {"ingredient": "maple-syrup", "amount": 80, "unit": "ml", "group": "Filling"},
+      {"ingredient": "eggs", "amount": 1, "unit": "piece", "group": "Filling"},
+      {"ingredient": "vinegar", "amount": 1, "unit": "tsp", "group": "Filling"},
+      {"ingredient": "raisins", "amount": 60, "unit": "g", "optional": true, "group": "Filling"},
+      {"ingredient": "salt", "amount": 1, "unit": "pinch", "group": "Filling"}
+    ],
+    "steps": [
+      "Rub the cold butter into the flour and a pinch of salt until crumbly, add the water and press into a dough. Chill for 1 hour.",
+      "Heat the oven to 200 C. Roll the pastry 3 mm thick and cut twelve 10 cm rounds. Press them into a 12-hole muffin tin.",
+      "Whisk the melted butter with the sugar, maple syrup, egg, vinegar and salt until smooth.",
+      "If using raisins, put a few in each shell. Spoon the filling in, filling each case about two-thirds so that it will not overflow.",
+      "Bake for 18 to 20 minutes until the pastry is golden and the filling bubbles.",
+      "Cool in the tin for 10 minutes, then loosen with a knife and lift out to a rack. The filling thickens as it cools."
+    ],
+    "notes": "For a runnier filling reduce baking time slightly, for a firmer one bake until the centres no longer wobble.",
+    "sources": ["wiki-butter-tart"], "review_status": "draft"
+  },
+  {
+    "id": "pyrohy-home", "dish": "pyrohy", "title": "Potato and cheddar pyrohy", "version": "home", "servings": 6,
+    "prep_minutes": 60, "cook_minutes": 30, "passive_minutes": 30, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 400, "unit": "g", "group": "Dough"},
+      {"ingredient": "eggs", "amount": 1, "unit": "piece", "group": "Dough"},
+      {"ingredient": "sour-cream", "amount": 100, "unit": "g", "group": "Dough"},
+      {"ingredient": "water", "amount": 120, "unit": "ml", "note": "warm", "group": "Dough"},
+      {"ingredient": "potato", "amount": 600, "unit": "g", "note": "peeled and boiled until soft", "group": "Filling"},
+      {"ingredient": "cheddar", "amount": 150, "unit": "g", "note": "mature, grated", "group": "Filling"},
+      {"ingredient": "onion", "amount": 1, "unit": "piece", "note": "finely chopped", "group": "Filling"},
+      {"ingredient": "butter", "amount": 60, "unit": "g", "group": "To serve"},
+      {"ingredient": "onion", "amount": 2, "unit": "piece", "note": "sliced, for frying", "group": "To serve"},
+      {"ingredient": "sour-cream", "amount": 150, "unit": "g", "group": "To serve"},
+      {"ingredient": "salt", "amount": null, "unit": "to-taste"},
+      {"ingredient": "black-pepper", "amount": null, "unit": "to-taste"}
+    ],
+    "steps": [
+      "Mix the flour with 1 tsp salt, the egg, sour cream and water, then knead for 5 minutes into a soft, smooth dough. Cover and rest for 30 minutes.",
+      "Fry the chopped onion in 15 g of the butter until golden. Mash the potatoes, add the onion and cheddar, and season with salt and a good amount of pepper. Cool.",
+      "Roll the dough 2 mm thick and cut 8 cm circles. Put a heaped teaspoon of filling in the middle of each, fold over, and pinch the edges tightly to seal.",
+      "Cook in batches in simmering salted water for 3 to 4 minutes after they float.",
+      "Melt the rest of the butter in a pan and fry the sliced onions until golden. Add the boiled pyrohy and fry briefly until lightly browned.",
+      "Serve with the onions and sour cream."
+    ],
+    "notes": "Uncooked pyrohy freeze well on a tray and can be boiled from frozen, adding 2 minutes. Cottage cheese or sauerkraut are other classic fillings.",
+    "sources": ["wiki-pierogi"], "review_status": "draft"
+  },
+  {
+    "id": "bannock-home", "dish": "bannock", "title": "Pan-fried bannock", "version": "home", "servings": 6,
+    "prep_minutes": 10, "cook_minutes": 20, "difficulty": "easy",
+    "ingredients": [
+      {"ingredient": "wheat-flour", "amount": 300, "unit": "g"},
+      {"ingredient": "baking-powder", "amount": 1, "unit": "tbsp"},
+      {"ingredient": "salt", "amount": 1, "unit": "tsp"},
+      {"ingredient": "oil", "amount": 3, "unit": "tbsp", "note": "plus extra for the pan; lard is traditional"},
+      {"ingredient": "water", "amount": 200, "unit": "ml", "note": "lukewarm, approximately"}
+    ],
+    "steps": [
+      "Stir the flour, baking powder and salt together in a bowl.",
+      "Rub or stir in the 3 tbsp oil, then add the water gradually and mix lightly to a soft, slightly sticky dough. Do not overwork.",
+      "Pat the dough out to a disc about 2 cm thick, or divide into six smaller rounds.",
+      "Heat a heavy frying pan over medium-low heat with a thin film of oil. Fry the bannock for 8 to 10 minutes on each side, turning once, until golden and cooked through, with a hollow sound when tapped.",
+      "Serve warm, split, with soup, stew, jam or butter."
+    ],
+    "notes": "Cooking over a low heat matters, otherwise the outside burns before the middle cooks. It can also be baked at 200 C for 20 to 25 minutes. Dried berries are a common addition.",
+    "sources": ["wiki-bannock"], "review_status": "draft"
+  },
+  {
+    "id": "nanaimo-bars-home", "dish": "nanaimo-bars", "title": "Classic Nanaimo bars", "version": "home", "servings": 16,
+    "prep_minutes": 40, "cook_minutes": 10, "passive_minutes": 180, "difficulty": "medium",
+    "ingredients": [
+      {"ingredient": "butter", "amount": 115, "unit": "g", "note": "unsalted", "group": "Base"},
+      {"ingredient": "sugar", "amount": 50, "unit": "g", "group": "Base"},
+      {"ingredient": "cocoa-powder", "amount": 5, "unit": "tbsp", "group": "Base"},
+      {"ingredient": "eggs", "amount": 1, "unit": "piece", "note": "beaten", "group": "Base"},
+      {"ingredient": "graham-crackers", "amount": 200, "unit": "g", "note": "or digestive biscuits, finely crushed", "group": "Base"},
+      {"ingredient": "coconut", "amount": 80, "unit": "g", "note": "desiccated, unsweetened", "group": "Base"},
+      {"ingredient": "almonds", "amount": 60, "unit": "g", "note": "finely chopped", "group": "Base"},
+      {"ingredient": "butter", "amount": 115, "unit": "g", "note": "softened", "group": "Middle layer"},
+      {"ingredient": "milk", "amount": 3, "unit": "tbsp", "group": "Middle layer"},
+      {"ingredient": "custard-powder", "amount": 2, "unit": "tbsp", "group": "Middle layer"},
+      {"ingredient": "icing-sugar", "amount": 250, "unit": "g", "group": "Middle layer"},
+      {"ingredient": "chocolate", "amount": 170, "unit": "g", "note": "dark, chopped", "group": "Top"},
+      {"ingredient": "butter", "amount": 1, "unit": "tbsp", "group": "Top"}
+    ],
+    "steps": [
+      "Line a 20 cm square tin with baking paper.",
+      "For the base, melt the first measure of butter with the sugar and cocoa in a heatproof bowl over simmering water. Stir in the egg and cook for 2 to 3 minutes until it thickens like custard. Do not let the egg scramble.",
+      "Remove from the heat, stir in the crumbs, coconut and almonds. Press firmly into the tin and chill for 20 minutes.",
+      "Beat the softened butter, milk, custard powder and icing sugar for the middle layer until smooth and fluffy. Spread over the chilled base and chill another 20 minutes.",
+      "Melt the chocolate with the tablespoon of butter, cool slightly and spread evenly over the middle layer.",
+      "Chill for 2 hours, or until the chocolate is just set. Cut into squares with a hot knife, cleaning it between cuts."
+    ],
+    "notes": "The egg in the base is cooked gently in the custard step. Keep the bars refrigerated and eat within 5 days. Walnuts are sometimes used in place of almonds.",
+    "sources": ["wiki-nanaimo-bar"], "review_status": "draft"
+  }
+]

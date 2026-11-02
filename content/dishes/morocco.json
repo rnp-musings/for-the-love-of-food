@@ -1,0 +1,400 @@
+[
+  {
+    "id": "chicken-tagine-lemon-olives",
+    "name": "Chicken tagine with preserved lemon and olives",
+    "country": "morocco",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "salty",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Chicken stewed gently with onion, saffron, ginger, preserved lemon and olives, with a thin, golden sauce.",
+    "story": "A tagine is both a conical-lidded clay cooking pot and the slow-cooked dishes made in it. Chicken with preserved lemon and green olives is one of the best-known Moroccan combinations, and it appears in homes and restaurants alike. The method is simple: onions, spices and chicken cook gently with little added water, so the steam condenses on the lid and bastes the meat. The lemon is eaten rind and all, giving a salty, floral tang that cuts through the olive oil. Home cooks often use an ordinary heavy pan with a lid.\n\nPinning down where the dish began is hard, since the tagine pot and its cooking style are widely shared across North Africa.",
+    "origin_period": "Long-standing; exact origin unclear",
+    "origin_claims": [
+      {
+        "claim": "The clay tagine pot and its slow, steam-based style of cooking are widely shared across the Maghreb, so no single place of origin is established.",
+        "confidence": "widely-told",
+        "source": "wiki-tagine"
+      }
+    ],
+    "sources": [
+      "wiki-tagine",
+      "wiki-moroccan-cuisine",
+      "wiki-preserved-lemon"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moroccan-couscous",
+    "name": "Moroccan couscous with seven vegetables",
+    "local_name": "الكسكس",
+    "country": "morocco",
+    "type": "other",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "steamed",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Steamed semolina grains piled under a stew of meat and vegetables, traditionally served on Fridays and at celebrations.",
+    "story": "Couscous is made from steamed semolina and is shared across the Maghreb, including Algeria, Tunisia and Mauritania as well as Morocco. UNESCO listed couscous knowledge and practices as shared heritage of several countries. In Morocco the grain is traditionally steamed in a couscoussier over the stew, then mounded on a large dish and topped with meat and vegetables. A well-known version is called 'seven vegetables', although the exact vegetables and their number vary by cook. Friday lunch after prayers is the classic occasion, and couscous is also served at weddings and religious gatherings.",
+    "origin_period": "Ancient; exact origin unsettled",
+    "origin_claims": [
+      {
+        "claim": "Couscous is a shared Maghrebi tradition with Amazigh roots; sources describe it as very old, though precise origins are not settled.",
+        "confidence": "widely-told",
+        "source": "wiki-couscous"
+      }
+    ],
+    "sources": [
+      "wiki-couscous",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "harira",
+    "name": "Harira",
+    "local_name": "الحريرة",
+    "country": "morocco",
+    "type": "soup",
+    "course": [
+      "starter",
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 1,
+    "summary": "A thick tomato, lentil and chickpea soup with herbs and a little meat, served to break the Ramadan fast.",
+    "story": "Harira is Morocco's best-known soup and is closely tied to Ramadan, when it is often the first hot dish eaten after sunset, alongside dates. It is built on tomato, lentils, chickpeas, celery, onion and a handful of fresh coriander and parsley, and it is thickened with a flour and water mixture, sometimes with a little vermicelli or rice. Recipes vary widely between families and cities; some add meat or an egg stirred in at the end, while others are meatless. The soup is also eaten outside Ramadan, often with bread and a squeeze of lemon.",
+    "origin_claims": [
+      {
+        "claim": "Harira is a long-established Moroccan soup tied to Ramadan; its exact origin and the date it became associated with the fast are not firmly documented.",
+        "confidence": "widely-told",
+        "source": "wiki-harira"
+      }
+    ],
+    "sources": [
+      "wiki-harira",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "pastilla",
+    "name": "Pastilla",
+    "local_name": "البسطيلة",
+    "country": "morocco",
+    "region": "fes",
+    "type": "pastry",
+    "course": [
+      "starter",
+      "main"
+    ],
+    "flavours": [
+      "sweet",
+      "salty",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [],
+    "cook_methods": [
+      "fried",
+      "baked"
+    ],
+    "spice_level": 1,
+    "summary": "A round pie of thin pastry filled with spiced shredded chicken, eggs and almonds, dusted with cinnamon and sugar.",
+    "story": "Pastilla (also spelled bastilla or b'stilla) is a celebratory pie that pairs a savoury filling with a sweet finish. It is strongly associated with Fes and with wedding and feast menus. Traditionally the filling was made with pigeon, and many homes and restaurants now use chicken. The pastry is warqa, a paper-thin dough, though filo is a common substitute. The dish is often linked to the Andalusian heritage of Moroccan cities, but the details of its origins are not firmly documented.",
+    "origin_claims": [
+      {
+        "claim": "The sweet-savoury pie is often attributed to Andalusian influence on Moroccan court cooking, but the connection is not firmly documented.",
+        "confidence": "widely-told",
+        "source": "wiki-pastilla"
+      }
+    ],
+    "sources": [
+      "wiki-pastilla",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tanjia",
+    "name": "Tanjia",
+    "local_name": "الطنجية",
+    "country": "morocco",
+    "region": "marrakech",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "slow-cooked"
+    ],
+    "spice_level": 1,
+    "summary": "Meat cooked for hours in a sealed clay jar with garlic, cumin, preserved lemon and saffron until it falls apart.",
+    "story": "Tanjia is a Marrakech speciality named after the tall, narrow-necked clay jar it is cooked in. Traditionally, men would fill the jar with meat and spices, seal it, and send it to the furnace of a public bathhouse (hammam), where it cooked slowly in the embers for hours. It is a low-effort, high-patience dish and today is also cooked in ovens at home. The meat is typically beef or lamb, flavoured with cumin, saffron, garlic and preserved lemon, with little liquid beyond its own juices.",
+    "origin_claims": [
+      {
+        "claim": "The jar was traditionally cooked in the embers of a hammam furnace, a practice reported especially for Marrakech.",
+        "confidence": "widely-told",
+        "source": "wiki-tanjia"
+      }
+    ],
+    "sources": [
+      "wiki-tanjia",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "zaalouk",
+    "name": "Zaalouk",
+    "local_name": "زعلوك",
+    "country": "morocco",
+    "type": "salad",
+    "course": [
+      "starter",
+      "side"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic",
+      "smoky"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "sauteed"
+    ],
+    "spice_level": 1,
+    "summary": "A warm, soft cooked salad of aubergine and tomato with garlic, cumin, paprika and olive oil.",
+    "story": "Zaalouk is a cooked aubergine and tomato dip or salad that belongs to the group of small cooked vegetable dishes served at the start of a Moroccan meal. The vegetables are cooked down and mashed into a thick, savoury spread and finished with olive oil, lemon or herbs. It is eaten warm or at room temperature with bread, and is a common vegan starter. Similar aubergine dishes appear across the Mediterranean and North Africa, and zaalouk is regularly discussed alongside them.",
+    "origin_claims": [
+      {
+        "claim": "Aubergine-and-tomato cooked salads are widely made across the Mediterranean and North Africa; zaalouk is the Moroccan form.",
+        "confidence": "widely-told",
+        "source": "wiki-zaalouk"
+      }
+    ],
+    "sources": [
+      "wiki-zaalouk",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sellou",
+    "name": "Sellou",
+    "local_name": "سلو",
+    "country": "morocco",
+    "type": "dessert",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "roasted"
+    ],
+    "spice_level": 0,
+    "summary": "A crumbly, energy-rich sweet made from toasted flour, ground almonds, sesame, sugar and butter.",
+    "story": "Sellou, also called sfouf in some places, is a dry, fine-textured sweet made by toasting flour and combining it with ground almonds, sesame seeds, spices and a binding fat and sweetener. It is much eaten during Ramadan, when its calories and long shelf life are valued, and it is also made for family events and gatherings. The texture is somewhere between a crumb and a paste, and it is often pressed into a mound and decorated. The exact spice mix, sweetener and fat vary between households.",
+    "origin_claims": [
+      {
+        "claim": "Sellou is a traditional Moroccan sweet associated with Ramadan and celebrations; the date and place of its invention are not documented.",
+        "confidence": "widely-told",
+        "source": "wiki-sellou"
+      }
+    ],
+    "sources": [
+      "wiki-sellou",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moroccan-msemen",
+    "name": "Msemen",
+    "local_name": "مسمن",
+    "country": "morocco",
+    "type": "bread",
+    "course": [
+      "breakfast",
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "fried"
+    ],
+    "spice_level": 0,
+    "summary": "A layered, folded square flatbread cooked on a griddle, eaten for breakfast or with tea and honey.",
+    "story": "Msemen is a pan-fried flatbread made from a smooth dough of wheat flour and semolina, which is oiled, stretched thin, folded into a square and cooked until crisp outside and soft within. The folding creates many layers. It is sold at street stalls and cafes as a snack or breakfast, plain or filled with spiced onion or cheese, and at home is served with honey, butter or jam alongside mint tea. Similar layered pan breads are made elsewhere in North Africa, and the name and details vary by country.",
+    "origin_claims": [
+      {
+        "claim": "Layered griddle breads are found across the Maghreb; Msemen is associated with Moroccan and Algerian home cooking.",
+        "confidence": "widely-told",
+        "source": "wiki-msemen"
+      }
+    ],
+    "sources": [
+      "wiki-msemen",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fish-chermoula",
+    "name": "Fish with chermoula",
+    "country": "morocco",
+    "region": "atlantic-coast-morocco",
+    "type": "fish-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic",
+      "spicy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "baked",
+      "grilled"
+    ],
+    "spice_level": 2,
+    "summary": "Firm white fish coated in a paste of garlic, coriander, parsley, cumin, paprika and lemon, then baked or grilled.",
+    "story": "Chermoula is a marinade and sauce of fresh herbs, garlic, spices, oil and lemon or preserved lemon that is widely used in Moroccan cooking, especially with fish and seafood along the Atlantic and Mediterranean coasts. A typical use is to rub it over fish, leave it to marinate and bake the fish, sometimes with potatoes, tomatoes and peppers in a tagine or an oven dish. The exact herbs, spices and balance vary from cook to cook and from port to port. Chermoula is also used on meat and vegetables.",
+    "origin_claims": [
+      {
+        "claim": "Chermoula is a long-standing North African marinade; the claim that it is specifically Moroccan or from a particular coastal town is not firmly documented.",
+        "confidence": "widely-told",
+        "source": "wiki-chermoula"
+      }
+    ],
+    "sources": [
+      "wiki-chermoula",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moroccan-preserved-lemons",
+    "name": "Preserved lemons",
+    "local_name": "الحامض المخلل",
+    "country": "morocco",
+    "type": "pickle-ferment",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "salty",
+      "sour",
+      "tangy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "fermented"
+    ],
+    "spice_level": 0,
+    "summary": "Whole lemons packed in salt and their own juice for several weeks until the rind turns soft and mellow.",
+    "story": "Preserved lemons are one of the signature ingredients of Moroccan cooking. Lemons are cut partly open, packed with coarse salt in a jar and left, usually for about a month, until the rind softens and the flavour turns floral and salty. The rind is then used, usually with the bitter pith removed, in tagines, salads and sauces, especially with chicken and fish. Similar salt-cured citrus is found in other countries, but the Moroccan form is the best known internationally.",
+    "origin_claims": [
+      {
+        "claim": "Salting citrus as a preserving method is found in several cuisines; the Moroccan style is the most widely recognised.",
+        "confidence": "widely-told",
+        "source": "wiki-preserved-lemon"
+      }
+    ],
+    "sources": [
+      "wiki-preserved-lemon",
+      "wiki-moroccan-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

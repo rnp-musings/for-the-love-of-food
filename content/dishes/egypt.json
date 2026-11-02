@@ -1,0 +1,403 @@
+[
+  {
+    "id": "koshari",
+    "name": "Koshari",
+    "local_name": "كشري",
+    "country": "egypt",
+    "region": "cairo-nile-delta",
+    "type": "street-food",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "tangy",
+      "salty",
+      "spicy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "fried"
+    ],
+    "spice_level": 2,
+    "summary": "A street-food mix of rice, lentils, macaroni and chickpeas topped with spiced tomato sauce, garlic vinegar and crisp fried onions.",
+    "story": "Koshari is among the most popular Egyptian street dishes, eaten in cafes and by street vendors as a cheap and filling vegetarian meal. Rice, brown lentils and short pasta are layered with chickpeas, then topped with a tomato sauce, a sharp garlic-and-vinegar dressing and a crown of crisp fried onions. It looks like a mix of many cuisines, and the origin of the dish is debated. A common theory links it to the rice-and-lentil dish khichri of India, brought by contacts in the 19th century, while the pasta and tomato sauce suggest later additions. Many Egyptians describe it informally as their national dish.",
+    "origin_period": "19th to 20th century (uncertain)",
+    "origin_claims": [
+      {
+        "claim": "The name and rice-lentil base are sometimes linked to Indian khichri, with the modern form taking shape in Egypt in the 19th to 20th century.",
+        "confidence": "disputed",
+        "source": "wiki-koshari"
+      }
+    ],
+    "sources": [
+      "wiki-koshari",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-ful-medames",
+    "name": "Ful medames",
+    "local_name": "فول مدمس",
+    "country": "egypt",
+    "type": "stew",
+    "course": [
+      "breakfast",
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "tangy",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Slow-cooked fava beans mashed with garlic, cumin, lemon and olive oil, eaten at breakfast with bread.",
+    "story": "Ful medames is a staple Egyptian breakfast and cheap meal, sold at street stalls and eaten at home. Dried fava beans are cooked very slowly, traditionally in a sealed pot kept warm for hours, until they are soft and creamy, then mashed lightly and dressed with oil, lemon, garlic and cumin. Toppings differ by cook and region and may include chopped tomato, parsley, chilli, tahini or boiled egg. The dish is also known in the Levant and Sudan. Fava beans have been grown in Egypt for a very long time, but the history of this particular dish is not clearly documented.",
+    "origin_claims": [
+      {
+        "claim": "Fava beans were cultivated in ancient Egypt, which is documented, but the claim that ful medames itself is thousands of years old is not firmly established.",
+        "confidence": "disputed",
+        "source": "wiki-ful-medames"
+      }
+    ],
+    "sources": [
+      "wiki-ful-medames",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-taameya",
+    "name": "Ta'ameya",
+    "local_name": "طعمية",
+    "country": "egypt",
+    "type": "street-food",
+    "course": [
+      "breakfast",
+      "snack"
+    ],
+    "flavours": [
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Crisp green-centred fritters of ground dried fava beans and fresh herbs, the Egyptian form of falafel.",
+    "story": "Ta'ameya (also called falafel in Alexandria) is made from ground fava beans rather than the chickpeas used in many other countries, and it is often green inside from a generous amount of coriander, parsley and dill. The patties are rolled in sesame and deep-fried, and are eaten in bread with salad and tahini, usually for breakfast or as street food. Where the fritter first appeared is debated; some accounts place it in Egypt and others in the wider Levant. The Egyptian version is typically meatless and works for fasting days.",
+    "origin_claims": [
+      {
+        "claim": "Many accounts say fava-bean ta'ameya originated in Egypt and spread to the Levant, where it became chickpea falafel; the order is debated.",
+        "confidence": "disputed",
+        "source": "wiki-taamiya"
+      }
+    ],
+    "sources": [
+      "wiki-taamiya",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-molokhia",
+    "name": "Molokhia",
+    "local_name": "ملوخية",
+    "country": "egypt",
+    "region": "cairo-nile-delta",
+    "type": "soup",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "A silky green soup of finely chopped jute mallow leaves in garlicky chicken broth, served over rice.",
+    "story": "Molokhia is made from the leaves of jute mallow, chopped very fine and added to a seasoned broth to produce a glossy, slightly viscous soup. It is topped with a garlic and coriander seed fry (ta'liya) and eaten with rice, bread and often chicken or rabbit, sometimes with a squeeze of lemon. It is one of Egypt's best-loved everyday dishes. Popular accounts link it to ancient Egypt or to a ban by the Fatimid caliph al-Hakim, but these claims are repeated more than they are documented.",
+    "origin_claims": [
+      {
+        "claim": "Popular accounts trace molokhia to pharaonic Egypt, or a Fatimid-era ban, but neither is firmly documented.",
+        "confidence": "legend",
+        "source": "wiki-mulukhiyah"
+      }
+    ],
+    "sources": [
+      "wiki-mulukhiyah",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-mahshi",
+    "name": "Mahshi",
+    "local_name": "محشي",
+    "country": "egypt",
+    "type": "other",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Vegetables such as zucchini, peppers and tomatoes stuffed with herbed rice and simmered in tomato sauce.",
+    "story": "Mahshi means 'stuffed', and the Egyptian version fills courgettes, peppers, aubergines, tomatoes and leaves like cabbage or vine with rice mixed with plenty of parsley, dill and coriander. The stuffed vegetables are packed upright in a pot and gently cooked in a tomato-flavoured broth. Stuffing vegetables is found across the Mediterranean, the Levant and Turkey, and the Egyptian style is notable for its herb-heavy, usually meatless filling. It is a labour-intensive dish made for family gatherings and for holidays.",
+    "origin_claims": [
+      {
+        "claim": "Stuffed vegetables are a shared Eastern Mediterranean and Ottoman-era tradition; the Egyptian herb-rice form is regional.",
+        "confidence": "widely-told",
+        "source": "wiki-mahshi"
+      }
+    ],
+    "sources": [
+      "wiki-mahshi",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-fattah",
+    "name": "Fattah",
+    "local_name": "فتة",
+    "country": "egypt",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "rich",
+      "salty"
+    ],
+    "diet": [
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "Layers of crisp bread, rice and tender boiled meat topped with a garlicky tomato-vinegar sauce.",
+    "story": "Fattah is a layered dish built on toasted or fried bread, rice and meat, finished with broth and a sauce of garlic and vinegar with tomato. It is the classic celebration meal for Eid al-Adha in Egypt, when the meat from the sacrificed animal is cooked, and it is also made for weddings and other family gatherings. The bread soaks up the broth and sauce, the rice adds body and the meat is usually beef or lamb. Fatteh is a name used for related dishes elsewhere in the Levant, where yoghurt and chickpeas are common.",
+    "origin_claims": [
+      {
+        "claim": "Fattah shares a name and technique with related layered bread dishes in the Levant; it is associated in Egypt with Eid al-Adha.",
+        "confidence": "widely-told",
+        "source": "wiki-fatteh"
+      }
+    ],
+    "sources": [
+      "wiki-fatteh",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fesikh",
+    "name": "Fesikh",
+    "local_name": "فسيخ",
+    "country": "egypt",
+    "type": "pickle-ferment",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "salty",
+      "umami"
+    ],
+    "diet": [
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "fermented",
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "Grey mullet that has been fermented in salt and then dressed with onion, lemon and oil, eaten at Sham el-Nessim.",
+    "story": "Fesikh is a traditional Egyptian fermented and salted fish, made from grey mullet that is dried in the sun and packed in salt for a period. It is eaten at Sham el-Nessim, the spring holiday, with onions, lemon, bread and other seasonal foods. Fish preservation by salting is an old practice around the Nile and Mediterranean. Every year health authorities in Egypt warn that badly prepared fesikh can cause serious food poisoning, so it is bought from reputable specialists rather than made at home. The smell is strong and it is an acquired taste.",
+    "origin_period": "Long-standing; uncertain",
+    "origin_claims": [
+      {
+        "claim": "Fish preserved in salt is a long-established practice in Egypt; claims that fesikh dates to ancient Egypt are widely repeated but not established for the specific modern dish.",
+        "confidence": "disputed",
+        "source": "wiki-feseekh"
+      }
+    ],
+    "sources": [
+      "wiki-feseekh",
+      "wiki-sham-el-nessim"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sayadeya",
+    "name": "Sayadeya",
+    "local_name": "صيادية",
+    "country": "egypt",
+    "region": "alexandria-mediterranean-egypt",
+    "type": "fish-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Spiced fried fish served on brown, onion-flavoured rice, a seafood speciality of Egypt's coast.",
+    "story": "Sayadeya (also spelt sayadiyah) is a dish of fried or baked fish served with rice that has been coloured and flavoured by deeply caramelised onions and cumin. It is associated with Egypt's coastal cities, particularly Alexandria, where fresh fish is easy to buy, and is often served with a tahini or tomato-based sauce and a squeeze of lemon. A dish with the same name is also a speciality of Lebanon and Syria, with its own variations in spicing and preparation; the connection between the versions is not clear.",
+    "origin_claims": [
+      {
+        "claim": "A fish-and-brown-rice dish with this name occurs in Egypt, Lebanon and Syria; sources do not settle where it first appeared.",
+        "confidence": "disputed",
+        "source": "wiki-sayadieh"
+      }
+    ],
+    "sources": [
+      "wiki-sayadieh",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-om-ali",
+    "name": "Om Ali",
+    "local_name": "أم علي",
+    "country": "egypt",
+    "type": "dessert",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A warm baked pudding of pastry, milk, cream, nuts and raisins with a caramelised top.",
+    "story": "Om Ali (Umm Ali) is a bread-pudding style dessert made by layering baked pastry or bread with nuts, raisins and sometimes coconut, then covering it with sweetened milk and cream and baking until bubbling and brown. It is a popular Egyptian dessert served warm in restaurants and at home. Stories about its origin differ: the most widely told one names a sultan's wife called Umm Ali in the Mamluk era, but accounts disagree on the details and it should be read as a legend.",
+    "origin_claims": [
+      {
+        "claim": "A popular story attributes the dish to a queen or sultana named Umm Ali in the 13th century, with details that vary between tellings.",
+        "confidence": "legend",
+        "source": "wiki-umm-ali"
+      }
+    ],
+    "sources": [
+      "wiki-umm-ali",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-kahk",
+    "name": "Kahk",
+    "local_name": "كعك",
+    "country": "egypt",
+    "type": "pastry",
+    "course": [
+      "snack",
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "Buttery shortbread-like biscuits, often filled with date paste and dusted with icing sugar, baked for Eid.",
+    "story": "Kahk are rich biscuits made from flour and plenty of ghee or butter, shaped into rounds, stamped with patterns and baked until pale. They are filled with date paste (agwa), nuts or sweets, then dusted with icing sugar. They are made in the days before Eid al-Fitr and eaten with visitors, and similar biscuits are made by Egyptian Christians at Easter. Writers often link kahk to ancient Egyptian offering cakes. This idea is popular but the evidence for a direct connection to the modern biscuit is not firmly established.",
+    "origin_claims": [
+      {
+        "claim": "The idea that kahk descends from ancient Egyptian offering cakes is widely told but the continuity is not established.",
+        "confidence": "legend",
+        "source": "wiki-kahk"
+      }
+    ],
+    "sources": [
+      "wiki-kahk",
+      "wiki-egyptian-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

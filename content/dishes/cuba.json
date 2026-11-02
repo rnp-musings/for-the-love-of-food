@@ -1,0 +1,433 @@
+[
+  {
+    "id": "ropa-vieja",
+    "name": "Ropa vieja",
+    "local_name": "Ropa vieja",
+    "country": "cuba",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 0,
+    "summary": "Beef simmered until tender, shredded and stewed in a sauce of tomato, peppers, onion and garlic, usually served with white rice.",
+    "story": "The name means old clothes in Spanish, a nod to the shredded strands of meat. The dish is generally traced to Spanish cooking, and versions exist in the Canary Islands and other parts of Latin America. In Cuba it settled into a form built on a sofrito of onion, green pepper and garlic with tomato, cumin and oregano, and it is now one of the dishes most associated with Cuban home cooking and restaurants. It is often served with rice, black beans and fried plantain.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "A shredded-beef stew brought from Spain, with the Canary Islands often mentioned, and adapted in Cuba.",
+        "confidence": "widely-told",
+        "source": "wiki-ropa-vieja"
+      },
+      {
+        "claim": "A story that the name comes from a man who turned his own old clothes into a meal is a folk tale.",
+        "confidence": "legend",
+        "source": "wiki-ropa-vieja"
+      }
+    ],
+    "sources": [
+      "wiki-ropa-vieja",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "moros-y-cristianos",
+    "name": "Moros y cristianos",
+    "local_name": "Moros y cristianos",
+    "country": "cuba",
+    "type": "rice-dish",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "Black beans and white rice cooked together in the bean broth with a sofrito of onion, pepper and garlic.",
+    "story": "The name means Moors and Christians, a reference to the black beans and white rice and to the medieval history of the Iberian peninsula. Rice-and-bean dishes appear across the Spanish-speaking Caribbean and Latin America, shaped by Spanish and West African cooking. In Cuba the rice and beans are cooked in the same pot, which gives the grains a dark colour and a deep bean flavour. Many home cooks start the sofrito with pork fat or bacon, but the version here is made with oil only. It is often confused with congrí, which uses red beans.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Named after the Moors and Christians of medieval Iberia; the dish itself reflects Spanish and African culinary mixing in the colonial Caribbean.",
+        "confidence": "widely-told",
+        "source": "wiki-moros-y-cristianos"
+      }
+    ],
+    "sources": [
+      "wiki-moros-y-cristianos",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "lechon-asado",
+    "name": "Lechón asado",
+    "local_name": "Lechón asado",
+    "country": "cuba",
+    "region": "western-cuba",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "roasted",
+      "slow-cooked"
+    ],
+    "spice_level": 0,
+    "summary": "Pork marinated in garlic, sour orange and spices, then roasted slowly until the meat is tender and the skin crisp.",
+    "story": "Roast pig is the centrepiece of Cuban celebrations, above all the Christmas Eve meal known as Nochebuena. Pigs came with the Spanish, and the marinade of garlic, sour orange, cumin and oregano is a Cuban form of the mojo that also exists in the Canary Islands. Families may roast a whole pig in a box with coals, in a pit or on a spit, while smaller households roast a shoulder in the oven as in the recipe here. The meat is carved or pulled and served with rice, beans and boiled cassava with mojo.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Whole-pig roasting came with Spanish settlers, with sour-orange and garlic marinades reflecting Spanish and Canary Islands mojo traditions.",
+        "confidence": "widely-told",
+        "source": "wiki-lechon-asado"
+      }
+    ],
+    "sources": [
+      "wiki-lechon-asado",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "yuca-con-mojo",
+    "name": "Yuca con mojo",
+    "local_name": "Yuca con mojo",
+    "country": "cuba",
+    "region": "western-cuba",
+    "type": "other",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "tangy",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "sauteed"
+    ],
+    "spice_level": 0,
+    "summary": "Boiled cassava topped with a warm sauce of garlic, sour orange and olive oil.",
+    "story": "Cassava, called yuca in Cuba, was a staple of the indigenous Taino people long before the Spanish arrived, and it is still a common root vegetable on the Cuban table. The topping, mojo, is a garlic and citrus sauce of Spanish and Canary Islands lineage that became part of Cuban cooking. Together they make the standard side dish for roast pork, and the pairing is a small picture of the island's mixed heritage.",
+    "origin_period": "Pre-Columbian (cassava), colonial (mojo)",
+    "origin_claims": [
+      {
+        "claim": "Cassava was cultivated by the Taino before the Spanish arrived; the garlic-citrus mojo came from Spanish and Canary Islands cooking.",
+        "confidence": "well-documented",
+        "source": "wiki-mojo-sauce"
+      }
+    ],
+    "sources": [
+      "wiki-mojo-sauce",
+      "wiki-cassava"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "picadillo-cubano",
+    "name": "Picadillo a la cubana",
+    "local_name": "Picadillo",
+    "country": "cuba",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "sweet",
+      "tangy",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "sauteed",
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "Minced beef cooked with tomato, peppers, olives, capers and raisins for a savoury-sweet filling served over rice.",
+    "story": "Picadillo comes from the Spanish verb picar, to chop or mince, and versions of the dish are found in Spain, Latin America and the Philippines. The Cuban style mixes tomato, green pepper and onion with olives, capers and raisins, giving a balance of briny and sweet. It is a weekday family dish, served with white rice and often black beans or fried plantain, and is also used as a filling.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "A Spanish minced-meat dish that spread across the Spanish-speaking world and developed local versions, including the Cuban one with olives and raisins.",
+        "confidence": "widely-told",
+        "source": "wiki-picadillo"
+      }
+    ],
+    "sources": [
+      "wiki-picadillo",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "congri-oriental",
+    "name": "Congrí oriental",
+    "local_name": "Congrí oriental",
+    "country": "cuba",
+    "region": "eastern-cuba",
+    "type": "rice-dish",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "Rice cooked together with red beans, onion, pepper and garlic, closely associated with eastern Cuba.",
+    "story": "Congrí is rice cooked with red beans in one pot, and the oriental version is the one linked to the east of the island, while black beans and rice are more usual in the west. The name is often explained as coming from Haitian Creole words for beans and rice, reflecting the Haitian migration to eastern Cuba, though accounts differ. Cooks traditionally flavour it with pork fat or bacon, but the recipe here uses oil only. It is a regular part of festive meals and Sunday lunches.",
+    "origin_period": "19th to 20th century (name and regional form uncertain)",
+    "origin_claims": [
+      {
+        "claim": "The name derives from Haitian Creole words for beans and rice, linked to Haitian migration to eastern Cuba.",
+        "confidence": "widely-told",
+        "source": "wiki-congri"
+      }
+    ],
+    "sources": [
+      "wiki-congri",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ajiaco-cubano",
+    "name": "Ajiaco cubano",
+    "local_name": "Ajiaco",
+    "country": "cuba",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 0,
+    "summary": "A hearty stew of beef, pork and a mix of root vegetables, corn and plantain, thickened by the starchy vegetables as they cook.",
+    "story": "Ajiaco is a Cuban stew that combines meat with whatever root vegetables are on hand, such as cassava, malanga, sweet potato, pumpkin and corn. The word ajiaco is thought to be linked to aji, the Taino word for chile. The scholar Fernando Ortiz famously used the ajiaco, a pot of many ingredients cooking together, as an image for Cuba's cultural blend. Colombia and Peru have their own, quite different, dishes of the same name.",
+    "origin_period": "Colonial period, with indigenous roots",
+    "origin_claims": [
+      {
+        "claim": "The stew combines indigenous root crops with meats and seasonings brought from Spain and Africa.",
+        "confidence": "widely-told",
+        "source": "wiki-ajiaco"
+      },
+      {
+        "claim": "The name is often linked to the Taino word aji.",
+        "confidence": "widely-told",
+        "source": "wiki-ajiaco"
+      }
+    ],
+    "sources": [
+      "wiki-ajiaco",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "flan-cubano",
+    "name": "Flan de leche",
+    "local_name": "Flan",
+    "country": "cuba",
+    "type": "dessert",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A baked custard of eggs and milk set over a layer of caramel, served chilled.",
+    "story": "Caramel custard is an old European dessert that spread through the Spanish world, and flan is a standard sweet across Latin America. Cuban flan is typically made with sweetened condensed milk for a dense, smooth texture, and it is a regular feature of family celebrations, including Nochebuena. It is baked in a water bath so that the custard sets gently without bubbling.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Flan reached Latin America from Spain, where caramel custard has a long history reaching back to Roman times.",
+        "confidence": "widely-told",
+        "source": "wiki-flan"
+      }
+    ],
+    "sources": [
+      "wiki-flan",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "cucurucho",
+    "name": "Cucurucho de Baracoa",
+    "local_name": "Cucurucho",
+    "country": "cuba",
+    "region": "eastern-cuba",
+    "type": "dessert",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "A cone of shredded coconut cooked with sugar and fruit, wrapped in palm leaf, a sweet associated with Baracoa in the far east.",
+    "story": "Baracoa, in Guantánamo province, is one of the island's oldest towns and is surrounded by coconut groves and cacao farms. The cucurucho is its best-known sweet, made from grated coconut cooked with sugar and often fruit such as orange, guava or pineapple, then packed into a cone of palm leaf. Its shape gives it the name, which comes from the Spanish word for a cone. It is sold by roadside vendors and carried to other parts of the island.",
+    "origin_period": "Uncertain",
+    "origin_claims": [
+      {
+        "claim": "The sweet is strongly associated with Baracoa, a coconut and cacao-growing area; no firm date of origin is recorded.",
+        "confidence": "widely-told",
+        "source": "wiki-cucurucho"
+      }
+    ],
+    "sources": [
+      "wiki-cucurucho",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tostones",
+    "name": "Tostones",
+    "local_name": "Tostones",
+    "country": "cuba",
+    "type": "snack",
+    "course": [
+      "snack",
+      "side"
+    ],
+    "flavours": [
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "deep-fried"
+    ],
+    "spice_level": 0,
+    "summary": "Twice-fried slices of green plantain, flattened between fryings, then salted and served crisp.",
+    "story": "Green plantain is a starchy fruit that needs cooking, and frying it twice gives crisp edges and a soft centre. Tostones, also called fritos verdes or chatinos in some places, are made across the Caribbean and Latin America, and in Cuba they are served as a snack, a side with roast pork and fish, or as a base for toppings. Plantains came to the Americas from Africa and Asia through the Spanish colonial period.",
+    "origin_period": "Colonial period",
+    "origin_claims": [
+      {
+        "claim": "Plantains reached the Caribbean in the early colonial period; twice-fried plantain is a shared Caribbean and Latin American preparation with no single origin.",
+        "confidence": "widely-told",
+        "source": "wiki-tostones"
+      }
+    ],
+    "sources": [
+      "wiki-tostones",
+      "wiki-cuban-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

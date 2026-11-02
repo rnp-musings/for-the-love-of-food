@@ -130,5 +130,415 @@
     ],
     "notes": "The thinner the dough, the crisper the result. Store in a tin for up to a few days.",
     "sources": ["wiki-chiacchiere"], "review_status": "draft"
-  }
+  },
+{
+  "id": "ribollita-home",
+  "dish": "ribollita",
+  "title": "Tuscan ribollita",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 30,
+  "cook_minutes": 120,
+  "passive_minutes": 720,
+  "difficulty": "easy",
+  "ingredients": [
+    {
+      "ingredient": "cannellini-beans",
+      "amount": 250,
+      "unit": "g",
+      "note": "dried, soaked overnight and drained"
+    },
+    {
+      "ingredient": "kale",
+      "amount": 400,
+      "unit": "g",
+      "note": "cavolo nero or other dark kale, stems removed, leaves shredded"
+    },
+    {
+      "ingredient": "onion",
+      "amount": 1,
+      "unit": "piece",
+      "note": "large, diced"
+    },
+    {
+      "ingredient": "carrot",
+      "amount": 2,
+      "unit": "piece",
+      "note": "diced"
+    },
+    {
+      "ingredient": "celery",
+      "amount": 2,
+      "unit": "piece",
+      "note": "stalks, diced"
+    },
+    {
+      "ingredient": "garlic",
+      "amount": 3,
+      "unit": "clove",
+      "note": "sliced"
+    },
+    {
+      "ingredient": "tomato",
+      "amount": 300,
+      "unit": "g",
+      "note": "canned chopped tomatoes"
+    },
+    {
+      "ingredient": "olive-oil",
+      "amount": 80,
+      "unit": "ml",
+      "note": "plus extra to serve"
+    },
+    {
+      "ingredient": "bread",
+      "amount": 250,
+      "unit": "g",
+      "note": "stale country bread, torn into pieces"
+    },
+    {
+      "ingredient": "water",
+      "amount": 2,
+      "unit": "l"
+    },
+    {
+      "ingredient": "salt",
+      "amount": null,
+      "unit": "to-taste"
+    },
+    {
+      "ingredient": "black-pepper",
+      "amount": null,
+      "unit": "to-taste"
+    }
+  ],
+  "steps": [
+    "Cover the soaked beans with fresh water and simmer for about 1 hour until tender. Do not salt until the end. Keep the cooking water, then lift out about a third of the beans and mash them.",
+    "In a large pot, warm 4 tablespoons of the oil and cook the onion, carrot and celery for 10 minutes until soft. Add the garlic for a minute.",
+    "Add the tomatoes and cook 5 minutes, then add the kale, the whole beans, the mashed beans and the bean cooking water topped up with water to about 2 litres.",
+    "Simmer gently for 40 minutes until the vegetables are very soft. Season with salt and pepper.",
+    "Stir in the torn bread and cook 10 minutes until it falls apart into a thick soup. Rest the soup for at least a few hours, or overnight in the fridge.",
+    "Reheat gently, loosening with a little hot water if needed, and serve each bowl with a thread of raw olive oil."
+  ],
+  "notes": "It tastes better the next day, which is the point of the dish. Cooked canned beans (2 x 400 g tins) can replace the dried ones to save time.",
+  "sources": [
+    "wiki-ribollita"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "spaghetti-alla-carbonara-home",
+  "dish": "spaghetti-alla-carbonara",
+  "title": "Spaghetti alla carbonara",
+  "version": "traditional",
+  "servings": 4,
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "difficulty": "medium",
+  "ingredients": [
+    {
+      "ingredient": "dried-pasta",
+      "amount": 400,
+      "unit": "g",
+      "note": "spaghetti"
+    },
+    {
+      "ingredient": "guanciale",
+      "amount": 150,
+      "unit": "g",
+      "note": "cut into small strips"
+    },
+    {
+      "ingredient": "eggs",
+      "amount": 4,
+      "unit": "piece",
+      "note": "whole eggs, at room temperature"
+    },
+    {
+      "ingredient": "pecorino-romano",
+      "amount": 70,
+      "unit": "g",
+      "note": "finely grated"
+    },
+    {
+      "ingredient": "black-pepper",
+      "amount": 2,
+      "unit": "tsp",
+      "note": "freshly ground, coarse"
+    },
+    {
+      "ingredient": "salt",
+      "amount": null,
+      "unit": "to-taste",
+      "note": "for the pasta water"
+    }
+  ],
+  "steps": [
+    "Bring a large pot of water to the boil and salt it lightly, as the guanciale and cheese are salty.",
+    "Cook the guanciale in a large cold pan over medium-low heat for about 8 minutes until the fat has rendered and the meat is golden and crisp. Turn off the heat.",
+    "Whisk the eggs with the pecorino and most of the pepper to a thick paste.",
+    "Boil the spaghetti until just al dente. Scoop out a mugful of the cooking water, then drain the pasta.",
+    "Add the pasta to the pan with the guanciale and toss. Let it cool for a minute, so that the pan is warm but not sizzling.",
+    "Pour in the egg and cheese mixture and toss vigorously, adding a few spoonfuls of the pasta water until you have a glossy cream that coats each strand. Serve at once with the rest of the pepper."
+  ],
+  "notes": "If the pan is too hot the eggs will scramble. Pancetta can replace guanciale, though the flavour is less rounded.",
+  "sources": [
+    "wiki-carbonara"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "orecchiette-alle-cime-di-rapa-home",
+  "dish": "orecchiette-alle-cime-di-rapa",
+  "title": "Orecchiette with cime di rapa and anchovy",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "difficulty": "easy",
+  "ingredients": [
+    {
+      "ingredient": "dried-pasta",
+      "amount": 400,
+      "unit": "g",
+      "note": "orecchiette"
+    },
+    {
+      "ingredient": "cime-di-rapa",
+      "amount": 800,
+      "unit": "g",
+      "note": "turnip tops or broccoli rabe, tough stems trimmed"
+    },
+    {
+      "ingredient": "garlic",
+      "amount": 3,
+      "unit": "clove",
+      "note": "sliced"
+    },
+    {
+      "ingredient": "anchovies",
+      "amount": 6,
+      "unit": "piece",
+      "note": "fillets in oil"
+    },
+    {
+      "ingredient": "dried-chiles",
+      "amount": 1,
+      "unit": "piece",
+      "note": "small, crumbled"
+    },
+    {
+      "ingredient": "olive-oil",
+      "amount": 70,
+      "unit": "ml"
+    },
+    {
+      "ingredient": "salt",
+      "amount": null,
+      "unit": "to-taste"
+    }
+  ],
+  "steps": [
+    "Bring a large pot of salted water to the boil. Add the greens and cook for 4 minutes, then add the orecchiette to the same water.",
+    "While they cook, warm the olive oil in a wide pan over low heat with the garlic, chilli and anchovy fillets. Stir until the anchovies dissolve into the oil, about 3 minutes, without letting the garlic brown.",
+    "When the pasta is al dente (usually 11 to 13 minutes in total), lift the pasta and greens out with a spider and add them to the pan along with a ladle of the cooking water.",
+    "Toss over medium heat for 1 to 2 minutes, crushing some of the greens with a spoon so they coat the pasta. Taste for salt and serve."
+  ],
+  "notes": "Fresh orecchiette cook in about 4 minutes, so add them to the water after the greens have had 8 minutes.",
+  "sources": [
+    "wiki-orecchiette"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "panettone-home",
+  "dish": "panettone",
+  "title": "Home-baked panettone",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 60,
+  "cook_minutes": 50,
+  "passive_minutes": 240,
+  "difficulty": "hard",
+  "ingredients": [
+    {
+      "ingredient": "wheat-flour",
+      "amount": 500,
+      "unit": "g",
+      "note": "strong bread flour",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "sugar",
+      "amount": 120,
+      "unit": "g",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "milk",
+      "amount": 150,
+      "unit": "ml",
+      "note": "lukewarm",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "yeast",
+      "amount": 7,
+      "unit": "g",
+      "note": "dried instant yeast",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "eggs",
+      "amount": 4,
+      "unit": "piece",
+      "note": "large",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "butter",
+      "amount": 150,
+      "unit": "g",
+      "note": "softened",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "vanilla",
+      "amount": 1,
+      "unit": "tsp",
+      "note": "extract or paste",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "orange-zest",
+      "amount": 1,
+      "unit": "tsp",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "salt",
+      "amount": 1,
+      "unit": "tsp",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "raisins",
+      "amount": 120,
+      "unit": "g",
+      "group": "Fruit"
+    },
+    {
+      "ingredient": "candied-peel",
+      "amount": 100,
+      "unit": "g",
+      "note": "orange and citron, chopped",
+      "group": "Fruit"
+    }
+  ],
+  "steps": [
+    "Mix the flour, sugar, yeast and salt. Add the lukewarm milk, eggs, vanilla and zest and knead for 10 minutes by machine or 15 by hand until a smooth, sticky dough forms.",
+    "Add the softened butter a piece at a time, kneading until fully absorbed and the dough is glossy and elastic.",
+    "Cover and let rise in a warm place for about 2 hours until doubled.",
+    "Knead in the raisins and candied peel. Divide between two 750 g paper panettone moulds, each filled about half way.",
+    "Let rise again for 1.5 to 2 hours until the dough reaches about 2 cm below the rim.",
+    "Heat the oven to 175 C. Cut a cross on top of each if you like. Bake 45 to 50 minutes until deep golden and a skewer comes out clean, covering with foil after 25 minutes if it browns too fast.",
+    "Cool in the moulds on a rack before cutting."
+  ],
+  "notes": "Traditional panettone uses a sourdough starter and takes two days; this yeast version is simpler and still soft. Keeps well wrapped for 4 to 5 days.",
+  "sources": [
+    "wiki-panettone"
+  ],
+  "review_status": "draft"
+},
+{
+  "id": "pandoro-home",
+  "dish": "pandoro",
+  "title": "Home-baked pandoro",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 45,
+  "cook_minutes": 40,
+  "passive_minutes": 210,
+  "difficulty": "hard",
+  "ingredients": [
+    {
+      "ingredient": "wheat-flour",
+      "amount": 400,
+      "unit": "g",
+      "note": "strong bread flour",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "sugar",
+      "amount": 130,
+      "unit": "g",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "milk",
+      "amount": 60,
+      "unit": "ml",
+      "note": "lukewarm",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "yeast",
+      "amount": 7,
+      "unit": "g",
+      "note": "dried instant yeast",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "eggs",
+      "amount": 5,
+      "unit": "piece",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "butter",
+      "amount": 200,
+      "unit": "g",
+      "note": "soft, plus extra for the tin",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "vanilla",
+      "amount": 1,
+      "unit": "tsp",
+      "note": "extract or paste",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "lemon-zest",
+      "amount": 1,
+      "unit": "tsp",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "salt",
+      "amount": 1,
+      "unit": "tsp",
+      "group": "Dough"
+    },
+    {
+      "ingredient": "icing-sugar",
+      "amount": 3,
+      "unit": "tbsp",
+      "note": "to dust"
+    }
+  ],
+  "steps": [
+    "Mix the flour, sugar, yeast, salt, milk, eggs, vanilla and lemon zest and knead for 10 minutes until smooth and elastic.",
+    "Knead in the butter a little at a time until the dough is silky and pulls away from the bowl. Cover and let rise for about 2 hours until doubled.",
+    "Butter a 1.5 litre star-shaped pandoro mould or deep fluted tin. Shape the dough into a smooth ball, drop it in with the seam down, and cover.",
+    "Let it rise for 1.5 to 2 hours until the dough comes close to the rim.",
+    "Heat the oven to 170 C. Bake for 35 to 40 minutes until golden and a skewer comes out clean, covering with foil if the top browns too quickly.",
+    "Cool for 15 minutes, then turn out. Dust thickly with icing sugar before serving."
+  ],
+  "notes": "Bakers add the butter and sugar in stages for a very light crumb; this simplified method keeps the same flavour with less work.",
+  "sources": [
+    "wiki-pandoro"
+  ],
+  "review_status": "draft"
+}
 ]

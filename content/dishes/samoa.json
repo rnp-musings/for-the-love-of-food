@@ -1,0 +1,415 @@
+[
+ {
+  "id": "oka",
+  "name": "Oka",
+  "local_name": "Oka",
+  "country": "samoa",
+  "type": "fish-dish",
+  "course": [
+   "starter",
+   "main"
+  ],
+  "flavours": [
+   "tangy",
+   "sour",
+   "rich",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "raw"
+  ],
+  "spice_level": 1,
+  "summary": "Cubes of raw fresh fish cured briefly in lime juice and finished with coconut cream, onion and vegetables. A cool, light dish served at feasts and Sunday meals.",
+  "story": "Oka is the Samoan name for raw fish dressed in citrus and coconut cream, one of a family of similar dishes found across the Pacific, such as kokoda in Fiji and 'ota 'ika in Tonga. In Samoa it is eaten as a starter or side at family meals and feasts, made with tuna or another firm reef or ocean fish. The fish is cured in lime juice only briefly, then mixed with onion, tomato and cucumber and finished with coconut cream just before serving so it stays fresh.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "Raw fish dressed with citrus and coconut is a shared Pacific tradition and no single island is credited with inventing it.",
+    "confidence": "widely-told",
+    "source": "wiki-samoan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "palusami",
+  "name": "Palusami",
+  "local_name": "Palusami",
+  "country": "samoa",
+  "type": "other",
+  "course": [
+   "side",
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "aromatic",
+   "salty"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "baked",
+   "steamed"
+  ],
+  "spice_level": 0,
+  "summary": "Young taro leaves wrapped around coconut cream and onion and cooked in parcels until silky. A staple of the Sunday umu and of feasts.",
+  "story": "Palusami is made from taro leaves (lu) filled with coconut cream, often with onion and salt, and cooked in an earth oven wrapped in more leaves. It is closely tied to the umu feast and appears across Polynesia under different names, including in Tonga where lu is a related dish. Taro leaves must be cooked thoroughly, since raw they irritate the mouth and throat, which is why long oven cooking suits the dish.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "Taro-leaf-and-coconut-cream parcels are a long-standing shared Polynesian way of cooking, and Samoa is one of several places where it is a core dish.",
+    "confidence": "widely-told",
+    "source": "wiki-palusami"
+   }
+  ],
+  "sources": [
+   "wiki-palusami",
+   "wiki-samoan-cuisine",
+   "wiki-taro"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "faausi",
+  "name": "Fa'ausi",
+  "local_name": "Faʻausi",
+  "country": "samoa",
+  "type": "dessert",
+  "course": [
+   "dessert",
+   "side"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Boiled taro served with a thick, sweet sauce of coconut cream and sugar. A homely dessert or sweet side at family meals.",
+  "story": "Fa'ausi is a thick, caramel-like sauce made by cooking coconut cream with sugar, poured over boiled root crops such as taro. Before sugar became widely available, sweet coconut dishes were made differently, so this form dates from the period after trade brought sugar to the islands. It is typical of the way Samoan cooking pairs plain starchy staples with rich coconut. Exact versions vary between families.",
+  "origin_period": "Post-contact (sugar era)",
+  "origin_claims": [
+   {
+    "claim": "The sweet coconut-cream sauce in this form relies on refined sugar, which implies it developed after sugar was widely traded in the islands.",
+    "confidence": "widely-told",
+    "source": "wiki-samoan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "panipopo",
+  "name": "Panipopo",
+  "local_name": "Panipopo",
+  "country": "samoa",
+  "type": "pastry",
+  "course": [
+   "snack",
+   "dessert",
+   "breakfast"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "nut-free",
+   "vegetarian"
+  ],
+  "cook_methods": [
+   "baked"
+  ],
+  "spice_level": 0,
+  "summary": "Soft yeast buns baked in a sweet coconut cream sauce, so the bottoms turn sticky and the tops golden. Sold in bakeries and made at home for gatherings.",
+  "story": "Panipopo, whose name is generally explained as combining the Samoan words for bread and coconut, is a sweet bun dish where a yeasted dough is baked while sitting in a pool of sweetened coconut cream. Wheat flour and yeast are introduced ingredients, so the dish is a product of the post-contact period, combining imported baking with local coconut. It is a common snack, breakfast and party food, and is well known across the Samoan diaspora.",
+  "origin_period": "Post-contact",
+  "origin_claims": [
+   {
+    "claim": "Panipopo combines imported wheat baking with local coconut cream, so it must postdate European contact.",
+    "confidence": "widely-told",
+    "source": "wiki-samoan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "sapasui",
+  "name": "Sapasui",
+  "local_name": "Sapasui",
+  "country": "samoa",
+  "type": "pasta-noodle",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "salty",
+   "umami",
+   "aromatic"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered",
+   "sauteed"
+  ],
+  "spice_level": 0,
+  "summary": "Glass noodles stir-cooked with beef, vegetables and soy sauce, a Samoan take on chop suey. A very common dish at gatherings and church functions.",
+  "story": "Sapasui takes its name from chop suey and shows Chinese influence on Samoan food. It is cooked in large quantities with thin glass noodles, beef or chicken, soy sauce and vegetables, and is served at family occasions, church events and parties, often next to umu dishes. Chinese labourers and traders came to Samoa in the colonial era, and the dish is generally linked to that history.",
+  "origin_period": "Colonial era, 20th century",
+  "origin_claims": [
+   {
+    "claim": "The dish is generally attributed to Chinese influence in Samoa during the colonial period.",
+    "confidence": "widely-told",
+    "source": "wiki-sapasui"
+   }
+  ],
+  "sources": [
+   "wiki-sapasui",
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "ulu-umu",
+  "name": "'Ulu umu",
+  "local_name": "ʻUlu umu",
+  "country": "samoa",
+  "type": "other",
+  "course": [
+   "side"
+  ],
+  "flavours": [
+   "sweet",
+   "aromatic"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "roasted",
+   "baked"
+  ],
+  "spice_level": 0,
+  "summary": "Whole breadfruit baked until soft and smoky, then cut into wedges. A traditional staple starch for Sunday and feast meals.",
+  "story": "Breadfruit ('ulu) is one of the main starch crops of Samoa and is eaten roasted, boiled or baked in the umu until the flesh turns soft and floury. At a feast it sits next to taro, bananas, palusami, fish and pork as part of the starch course. Breadfruit was carried into the Pacific by early Polynesian voyagers and remains central to island food culture.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "Breadfruit was spread through the Pacific by early voyagers and has been a staple in Samoa for many centuries.",
+    "confidence": "well-documented",
+    "source": "wiki-breadfruit"
+   }
+  ],
+  "sources": [
+   "wiki-breadfruit",
+   "wiki-samoan-cuisine",
+   "wiki-umu"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "supo-esi",
+  "name": "Supo esi",
+  "local_name": "Supo esi",
+  "country": "samoa",
+  "type": "dessert",
+  "course": [
+   "dessert",
+   "breakfast"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "A warm pudding of ripe papaya cooked in coconut milk and lightly thickened. Eaten as a sweet dish or light breakfast.",
+  "story": "Supo esi (papaya soup) is a sweet, soft dish of ripe papaya simmered in coconut milk with a little sugar and thickened with starch. It is a good example of how Samoan cooks use fruit and coconut together. Details differ between households, and it is sometimes eaten with a starchy side.",
+  "origin_claims": [
+   {
+    "claim": "Origins are not well recorded; it is a home dish built from local fruit and coconut.",
+    "confidence": "widely-told",
+    "source": "wiki-samoan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "koko-alaisa",
+  "name": "Koko alaisa",
+  "local_name": "Koko alaisa",
+  "country": "samoa",
+  "type": "other",
+  "course": [
+   "breakfast",
+   "dessert"
+  ],
+  "flavours": [
+   "sweet",
+   "rich",
+   "bitter"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Rice cooked into a soft porridge with cocoa and sugar, a popular Samoan breakfast. Traditionally made with locally ground cocoa.",
+  "story": "Koko alaisa combines rice (alaisa) with koko, the Samoan word for cocoa, cooked into a thick sweet porridge. Samoan cocoa is traditionally roasted and rolled into small balls that are dissolved in hot water for a drink called koko Samoa, and the same cocoa flavours the rice. Both cocoa and rice came to the islands in the post-contact period.",
+  "origin_period": "Post-contact",
+  "origin_claims": [
+   {
+    "claim": "Cocoa and rice are introduced crops, so the dish developed after European contact.",
+    "confidence": "widely-told",
+    "source": "wiki-samoan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "puaa-umu",
+  "name": "Pua'a umu",
+  "local_name": "Puaʻa umu",
+  "country": "samoa",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "salty",
+   "smoky",
+   "rich"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "roasted",
+   "slow-cooked"
+  ],
+  "spice_level": 0,
+  "summary": "Pork seasoned with salt and cooked slowly in the earth oven until tender, the centrepiece of a Samoan feast.",
+  "story": "Pork (pua'a) cooked in an umu is a main item at Samoan celebrations such as weddings, funerals, matai title ceremonies and church events. The umu is heated with hot stones, the food is covered with leaves and left to cook slowly. Pigs came to the Pacific with early settlers, and pork has long been a prestige food shared during gatherings. Cooking in the umu is traditionally the work of men on Sundays.",
+  "origin_period": "Pre-contact Pacific tradition",
+  "origin_claims": [
+   {
+    "claim": "Pigs were brought to the Pacific islands by early settlers and have been cooked in earth ovens for centuries.",
+    "confidence": "widely-told",
+    "source": "wiki-umu"
+   }
+  ],
+  "sources": [
+   "wiki-umu",
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "faalifu-fai",
+  "name": "Fa'alifu fa'i",
+  "local_name": "Faʻalifu faʻi",
+  "country": "samoa",
+  "type": "other",
+  "course": [
+   "side"
+  ],
+  "flavours": [
+   "rich",
+   "salty"
+  ],
+  "diet": [
+   "vegan",
+   "vegetarian",
+   "dairy-free",
+   "egg-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Green bananas boiled, then simmered in salted coconut cream until soft and coated. A comforting side at family meals.",
+  "story": "Fa'alifu fa'i is made from unripe green bananas cooked in coconut cream, a combination that shows how Samoan cooks turn plain starchy fruit into a rich dish. Green bananas are boiled first and then warmed through in the cream. Similar dishes are made with taro or breadfruit, and it is a familiar side next to fish or meat.",
+  "origin_claims": [
+   {
+    "claim": "Cooking starchy foods in coconut cream is a shared Polynesian approach, but specific origins of this dish are not documented.",
+    "confidence": "widely-told",
+    "source": "wiki-samoan-cuisine"
+   }
+  ],
+  "sources": [
+   "wiki-samoan-cuisine"
+  ],
+  "review_status": "draft"
+ }
+]

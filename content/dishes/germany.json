@@ -1,0 +1,448 @@
+[
+  {
+    "id": "brezn",
+    "name": "Bavarian pretzel",
+    "local_name": "Brezn / Laugenbrezel",
+    "country": "germany",
+    "region": "bavaria",
+    "type": "bread",
+    "course": [
+      "snack",
+      "side"
+    ],
+    "flavours": [
+      "salty",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A knotted, glossy mahogany pretzel with a chewy crumb and coarse salt, eaten with beer, butter or sweet mustard.",
+    "story": "The Bavarian Brezn gets its dark, shiny crust and distinct flavour from a quick dip in a lye (sodium hydroxide) solution before baking, the same process used for lye rolls. Bakers have used the pretzel shape as a guild symbol in German-speaking lands for centuries. In Munich it is a standard companion of beer, Obatzda cheese spread and Weisswurst, and tents and stalls at Oktoberfest sell large ones. Legends connect the shape to monks giving bread rewards to children or to arms folded in prayer; these stories are charming but not reliable evidence, and the true origin is unknown.",
+    "origin_period": "Medieval or earlier",
+    "origin_claims": [
+      {
+        "claim": "Pretzels were a common baked good in medieval German-speaking Europe and the knot became a bakers' emblem.",
+        "confidence": "widely-told",
+        "source": "wiki-pretzel"
+      },
+      {
+        "claim": "The shape was invented by a monk to reward children who learned their prayers, with the arms of the knot echoing arms folded in prayer.",
+        "confidence": "legend",
+        "source": "wiki-pretzel"
+      }
+    ],
+    "sources": [
+      "wiki-pretzel",
+      "wiki-oktoberfest"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "wiesn-hendl",
+    "name": "Wiesn-Hendl (Oktoberfest roast chicken)",
+    "local_name": "Wiesn-Hendl",
+    "country": "germany",
+    "region": "bavaria",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "salty",
+      "rich",
+      "smoky"
+    ],
+    "diet": [
+      "gluten-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "roasted",
+      "grilled"
+    ],
+    "spice_level": 0,
+    "summary": "A whole chicken, salted and spiced with paprika, roasted until the skin is crisp and traditionally served by the half at Oktoberfest.",
+    "story": "The Hendl (Bavarian for chicken) is among the best-known foods of the Munich Oktoberfest. Chickens are seasoned simply, often with salt, pepper and paprika and a little butter and parsley, then roasted on a rotating spit until the skin crackles. The bird is usually served as a half chicken with a pretzel or potato salad, and washed down with the festival's strong, golden beer. Oktoberfest began in 1810 as a celebration of a royal wedding and grew into a large funfair; the beer tents and their food developed over the 19th and 20th centuries, and roast chicken became one of the standard dishes.",
+    "origin_period": "Part of Oktoberfest food culture; 19th to 20th century",
+    "origin_claims": [
+      {
+        "claim": "Oktoberfest began in 1810 to celebrate the wedding of Crown Prince Ludwig of Bavaria and Princess Therese.",
+        "confidence": "well-documented",
+        "source": "wiki-oktoberfest"
+      },
+      {
+        "claim": "Roast chicken became one of the staple foods of the beer tents in the 20th century.",
+        "confidence": "widely-told",
+        "source": "wiki-oktoberfest"
+      }
+    ],
+    "sources": [
+      "wiki-oktoberfest",
+      "wiki-german-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "weisswurst",
+    "name": "Weisswurst",
+    "local_name": "Weißwurst",
+    "country": "germany",
+    "region": "bavaria",
+    "type": "meat-dish",
+    "course": [
+      "breakfast",
+      "snack"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "A pale Munich sausage of minced veal and pork, flavoured with parsley and lemon and gently steeped in hot water rather than boiled.",
+    "story": "Weisswurst (\"white sausage\") is made from finely minced veal and pork back fat seasoned with parsley, lemon and mace. It is not boiled hard, but steeped in hot water just below simmering and served in a tureen with sweet mustard, a pretzel and, often, wheat beer. Tradition says it should be eaten before midday, which was practical in the era before refrigeration, and the Weisswurst is not usually eaten with the skin, which diners suck or cut open. A well-known story credits an innkeeper in Munich in the 19th century with inventing it by accident when he ran out of the sausage casings he normally used; this is a popular tale, and the details are not documented.",
+    "origin_period": "19th century",
+    "origin_claims": [
+      {
+        "claim": "It was first made in Munich in the middle of the 19th century by an innkeeper who ran out of normal sausage casings.",
+        "confidence": "widely-told",
+        "source": "wiki-weisswurst"
+      },
+      {
+        "claim": "Weisswurst should be eaten before the midday bell, a rule from before refrigeration.",
+        "confidence": "widely-told",
+        "source": "wiki-weisswurst"
+      }
+    ],
+    "sources": [
+      "wiki-weisswurst"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "kasspatzn",
+    "name": "Käsespätzle",
+    "local_name": "Kässpatzn / Käsespätzle",
+    "country": "germany",
+    "region": "swabia",
+    "type": "pasta-noodle",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "salty",
+      "umami"
+    ],
+    "diet": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "sauteed"
+    ],
+    "spice_level": 0,
+    "summary": "Soft egg noodles layered with melted mountain cheese and topped with crisp fried onions, from Swabia and the Allgäu.",
+    "story": "Spätzle are small, irregular egg noodles made from a wet batter that is pressed, scraped or pushed through a perforated tool into boiling water. In Käsespätzle (or Kässpatzn in Allgäu dialect) they are layered with grated mountain cheese in a warm pan or dish, then topped with onions fried golden in butter. The dish is closely linked with Swabia, the Allgäu and neighbouring Austrian and Swiss areas where alpine cheese was plentiful. It is a typical vegetarian main on Oktoberfest and beer-garden menus and is traditionally served with a green salad. Spätzle are mentioned in German sources from the 18th century.",
+    "origin_period": "18th century or earlier (Spätzle)",
+    "origin_claims": [
+      {
+        "claim": "Spätzle appear in South German sources by the 18th century, and the cheese version grew out of alpine dairy farming.",
+        "confidence": "widely-told",
+        "source": "wiki-kasespatzle"
+      }
+    ],
+    "sources": [
+      "wiki-kasespatzle"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "maultaschen",
+    "name": "Maultaschen",
+    "local_name": "Maultaschen",
+    "country": "germany",
+    "region": "swabia",
+    "type": "dumpling",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "Large Swabian pasta pockets filled with spinach, minced meat and bread, served in broth or sliced and pan-fried with egg.",
+    "story": "Maultaschen are square pasta parcels stuffed with a mixture of minced meat, spinach, onion and soaked bread, then simmered in broth. They are a signature of Swabia in south-western Germany and are protected as a regional speciality by the EU. A popular tale says monks at the Maulbronn monastery hid meat in the dough so that God would not see it during Lent, leading to the nickname \"Herrgottsbscheißerle\" (little God-cheaters). This explanation is a legend, and the origin of the dish is not documented.",
+    "origin_period": "At least 18th century; older origins uncertain",
+    "origin_claims": [
+      {
+        "claim": "Maulbronn monks created the dish to hide meat from God during Lent.",
+        "confidence": "legend",
+        "source": "wiki-maultasche"
+      },
+      {
+        "claim": "It is a long-established pasta dish of Swabia, with a protected geographical indication in the EU.",
+        "confidence": "well-documented",
+        "source": "wiki-maultasche"
+      }
+    ],
+    "sources": [
+      "wiki-maultasche"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sauerbraten",
+    "name": "Sauerbraten",
+    "local_name": "Rheinischer Sauerbraten",
+    "country": "germany",
+    "region": "rhineland",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "roasted",
+      "simmered"
+    ],
+    "spice_level": 0,
+    "summary": "Beef marinated for days in vinegar, wine and spices, then braised until tender, with a sweet-sour gravy and often raisins.",
+    "story": "Sauerbraten (\"sour roast\") is a pot roast whose meat is marinated for several days in a mixture of vinegar, wine, onion and spices, which tenderises tougher cuts and gives them a tangy flavour. It is found across Germany, and regions disagree on its details. The Rhineland version, popular around Cologne, adds raisins and sometimes sugar beet syrup or gingerbread to the gravy for a sweet-sour taste. The dish is old, and in the past horse meat was commonly used; beef is now the norm. Claims that Charlemagne invented the dish are legend, and several cities, including Cologne, assert rights to the \"original\".",
+    "origin_period": "Medieval or earlier",
+    "origin_claims": [
+      {
+        "claim": "Marinated roasts are an old German technique, and the Rhineland has a particular sweet-sour version.",
+        "confidence": "well-documented",
+        "source": "wiki-sauerbraten"
+      },
+      {
+        "claim": "Charlemagne invented the dish.",
+        "confidence": "legend",
+        "source": "wiki-sauerbraten"
+      }
+    ],
+    "sources": [
+      "wiki-sauerbraten"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "stollen",
+    "name": "Dresden Christstollen",
+    "local_name": "Dresdner Christstollen",
+    "country": "germany",
+    "region": "saxony",
+    "type": "pastry",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "A dense, buttery yeast loaf full of rum-soaked dried fruit, almonds and spices, coated in butter and sugar.",
+    "story": "Stollen is a Christmas bread from Saxony, with Dresden as its most famous home. It is made from a yeasted dough rich in butter, packed with raisins, candied peel and almonds, then brushed with melted butter and rolled in sugar, which seals it and preserves it for weeks. Bakers traditionally let stollen mature for a time before eating. The oldest versions were made for Advent, a fasting season, with oil instead of butter and were plain; a papal dispensation known as the Butterbrief later allowed butter in Saxony in the late 15th century, and the recipe gradually grew richer. The Dresden Striezelmarkt, one of Germany's oldest Christmas markets, holds a stollen festival each year, and Dresden stollen is protected as a regional speciality.",
+    "origin_period": "Medieval origins; rich version from the 15th century onward",
+    "origin_claims": [
+      {
+        "claim": "Stollen was first baked as an Advent bread in Saxon towns and became richer after a papal dispensation allowed butter.",
+        "confidence": "well-documented",
+        "source": "wiki-stollen"
+      },
+      {
+        "claim": "Its shape represents the swaddled infant Jesus.",
+        "confidence": "widely-told",
+        "source": "wiki-stollen"
+      }
+    ],
+    "sources": [
+      "wiki-stollen",
+      "wiki-christmas-market"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "lebkuchen",
+    "name": "Nürnberger Elisen-Lebkuchen",
+    "local_name": "Nürnberger Elisen-Lebkuchen",
+    "country": "germany",
+    "region": "bavaria",
+    "type": "pastry",
+    "course": [
+      "dessert",
+      "snack"
+    ],
+    "flavours": [
+      "sweet",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "dairy-free"
+    ],
+    "cook_methods": [
+      "baked"
+    ],
+    "spice_level": 0,
+    "summary": "Soft, spiced Christmas gingerbread from Nuremberg made mostly from ground nuts, with little or no flour.",
+    "story": "Lebkuchen are German gingerbread-like honey and spice cakes. The Nuremberg version, Elisen-Lebkuchen, is the finest grade: it must contain a high proportion of nuts and very little flour, and is baked on thin wafers, giving a moist, soft, chewy texture. Nuremberg in Franconia, the northern part of Bavaria, was an important trading city for spices, which helped the local gingerbread tradition. Lebkuchen are sold at Christmas markets and given as festive gifts, often in decorated tins. The origin of the word Lebkuchen is uncertain.",
+    "origin_period": "Medieval gingerbread tradition",
+    "origin_claims": [
+      {
+        "claim": "Honey and spice cakes were baked in monasteries and cities of the German-speaking lands from the Middle Ages, and Nuremberg became famous for them.",
+        "confidence": "widely-told",
+        "source": "wiki-lebkuchen"
+      },
+      {
+        "claim": "The name Lebkuchen comes from Laib (loaf) or from a Latin word for flat cake.",
+        "confidence": "disputed",
+        "source": "wiki-lebkuchen"
+      }
+    ],
+    "sources": [
+      "wiki-lebkuchen",
+      "wiki-christmas-market"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "currywurst",
+    "name": "Currywurst",
+    "local_name": "Currywurst",
+    "country": "germany",
+    "type": "street-food",
+    "course": [
+      "snack",
+      "main"
+    ],
+    "flavours": [
+      "tangy",
+      "sweet",
+      "spicy"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Sliced fried pork sausage covered in a warm tomato and curry-powder sauce, served with chips or a bread roll.",
+    "story": "Currywurst is a fast-food classic of post-war Germany and is above all associated with Berlin, where snack stands sell sliced sausage under a spiced ketchup-like sauce dusted with curry powder. The sausage is usually a pork bratwurst, fried or grilled, and it comes with chips or a white roll. The standard origin story credits Herta Heuwer, who sold it in Berlin in 1949 using ingredients such as curry powder and ketchup that were available from British soldiers in the occupied city. Hamburg also claims it, crediting another snack-bar owner. Neither story is easy to prove.",
+    "origin_period": "Late 1940s",
+    "origin_claims": [
+      {
+        "claim": "Herta Heuwer created it at a Berlin snack stand in 1949.",
+        "confidence": "widely-told",
+        "source": "wiki-currywurst"
+      },
+      {
+        "claim": "Hamburg's Lena Brücker invented it a few years earlier.",
+        "confidence": "disputed",
+        "source": "wiki-currywurst"
+      }
+    ],
+    "sources": [
+      "wiki-currywurst"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sauerkraut",
+    "name": "Sauerkraut",
+    "local_name": "Sauerkraut",
+    "country": "germany",
+    "type": "pickle-ferment",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "sour",
+      "tangy",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fermented",
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "Finely shredded cabbage fermented in its own juices with salt, a tangy staple of German cooking.",
+    "story": "Sauerkraut (\"sour cabbage\") is made by salting shredded cabbage and leaving it to ferment, so that lactic acid bacteria produce its sour flavour and keep it for months. It was a way of storing vegetables for winter, and it is served with sausages, pork, potatoes and in many regional dishes across Germany and beyond. Fermented cabbage is much older than Germany's use of it; versions have a long history in East Asia, and how the technique reached Europe is debated. Sauerkraut is also valued as a source of vitamin C, and sailors carried it on long voyages.",
+    "origin_period": "Ancient technique; established in Europe by the Middle Ages",
+    "origin_claims": [
+      {
+        "claim": "Fermenting cabbage was widely practised in medieval central and eastern Europe.",
+        "confidence": "widely-told",
+        "source": "wiki-sauerkraut"
+      },
+      {
+        "claim": "The technique came to Europe from China via the Mongols.",
+        "confidence": "disputed",
+        "source": "wiki-sauerkraut"
+      }
+    ],
+    "sources": [
+      "wiki-sauerkraut",
+      "wiki-german-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

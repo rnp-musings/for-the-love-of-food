@@ -1,0 +1,420 @@
+[
+  {
+    "id": "pho-bo",
+    "name": "Phở bò",
+    "local_name": "phở bò",
+    "country": "vietnam",
+    "region": "northern-vietnam",
+    "type": "soup",
+    "course": [
+      "breakfast",
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 1,
+    "summary": "Beef noodle soup in a clear, spiced broth, served with rice noodles, thin slices of beef and a plate of fresh herbs.",
+    "story": "Phở is the best-known Vietnamese dish worldwide. A long-simmered beef bone broth flavoured with charred ginger and onion, star anise, cinnamon and cloves is poured over flat rice noodles and beef, then finished at the table with herbs, bean sprouts, lime and chilli. It is traditionally a breakfast food, sold from street stalls and small shops.\n\nPhở is generally linked to northern Vietnam in the late 19th to early 20th century, with Hanoi and the Nam Dinh area often named. Its origin is debated: some writers see French influence in the use of beef and in the name's possible link to the French pot-au-feu, others point to Chinese noodle dishes. After 1954 northern cooks carried it south, where the herb and sauce garnishes became more generous.",
+    "origin_period": "Late 19th to early 20th century",
+    "origin_claims": [
+      {
+        "claim": "Emerged in northern Vietnam, near Hanoi or Nam Dinh, in the early 20th century or late 19th century.",
+        "confidence": "widely-told",
+        "source": "wiki-pho"
+      },
+      {
+        "claim": "Name or technique influenced by French pot-au-feu or by Chinese noodle dishes.",
+        "confidence": "disputed",
+        "source": "wiki-pho"
+      }
+    ],
+    "sources": [
+      "wiki-pho"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bun-cha",
+    "name": "Bún chả",
+    "local_name": "bún chả",
+    "country": "vietnam",
+    "region": "northern-vietnam",
+    "type": "grill-bbq",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "sweet",
+      "salty",
+      "smoky",
+      "tangy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 1,
+    "summary": "Charcoal-grilled pork patties and slices in a sweet-sour fish sauce broth, eaten with rice vermicelli and fresh herbs.",
+    "story": "Bún chả is closely identified with Hanoi, where the smell of pork grilling over charcoal marks lunchtime street corners and small restaurants. Small pork patties and slices of marinated pork belly are grilled, then served floating in a warm, lightly sweet and tangy dipping broth of fish sauce, sugar, lime and water with slices of green papaya or carrot. Diners add cold rice vermicelli and a pile of herbs to each mouthful.\n\nThe dish is long-established in Hanoi, but a precise origin is not documented. It became internationally known partly through publicity of a meal enjoyed in Hanoi by a visiting head of state in 2016, though this is a modern moment, not part of its history.",
+    "origin_claims": [
+      {
+        "claim": "A Hanoi lunchtime specialty with no documented inventor or date.",
+        "confidence": "widely-told",
+        "source": "wiki-bun-cha"
+      }
+    ],
+    "sources": [
+      "wiki-bun-cha"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bun-bo-hue",
+    "name": "Bún bò Huế",
+    "local_name": "bún bò Huế",
+    "country": "vietnam",
+    "region": "central-vietnam",
+    "type": "soup",
+    "course": [
+      "main",
+      "breakfast"
+    ],
+    "flavours": [
+      "spicy",
+      "umami",
+      "aromatic",
+      "tangy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 3,
+    "summary": "A spicy beef and pork noodle soup from Hue, scented with lemongrass and shrimp paste.",
+    "story": "Bún bò Huế comes from the former imperial capital in central Vietnam, and is known for a bolder, spicier broth than northern noodle soups. The beef and pork broth is infused with lemongrass and given a deep red colour and a kick from chilli oil and annatto, with a distinctive savoury funk from fermented shrimp paste. It is served on thick round rice noodles with beef shank, pork hock and sometimes blood cake, plus herbs, banana blossom and lime.\n\nThe dish is strongly tied to Hue, and in the city it is usually called simply bún bò. Stories linking it to the imperial court are told, but there is no clear documentation of its origin.",
+    "origin_claims": [
+      {
+        "claim": "Regional dish of Hue; popular stories connect it to the imperial court, which are not well documented.",
+        "confidence": "widely-told",
+        "source": "wiki-bun-bo-hue"
+      }
+    ],
+    "sources": [
+      "wiki-bun-bo-hue"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banh-xeo",
+    "name": "Bánh xèo",
+    "local_name": "bánh xèo",
+    "country": "vietnam",
+    "region": "southern-vietnam",
+    "type": "street-food",
+    "course": [
+      "main",
+      "snack"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fried"
+    ],
+    "spice_level": 1,
+    "summary": "A large crisp rice-flour pancake coloured with turmeric, filled with pork, shrimp and bean sprouts and eaten wrapped in herbs.",
+    "story": "Bánh xèo takes its name from the sizzling sound the batter makes when it hits a hot pan. The thin rice-flour and coconut-milk batter, tinted yellow with turmeric, fries into a lacy, crisp-edged crepe folded over pork, shrimp and bean sprouts. Diners tear off pieces, wrap them in lettuce and herbs, and dip them in sweet-sour fish sauce.\n\nIt is a staple of southern and central Vietnam, with regional differences in size and crispness: southern pancakes are typically large and crisp, while central ones tend to be smaller. Its origin is not clearly documented.",
+    "origin_claims": [
+      {
+        "claim": "A dish of southern and central Vietnam with no documented inventor or date.",
+        "confidence": "widely-told",
+        "source": "wiki-banh-xeo"
+      }
+    ],
+    "sources": [
+      "wiki-banh-xeo"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "com-tam",
+    "name": "Cơm tấm",
+    "local_name": "cơm tấm",
+    "country": "vietnam",
+    "region": "southern-vietnam",
+    "type": "rice-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "sweet",
+      "salty",
+      "smoky",
+      "umami"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 1,
+    "summary": "Broken rice served with grilled lemongrass pork chop, fried egg, pickles and a sweet-sour fish sauce dressing.",
+    "story": "Cơm tấm is a Saigon staple. It uses broken rice, grains that fracture during milling and were historically cheaper than whole grains. The rice is served with a grilled pork chop marinated in lemongrass, garlic and sugar, plus a fried egg, cucumber, pickled carrot and daikon, and nước chấm. Shredded pork skin and steamed egg meatloaf (chả) often join the plate.\n\nBroken rice is often described as a food of working people in the Mekong Delta and Saigon, later turning into a beloved street and restaurant meal. The story that it was once seen as an inferior grain is widely told but its details are not well recorded.",
+    "origin_claims": [
+      {
+        "claim": "Broken rice was an inexpensive by-product of milling, eaten by working-class cooks, then became a fashionable favourite in Saigon.",
+        "confidence": "widely-told",
+        "source": "wiki-com-tam"
+      }
+    ],
+    "sources": [
+      "wiki-com-tam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "goi-cuon",
+    "name": "Gỏi cuốn",
+    "local_name": "gỏi cuốn",
+    "country": "vietnam",
+    "region": "southern-vietnam",
+    "type": "street-food",
+    "course": [
+      "starter",
+      "snack"
+    ],
+    "flavours": [
+      "tangy",
+      "sweet",
+      "umami",
+      "aromatic"
+    ],
+    "diet": [
+      "dairy-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "boiled",
+      "raw"
+    ],
+    "spice_level": 0,
+    "summary": "Fresh rice-paper rolls filled with shrimp, pork, vermicelli and herbs, served with a hoisin and peanut dipping sauce.",
+    "story": "Gỏi cuốn, often called summer rolls or fresh spring rolls in English, are translucent rice paper rolls filled with poached shrimp and pork, rice vermicelli, lettuce and herbs such as mint and garlic chives, and dipped in a hoisin sauce with crushed peanuts. They are not fried, so they are light and cool, and they are often eaten as a starter or snack.\n\nThey are especially associated with the south, where they are widely eaten, though similar rolls appear across Vietnam. There is no documented origin story.",
+    "origin_claims": [
+      {
+        "claim": "A fresh, unfried roll that is widely associated with southern Vietnam; no firm origin is recorded.",
+        "confidence": "widely-told",
+        "source": "wiki-goi-cuon"
+      }
+    ],
+    "sources": [
+      "wiki-goi-cuon"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banh-mi",
+    "name": "Bánh mì",
+    "local_name": "bánh mì",
+    "country": "vietnam",
+    "type": "street-food",
+    "course": [
+      "snack",
+      "breakfast",
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "tangy",
+      "salty",
+      "spicy"
+    ],
+    "diet": [
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 2,
+    "summary": "A crisp, airy baguette filled with grilled or cured meats, pâté, mayonnaise, pickled vegetables, herbs and chilli.",
+    "story": "Bánh mì is the Vietnamese sandwich, and it is a product of colonial history. French bakers introduced wheat baguettes in the 19th century, and Vietnamese bakers made the loaf lighter and crisper, often with some rice flour. Over the 20th century street sellers filled the bread with local ingredients, including pork, pâté, pickled carrot and daikon, cucumber, coriander and chilli, and the result became a distinctively Vietnamese food rather than an imitation of a French one.\n\nIts exact origin as a filled sandwich is usually placed in Saigon in the mid 20th century, but accounts differ.",
+    "origin_period": "19th to 20th century",
+    "origin_claims": [
+      {
+        "claim": "French baguettes arrived during colonial rule and were adapted into a Vietnamese bread.",
+        "confidence": "well-documented",
+        "source": "wiki-banh-mi"
+      },
+      {
+        "claim": "The filled sandwich in its modern form developed in Saigon around the mid 20th century.",
+        "confidence": "widely-told",
+        "source": "wiki-banh-mi"
+      }
+    ],
+    "sources": [
+      "wiki-banh-mi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banh-chung",
+    "name": "Bánh chưng",
+    "local_name": "bánh chưng",
+    "country": "vietnam",
+    "region": "northern-vietnam",
+    "type": "other",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "umami",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "A square parcel of glutinous rice, mung bean and pork wrapped in leaves and boiled for hours, eaten at the Vietnamese new year.",
+    "story": "Bánh chưng is the classic food of Tết in northern Vietnam. Sticky rice surrounds a core of split mung beans and fatty pork seasoned with pepper, wrapped in leaves and boiled for many hours until dense and fragrant. The square shape is said to represent the earth, a counterpart to the round bánh dày. Families often gather for days beforehand to wrap and watch over the pots.\n\nA well-known legend credits Prince Lang Liêu of the Hùng kings with creating the cake to honour his father. It is told as a story of filial devotion rather than as recorded history, and the dish's actual age is not firmly established.",
+    "origin_claims": [
+      {
+        "claim": "Created by Prince Lang Liêu, who won a contest of offerings to the Hùng king.",
+        "confidence": "legend",
+        "source": "wiki-banh-chung"
+      },
+      {
+        "claim": "A traditional Tết food of the Red River Delta for a long time; exact age unknown.",
+        "confidence": "widely-told",
+        "source": "wiki-banh-chung"
+      }
+    ],
+    "sources": [
+      "wiki-banh-chung"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "dua-hanh",
+    "name": "Dưa hành",
+    "local_name": "dưa hành",
+    "country": "vietnam",
+    "type": "pickle-ferment",
+    "course": [
+      "side"
+    ],
+    "flavours": [
+      "sour",
+      "tangy",
+      "sweet",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "fermented"
+    ],
+    "spice_level": 0,
+    "summary": "Small onions pickled in a sweet-sour brine, eaten at Tết to cut through rich, fatty foods.",
+    "story": "Dưa hành is a traditional pickle of shallots or small onions, served alongside the rich foods of Tết, such as bánh chưng and braised pork. The sharp, crunchy pickle balances the fatty, sticky dishes of the holiday. It is made a few days in advance so that it is ready for the new year.\n\nIt is described as a classic accompaniment to Tết meals in northern and central Vietnam. Its documented history is thin, and versions differ in whether they rely on a salt brine, a vinegar brine, or a bit of both.",
+    "origin_claims": [
+      {
+        "claim": "A traditional Tết pickle served to balance rich festival food; no recorded origin.",
+        "confidence": "widely-told",
+        "source": "wiki-tet"
+      }
+    ],
+    "sources": [
+      "wiki-tet"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "cao-lau",
+    "name": "Cao lầu",
+    "local_name": "cao lầu",
+    "country": "vietnam",
+    "region": "central-vietnam",
+    "type": "pasta-noodle",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "sweet",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "roasted",
+      "simmered"
+    ],
+    "spice_level": 1,
+    "summary": "Chewy noodles from Hoi An topped with sliced roast pork, fresh greens and herbs, and moistened with a little savoury sauce rather than served in broth.",
+    "story": "Cao lầu is a specialty of Hội An in central Vietnam, an old trading port. It is served almost dry: thick, chewy noodles are topped with slices of marinated roast pork, bean sprouts, fresh greens and herbs, and moistened with a spoonful of pork juices. The texture of the noodles is the main feature, and local tradition holds that they must be made with water from a particular old well in the town and lye from the ash of wood from the nearby Cham Islands, though this is often treated as lore.\n\nMany writers point to Chinese and Japanese influences in the dish, given Hội An's history as a port where merchants from those countries settled. How much each contributed is not settled.",
+    "origin_claims": [
+      {
+        "claim": "Developed in Hội An, with influence from Chinese and Japanese traders who settled in the port.",
+        "confidence": "widely-told",
+        "source": "wiki-cao-lau"
+      }
+    ],
+    "sources": [
+      "wiki-cao-lau"
+    ],
+    "review_status": "draft"
+  }
+]

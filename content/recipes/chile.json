@@ -1,0 +1,786 @@
+[
+  {
+    "id": "pastel-de-choclo-home",
+    "dish": "pastel-de-choclo",
+    "title": "Chilean corn and beef pie",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "minced",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 60,
+        "unit": "g",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 12,
+        "unit": "piece",
+        "note": "black, pitted",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "note": "hard-boiled, sliced",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 400,
+        "unit": "g",
+        "note": "poached and shredded",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "sweet-corn",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "kernels from fresh cobs (about 8 cobs)",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "basil",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "leaves",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 40,
+        "unit": "g",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "for dusting the top",
+        "group": "Topping"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "For the pino, soften the onion in the oil over medium heat for 15 minutes until golden. Add the beef, cumin, paprika, salt and pepper and cook for 10 minutes until browned and moist. Stir in the raisins and let cool a little.",
+      "Heat the oven to 200 C. Spoon the pino into six ovenproof dishes or one large dish and top with the shredded chicken, the olives and the egg slices.",
+      "Blend the corn kernels with the basil, butter, milk and 1 tsp salt to a thick, coarse paste.",
+      "Cook the paste in a saucepan over low heat for 10 to 15 minutes, stirring often, until it thickens like a soft porridge.",
+      "Spoon the corn topping over the filling, smooth it, and dust the top with sugar.",
+      "Bake for 30 to 35 minutes until bubbling at the edges and golden with dark spots. Rest for 10 minutes before serving."
+    ],
+    "notes": "If fresh corn is not available, use frozen kernels and add one to two spoonfuls of cornstarch to the paste.",
+    "review_status": "draft"
+  },
+  {
+    "id": "empanadas-de-pino-home",
+    "dish": "empanadas-de-pino",
+    "title": "Baked beef empanadas",
+    "version": "home",
+    "servings": 12,
+    "prep_minutes": 60,
+    "cook_minutes": 35,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "note": "plain flour",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 100,
+        "unit": "g",
+        "note": "melted",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "note": "yolk only, for the dough",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "water",
+        "amount": 170,
+        "unit": "ml",
+        "note": "warm",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "minced",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 600,
+        "unit": "g",
+        "note": "finely diced",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 50,
+        "unit": "g",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 12,
+        "unit": "piece",
+        "note": "black, pitted",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "note": "hard-boiled, cut into 12 slices",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "note": "beaten, for glaze",
+        "group": "Pino"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soften the onion in the oil over medium-low heat for 20 minutes without browning. Add the beef, cumin, paprika, salt and pepper and cook for 10 minutes until the meat is cooked and juicy. Cool completely, ideally overnight in the fridge.",
+      "For the dough, mix flour and salt, add the melted butter, yolk and warm water and knead for 5 minutes into a smooth, elastic dough. Rest it covered for 30 minutes.",
+      "Heat the oven to 220 C. Roll the dough to 3 mm thick and cut twelve 14 cm circles.",
+      "Put about 2 tbsp of pino on each, then a few raisins, an olive and a slice of egg. Brush the edge with water, fold in half and seal, then fold the edge over in a rope pattern (repulgue).",
+      "Place on a baking sheet, brush with beaten egg and bake for 20 to 25 minutes until golden brown. Serve warm."
+    ],
+    "notes": "Chill the pino fully, as warm filling softens the dough and makes sealing hard. The ones in the oven should have no leaks.",
+    "review_status": "draft"
+  },
+  {
+    "id": "cazuela-de-vacuno-home",
+    "dish": "cazuela-de-vacuno",
+    "title": "Beef and corn cazuela",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 90,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 800,
+        "unit": "g",
+        "note": "bone-in short rib or shank, in 4 pieces"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "l"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 4,
+        "unit": "piece",
+        "note": "medium, peeled and halved"
+      },
+      {
+        "ingredient": "pumpkin",
+        "amount": 400,
+        "unit": "g",
+        "note": "in 4 wedges, skin on"
+      },
+      {
+        "ingredient": "sweet-corn",
+        "amount": 2,
+        "unit": "piece",
+        "note": "cobs, each cut into 2 pieces"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 1,
+        "unit": "piece",
+        "note": "whole, optional heat",
+        "optional": true
+      },
+      {
+        "ingredient": "oregano",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped, to serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the beef, onion, garlic, carrot, oregano and water in a large pot. Bring to a boil, skim off the foam, and simmer gently for 50 minutes.",
+      "Add the potatoes, pumpkin and corn and cook for 15 minutes.",
+      "Stir in the rice and the whole chilli, if using, and simmer for 15 to 18 minutes more until the rice and vegetables are tender.",
+      "Season with salt and pepper. Serve each bowl with a piece of meat, a potato, a wedge of pumpkin, a corn piece and plenty of broth, topped with parsley."
+    ],
+    "notes": "Add the pumpkin later if you prefer it to hold its shape.",
+    "review_status": "draft"
+  },
+  {
+    "id": "curanto-home",
+    "dish": "curanto",
+    "title": "Curanto en olla (pot curanto)",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 50,
+    "cook_minutes": 75,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "mussels",
+        "amount": 1,
+        "unit": "kg",
+        "note": "scrubbed and debearded",
+        "group": "Seafood"
+      },
+      {
+        "ingredient": "clams",
+        "amount": 1,
+        "unit": "kg",
+        "note": "scrubbed, soaked in salted water for 1 hour",
+        "group": "Seafood"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 600,
+        "unit": "g",
+        "note": "smoked or plain ribs or shoulder, in large pieces",
+        "group": "Meats"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 800,
+        "unit": "g",
+        "note": "bone-in pieces",
+        "group": "Meats"
+      },
+      {
+        "ingredient": "chorizo",
+        "amount": 300,
+        "unit": "g",
+        "note": "whole links, pricked",
+        "group": "Meats"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 800,
+        "unit": "g",
+        "note": "medium, peeled",
+        "group": "Potatoes"
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": 1,
+        "unit": "piece",
+        "note": "small, leaves separated",
+        "group": "Layers"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 300,
+        "unit": "g",
+        "note": "for chapaleles",
+        "group": "Chapaleles"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 500,
+        "unit": "g",
+        "note": "cooked and mashed, for chapaleles",
+        "group": "Chapaleles"
+      },
+      {
+        "ingredient": "lard",
+        "amount": 40,
+        "unit": "g",
+        "note": "for chapaleles",
+        "group": "Chapaleles"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml",
+        "note": "in the base of the pot"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Mix the mashed potato, flour, lard and 1 tsp salt into a firm dough. Shape into flat rolls (chapaleles) about 8 cm long.",
+      "Line the bottom of a very large, heavy pot with a layer of cabbage leaves. Add the water.",
+      "Layer, from the bottom up: pork, chicken and chorizo, then the whole potatoes with a little salt, then more cabbage leaves.",
+      "Cover and cook on medium heat for 35 minutes. Add the chapaleles and clams, cover with more cabbage leaves, and cook for 10 minutes more.",
+      "Add the mussels on top, cover and steam for 8 to 10 minutes, until the shellfish open. Discard any that stay closed.",
+      "Serve everything from the pot on a large platter, with the juices in cups as a broth."
+    ],
+    "notes": "This is a home adaptation of a pit meal. Authentic curanto uses hot stones and nalca or pangue leaves.",
+    "review_status": "draft"
+  },
+  {
+    "id": "milcao-home",
+    "dish": "milcao",
+    "title": "Pan-fried milcao with crackling",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 25,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "potato",
+        "amount": 1,
+        "unit": "kg",
+        "note": "floury, peeled",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "lard",
+        "amount": 60,
+        "unit": "g",
+        "note": "melted",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "pork-belly",
+        "amount": 100,
+        "unit": "g",
+        "note": "diced and rendered to crisp crackling",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "for frying"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Grate 500 g of the potato finely, wrap it in a clean cloth and squeeze out as much liquid as you can. Let the liquid stand for a few minutes, pour off the water and keep the starch at the bottom.",
+      "Boil the other 500 g potato until soft, drain well and mash. Mix with the grated potato, the reserved starch, lard and 1 tsp salt into a firm dough.",
+      "Render the diced pork belly in a dry pan until crisp, then drain (keep a spoonful of the fat for frying).",
+      "Divide the dough into six pieces, flatten each, put some crackling in the middle, and fold the dough over it. Shape into thick discs about 9 cm across.",
+      "Fry in the oil and reserved fat over medium heat for 6 to 8 minutes per side until golden and cooked through. Serve hot."
+    ],
+    "notes": "Squeezing out the water is the key step; wet dough falls apart in the pan.",
+    "review_status": "draft"
+  },
+  {
+    "id": "pebre-home",
+    "dish": "pebre",
+    "title": "Fresh pebre",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 4,
+        "unit": "piece",
+        "note": "ripe, seeds removed, finely diced"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely diced"
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 2,
+        "unit": "piece",
+        "note": "minced; adjust to taste"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soak the diced onion in cold water for 10 minutes, then drain well to take away the sharpness.",
+      "Mix the onion with the tomato, cilantro, chilli and garlic in a bowl.",
+      "Stir in the oil, vinegar and salt. Rest for 20 minutes so the flavours blend and serve at room temperature."
+    ],
+    "notes": "Best on the day it is made. Add a pinch of merkén or paprika if you want smoke.",
+    "review_status": "draft"
+  },
+  {
+    "id": "sopaipillas-home",
+    "dish": "sopaipillas",
+    "title": "Pumpkin sopaipillas",
+    "version": "home",
+    "servings": 16,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "pumpkin",
+        "amount": 500,
+        "unit": "g",
+        "note": "peeled and cubed, boiled or steamed until soft"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 400,
+        "unit": "g",
+        "note": "plus extra for dusting"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "in the dough"
+      },
+      {
+        "ingredient": "baking-powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 700,
+        "unit": "ml",
+        "note": "for deep frying"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Drain the cooked pumpkin well, mash it smooth and let it cool to lukewarm.",
+      "Mix the flour, baking powder and 1 tsp salt. Add the pumpkin mash and 2 tbsp oil and knead lightly into a soft, smooth dough, adding a little more flour if it is sticky.",
+      "Rest for 15 minutes. Roll to 4 mm thick on a floured surface and cut into 8 cm discs. Prick each one several times with a fork.",
+      "Heat the oil to 180 C. Fry a few at a time for about 1 to 2 minutes per side until puffed and golden brown.",
+      "Drain on paper and serve hot with pebre."
+    ],
+    "notes": "For sopaipillas pasadas, simmer 200 g panela with 300 ml water, a cinnamon stick and a strip of orange peel for 10 minutes, then drop the fried discs into the syrup briefly.",
+    "review_status": "draft"
+  },
+  {
+    "id": "mote-con-huesillo-home",
+    "dish": "mote-con-huesillo",
+    "title": "Mote con huesillo",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "mote",
+        "amount": 200,
+        "unit": "g",
+        "note": "husked wheat, soaked overnight"
+      },
+      {
+        "ingredient": "dried-peaches",
+        "amount": 6,
+        "unit": "piece",
+        "note": "whole, dried, soaked overnight in 1 l water"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick"
+      },
+      {
+        "ingredient": "orange-zest",
+        "amount": 1,
+        "unit": "piece",
+        "note": "a wide strip",
+        "optional": true
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "l",
+        "note": "for cooking the mote"
+      }
+    ],
+    "steps": [
+      "Drain the soaked mote, cover it with the 2 l water and simmer for 60 to 90 minutes, until the grains are tender but still firm to the bite. Drain and cool.",
+      "Put the dried peaches with their soaking water, sugar, cinnamon stick and orange strip in a pot. Simmer for 25 to 30 minutes until the peaches are soft and the liquid is a light syrup.",
+      "Cool the syrup completely, then chill it with the peaches.",
+      "To serve, put a few spoonfuls of mote in each glass, add a peach and pour over the cold syrup. Eat with a spoon."
+    ],
+    "notes": "The mote may need to be cooked longer in some brands. Test a grain before draining.",
+    "review_status": "draft"
+  },
+  {
+    "id": "humitas-home",
+    "dish": "humitas",
+    "title": "Chilean humitas",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 50,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "sweet-corn",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "kernels from about 10 large fresh cobs; keep the husks"
+      },
+      {
+        "ingredient": "corn-husks",
+        "amount": 24,
+        "unit": "piece",
+        "note": "large, softened in hot water (use husks from the cobs, or dried husks)"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "finely diced"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "basil",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "leaves, finely chopped"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Soften the onion in the butter over low heat for 10 minutes. Add the paprika and cook one minute more.",
+      "Grind or pulse the corn kernels in a food processor to a thick, coarse paste, not completely smooth.",
+      "Mix the corn with the onion, basil, salt and pepper in a bowl.",
+      "Lay two husks overlapping on a board, put 3 to 4 tablespoons of the mixture in the centre, fold the sides in and fold the ends over. Tie with a strip of husk.",
+      "Boil in plenty of salted water for 40 to 45 minutes until the filling is set. Serve warm in the husk."
+    ],
+    "notes": "If the corn is very watery, stir 1 to 2 tbsp of cornmeal into the paste to help it set.",
+    "review_status": "draft"
+  },
+  {
+    "id": "chicha-de-manzana-home",
+    "dish": "chicha-de-manzana",
+    "title": "Home-fermented apple chicha",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "passive_minutes": 14400,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "apple",
+        "amount": 3,
+        "unit": "kg",
+        "note": "ripe, sweet and tart mix, washed, cored and chopped"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1,
+        "unit": "l"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "wine or cider yeast; or rely on wild yeast",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Blend or crush the apples with the water to a coarse pulp. Strain through a clean cloth, pressing to extract about 3 litres of juice.",
+      "Stir in the sugar until dissolved and add the yeast if using.",
+      "Pour into a clean, sanitised glass jar or demijohn filling no more than three quarters, and cover with a cloth or fit an airlock.",
+      "Keep in a cool, shaded place (15 to 20 C) for 7 to 14 days, until bubbling and the sweetness has dropped to taste.",
+      "Strain, bottle in sturdy bottles and chill. Drink within a few days, and open bottles carefully as the drink may be very fizzy."
+    ],
+    "notes": "Use only clean, sanitised equipment. Discard anything with mould or an off smell. The drink is alcoholic.",
+    "review_status": "draft"
+  }
+]

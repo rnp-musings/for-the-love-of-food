@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "pho-bo-home",
+    "dish": "pho-bo",
+    "title": "Beef phở",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 180,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef-bones",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "marrow and knuckle bones, soaked then blanched",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 500,
+        "unit": "g",
+        "note": "brisket, in one piece",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "halved, charred in a dry pan or under a grill",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "ginger",
+        "amount": 80,
+        "unit": "g",
+        "note": "halved lengthwise and charred",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "star-anise",
+        "amount": 3,
+        "unit": "piece",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick, 8 cm",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 4,
+        "unit": "piece",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "coriander-seeds",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "rice-noodles",
+        "amount": 400,
+        "unit": "g",
+        "note": "fresh or dried flat noodles",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 200,
+        "unit": "g",
+        "note": "sirloin or fillet, sliced very thin and raw",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "bean-sprouts",
+        "amount": 100,
+        "unit": "g",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "thai-basil",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 60,
+        "unit": "ml",
+        "note": "from wedges",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Put the bones in a large pot, cover with water, boil for 5 minutes, then drain and rinse the bones and pot to remove scum.",
+      "Return the bones to the pot with 4 litres of cold water and the brisket. Bring to a gentle simmer and skim.",
+      "Toast the star anise, cinnamon, cloves and coriander seeds in a dry pan for 1 minute until fragrant. Add them to the pot with the charred onion and ginger.",
+      "Simmer very gently, partly covered, for 3 hours, removing the brisket after about 1 hour 30 minutes when tender; put it in cold water for 10 minutes so it stays moist, then slice.",
+      "Strain the broth, then season with the fish sauce, sugar and salt. It should taste slightly oversalted, since it will be diluted by the noodles.",
+      "Cook the noodles as directed, drain, and divide among bowls. Add the brisket and the raw sliced beef.",
+      "Bring the broth to a rolling boil and ladle it over the beef, which will cook in the heat. Serve with the herbs, sprouts, lime and chilli."
+    ],
+    "notes": "The broth improves if it is cooled overnight and the fat is lifted off before reheating.",
+    "sources": [
+      "wiki-pho"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bun-cha-home",
+    "dish": "bun-cha",
+    "title": "Hanoi grilled pork with noodles",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "passive_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "pork",
+        "amount": 400,
+        "unit": "g",
+        "note": "minced, 20 percent fat",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 300,
+        "unit": "g",
+        "note": "belly, sliced thinly",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 3,
+        "unit": "piece",
+        "note": "minced",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Patties"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 60,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 45,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "water",
+        "amount": 120,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "small, cut into thin strips",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "rice-vermicelli",
+        "amount": 400,
+        "unit": "g",
+        "note": "dried"
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": 1,
+        "unit": "piece",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "mint",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Mix the minced pork with half the shallot, garlic, fish sauce, sugar, pepper and oil. Toss the belly slices with the rest. Marinate for at least 1 hour, up to overnight.",
+      "Shape the mince into small flat patties about 5 cm wide.",
+      "Stir the dipping sauce ingredients, except the carrot, until the sugar dissolves, then add the carrot and let it soften for 15 minutes.",
+      "Grill the patties and pork belly over charcoal or a very hot grill pan for 3 to 4 minutes per side, until browned and cooked through.",
+      "Cook the vermicelli in boiling water until just tender, then rinse in cold water and drain.",
+      "Put the grilled pork in the dipping sauce, warm slightly if you like, and serve the vermicelli and herbs alongside for dipping."
+    ],
+    "notes": "For a grill-less version, cook the patties under a hot oven grill, turning once.",
+    "sources": [
+      "wiki-bun-cha"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bun-bo-hue-home",
+    "dish": "bun-bo-hue",
+    "title": "Hue-style spicy beef noodle soup",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 600,
+        "unit": "g",
+        "note": "shank, in one or two pieces",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 400,
+        "unit": "g",
+        "note": "hock or ribs, blanched",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "beef-bones",
+        "amount": 500,
+        "unit": "g",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": 5,
+        "unit": "piece",
+        "note": "bashed, stalks tied in a bundle",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "shrimp-paste",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "dissolved in 100 ml water, settled and the clear liquid used",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Chilli oil"
+      },
+      {
+        "ingredient": "achiote",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "seeds or paste",
+        "group": "Chilli oil"
+      },
+      {
+        "ingredient": "chilli-flakes",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Chilli oil"
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": 1,
+        "unit": "piece",
+        "note": "minced",
+        "group": "Chilli oil"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "minced",
+        "group": "Chilli oil"
+      },
+      {
+        "ingredient": "rice-noodles",
+        "amount": 400,
+        "unit": "g",
+        "note": "thick round rice noodles, fresh or dried",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 60,
+        "unit": "ml",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "mint",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "bean-sprouts",
+        "amount": 100,
+        "unit": "g",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 3,
+        "unit": "piece",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Boil the bones and pork for 5 minutes, drain and rinse. Return to the pot with the beef, onion, 3 litres of water and the bundle of lemongrass. Simmer gently for 1 hour 30 minutes, skimming.",
+      "Remove the beef when tender (about 90 minutes). Chill in water, then slice. Take out the pork once tender, too.",
+      "Strain in the clear shrimp-paste liquid, fish sauce and sugar and simmer 15 minutes. Season to taste.",
+      "Make the chilli oil: warm the oil with the achiote for 2 minutes, strain out the seeds, then fry the shallot, minced lemongrass and chilli flakes for 2 to 3 minutes. Stir about half into the broth.",
+      "Cook the noodles as directed and divide among bowls with the sliced beef, pork and spring onion.",
+      "Ladle in the boiling broth and serve with lime, mint, sprouts and the remaining chilli oil."
+    ],
+    "notes": "Use shrimp paste sparingly at first; it is very strong. It contains shellfish.",
+    "sources": [
+      "wiki-bun-bo-hue"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banh-xeo-home",
+    "dish": "banh-xeo",
+    "title": "Crispy sizzling pancakes",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "passive_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "rice-flour",
+        "amount": 200,
+        "unit": "g",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "amount": 200,
+        "unit": "ml",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "water",
+        "amount": 300,
+        "unit": "ml",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 150,
+        "unit": "g",
+        "note": "belly, thinly sliced",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "shrimp",
+        "amount": 150,
+        "unit": "g",
+        "note": "peeled",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "thinly sliced",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "bean-sprouts",
+        "amount": 150,
+        "unit": "g",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": 1,
+        "unit": "piece",
+        "note": "leaves separated",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "mint",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "thai-basil",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 60,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 45,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "water",
+        "amount": 120,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "Dipping sauce"
+      }
+    ],
+    "steps": [
+      "Whisk the batter ingredients until smooth and rest for 30 minutes. It should be thin, like single cream.",
+      "Stir the dipping sauce ingredients until the sugar dissolves.",
+      "Heat a little oil in a 25 cm non-stick pan on medium-high heat. Fry a few slices of pork, shrimp and onion for 1 to 2 minutes.",
+      "Stir the batter, pour in a ladleful so it sizzles and swirls to coat the pan thinly, and cover for 2 minutes.",
+      "Uncover, scatter a handful of bean sprouts on one half, and cook 3 to 4 minutes more, drizzling oil around the edge, until crisp and golden.",
+      "Fold in half, slide onto a plate and repeat. Serve with lettuce, herbs and the dipping sauce for wrapping."
+    ],
+    "notes": "Keep finished pancakes in a 120 C oven so they stay crisp while you cook the rest.",
+    "sources": [
+      "wiki-banh-xeo"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "com-tam-home",
+    "dish": "com-tam",
+    "title": "Broken rice with lemongrass pork chop",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "passive_minutes": 120,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "broken-rice",
+        "amount": 300,
+        "unit": "g",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 600,
+        "unit": "g",
+        "note": "loin chops, about 1 cm thick",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": 2,
+        "unit": "piece",
+        "note": "finely minced",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "minced",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Marinade"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "note": "fried",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "julienned and quick-pickled in vinegar and sugar",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced and sizzled in 2 tbsp hot oil",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 60,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 45,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "water",
+        "amount": 120,
+        "unit": "ml",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "Dipping sauce"
+      }
+    ],
+    "steps": [
+      "Mix the marinade ingredients, add the pork chops and turn to coat. Chill at least 2 hours, ideally overnight.",
+      "Rinse the broken rice well and cook with slightly less water than usual (about 1.25 times its volume) until tender and fluffy.",
+      "Stir the dipping sauce ingredients until the sugar dissolves.",
+      "Grill the chops over medium-high heat for 4 to 5 minutes per side until charred at the edges and just cooked through, brushing with any leftover marinade in the first few minutes.",
+      "Fry the eggs. Spoon the rice onto plates, add a chop, egg, cucumber and pickles, drizzle with spring onion oil, and serve with the sauce."
+    ],
+    "notes": "Regular long-grain rice can substitute if you cannot find broken rice, with less water.",
+    "sources": [
+      "wiki-com-tam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "goi-cuon-home",
+    "dish": "goi-cuon",
+    "title": "Fresh shrimp and pork rolls",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 15,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "rice-paper",
+        "amount": 12,
+        "unit": "piece",
+        "note": "22 cm rounds"
+      },
+      {
+        "ingredient": "shrimp",
+        "amount": 12,
+        "unit": "piece",
+        "note": "medium, peeled"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 200,
+        "unit": "g",
+        "note": "belly or shoulder, in one piece"
+      },
+      {
+        "ingredient": "rice-vermicelli",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": 1,
+        "unit": "piece",
+        "note": "leaves separated"
+      },
+      {
+        "ingredient": "mint",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "garlic-chives",
+        "amount": 12,
+        "unit": "piece",
+        "note": "stems"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 1,
+        "unit": "piece",
+        "note": "cut into batons",
+        "optional": true
+      },
+      {
+        "ingredient": "hoisin-sauce",
+        "amount": 4,
+        "unit": "tbsp",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "water",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "peanuts",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "roasted and crushed",
+        "group": "Dipping sauce"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "Dipping sauce"
+      }
+    ],
+    "steps": [
+      "Simmer the pork in salted water for 20 to 25 minutes until cooked through. Cool, then slice thinly. Poach the shrimp in the same water for 2 minutes until pink, cool and halve lengthwise.",
+      "Soak the vermicelli in hot water until tender, drain and rinse.",
+      "Mix the hoisin and water until smooth, then scatter the peanuts on top.",
+      "Dip a rice paper in warm water for a few seconds until it begins to soften, and lay it on a damp board.",
+      "Place lettuce, vermicelli, mint, cucumber and a few slices of pork across the lower third. Add 2 shrimp halves, cut side up, just above that.",
+      "Fold the bottom over the filling, fold in the sides, and roll up tightly. Tuck a chive stem in before the final roll so it sticks out the end. Serve with the dipping sauce."
+    ],
+    "notes": "Rolls dry out and stick together when kept; cover with a damp cloth if making ahead.",
+    "sources": [
+      "wiki-goi-cuon"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banh-mi-home",
+    "dish": "banh-mi",
+    "title": "Grilled pork bánh mì",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "passive_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "baguette",
+        "amount": 4,
+        "unit": "piece",
+        "note": "small, 20 cm each, or 2 large baguettes cut in half"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 400,
+        "unit": "g",
+        "note": "shoulder, sliced thinly",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "soy-sauce",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "julienned",
+        "group": "Pickles"
+      },
+      {
+        "ingredient": "daikon",
+        "amount": 150,
+        "unit": "g",
+        "note": "julienned",
+        "group": "Pickles"
+      },
+      {
+        "ingredient": "rice-vinegar",
+        "amount": 120,
+        "unit": "ml",
+        "group": "Pickles"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Pickles"
+      },
+      {
+        "ingredient": "water",
+        "amount": 120,
+        "unit": "ml",
+        "group": "Pickles"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pickles"
+      },
+      {
+        "ingredient": "liver-pate",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "mayonnaise",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced lengthwise into strips"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Marinate the pork in the garlic, soy sauce, fish sauce, sugar and oil for 30 minutes or longer.",
+      "Pickle the vegetables: dissolve the sugar and salt in the vinegar and water, add the carrot and daikon, and leave for at least 30 minutes.",
+      "Cook the pork in a hot pan or on a grill for 2 to 3 minutes per side until browned and cooked through.",
+      "Warm the baguettes in a hot oven for 3 to 4 minutes until crisp. Split lengthwise.",
+      "Spread one side with pâté and the other with mayonnaise. Fill with pork, drained pickles, cucumber, coriander and chilli."
+    ],
+    "notes": "The bread matters: use a light baguette with a thin crisp crust.",
+    "sources": [
+      "wiki-banh-mi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "banh-chung-home",
+    "dish": "banh-chung",
+    "title": "Square sticky rice cake",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 60,
+    "cook_minutes": 360,
+    "passive_minutes": 840,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "sticky-rice",
+        "amount": 800,
+        "unit": "g",
+        "note": "soaked overnight",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "mung-beans",
+        "amount": 300,
+        "unit": "g",
+        "note": "split and hulled, soaked overnight",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 400,
+        "unit": "g",
+        "note": "belly with some fat, in 4 pieces",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "banana-leaf",
+        "amount": 12,
+        "unit": "piece",
+        "note": "large leaves, rinsed and wiped, plus strips to tie",
+        "group": "Wrapping"
+      }
+    ],
+    "steps": [
+      "Marinate the pork pieces with the pepper, shallot and a little salt for 1 hour. Drain the rice and toss with salt. Steam the soaked mung beans for 25 to 30 minutes until soft and mash lightly, with salt.",
+      "Lay two banana leaves, crossed, in a 15 cm square mould or work freehand. Add a quarter of the rice and spread level.",
+      "Spread a quarter of the mung bean paste in the middle, add one piece of pork, and cover with more mung bean paste, then top with rice to enclose completely.",
+      "Fold the leaves over tightly into a square parcel and tie with string or leaf strips. Make 4 cakes.",
+      "Line a big pot with extra leaves, stack the cakes, and cover with water. Boil gently for 6 hours, topping up with boiling water to keep them submerged.",
+      "Drain, press under a board for several hours, and cool. Slice to serve."
+    ],
+    "notes": "Traditionally uses dong leaves and 8 to 12 hours of cooking; banana leaves and a shorter boil are a common home adaptation. Keep refrigerated and use within a few days.",
+    "sources": [
+      "wiki-banh-chung"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "dua-hanh-home",
+    "dish": "dua-hanh",
+    "title": "Pickled onions for Tết",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "passive_minutes": 3600,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "shallot",
+        "amount": 500,
+        "unit": "g",
+        "note": "small, peeled, root ends trimmed"
+      },
+      {
+        "ingredient": "water",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "rice-vinegar",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Salt the shallots and leave for 3 hours at room temperature, then drain and rinse. Dry in the sun or with a clean cloth for about an hour.",
+      "Bring the water, salt and sugar to a boil, stir to dissolve and cool completely. Add the vinegar.",
+      "Pack the shallots into a clean jar and pour in the cooled brine until covered, weighing down if needed.",
+      "Leave at room temperature for 2 to 3 days until sour and crunchy, then refrigerate."
+    ],
+    "notes": "Use clean, sterilised jars. Refrigerate once opened; eat within 2 to 3 weeks.",
+    "sources": [
+      "wiki-tet"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "cao-lau-home",
+    "dish": "cao-lau",
+    "title": "Hoi An-style pork noodles",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "passive_minutes": 120,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "pork",
+        "amount": 600,
+        "unit": "g",
+        "note": "shoulder, in one piece",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "shallot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "minced",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "star-anise",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "fish-sauce",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 200,
+        "unit": "ml",
+        "group": "Pork"
+      },
+      {
+        "ingredient": "rice-noodles",
+        "amount": 400,
+        "unit": "g",
+        "note": "thick, chewy rice noodles such as banh canh or udon-style rice noodles",
+        "group": "Noodles"
+      },
+      {
+        "ingredient": "bean-sprouts",
+        "amount": 150,
+        "unit": "g",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": 1,
+        "unit": "piece",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "mint",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "thai-basil",
+        "amount": 1,
+        "unit": "bunch",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "thai-chillies",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true,
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Marinate the pork with the garlic, shallot, star anise, cinnamon, fish sauce, sugar and pepper for at least 2 hours.",
+      "Roast at 180 C on a rack for 50 to 60 minutes, turning once, until cooked through and caramelised. Rest, then slice thinly.",
+      "Add the stock and any juices from the roasting tin into a small pan; simmer for 5 minutes to make a thick sauce.",
+      "Boil the noodles until tender but chewy, and drain well.",
+      "Blanch the sprouts for 20 seconds. Divide the noodles among bowls, top with lettuce, sprouts, herbs and pork, and spoon over a little sauce. Serve with chilli."
+    ],
+    "notes": "A home version: authentic noodles are made with lye water and are hard to find outside Hội An. Chewy thick rice noodles are the closest practical substitute.",
+    "sources": [
+      "wiki-cao-lau"
+    ],
+    "review_status": "draft"
+  }
+]

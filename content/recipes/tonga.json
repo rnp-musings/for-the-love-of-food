@@ -1,0 +1,446 @@
+[
+ {
+  "id": "ota-ika-home",
+  "dish": "ota-ika",
+  "title": "Tongan 'ota 'ika",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 0,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "fresh-fish",
+    "amount": 500,
+    "unit": "g",
+    "note": "very fresh tuna or other firm fish, cut into 1 cm cubes"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 120,
+    "unit": "ml",
+    "note": "about 5 limes"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely diced"
+   },
+   {
+    "ingredient": "carrot",
+    "amount": 1,
+    "unit": "piece",
+    "note": "grated"
+   },
+   {
+    "ingredient": "tomato",
+    "amount": 2,
+    "unit": "piece",
+    "note": "deseeded and diced"
+   },
+   {
+    "ingredient": "cucumber",
+    "amount": 1,
+    "unit": "piece",
+    "note": "diced"
+   },
+   {
+    "ingredient": "coconut-milk",
+    "amount": 200,
+    "unit": "ml",
+    "note": "chilled"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Use only very fresh fish from a trusted supplier and keep it cold.",
+   "Toss the fish with the lime juice and a pinch of salt. Refrigerate for 15 to 20 minutes until the pieces are opaque outside.",
+   "Drain off about half of the lime juice. Fold in the onion, carrot, tomato and cucumber.",
+   "Just before serving, stir in the coconut milk, taste and adjust the salt. Serve very cold."
+  ],
+  "notes": "Some cooks add spring onion or a little chilli. Pregnant, elderly or immunocompromised people should avoid raw fish.",
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "lu-pulu-home",
+  "dish": "lu-pulu",
+  "title": "Corned beef and taro leaf parcels",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 25,
+  "cook_minutes": 75,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "taro-leaves",
+    "amount": 600,
+    "unit": "g",
+    "note": "fresh or thawed frozen leaves"
+   },
+   {
+    "ingredient": "corned-beef",
+    "amount": 340,
+    "unit": "g",
+    "note": "one tin, broken up"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 170 C. Cut six squares of foil about 30 cm wide and line each with a banana leaf if you have them.",
+   "Arrange the taro leaves in each square, overlapping to make a cup in the middle.",
+   "Mix the corned beef with the onion and a small pinch of salt (corned beef is already salty). Divide among the cups.",
+   "Pour about 65 ml coconut cream over each, then fold the leaves over and wrap the foil tightly.",
+   "Bake for about 75 minutes, until the leaves are completely soft. Serve hot with the creamy juices."
+  ],
+  "notes": "Raw taro leaves irritate the mouth and throat, so cook them until completely soft. Traditionally the parcels cook for a couple of hours in an umu.",
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "lu-sipi-home",
+  "dish": "lu-sipi",
+  "title": "Lamb and taro leaf parcels",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 25,
+  "cook_minutes": 120,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "taro-leaves",
+    "amount": 500,
+    "unit": "g",
+    "note": "fresh or thawed frozen leaves"
+   },
+   {
+    "ingredient": "lamb-flaps",
+    "amount": 600,
+    "unit": "g",
+    "note": "cut into 3 cm pieces"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 400,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 160 C. Cut six squares of foil about 30 cm wide and line each with a banana leaf if you have them.",
+   "Arrange the taro leaves in each square, overlapping to make a cup.",
+   "Mix the lamb with the onion and a good pinch of salt. Divide among the cups.",
+   "Pour about 65 ml coconut cream over each, fold the leaves over and wrap the foil tightly.",
+   "Bake for about 2 hours, until the lamb is tender and the leaves are very soft. Skim off excess fat when serving."
+  ],
+  "notes": "Lamb flaps are fatty, so take care with portions. Lamb shoulder can replace them for a leaner version, but may need longer cooking.",
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "faikakai-topai-home",
+  "dish": "faikakai-topai",
+  "title": "Dumplings in coconut caramel sauce",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "passive_minutes": 45,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "wheat-flour",
+    "amount": 250,
+    "unit": "g",
+    "group": "Dumplings"
+   },
+   {
+    "ingredient": "yeast",
+    "amount": 5,
+    "unit": "g",
+    "note": "instant dried yeast",
+    "group": "Dumplings"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Dumplings"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "pinch",
+    "group": "Dumplings"
+   },
+   {
+    "ingredient": "water",
+    "amount": 150,
+    "unit": "ml",
+    "note": "lukewarm",
+    "group": "Dumplings"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 400,
+    "unit": "ml",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 120,
+    "unit": "g",
+    "group": "Sauce"
+   },
+   {
+    "ingredient": "water",
+    "amount": 200,
+    "unit": "ml",
+    "group": "Sauce"
+   }
+  ],
+  "steps": [
+   "Mix the flour, yeast, 1 tbsp sugar and salt, add the lukewarm water and stir into a soft, sticky dough. Cover and rest for 45 minutes.",
+   "Heat the coconut cream, 120 g sugar and 200 ml water in a wide pan until simmering and the sugar has dissolved.",
+   "Drop heaped tablespoons of dough into the simmering sauce, spacing them apart. Cover and cook gently for 15 minutes without lifting the lid.",
+   "Turn the dumplings, uncover and simmer for 5 to 10 minutes more until the sauce thickens slightly.",
+   "Serve warm with the sauce."
+  ],
+  "notes": "Recipes for topai vary between families, and some use a stiffer dough. This is a simple home approach.",
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "ufi-home",
+  "dish": "ufi",
+  "title": "Boiled yam with coconut cream",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "yam",
+    "amount": 1,
+    "unit": "kg",
+    "note": "peeled and cut into large chunks"
+   },
+   {
+    "ingredient": "water",
+    "amount": 2,
+    "unit": "l"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 150,
+    "unit": "ml",
+    "note": "to serve",
+    "optional": true
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Put the yam in a pot with the water and a generous pinch of salt.",
+   "Bring to the boil and cook for 25 to 30 minutes, until a knife slides in easily.",
+   "Drain well and serve hot, with a little coconut cream spooned over if you like."
+  ],
+  "notes": "Yam may also be baked in foil at 200 C for about 1 hour. Greater yam can be hard to find outside the Pacific; other firm yams can be substituted.",
+  "sources": [
+   "wiki-yam-vegetable"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "otai-home",
+  "dish": "otai",
+  "title": "'Otai",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 20,
+  "cook_minutes": 0,
+  "passive_minutes": 60,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "watermelon",
+    "amount": 800,
+    "unit": "g",
+    "note": "flesh, deseeded"
+   },
+   {
+    "ingredient": "pineapple",
+    "amount": 200,
+    "unit": "g",
+    "note": "finely diced"
+   },
+   {
+    "ingredient": "coconut-milk",
+    "amount": 400,
+    "unit": "ml",
+    "note": "chilled"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 40,
+    "unit": "g"
+   },
+   {
+    "ingredient": "water",
+    "amount": 300,
+    "unit": "ml",
+    "note": "cold"
+   }
+  ],
+  "steps": [
+   "Scrape or mash the watermelon flesh in a large bowl so it breaks up but keeps some texture.",
+   "Add the pineapple, sugar and water and stir until the sugar dissolves.",
+   "Stir in the coconut milk, then chill for at least 1 hour.",
+   "Stir and serve over ice."
+  ],
+  "notes": "Traditionally the watermelon is scraped by hand, and fresh coconut flesh may be added. Adjust the sugar to taste.",
+  "sources": [
+   "wiki-otai"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "puaka-tunu-home",
+  "dish": "puaka-tunu",
+  "title": "Home-roasted pork with crisp skin",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 20,
+  "cook_minutes": 240,
+  "passive_minutes": 20,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "pork",
+    "amount": 2,
+    "unit": "kg",
+    "note": "skin-on shoulder or belly joint"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "coarse"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 3,
+    "unit": "tbsp",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "Dry the pork skin with paper towels and score through the skin. Rub the salt well into the skin and meat.",
+   "Heat the oven to 220 C and roast the pork for 30 minutes to start the crackling.",
+   "Lower the temperature to 150 C and roast for about 3 hours, until the meat is very tender.",
+   "Raise the oven back to 220 C for 15 minutes if the skin needs more crisping.",
+   "Rest the pork for 20 minutes, then carve. Serve with boiled yam or taro and lu."
+  ],
+  "notes": "At large feasts the pig is roasted whole over a fire or in an umu. This is a scaled-down oven version.",
+  "sources": [
+   "wiki-tongan-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "feke-lolo-home",
+  "dish": "feke-lolo",
+  "title": "Octopus in coconut cream",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 75,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "octopus",
+    "amount": 800,
+    "unit": "g",
+    "note": "cleaned, beak removed, cut into bite-sized pieces"
+   },
+   {
+    "ingredient": "water",
+    "amount": 500,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "sliced"
+   },
+   {
+    "ingredient": "coconut-cream",
+    "amount": 300,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   }
+  ],
+  "steps": [
+   "Put the octopus in a pot with the water and a pinch of salt. Cover and simmer gently for 45 to 60 minutes, until tender when pierced.",
+   "Add the onion and coconut cream and simmer uncovered for 10 to 15 minutes, until the sauce is creamy.",
+   "Finish with the lime juice, taste and adjust the salt, and serve hot with yam or taro."
+  ],
+  "notes": "Octopus releases water as it cooks, so you need little added liquid. Tenderness varies with size, so test as it simmers.",
+  "sources": [
+   "wiki-octopus-as-food"
+  ],
+  "review_status": "draft"
+ }
+]

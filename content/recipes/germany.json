@@ -1,0 +1,927 @@
+[
+  {
+    "id": "brezn-home",
+    "dish": "brezn",
+    "title": "Bavarian soft pretzels",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "passive_minutes": 75,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "note": "strong bread flour"
+      },
+      {
+        "ingredient": "water",
+        "amount": 280,
+        "unit": "ml",
+        "note": "lukewarm"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "dried instant"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 10,
+        "unit": "g",
+        "note": "fine, for the dough"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 30,
+        "unit": "g",
+        "note": "softened"
+      },
+      {
+        "ingredient": "baking-soda",
+        "amount": 60,
+        "unit": "g",
+        "note": "for the bath"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "l",
+        "note": "for the bath"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "coarse, for sprinkling"
+      }
+    ],
+    "steps": [
+      "Mix the flour, yeast and fine salt, add the water and butter, and knead for 10 minutes into a smooth, firm dough. Cover and rest 45 minutes.",
+      "Divide into 8 pieces. Roll each into a rope about 60 cm long, thicker in the middle and thin at the ends.",
+      "Form each rope into a U, cross the ends twice and press them onto the base of the U to make the pretzel shape. Place on a tray and chill, uncovered, for 30 minutes to form a skin.",
+      "Heat the oven to 220 C. Bring the 2 litres of water to a boil in a large pot, carefully add the baking soda (it will foam), and reduce to a simmer.",
+      "Lower the pretzels into the bath one or two at a time for 20 to 30 seconds, turn once, lift out with a slotted spoon and drain.",
+      "Place on a lined tray, slash the thick part with a knife, and sprinkle with coarse salt. Bake for 12 to 15 minutes until deep brown. Cool slightly before eating."
+    ],
+    "notes": "A baking soda bath gives a good home result; commercial bakeries use food-grade lye, which is caustic and should not be used at home without training.",
+    "sources": [
+      "wiki-pretzel"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "wiesn-hendl-home",
+    "dish": "wiesn-hendl",
+    "title": "Oktoberfest-style roast chicken",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 80,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 2,
+        "unit": "piece",
+        "note": "whole, about 1.3 kg each, at room temperature"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 60,
+        "unit": "g",
+        "note": "softened"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "sweet"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "stalks and leaves"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 210 C. Pat the chickens dry inside and out.",
+      "Mix the butter with half the salt, paprika and pepper. Spread it under the skin of the breast and over the outside; rub the rest of the salt inside the cavity and stuff each cavity with parsley.",
+      "Place the chickens breast-side up on a rack in a roasting tin with the water poured into the base. Roast 20 minutes, then lower to 190 C.",
+      "Roast another 50 to 60 minutes, basting with the pan juices every 20 minutes, until the skin is crisp and deep gold and the thickest part of the thigh reaches 75 C.",
+      "Rest for 10 minutes, then halve with a heavy knife. Serve a half per person with pretzels or potato salad."
+    ],
+    "notes": "Oktoberfest chickens are spit-roasted. If you have a rotisserie, use it at about 200 C for the same total time.",
+    "sources": [
+      "wiki-oktoberfest",
+      "wiki-german-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "weisswurst-home",
+    "dish": "weisswurst",
+    "title": "Weisswurst with sweet mustard and pretzel",
+    "version": "traditional",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "weisswurst",
+        "amount": 8,
+        "unit": "piece",
+        "note": "fresh or vacuum-packed, from a good butcher"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "l"
+      },
+      {
+        "ingredient": "sweet-mustard",
+        "amount": 4,
+        "unit": "tbsp",
+        "note": "Bavarian-style"
+      },
+      {
+        "ingredient": "pretzel",
+        "amount": 4,
+        "unit": "piece",
+        "note": "soft Bavarian pretzels"
+      }
+    ],
+    "steps": [
+      "Bring the water to a boil, then take it off the heat and let it stop bubbling. The water should be hot but not simmering, at about 80 C.",
+      "Slip the sausages into the pot, cover, and leave for 10 to 15 minutes until heated through. Never boil them, as the skins will split.",
+      "Serve in a warmed bowl with a little of the hot water, with the sweet mustard and pretzels on the side.",
+      "To eat the traditional way, slit the skin lengthways and peel it away, or cut the sausage in half and suck out the meat from the skin."
+    ],
+    "notes": "Weisswurst is a specialist butcher's product and is hard to make at home, so this recipe covers the serving. Traditionally paired with wheat beer.",
+    "sources": [
+      "wiki-weisswurst"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "kasspatzn-home",
+    "dish": "kasspatzn",
+    "title": "Käsespätzle with fried onions",
+    "version": "traditional",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 25,
+    "passive_minutes": 15,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 400,
+        "unit": "g",
+        "group": "Spätzle"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "group": "Spätzle"
+      },
+      {
+        "ingredient": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "cold or sparkling",
+        "group": "Spätzle"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Spätzle"
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Spätzle"
+      },
+      {
+        "ingredient": "emmental",
+        "amount": 300,
+        "unit": "g",
+        "note": "grated, or half Emmental and half mountain cheese",
+        "group": "To finish"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "large, thinly sliced",
+        "group": "To finish"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 60,
+        "unit": "g",
+        "group": "To finish"
+      },
+      {
+        "ingredient": "chives",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "snipped",
+        "group": "To finish"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "To finish"
+      }
+    ],
+    "steps": [
+      "Beat the eggs with the water, salt and nutmeg, then stir in the flour until you have a thick, elastic batter that falls slowly from a spoon. Rest for 15 minutes.",
+      "Melt the butter in a pan and fry the onions slowly for 15 to 20 minutes until golden and soft; set aside.",
+      "Bring a large pot of salted water to a simmer. Press the batter through a spätzle press, or scrape it from a board with a knife in thin strips, into the water in batches.",
+      "When the spätzle float, after about 2 minutes, lift them out with a slotted spoon.",
+      "Heat the oven to 150 C. In a warm ovenproof dish, layer the spätzle with handfuls of cheese, finishing with cheese on top. Keep warm in the oven for 10 minutes until melted and stringy.",
+      "Top with the fried onions and chives, add pepper, and serve with green salad."
+    ],
+    "notes": "A spätzle press makes this far easier. Use a potato ricer with big holes if you do not have one.",
+    "sources": [
+      "wiki-kasespatzle"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "maultaschen-home",
+    "dish": "maultaschen",
+    "title": "Swabian Maultaschen in broth",
+    "version": "traditional",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 20,
+    "passive_minutes": 30,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 300,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "water",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "spinach",
+        "amount": 300,
+        "unit": "g",
+        "note": "blanched, squeezed dry and chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 200,
+        "unit": "g",
+        "note": "minced",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "ham",
+        "amount": 100,
+        "unit": "g",
+        "note": "smoked, finely diced",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 60,
+        "unit": "g",
+        "note": "stale roll, soaked in warm milk and squeezed",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 80,
+        "unit": "ml",
+        "note": "for soaking",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely diced and softened in butter",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 20,
+        "unit": "g",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 1.5,
+        "unit": "l",
+        "note": "beef or vegetable broth",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "chives",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "snipped",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "For the dough, mix the flour, 3 eggs, oil, salt and water into a firm dough. Knead for 8 minutes, wrap and rest for 30 minutes.",
+      "Soften the onion in the butter and cool. Mix with the spinach, pork, ham, soaked bread, the extra egg, parsley, nutmeg, pepper and a little salt.",
+      "Roll the dough very thin, about 1 mm, into long strips about 12 cm wide. Spoon the filling in a line along one half of each strip, about 2 cm from the edge.",
+      "Fold the dough over the filling and press the edges together with a fork or your finger. Cut into pockets about 8 cm long.",
+      "Bring the stock to a gentle simmer, slide in the Maultaschen in batches and cook for 15 minutes.",
+      "Serve in the broth topped with chives."
+    ],
+    "notes": "Leftover Maultaschen can be sliced and fried in butter, often with scrambled egg.",
+    "sources": [
+      "wiki-maultasche"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sauerbraten-home",
+    "dish": "sauerbraten",
+    "title": "Rhenish Sauerbraten",
+    "version": "traditional",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 150,
+    "passive_minutes": 4320,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 1.3,
+        "unit": "kg",
+        "note": "topside or silverside in one piece",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 250,
+        "unit": "ml",
+        "note": "red wine vinegar",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "red-wine",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "water",
+        "amount": 250,
+        "unit": "ml",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "celery",
+        "amount": 2,
+        "unit": "piece",
+        "note": "stalks, sliced",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 3,
+        "unit": "piece",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 4,
+        "unit": "piece",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "juniper-berries",
+        "amount": 6,
+        "unit": "piece",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "whole peppercorns",
+        "group": "Marinade and roast"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Gravy"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Gravy"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 60,
+        "unit": "g",
+        "group": "Gravy"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Gravy"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Bring the vinegar, wine, water, onion, carrot, celery and spices to a boil, then cool completely.",
+      "Put the beef in a non-metallic container, pour in the cooled marinade and refrigerate for 3 days, turning daily.",
+      "Lift out the meat and pat dry; strain the marinade, keeping both liquid and vegetables.",
+      "Brown the meat on all sides in the oil in a heavy casserole. Add the marinated vegetables and 500 ml of strained marinade.",
+      "Cover and braise at 160 C for about 2.5 hours until the meat is very tender, adding more marinade or water if needed.",
+      "Lift out the meat and rest it. Strain the cooking liquid, whisk in the flour mixed with a little cold water, add raisins and sugar, and simmer for 10 minutes. Season with salt and slice the meat, serving with gravy, dumplings or potatoes and red cabbage."
+    ],
+    "notes": "A glass or ceramic dish is best for the marinade, as vinegar reacts with metal.",
+    "sources": [
+      "wiki-sauerbraten"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "stollen-home",
+    "dish": "stollen",
+    "title": "Christmas stollen",
+    "version": "home",
+    "servings": 16,
+    "prep_minutes": 40,
+    "cook_minutes": 60,
+    "passive_minutes": 1500,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "raisins",
+        "amount": 250,
+        "unit": "g",
+        "group": "Fruit"
+      },
+      {
+        "ingredient": "candied-peel",
+        "amount": 100,
+        "unit": "g",
+        "group": "Fruit"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 100,
+        "unit": "g",
+        "note": "chopped",
+        "group": "Fruit"
+      },
+      {
+        "ingredient": "rum",
+        "amount": 60,
+        "unit": "ml",
+        "group": "Fruit"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 150,
+        "unit": "ml",
+        "note": "lukewarm",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "yeast",
+        "amount": 7,
+        "unit": "g",
+        "note": "dried instant",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 80,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 200,
+        "unit": "g",
+        "note": "softened",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "lemon-zest",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 100,
+        "unit": "g",
+        "note": "melted",
+        "group": "Finish"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 50,
+        "unit": "g",
+        "group": "Finish"
+      },
+      {
+        "ingredient": "icing-sugar",
+        "amount": 100,
+        "unit": "g",
+        "group": "Finish"
+      }
+    ],
+    "steps": [
+      "The day before, soak the raisins, candied peel and almonds in the rum, stirring now and then.",
+      "Mix the flour, yeast, sugar, salt, cardamom and cinnamon. Add the milk, lemon zest and softened butter and knead for 10 minutes into a smooth dough.",
+      "Let the dough rest for 30 minutes, then knead in the soaked fruit and almonds. Rest another 30 minutes.",
+      "Divide into two. Roll each piece to an oval about 25 cm long, press a groove lengthways along the middle with a rolling pin, and fold one side over the other to make the traditional loaf shape.",
+      "Heat the oven to 170 C. Place the loaves on a lined baking tray and rest for 20 minutes, then bake for 50 to 55 minutes until deep golden.",
+      "While hot, brush generously with the melted butter, sprinkle with the 50 g sugar and let it soak in. Brush with butter again, then dust thickly with icing sugar.",
+      "Cool, wrap tightly in foil and keep for at least a week in a cool place so the flavours develop."
+    ],
+    "notes": "Stollen keeps for several weeks wrapped in foil. Slice thinly to serve.",
+    "sources": [
+      "wiki-stollen"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "lebkuchen-home",
+    "dish": "lebkuchen",
+    "title": "Elisen-style Lebkuchen",
+    "version": "home",
+    "servings": 16,
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 200,
+        "unit": "g",
+        "note": "ground"
+      },
+      {
+        "ingredient": "hazelnuts",
+        "amount": 100,
+        "unit": "g",
+        "note": "ground"
+      },
+      {
+        "ingredient": "candied-peel",
+        "amount": 80,
+        "unit": "g",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "allspice",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "lemon-zest",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "icing-sugar",
+        "amount": 150,
+        "unit": "g",
+        "group": "Glaze"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Glaze"
+      }
+    ],
+    "steps": [
+      "Whisk the eggs and sugar for 5 minutes until thick and pale.",
+      "Fold in the almonds, hazelnuts, candied peel, flour, spices and lemon zest to make a soft, sticky mixture.",
+      "Heat the oven to 160 C. Line two trays with baking paper, or place 7 cm edible wafers (Oblaten) on the trays if you have them.",
+      "Drop 16 heaped spoonfuls of the mix about 3 cm apart, spreading each into a 7 cm round with a wet spoon.",
+      "Bake for 18 to 20 minutes until just set, golden at the edges and still soft in the middle.",
+      "Mix the icing sugar with the lemon juice and a little water to a thick glaze. Brush over the warm cakes and cool on a rack.",
+      "Store in a tin for a week to soften further."
+    ],
+    "notes": "The mix is naturally low in flour. Check wafers for allergens if you use them.",
+    "sources": [
+      "wiki-lebkuchen"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "currywurst-home",
+    "dish": "currywurst",
+    "title": "Berlin-style currywurst",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "sausage",
+        "amount": 4,
+        "unit": "piece",
+        "note": "pork bratwurst or similar",
+        "group": "Sausage"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Sausage"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 4,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "curry-powder",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "mild, plus extra to dust",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "water",
+        "amount": 200,
+        "unit": "ml",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 800,
+        "unit": "g",
+        "note": "chips or fries, cooked separately",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Fry the onion in a little oil until soft, about 5 minutes. Add the tomato paste, curry powder and paprika and stir for 1 minute.",
+      "Add the sugar, vinegar and water. Simmer for 10 to 15 minutes until thick and glossy, then season and blend if you want a smooth sauce.",
+      "Fry or grill the sausages for 10 to 12 minutes, turning until browned and cooked through.",
+      "Slice the sausages into thick rounds, pour over the warm sauce and dust with more curry powder.",
+      "Serve with fries or a bread roll."
+    ],
+    "notes": "Bake or fry the potatoes until golden for the classic pairing.",
+    "sources": [
+      "wiki-currywurst"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sauerkraut-home",
+    "dish": "sauerkraut",
+    "title": "Homemade sauerkraut",
+    "version": "home",
+    "servings": 10,
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "passive_minutes": 20160,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "cabbage",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "white cabbage, outer leaves and core removed, finely shredded"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 30,
+        "unit": "g",
+        "note": "fine non-iodised salt, about 2 percent of the cabbage weight"
+      },
+      {
+        "ingredient": "caraway-seeds",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "optional",
+        "optional": true
+      },
+      {
+        "ingredient": "juniper-berries",
+        "amount": 4,
+        "unit": "piece",
+        "note": "optional",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Weigh the shredded cabbage and mix it with the salt in a big bowl, massaging with your hands for 5 to 10 minutes until it releases a lot of liquid.",
+      "Mix in the caraway and juniper if you like. Pack the cabbage firmly into a clean 2 litre jar, pressing so the liquid rises over the top.",
+      "Weigh the cabbage down so that it stays entirely under the brine, using a clean weight or a zip bag of salted water. Leave 3 cm of space at the top.",
+      "Cover loosely so gas can escape and leave at 18 to 20 C, away from direct sun, for 2 to 4 weeks. Press it down every few days to keep it submerged.",
+      "Taste after 2 weeks. When it is pleasantly sour, move it to the fridge, where it keeps for several months."
+    ],
+    "notes": "Use scrupulously clean equipment. If you see fuzzy mould on the surface or the smell is putrid rather than sour, throw it away. A thin white film on the brine can be skimmed.",
+    "sources": [
+      "wiki-sauerkraut"
+    ],
+    "review_status": "draft"
+  }
+]

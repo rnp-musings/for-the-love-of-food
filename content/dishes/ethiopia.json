@@ -1,0 +1,412 @@
+[
+  {
+    "id": "doro-wat",
+    "name": "Doro wat",
+    "local_name": "ዶሮ ወጥ",
+    "country": "ethiopia",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "rich",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "slow-cooked"
+    ],
+    "spice_level": 4,
+    "summary": "A deep red chicken stew built on long-cooked onions, berbere and spiced butter, served with boiled eggs.",
+    "story": "Doro wat is among the best-known Ethiopian dishes and is a centrepiece of holiday meals, especially Fasika (Easter) and weddings. The base is a very large quantity of onions cooked slowly, without oil at first, then enriched with niter kibbeh and berbere until the sauce is dark and thick. Chicken pieces and hard-boiled eggs are added and simmered. Wat in general is an older stew form, but the red, chilli-based version cannot predate the arrival of chilli peppers, a New World crop, in Ethiopia. It is eaten from a communal platter with injera.",
+    "origin_claims": [
+      {
+        "claim": "Chilli peppers reached Ethiopia only after the 16th-century exchange of crops with the Americas, so the red form of wat is later than the older, non-chilli stews.",
+        "confidence": "widely-told",
+        "source": "wiki-doro-wat"
+      }
+    ],
+    "sources": [
+      "wiki-doro-wat",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-injera",
+    "name": "Injera",
+    "local_name": "እንጀራ",
+    "country": "ethiopia",
+    "type": "bread",
+    "course": [
+      "main",
+      "side"
+    ],
+    "flavours": [
+      "sour",
+      "tangy"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "fermented",
+      "fried"
+    ],
+    "spice_level": 0,
+    "summary": "A large, spongy, sour pancake-bread made from fermented teff batter, eaten with every meal.",
+    "story": "Injera is the base of the Ethiopian meal and serves as plate, spoon and bread. Teff batter is left to ferment for a few days until it turns sour and bubbly, then poured onto a large clay griddle (mitad) and steamed under a lid without flipping, which leaves one smooth side and one pitted, sponge-like side. Stews and salads are ladled onto a large injera, and further rolls of injera are torn off to scoop them up. Teff is a tiny cereal grain native to the Horn of Africa. Injera is also made in Eritrea, and regional and household versions can mix teff with sorghum, barley or other flours.",
+    "origin_claims": [
+      {
+        "claim": "Teff was domesticated in the Ethiopian highlands, but the origin of injera and its fermentation method is not documented.",
+        "confidence": "widely-told",
+        "source": "wiki-injera"
+      }
+    ],
+    "sources": [
+      "wiki-injera",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "shiro",
+    "name": "Shiro",
+    "local_name": "ሽሮ",
+    "country": "ethiopia",
+    "region": "tigray",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "umami",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 2,
+    "summary": "A smooth, spiced stew of ground chickpeas or pulses, simmered with onion and garlic and eaten with injera.",
+    "story": "Shiro is a staple of the Ethiopian and Eritrean highlands, especially in Tigray, and a regular fasting-day dish for Orthodox Christians because it contains no meat or dairy. Shiro powder is a flour of ground chickpeas or other pulses, usually seasoned with chilli and spices, and it is whisked into water with onion, garlic and oil to give a thick, velvety stew. It is quick, cheap and filling. Variations include a thicker, almost paste-like form and a version baked in a clay pot.",
+    "origin_claims": [
+      {
+        "claim": "Shiro is a long-standing highland staple linked to fasting traditions; the dish is shared by Tigrayan and Eritrean cooking.",
+        "confidence": "widely-told",
+        "source": "wiki-shiro"
+      }
+    ],
+    "sources": [
+      "wiki-shiro",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "kitfo",
+    "name": "Kitfo",
+    "local_name": "ክትፎ",
+    "country": "ethiopia",
+    "region": "southern-ethiopia",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "rich",
+      "umami"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 4,
+    "summary": "Finely minced beef mixed with spiced butter and mitmita chilli powder, eaten raw or lightly warmed.",
+    "story": "Kitfo is a prized meat dish associated with the Gurage people of southern Ethiopia. The beef is minced finely, then mixed with niter kibbeh and a hot chilli-spice blend called mitmita, and sometimes with cardamom. It can be served raw (tere), lightly warmed (leb leb) or fully cooked (yebesele). Traditional servings come with fresh cheese (ayib) and cooked greens (gomen) alongside injera, and in Gurage tradition with kocho, a bread made from enset. Eating raw beef carries a food-safety risk, so cooks should use very fresh, high-quality meat.",
+    "origin_claims": [
+      {
+        "claim": "Kitfo is generally attributed to the Gurage people, and spread across Ethiopia through restaurants.",
+        "confidence": "widely-told",
+        "source": "wiki-kitfo"
+      }
+    ],
+    "sources": [
+      "wiki-kitfo",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-tibs",
+    "name": "Tibs",
+    "local_name": "ጥብስ",
+    "country": "ethiopia",
+    "type": "meat-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "sauteed",
+      "fried"
+    ],
+    "spice_level": 2,
+    "summary": "Cubes of beef or lamb quickly sautéed with onion, garlic, chilli and spiced butter.",
+    "story": "Tibs is a family of quickly cooked meat dishes found across Ethiopia and Eritrea. Pieces of beef, lamb or goat are fried in butter or oil with onions, green chilli and herbs such as rosemary, and finished at the table in some restaurants on a clay dish with hot coals. Different versions range from a dry, charred style to a wetter one with tomato and berbere. It is often a festive or special-occasion meal.",
+    "origin_claims": [
+      {
+        "claim": "Tibs is a widespread dish in Ethiopia and Eritrea; no single origin is documented.",
+        "confidence": "widely-told",
+        "source": "wiki-tibs"
+      }
+    ],
+    "sources": [
+      "wiki-tibs",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "misir-wat",
+    "name": "Misir wat",
+    "local_name": "ምስር ወጥ",
+    "country": "ethiopia",
+    "type": "stew",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "aromatic",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 3,
+    "summary": "A vegan red lentil stew simmered with onion, garlic, ginger and berbere.",
+    "story": "Misir wat is a red lentil version of wat that is cooked on fasting days, when Orthodox Christians avoid meat and dairy, and it forms part of the standard fasting platter (beyaynetu). It uses the same base as other wat: onions cooked down, then berbere and oil, but with red lentils that melt into a thick sauce. It is a regular on restaurant menus and often shares an injera with greens and shiro.",
+    "origin_claims": [
+      {
+        "claim": "Lentil stews are traditional in Ethiopian cooking and are tied to the fasting calendar of the Orthodox church.",
+        "confidence": "widely-told",
+        "source": "wiki-ethiopian-cuisine"
+      }
+    ],
+    "sources": [
+      "wiki-ethiopian-cuisine",
+      "wiki-beyaynetu"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "gomen",
+    "name": "Gomen",
+    "local_name": "ጎመን",
+    "country": "ethiopia",
+    "type": "other",
+    "course": [
+      "side",
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "salty"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "sauteed"
+    ],
+    "spice_level": 1,
+    "summary": "Collard greens simmered until tender with onion, garlic, ginger and a little chilli.",
+    "story": "Gomen is a dish of chopped collard greens cooked slowly with onions, garlic and ginger. It is a mild counterpart to spicier stews and a fixture of the fasting platter and of festive tables alike. In its fasting form it is cooked with oil; in non-fasting versions it can be cooked with niter kibbeh. Gomen kitfo, a Gurage dish, uses finely chopped collards with spiced butter and cheese.",
+    "origin_claims": [
+      {
+        "claim": "Collards and kale-type greens have long been grown in the Ethiopian highlands; dish history is otherwise undocumented.",
+        "confidence": "widely-told",
+        "source": "wiki-ethiopian-cuisine"
+      }
+    ],
+    "sources": [
+      "wiki-ethiopian-cuisine",
+      "wiki-beyaynetu"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-tej",
+    "name": "Tej",
+    "local_name": "ጠጅ",
+    "country": "ethiopia",
+    "type": "drink",
+    "course": [
+      "drink"
+    ],
+    "flavours": [
+      "sweet",
+      "tangy"
+    ],
+    "diet": [
+      "vegetarian",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "fermented"
+    ],
+    "spice_level": 0,
+    "summary": "A honey wine flavoured with gesho, drunk at celebrations and in dedicated tej houses.",
+    "story": "Tej is a fermented honey drink made with water, honey and gesho (the leaves or stems of a buckthorn shrub), which add a bittering effect similar to hops. It is traditionally drunk from a round-bottomed flask called a berele and is closely tied to celebrations, weddings and holidays. Homebrewed tej varies widely in strength and sweetness, with young tej being sweet and mild and older tej drier and stronger. Tej houses (tej bet) are a traditional social venue. In the diaspora, imitations are made with grape or sugar-based mixes.",
+    "origin_claims": [
+      {
+        "claim": "Honey fermentation is ancient and widespread; tej is the Ethiopian form, long associated with celebrations and with the court.",
+        "confidence": "widely-told",
+        "source": "wiki-tej"
+      }
+    ],
+    "sources": [
+      "wiki-tej",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ethiopian-buna",
+    "name": "Buna (Ethiopian coffee ceremony)",
+    "local_name": "ቡና",
+    "country": "ethiopia",
+    "type": "drink",
+    "course": [
+      "drink"
+    ],
+    "flavours": [
+      "bitter",
+      "aromatic"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "roasted",
+      "boiled"
+    ],
+    "spice_level": 0,
+    "summary": "Coffee roasted, ground and brewed in front of guests in a clay pot, served in three rounds.",
+    "story": "The coffee plant is native to the Ethiopian highlands, and coffee preparation has grown into a social ritual in Ethiopia and in Eritrea. In the coffee ceremony, a host roasts green beans in a pan, grinds them by mortar, brews them in a clay pot called a jebena and pours them into small cups, often in three rounds called abol, tona and baraka. Incense is burned, and snacks such as popcorn are served alongside. Many Ethiopians also tell the story of the goatherd Kaldi who noticed his goats lively after eating coffee berries; this is a legend with no documented basis.",
+    "origin_claims": [
+      {
+        "claim": "Coffee originated in the Ethiopian highlands, which is well established botanically.",
+        "confidence": "well-documented",
+        "source": "wiki-ethiopian-coffee-ceremony"
+      },
+      {
+        "claim": "The Kaldi goatherd story is a popular legend of coffee's discovery, but no historical record supports it.",
+        "confidence": "legend",
+        "source": "wiki-ethiopian-coffee-ceremony"
+      }
+    ],
+    "sources": [
+      "wiki-ethiopian-coffee-ceremony",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "firfir",
+    "name": "Firfir",
+    "local_name": "ፍርፍር",
+    "country": "ethiopia",
+    "type": "other",
+    "course": [
+      "breakfast",
+      "main"
+    ],
+    "flavours": [
+      "spicy",
+      "tangy",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "dairy-free",
+      "nut-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "sauteed",
+      "simmered"
+    ],
+    "spice_level": 3,
+    "summary": "Torn injera soaked and tossed in a spicy berbere and tomato sauce, a popular breakfast and a way to use leftover bread.",
+    "story": "Firfir (or fit-fit) is made by tearing leftover injera into pieces and mixing them into a spiced sauce until they absorb it. It is often eaten for breakfast. The sauce can be a fasting one with onion, tomato and berbere, or a richer one cooked with niter kibbeh or meat. The dish is shared by Ethiopian and Eritrean cooking, and it is a classic example of using bread that has gone stale.",
+    "origin_claims": [
+      {
+        "claim": "Firfir is a traditional way of using leftover injera, shared across Ethiopia and Eritrea.",
+        "confidence": "widely-told",
+        "source": "wiki-fit-fit"
+      }
+    ],
+    "sources": [
+      "wiki-fit-fit",
+      "wiki-ethiopian-cuisine"
+    ],
+    "review_status": "draft"
+  }
+]

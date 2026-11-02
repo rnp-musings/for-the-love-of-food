@@ -1,0 +1,421 @@
+[
+  {
+    "id": "pad-thai",
+    "name": "Pad thai",
+    "local_name": "ผัดไทย",
+    "country": "thailand",
+    "region": "central-thailand",
+    "type": "pasta-noodle",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "sweet",
+      "sour",
+      "salty",
+      "umami"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "cook_methods": [
+      "fried"
+    ],
+    "spice_level": 1,
+    "summary": "Stir-fried rice noodles with shrimp, tofu, egg and bean sprouts in a tamarind, fish sauce and palm sugar sauce, finished with crushed peanuts and lime.",
+    "story": "Pad thai is one of the best-known Thai dishes abroad and a staple of street stalls and restaurants. It is commonly said that stir-fried rice noodles were promoted in the late 1930s and 1940s, during a period of strong nationalism, as part of an effort to build a shared national food culture and to reduce reliance on rice. How much of that was deliberate policy and how much was already established street cooking is debated, and noodle stir-fries themselves came to Thailand through Chinese influence.\n\nThe flavour balance of sweet, sour and salty, with tamarind as the sour note, is what marks it as Thai rather than as a generic noodle stir-fry.",
+    "origin_period": "Early to mid 20th century",
+    "origin_claims": [
+      {
+        "claim": "Popularised in the 1930s and 1940s as part of a government-backed push for a national noodle dish.",
+        "confidence": "widely-told",
+        "source": "wiki-pad-thai"
+      },
+      {
+        "claim": "Rooted in Chinese-Thai stir-fried noodle traditions that predate the campaign.",
+        "confidence": "widely-told",
+        "source": "wiki-pad-thai"
+      }
+    ],
+    "sources": [
+      "wiki-pad-thai"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tom-yum-goong",
+    "name": "Tom yum goong",
+    "local_name": "ต้มยำกุ้ง",
+    "country": "thailand",
+    "region": "central-thailand",
+    "type": "soup",
+    "course": [
+      "starter",
+      "main"
+    ],
+    "flavours": [
+      "sour",
+      "spicy",
+      "aromatic",
+      "umami"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 4,
+    "summary": "A hot and sour shrimp soup scented with lemongrass, galangal and makrut lime leaves.",
+    "story": "Tom yum is a family of Thai hot and sour soups, and the version with shrimp (goong) is the one most often seen abroad. The name roughly describes the method: tom is to boil and yam refers to a spicy, sour Thai-style dressing. Its aromatic backbone of lemongrass, galangal, makrut lime leaf and bird's eye chillies is shared across many versions.\n\nThere is no reliable record of when or where it first appeared. Today it is served clear (nam sai) or with chilli paste in oil and sometimes a splash of milk (nam khon), and it is eaten as part of a shared meal with rice.",
+    "origin_claims": [
+      {
+        "claim": "The dish has no firmly documented origin or date; it is generally described as a long-established central Thai soup.",
+        "confidence": "widely-told",
+        "source": "wiki-tom-yum"
+      }
+    ],
+    "sources": [
+      "wiki-tom-yum"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "green-curry",
+    "name": "Green curry",
+    "local_name": "แกงเขียวหวาน",
+    "country": "thailand",
+    "region": "central-thailand",
+    "type": "curry",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "spicy",
+      "aromatic",
+      "sweet"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered"
+    ],
+    "spice_level": 4,
+    "summary": "A creamy coconut curry coloured by fresh green chillies and herbs, usually with chicken, aubergine and Thai basil.",
+    "story": "Gaeng keow wan, often translated as sweet green curry, is a central Thai curry built on a paste of fresh green chillies, galangal, lemongrass, makrut lime and shrimp paste, loosened with coconut milk. The word wan means sweet, which refers to the gentle sweetness of the coconut and palm sugar as much as to heat, because the dish is still quite hot.\n\nIts exact origin and age are not well documented, and it is generally treated as a central Thai curry that became widely known through restaurants. Cooks in Thai households often use a ready-made paste today, as pounding a fresh one takes time.",
+    "origin_claims": [
+      {
+        "claim": "Described as a central Thai curry; there is no solid record of who first made it or when.",
+        "confidence": "widely-told",
+        "source": "wiki-green-curry"
+      }
+    ],
+    "sources": [
+      "wiki-green-curry"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "khao-soi",
+    "name": "Khao soi",
+    "local_name": "ข้าวซอย",
+    "country": "thailand",
+    "region": "northern-thailand",
+    "type": "pasta-noodle",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "spicy",
+      "aromatic",
+      "sweet"
+    ],
+    "diet": [
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "simmered",
+      "deep-fried"
+    ],
+    "spice_level": 3,
+    "summary": "A northern Thai curry noodle soup of egg noodles in a rich coconut-curry broth, topped with crisp fried noodles.",
+    "story": "Khao soi is the signature noodle dish of Chiang Mai and the north. Soft egg noodles sit in a turmeric-yellow coconut curry, topped with a nest of crisp fried noodles and served with pickled mustard greens, shallots, lime and chilli oil on the side so each person adjusts it at the table.\n\nIts origins are uncertain. A frequently told account links it to Muslim traders from Yunnan, sometimes called Chin Haw, who travelled the overland routes into northern Thailand, and similar dishes exist in neighbouring Myanmar and Laos. How these related dishes influenced each other is not settled.",
+    "origin_claims": [
+      {
+        "claim": "Brought to the north by Yunnanese Muslim caravan traders and adapted locally.",
+        "confidence": "widely-told",
+        "source": "wiki-khao-soi"
+      },
+      {
+        "claim": "Related to curry-noodle dishes of Myanmar and Laos; direction of influence unclear.",
+        "confidence": "disputed",
+        "source": "wiki-khao-soi"
+      }
+    ],
+    "sources": [
+      "wiki-khao-soi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sai-oua",
+    "name": "Sai oua",
+    "local_name": "ไส้อั่ว",
+    "country": "thailand",
+    "region": "northern-thailand",
+    "type": "grill-bbq",
+    "course": [
+      "main",
+      "starter"
+    ],
+    "flavours": [
+      "aromatic",
+      "spicy",
+      "rich",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "grilled"
+    ],
+    "spice_level": 3,
+    "summary": "A coarse northern Thai pork sausage packed with lemongrass, galangal, makrut lime leaf and dried chillies, grilled until browned.",
+    "story": "Sai oua, also written sai ua, is the herb sausage of Lanna cooking in northern Thailand. Rather than curing or fermenting, it relies on a fresh paste of lemongrass, galangal, makrut lime leaves, shallots, garlic and dried chillies worked into chopped pork, so the result is intensely aromatic. It is usually coiled, grilled over charcoal, and sliced to eat with sticky rice and chilli dips.\n\nSausages stuffed with herbs and spices are made in other parts of Southeast Asia too, but sai oua is closely tied to the north and appears at markets and on the tables of family celebrations there.",
+    "origin_claims": [
+      {
+        "claim": "A traditional Lanna (northern Thai) sausage with no precisely documented origin.",
+        "confidence": "widely-told",
+        "source": "wiki-sai-ua"
+      }
+    ],
+    "sources": [
+      "wiki-sai-ua"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "som-tam",
+    "name": "Som tam",
+    "local_name": "ส้มตำ",
+    "country": "thailand",
+    "region": "isan",
+    "type": "salad",
+    "course": [
+      "starter",
+      "side",
+      "snack"
+    ],
+    "flavours": [
+      "sour",
+      "spicy",
+      "sweet",
+      "salty"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "raw"
+    ],
+    "spice_level": 4,
+    "summary": "A pounded green papaya salad with chilli, lime, fish sauce and peanuts, eaten across Thailand and especially in Isan.",
+    "story": "Som tam means sour pounded salad. Shredded green papaya is bruised in a mortar with garlic, chillies, lime, palm sugar and fish sauce, then mixed with tomatoes, long beans, dried shrimp and peanuts. It is closely associated with Isan in north-eastern Thailand and with Lao cooking, where a version known as tam mak hoong is eaten.\n\nThe papaya itself is a New World fruit that reached Southeast Asia through colonial-era trade, so the green-papaya form of the salad is a relatively recent development, though pounded salads in general are likely older. In Isan the salad often includes fermented fish sauce (pla ra) for a deeper, funkier flavour; the central Thai style leans sweeter and uses peanuts and dried shrimp.",
+    "origin_period": "Probably 19th to 20th century in its papaya form",
+    "origin_claims": [
+      {
+        "claim": "Developed in Lao and Isan communities, then spread across Thailand and abroad.",
+        "confidence": "widely-told",
+        "source": "wiki-som-tam"
+      },
+      {
+        "claim": "Papaya arrived in Southeast Asia from the Americas through trade, so the papaya version cannot be ancient.",
+        "confidence": "well-documented",
+        "source": "wiki-som-tam"
+      }
+    ],
+    "sources": [
+      "wiki-som-tam"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "larb",
+    "name": "Larb",
+    "local_name": "ลาบ",
+    "country": "thailand",
+    "region": "isan",
+    "type": "meat-dish",
+    "course": [
+      "main",
+      "starter"
+    ],
+    "flavours": [
+      "sour",
+      "spicy",
+      "umami",
+      "aromatic"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "sauteed"
+    ],
+    "spice_level": 4,
+    "summary": "A minced meat salad dressed with lime, fish sauce, chilli, fresh herbs and toasted ground rice.",
+    "story": "Larb is a Lao and Isan dish of minced or chopped meat, tossed warm or room temperature with lime juice, fish sauce, dried chilli, shallots, mint and spring onion and thickened and scented with toasted sticky rice powder. It is made with pork, chicken, beef or duck, and in some places with raw meat or blood, though the cooked pork version is the one most travellers meet.\n\nIt is a national dish of Laos, and it is equally at home in Isan, where Lao-speaking communities form much of the population. Northern Thailand has its own version, larb lanna, flavoured with a spice mix instead.",
+    "origin_claims": [
+      {
+        "claim": "Originated in Lao-speaking communities, and is shared by Laos and Isan.",
+        "confidence": "widely-told",
+        "source": "wiki-larb"
+      }
+    ],
+    "sources": [
+      "wiki-larb"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "massaman-curry",
+    "name": "Massaman curry",
+    "local_name": "แกงมัสมั่น",
+    "country": "thailand",
+    "region": "southern-thailand",
+    "type": "curry",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "rich",
+      "sweet",
+      "aromatic",
+      "tangy"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "egg-free"
+    ],
+    "cook_methods": [
+      "slow-cooked",
+      "simmered"
+    ],
+    "spice_level": 2,
+    "summary": "A mild, rich coconut curry of beef, potatoes and peanuts, with warm spices such as cinnamon and cardamom.",
+    "story": "Massaman curry is a mildly spiced, sweet and tangy curry whose name is generally connected with the word Muslim. Its warm spices, such as cinnamon, cardamom and cloves, are unusual in other Thai curries and are usually linked to the influence of Muslim traders and to the Persian and South Asian cooking brought along trade routes. It is commonly associated with the south and with central Thai court cooking.\n\nBeef is the classic choice, though chicken and duck are also used. Details of how it entered the Thai repertoire are debated, so treat the story of a single origin with caution.",
+    "origin_claims": [
+      {
+        "claim": "Brought by Muslim merchants and settled communities; the name relates to the word for Muslim.",
+        "confidence": "widely-told",
+        "source": "wiki-massaman-curry"
+      },
+      {
+        "claim": "Specific route and date of arrival in Thai cooking are not clearly established.",
+        "confidence": "disputed",
+        "source": "wiki-massaman-curry"
+      }
+    ],
+    "sources": [
+      "wiki-massaman-curry"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "mango-sticky-rice",
+    "name": "Mango sticky rice",
+    "local_name": "ข้าวเหนียวมะม่วง",
+    "country": "thailand",
+    "type": "dessert",
+    "course": [
+      "dessert"
+    ],
+    "flavours": [
+      "sweet",
+      "rich"
+    ],
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gluten-free",
+      "dairy-free",
+      "egg-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "steamed"
+    ],
+    "spice_level": 0,
+    "summary": "Sweet glutinous rice steeped in salted coconut milk, served with slices of ripe mango.",
+    "story": "Khao niao mamuang pairs sticky rice, a staple in the north and north-east, with sweetened coconut cream and fresh mango. The rice is steamed, then soaked in warm coconut milk so it absorbs the sweetness, and the top is drizzled with extra coconut cream that is slightly salty to set off the fruit. Some cooks add toasted mung beans or sesame for crunch.\n\nIt is eaten mostly in the hot season, from about March to May, when mango season peaks, and it is sold from street stalls and restaurants. The exact history of the combination is not well documented.",
+    "origin_claims": [
+      {
+        "claim": "Sticky rice with coconut milk is a long-standing Thai sweet; pairing it with ripe mango is a seasonal tradition with no documented origin.",
+        "confidence": "widely-told",
+        "source": "wiki-mango-sticky-rice"
+      }
+    ],
+    "sources": [
+      "wiki-mango-sticky-rice"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "khao-chae",
+    "name": "Khao chae",
+    "local_name": "ข้าวแช่",
+    "country": "thailand",
+    "type": "rice-dish",
+    "course": [
+      "main"
+    ],
+    "flavours": [
+      "aromatic",
+      "salty",
+      "sweet"
+    ],
+    "diet": [
+      "gluten-free",
+      "dairy-free",
+      "nut-free"
+    ],
+    "cook_methods": [
+      "boiled"
+    ],
+    "spice_level": 1,
+    "summary": "Cooked rice served in cold jasmine-scented water with a set of small savoury and sweet side dishes, eaten in the hot season.",
+    "story": "Khao chae is a cooling meal of rice served in chilled water scented with jasmine and other flowers, accompanied by small dishes such as sweet shredded pork, sweet preserved radish omelette strips, fresh vegetables and fried or stuffed items. The contrast between the chilled fragrant water and the intense, salty or sweet sides is the point.\n\nIt is strongly associated with the Thai new year in April, when the weather is hottest, and it is commonly described as having come from the Mon people, with later refinement in Thai royal cooking. The details of that history are told differently by different families and writers.",
+    "origin_claims": [
+      {
+        "claim": "Mon communities prepared it for Songkran, and it later became popular in the Thai court.",
+        "confidence": "widely-told",
+        "source": "wiki-khao-chae"
+      }
+    ],
+    "sources": [
+      "wiki-khao-chae"
+    ],
+    "review_status": "draft"
+  }
+]

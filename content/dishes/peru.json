@@ -1,0 +1,402 @@
+[
+ {
+  "id": "ceviche",
+  "name": "Ceviche",
+  "country": "peru",
+  "region": "peruvian-coast",
+  "type": "fish-dish",
+  "course": [
+   "starter",
+   "main"
+  ],
+  "flavours": [
+   "sour",
+   "tangy",
+   "spicy",
+   "salty"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "raw"
+  ],
+  "spice_level": 3,
+  "summary": "Raw fresh fish briefly cured in lime juice with chilli, red onion and coriander, served with sweet potato and corn.",
+  "story": "Peruvian ceviche is made from very fresh fish cut into cubes, mixed with salt, lime juice, ají chilli, red onion and coriander and served within minutes, with boiled sweet potato and large-kernel corn (choclo) to balance the acidity. The citrus 'cooking' is short, so the fish stays tender and just opaque. The liquid left in the bowl, called leche de tigre, is sometimes drunk separately. Peru has declared ceviche part of its national cultural heritage, and the dish also has a place on UNESCO's intangible heritage lists, and Peru celebrates a Ceviche Day each June. Its origin is argued over: some trace it to pre-Hispanic fish curing, others to the arrival of limes and onions with the Spanish, and other Latin American countries also claim versions.",
+  "origin_claims": [
+   {
+    "claim": "Ceviche has pre-Hispanic roots, with fish cured in acidic fruit or fermented maize drinks, later using Spanish citrus.",
+    "confidence": "widely-told",
+    "source": "wiki-ceviche"
+   },
+   {
+    "claim": "Ceviche was invented by the Moche, who cured fish in juice from a local fruit, and the modern form came directly from that.",
+    "confidence": "legend",
+    "source": "wiki-ceviche"
+   },
+   {
+    "claim": "The dish's earliest form is debated between Peru and other Pacific coastal countries.",
+    "confidence": "disputed",
+    "source": "wiki-ceviche"
+   }
+  ],
+  "sources": [
+   "wiki-ceviche",
+   "wiki-peruvian-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "lomo-saltado",
+  "name": "Lomo saltado",
+  "country": "peru",
+  "region": "peruvian-coast",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "umami",
+   "tangy",
+   "salty",
+   "spicy"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "sauteed",
+   "fried"
+  ],
+  "spice_level": 2,
+  "summary": "A stir-fry of beef strips with onion, tomato, ají and soy sauce, served over french fries and rice.",
+  "story": "Lomo saltado is the best-known dish of Chifa, the Chinese-Peruvian cooking that grew from the Chinese labourers who arrived in Peru in the 19th century. It applies the wok technique and soy sauce to Peruvian ingredients: beef, red onion, tomato, ají amarillo, vinegar and coriander, and the fries and rice on the same plate are very Peruvian touches. It is cooked fast over a very hot flame. Chifa restaurants (the name is usually explained as coming from Cantonese 'to eat rice') are common in Lima and throughout Peru.",
+  "origin_period": "19th to 20th century",
+  "origin_claims": [
+   {
+    "claim": "Lomo saltado emerged from Chinese immigrant cooking in Peru, combining stir-frying with Peruvian ingredients.",
+    "confidence": "well-documented",
+    "source": "wiki-lomo-saltado"
+   }
+  ],
+  "sources": [
+   "wiki-lomo-saltado",
+   "wiki-peruvian-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "aji-de-gallina",
+  "name": "Aji de gallina",
+  "country": "peru",
+  "region": "peruvian-coast",
+  "type": "stew",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "spicy",
+   "aromatic"
+  ],
+  "diet": [],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 2,
+  "summary": "Shredded chicken in a creamy, mild-spicy yellow sauce of ají amarillo, bread, milk, cheese and walnuts, served with potatoes and rice.",
+  "story": "Aji de gallina is a comfort dish of Lima whose sauce is thickened with bread soaked in milk and flavoured with ají amarillo, the fruity yellow chilli of Peru. The chicken is poached, shredded and folded into the sauce, then served with boiled potatoes, rice, a boiled egg and black olives. Food writers often link it to older Spanish colonial milk-and-nut dishes in the manjar blanco tradition, although this ancestry is a theory rather than a documented line. Modern versions use walnuts and Parmesan-style cheese.",
+  "origin_claims": [
+   {
+    "claim": "It adapted a Spanish colonial dish of shredded fowl in a milk-and-almond sauce to Peruvian ají.",
+    "confidence": "widely-told",
+    "source": "wiki-aji-de-gallina"
+   }
+  ],
+  "sources": [
+   "wiki-aji-de-gallina"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "papa-a-la-huancaina",
+  "name": "Papa a la huancaina",
+  "country": "peru",
+  "type": "salad",
+  "course": [
+   "starter"
+  ],
+  "flavours": [
+   "rich",
+   "spicy",
+   "salty"
+  ],
+  "diet": [
+   "vegetarian",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled"
+  ],
+  "spice_level": 2,
+  "summary": "Sliced boiled potatoes in a velvety cold sauce of fresh cheese and ají amarillo, with egg and olives.",
+  "story": "Papa a la huancaina is a cold starter of boiled potato covered in a sauce blended from fresh cheese, ají amarillo, milk and crackers. It is eaten all over Peru. The name means 'Huancayo-style potato', pointing to the Andean city of Huancayo, but the real origin is debated: tellings include a railway-era vendor selling it to workers, and a Lima origin as a dish of the city's Andean migrants. Neither is solidly documented.",
+  "origin_claims": [
+   {
+    "claim": "The dish originated in Huancayo or the Junin highlands, hence the name.",
+    "confidence": "widely-told",
+    "source": "wiki-papa-huancaina"
+   },
+   {
+    "claim": "It was created in Lima, named for the Huancayo cooks or vendors who sold it.",
+    "confidence": "disputed",
+    "source": "wiki-papa-huancaina"
+   }
+  ],
+  "sources": [
+   "wiki-papa-huancaina"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pachamanca",
+  "name": "Pachamanca",
+  "country": "peru",
+  "region": "peruvian-andes",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "aromatic",
+   "rich"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "roasted",
+   "slow-cooked"
+  ],
+  "spice_level": 1,
+  "summary": "A festive Andean feast of marinated meats, potatoes, sweet potatoes, corn and beans cooked underground between hot stones.",
+  "story": "In Quechua pacha means earth and manka means pot, and pachamanca is cooked in a pit lined with heated stones. Marinated meat, usually pork, lamb or chicken, goes in first, then layers of tubers, corn and fava beans, all covered with herbs, leaves and earth, and left to steam for a couple of hours. The marinade uses the Andean herb huacatay and ají panca. It is shared at celebrations, family gatherings and community events. Earth-oven cooking is thought to be very old in the Andes, but the exact lineage of today's dish is not fully documented.",
+  "origin_period": "Pre-Hispanic roots",
+  "origin_claims": [
+   {
+    "claim": "Underground stone-heated cooking has pre-Inca and Inca roots in the Andes.",
+    "confidence": "widely-told",
+    "source": "wiki-pachamanca"
+   }
+  ],
+  "sources": [
+   "wiki-pachamanca"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "anticuchos",
+  "name": "Anticuchos",
+  "country": "peru",
+  "region": "peruvian-coast",
+  "type": "street-food",
+  "course": [
+   "snack",
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "tangy",
+   "spicy",
+   "umami"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "gluten-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "grilled"
+  ],
+  "spice_level": 2,
+  "summary": "Skewers of marinated beef heart grilled over charcoal and served with potato and corn.",
+  "story": "Anticuchos de corazón are cubes of beef heart marinated in vinegar, ají panca, garlic and cumin, grilled on skewers and sold at street stalls and fairs across Lima. The tradition is linked with Afro-Peruvian cooks of the colonial and later periods, who prepared offal cuts. The word is usually said to come from Quechua, which also points to an Andean tradition of skewered meat before the Spanish; the details of that history are only loosely documented. Anticuchos are a classic food during October's Lord of Miracles procession.",
+  "origin_claims": [
+   {
+    "claim": "Anticuchos developed from Andean skewered meat, with colonial-era Afro-Peruvian cooks adapting offal cuts.",
+    "confidence": "widely-told",
+    "source": "wiki-anticucho"
+   }
+  ],
+  "sources": [
+   "wiki-anticucho"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "turron-de-dona-pepa",
+  "name": "Turron de Dona Pepa",
+  "country": "peru",
+  "region": "peruvian-coast",
+  "type": "dessert",
+  "course": [
+   "dessert"
+  ],
+  "flavours": [
+   "sweet",
+   "aromatic"
+  ],
+  "diet": [
+   "vegetarian",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "baked",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Lima's October sweet of crisp anise biscuit sticks layered with thick cane-sugar syrup and topped with coloured sprinkles.",
+  "story": "Despite its name, this sweet has little in common with Spanish turron. Biscuit-like sticks of dough flavoured with anise are piled with a thick syrup made from chancaca (raw cane sugar) and spices and finished with confetti sprinkles. It is the signature sweet of the month-long Lord of Miracles festival in Lima. A popular story says it was created by Josefa Marmanillo, an Afro-Peruvian woman known as Dona Pepa, in thanks for a healing she credited to the Lord of Miracles. Her existence as a seller is often repeated, but the details of the tale are tradition rather than documented history.",
+  "origin_period": "Colonial to 19th century",
+  "origin_claims": [
+   {
+    "claim": "The sweet was created by a woman called Josefa Marmanillo (Dona Pepa) after a healing attributed to the Lord of Miracles.",
+    "confidence": "legend",
+    "source": "wiki-lord-of-miracles"
+   }
+  ],
+  "sources": [
+   "wiki-lord-of-miracles",
+   "wiki-peruvian-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "chicha-de-jora",
+  "name": "Chicha de jora",
+  "country": "peru",
+  "region": "peruvian-andes",
+  "type": "drink",
+  "course": [
+   "drink"
+  ],
+  "flavours": [
+   "tangy",
+   "sweet"
+  ],
+  "diet": [
+   "vegetarian",
+   "vegan",
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "fermented"
+  ],
+  "spice_level": 0,
+  "summary": "A cloudy, lightly sour and mildly alcoholic Andean maize beer made from germinated corn.",
+  "story": "Chicha de jora is brewed from jora, maize that has been malted (sprouted), dried and ground, then boiled and left to ferment. It was a central drink in Inca society, used in religious ceremony and communal labour, and is still served in rural chicherias (local taverns) of the Andes, sometimes marked by a flag. Flavour and strength vary widely by home brewer. Chicha de jora is the base of much traditional Andean festival drinking, and some Lima restaurants now use it in cooking. It should not be mistaken for chicha morada, a non-alcoholic purple-corn drink.",
+  "origin_period": "Pre-Hispanic",
+  "origin_claims": [
+   {
+    "claim": "Chicha was an important ceremonial and everyday drink in the Inca and earlier Andean societies.",
+    "confidence": "well-documented",
+    "source": "wiki-chicha-de-jora"
+   }
+  ],
+  "sources": [
+   "wiki-chicha-de-jora"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "juane",
+  "name": "Juane",
+  "country": "peru",
+  "region": "peruvian-amazon",
+  "type": "rice-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "aromatic",
+   "rich",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free",
+   "gluten-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "steamed"
+  ],
+  "spice_level": 0,
+  "summary": "Turmeric-coloured rice with chicken, egg and olive, wrapped in bijao leaves and boiled, a speciality of the Peruvian Amazon.",
+  "story": "Juane is the signature dish of the Peruvian jungle, particularly Pucallpa, Iquitos and Tarapoto. Rice flavoured with spices and sometimes coloured with turmeric is packed around a piece of chicken, a boiled egg and an olive, wrapped in a large bijao leaf and boiled. The parcels keep well in the humid climate, and the leaf imparts a mild flavour. It is closely associated with the feast of San Juan on 24 June; the name is commonly said to come from San Juan (Saint John), although this derivation is a popular explanation.",
+  "origin_claims": [
+   {
+    "claim": "The name derives from Saint John (San Juan), whose feast the dish is served on.",
+    "confidence": "widely-told",
+    "source": "wiki-juane"
+   }
+  ],
+  "sources": [
+   "wiki-juane"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "tiradito",
+  "name": "Tiradito",
+  "country": "peru",
+  "region": "peruvian-coast",
+  "type": "fish-dish",
+  "course": [
+   "starter"
+  ],
+  "flavours": [
+   "sour",
+   "spicy",
+   "umami"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "raw"
+  ],
+  "spice_level": 2,
+  "summary": "Thin slices of raw fish dressed with a cold ají amarillo and lime sauce, a Peruvian-Japanese cousin of ceviche.",
+  "story": "Tiradito is usually described as a product of Nikkei cooking, the Japanese-Peruvian kitchen that grew from Japanese immigration to Peru since the late 19th century. The fish is sliced thinly like sashimi rather than cubed, and instead of being marinated it is dressed at the last minute with a sauce, often based on ají amarillo, lime juice and salt. The name is sometimes thought to refer to 'thrown' or pulled-out slices, but its etymology is uncertain. Restaurants in Lima are credited with popularising the dish in the later 20th century.",
+  "origin_period": "20th century",
+  "origin_claims": [
+   {
+    "claim": "Tiradito arose from Japanese-Peruvian (Nikkei) chefs applying sashimi cutting to Peruvian flavours.",
+    "confidence": "widely-told",
+    "source": "wiki-tiradito"
+   }
+  ],
+  "sources": [
+   "wiki-tiradito"
+  ],
+  "review_status": "draft"
+ }
+]

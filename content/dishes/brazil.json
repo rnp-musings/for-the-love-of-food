@@ -1,0 +1,409 @@
+[
+ {
+  "id": "feijoada",
+  "name": "Feijoada",
+  "country": "brazil",
+  "type": "stew",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "salty",
+   "smoky",
+   "umami"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "slow-cooked",
+   "simmered"
+  ],
+  "spice_level": 1,
+  "summary": "A slow-cooked stew of black beans with salted, smoked and fresh pork, served with rice, greens, farofa and orange slices.",
+  "story": "Feijoada is eaten across Brazil and is often called the country's most emblematic dish, though it is a matter of habit rather than any official status. It is traditionally a long weekend lunch, commonly on Saturdays, with the beans and meats served in separate bowls alongside rice, sauteed collard greens, toasted cassava flour (farofa) and orange slices to cut the richness. Bean-and-meat stews were already common in Portugal and elsewhere in Europe, and the Brazilian dish clearly belongs to that family. A popular story says it was invented by enslaved people from the leftover cuts of the plantation house, but historians question this and the claim is not well supported.",
+  "origin_period": "Colonial era to 19th century",
+  "origin_claims": [
+   {
+    "claim": "Feijoada developed from Portuguese bean-and-meat stews, adapted in Brazil to black beans and local sides such as farofa.",
+    "confidence": "widely-told",
+    "source": "wiki-feijoada"
+   },
+   {
+    "claim": "It was invented by enslaved people on plantations from the discarded pork cuts of their owners.",
+    "confidence": "disputed",
+    "source": "wiki-feijoada"
+   }
+  ],
+  "sources": [
+   "wiki-feijoada",
+   "wiki-brazilian-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pao-de-queijo",
+  "name": "Pao de queijo",
+  "country": "brazil",
+  "region": "minas-gerais",
+  "type": "snack",
+  "course": [
+   "snack",
+   "breakfast"
+  ],
+  "flavours": [
+   "salty",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "baked"
+  ],
+  "spice_level": 0,
+  "summary": "Small, chewy, cheesy rolls made from cassava starch, crisp outside and stretchy within. Naturally free of wheat flour.",
+  "story": "Pao de queijo is strongly associated with Minas Gerais, where it is served at breakfast and with afternoon coffee, and it is now sold at bakeries and snack counters across Brazil. The dough is made by scalding cassava (tapioca) starch with hot milk and oil, then mixing in eggs and cheese, which gives the elastic, hollow-centred crumb. Cassava starch is a staple that comes from indigenous Brazilian food knowledge. The exact date and place of the first cheese rolls is not documented, and tellings that put them in the farmhouse kitchens of colonial-era Minas are traditions rather than established history.",
+  "origin_period": "Probably 18th to 19th century",
+  "origin_claims": [
+   {
+    "claim": "Cheese rolls made with cassava starch developed in the farmhouse kitchens of Minas Gerais.",
+    "confidence": "widely-told",
+    "source": "wiki-pao-de-queijo"
+   },
+   {
+    "claim": "The recipe dates precisely to the colonial gold-mining period.",
+    "confidence": "disputed"
+   }
+  ],
+  "sources": [
+   "wiki-pao-de-queijo"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "moqueca-baiana",
+  "name": "Moqueca baiana",
+  "local_name": "Moqueca baiana",
+  "country": "brazil",
+  "region": "bahia",
+  "type": "fish-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "aromatic",
+   "tangy"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 1,
+  "summary": "A fish stew from Bahia cooked in coconut milk and dende palm oil with onion, tomato, peppers and coriander.",
+  "story": "Moqueca is a Brazilian fish or seafood stew, and the Bahian version is the one with coconut milk and orange-red dende (palm) oil. The oil, coconut and the habit of finishing with fresh coriander are usually credited to West African and Portuguese influences on the cooking of coastal Bahia, layered onto an older indigenous practice of cooking fish gently in leaves. Neighbouring Espirito Santo has its own moqueca capixaba, made without coconut milk or dende and coloured with annatto, in a clay pot. The relative origin of the two styles is debated and each state defends its own.",
+  "origin_claims": [
+   {
+    "claim": "Moqueca blends indigenous fish-in-leaf cooking with Portuguese and West African contributions such as dende oil and coconut.",
+    "confidence": "widely-told",
+    "source": "wiki-moqueca"
+   },
+   {
+    "claim": "The Bahian and Espirito Santo versions are separate regional traditions rather than one derived from the other.",
+    "confidence": "widely-told",
+    "source": "wiki-moqueca"
+   }
+  ],
+  "sources": [
+   "wiki-moqueca"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "acaraje",
+  "name": "Acaraje",
+  "country": "brazil",
+  "region": "bahia",
+  "type": "street-food",
+  "course": [
+   "snack",
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "spicy",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "gluten-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "deep-fried"
+  ],
+  "spice_level": 3,
+  "summary": "A fritter of mashed black-eyed peas fried in dende oil, split and filled with shrimp and spicy sauces. A signature street food of Salvador, Bahia.",
+  "story": "Acaraje is sold on street corners of Salvador by baianas de acaraje, women in white lace-trimmed dress. It comes from the West African black-eyed-pea fritter known as akara, brought to Bahia by enslaved Yoruba-speaking and other West African peoples, and in Candomblé it is a ritual food connected to the orisha Iansa. The craft of the baianas is recognised as part of Brazil's cultural heritage. The ball of batter is deep fried in dende oil, then opened and filled, commonly with vatapa, a vinaigrette of tomato and onion, dried shrimp and hot pepper sauce.",
+  "origin_period": "Colonial era",
+  "origin_claims": [
+   {
+    "claim": "Acaraje descends from West African akara fritters brought to Bahia by enslaved people.",
+    "confidence": "well-documented",
+    "source": "wiki-acaraje"
+   }
+  ],
+  "sources": [
+   "wiki-acaraje"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "canjica",
+  "name": "Canjica",
+  "country": "brazil",
+  "type": "dessert",
+  "course": [
+   "dessert"
+  ],
+  "flavours": [
+   "sweet",
+   "aromatic"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "A creamy, spiced pudding of white corn kernels simmered in milk, sugar and cinnamon, typical of June festivals.",
+  "story": "In much of Brazil canjica is a warm sweet pudding of dried white corn kernels cooked slowly in milk and coconut milk with sugar, cinnamon and cloves. It is closely tied to the Festa Junina season, when it is served in cups at parish and school parties. Corn was cultivated by indigenous peoples long before European contact. Names vary by region: in parts of the North-East the same sort of dish is known as mungunza, and in other places the word canjica is used for different corn preparations, so it is worth checking local usage.",
+  "origin_period": "Colonial era",
+  "origin_claims": [
+   {
+    "claim": "Canjica is built on indigenous corn cooking, enriched with milk, sugar and spices introduced after European arrival.",
+    "confidence": "widely-told",
+    "source": "wiki-canjica"
+   }
+  ],
+  "sources": [
+   "wiki-canjica",
+   "wiki-festa-junina"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pamonha",
+  "name": "Pamonha",
+  "country": "brazil",
+  "type": "dessert",
+  "course": [
+   "snack",
+   "dessert"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled"
+  ],
+  "spice_level": 0,
+  "summary": "A soft paste of fresh corn, milk and sugar wrapped in corn husks and boiled, eaten sweet or savoury.",
+  "story": "Pamonha is made from freshly grated or blended green corn, sweetened (or salted and filled with cheese or meat), tied into corn husks and boiled. It is eaten at harvest time and widely during Festa Junina, and sold by street vendors in many regions, particularly in the Centre-West and South-East. The dish is generally traced to indigenous corn preparations, and the name is usually said to come from a Tupi word, although such etymologies are not certain. Like canjica, it shows how corn, a crop native to the Americas, sits at the centre of Brazil's June festivals.",
+  "origin_period": "Pre-colonial roots",
+  "origin_claims": [
+   {
+    "claim": "Pamonha is rooted in indigenous Brazilian corn preparations, adapted with milk and sugar.",
+    "confidence": "widely-told",
+    "source": "wiki-pamonha"
+   }
+  ],
+  "sources": [
+   "wiki-pamonha",
+   "wiki-festa-junina"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "churrasco-gaucho",
+  "name": "Churrasco gaucho",
+  "country": "brazil",
+  "region": "rio-grande-do-sul",
+  "type": "grill-bbq",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "salty",
+   "rich"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "grilled"
+  ],
+  "spice_level": 0,
+  "summary": "Beef cooked on skewers or a grill over embers, seasoned only with coarse salt, in the style of the southern cattle ranchers.",
+  "story": "Churrasco is the Brazilian word for grilled meat cooked over charcoal or embers, and in Rio Grande do Sul it follows the gaucho tradition of cattle herders on the Pampas. Large cuts, such as picanha (rump cap), are seasoned with coarse salt and cooked slowly, then carved at the table. The rodizio service found in churrascarias, in which waiters carry skewers around the room, grew out of this tradition and spread across Brazil and abroad. Cattle-ranching in the south dates from the colonial period and the grilling style is shared with neighbouring Uruguay and Argentina.",
+  "origin_period": "Colonial era",
+  "origin_claims": [
+   {
+    "claim": "Churrasco in the south comes from the gaucho cattle-herding culture of the Pampas.",
+    "confidence": "widely-told",
+    "source": "wiki-churrasco"
+   }
+  ],
+  "sources": [
+   "wiki-churrasco"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "tacaca",
+  "name": "Tacaca",
+  "country": "brazil",
+  "region": "brazilian-amazon",
+  "type": "soup",
+  "course": [
+   "starter",
+   "snack"
+  ],
+  "flavours": [
+   "tangy",
+   "umami",
+   "spicy",
+   "aromatic"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered",
+   "boiled"
+  ],
+  "spice_level": 3,
+  "summary": "A hot, tangy Amazonian soup of tucupi broth, tapioca gum, dried shrimp, jambu leaves and chilli, sipped from a gourd bowl.",
+  "story": "Tacaca is a street food of Para state and the wider Amazon, sold in the late afternoon and evening by tacacazeiras who ladle it into small bowls (cuias). The broth is tucupi, a yellow juice pressed from bitter cassava, which is cooked and fermented before use and must always be boiled because the raw juice is toxic. It is poured over tapioca gum (goma), dried shrimp and jambu, a leaf that numbs the mouth slightly, and finished with hot pepper. Its ingredients come directly from indigenous Amazonian cassava processing, and the soup is widely accepted as being of indigenous origin.",
+  "origin_period": "Pre-colonial roots",
+  "origin_claims": [
+   {
+    "claim": "Tacaca derives from indigenous Amazonian cassava processing, including tucupi and tapioca gum.",
+    "confidence": "widely-told",
+    "source": "wiki-tacaca"
+   }
+  ],
+  "sources": [
+   "wiki-tacaca",
+   "wiki-tucupi"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "brigadeiro",
+  "name": "Brigadeiro",
+  "country": "brazil",
+  "type": "dessert",
+  "course": [
+   "dessert",
+   "snack"
+  ],
+  "flavours": [
+   "sweet",
+   "rich"
+  ],
+  "diet": [
+   "vegetarian",
+   "gluten-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Fudgy chocolate truffles made from condensed milk, cocoa and butter, rolled in chocolate sprinkles, found at nearly every Brazilian birthday party.",
+  "story": "Brigadeiro is a simple sweet made by cooking sweetened condensed milk, cocoa powder and butter until thick, then rolling spoonfuls in sprinkles. It is generally dated to the 1940s and is said to be named after Brigadeiro Eduardo Gomes, an air force officer who ran for president in 1945, supporters selling the sweets at campaign events. Condensed milk was a popular imported ingredient at the time, when fresh milk was hard to keep. The campaign story is repeated widely but is a popular account, not a documented fact.",
+  "origin_period": "1940s",
+  "origin_claims": [
+   {
+    "claim": "It was named for Brigadier Eduardo Gomes, a 1945 presidential candidate, and sold to raise campaign funds.",
+    "confidence": "widely-told",
+    "source": "wiki-brigadeiro"
+   }
+  ],
+  "sources": [
+   "wiki-brigadeiro"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "coxinha",
+  "name": "Coxinha",
+  "country": "brazil",
+  "region": "sao-paulo",
+  "type": "snack",
+  "course": [
+   "snack",
+   "starter"
+  ],
+  "flavours": [
+   "salty",
+   "rich"
+  ],
+  "diet": [],
+  "cook_methods": [
+   "deep-fried"
+  ],
+  "spice_level": 0,
+  "summary": "A teardrop-shaped croquette of shredded chicken wrapped in a soft dough, breaded and deep-fried.",
+  "story": "Coxinha means 'little thigh' and is named for its shape. It is a staple of Brazilian bakeries, snack bars and parties, especially in Sao Paulo state, and is made from a dough of chicken stock and flour wrapped around seasoned shredded chicken. A well-known story places its invention in the 19th century in the interior of Sao Paulo state, when a cook made a snack in the shape of a chicken thigh for an imperial family child who liked only that part, but there is no solid evidence for this tale. Many bars add catupiry-style cream cheese to the filling.",
+  "origin_period": "19th to 20th century",
+  "origin_claims": [
+   {
+    "claim": "Coxinha was created in the interior of Sao Paulo state in the 19th century for a member of the imperial family.",
+    "confidence": "legend",
+    "source": "wiki-coxinha"
+   },
+   {
+    "claim": "It is a Sao Paulo state snack that spread nationwide in the 20th century with bakeries and snack bars.",
+    "confidence": "widely-told",
+    "source": "wiki-coxinha"
+   }
+  ],
+  "sources": [
+   "wiki-coxinha"
+  ],
+  "review_status": "draft"
+ }
+]

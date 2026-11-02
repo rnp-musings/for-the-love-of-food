@@ -1,0 +1,930 @@
+[
+  {
+    "id": "cassoulet-home",
+    "dish": "cassoulet",
+    "title": "Cassoulet",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 210,
+    "passive_minutes": 720,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "haricot-beans",
+        "amount": 500,
+        "unit": "g",
+        "note": "dried white beans, soaked overnight and drained"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 300,
+        "unit": "g",
+        "note": "belly or shoulder, cut into large chunks"
+      },
+      {
+        "ingredient": "sausage",
+        "amount": 400,
+        "unit": "g",
+        "note": "Toulouse-style pork sausages"
+      },
+      {
+        "ingredient": "duck-confit",
+        "amount": 3,
+        "unit": "piece",
+        "note": "legs, skin and meat kept in large pieces"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "1 studded with 2 cloves, 1 chopped"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "duck-fat",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "from the confit jar"
+      },
+      {
+        "ingredient": "breadcrumbs",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the soaked beans in a pot with the clove-studded onion and 1 bay leaf, cover with cold water and simmer gently for 1 hour until nearly tender. Drain, keeping 500 ml of cooking liquid.",
+      "Heat the duck fat in a frying pan and brown the pork chunks on all sides, then brown the sausages. Remove and set aside; cook the chopped onion and garlic in the same fat for 5 minutes and stir in the tomato paste.",
+      "Heat the oven to 150 C. In a deep casserole, layer half the beans, then the pork and onion mixture and herbs, then the rest of the beans. Pour in the stock and reserved bean liquid so the beans are just covered.",
+      "Bake uncovered for 1.5 hours. A crust will form; push it back into the beans twice during this time.",
+      "Nestle the sausages (sliced if you like) and duck legs into the beans, season, and bake another 45 to 60 minutes.",
+      "Sprinkle the breadcrumbs on top and bake 20 to 30 minutes more until a golden crust forms. Rest for 10 minutes before serving."
+    ],
+    "notes": "Even better the day after. Add a little hot water if it looks dry. Ready-cooked confit duck legs are sold in jars and tins; use salt sparingly as the confit and sausages are salty.",
+    "sources": [
+      "wiki-cassoulet"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "coq-au-vin-home",
+    "dish": "coq-au-vin",
+    "title": "Coq au vin",
+    "version": "traditional",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 100,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "jointed, thighs and drumsticks preferred, skin on"
+      },
+      {
+        "ingredient": "bacon",
+        "amount": 150,
+        "unit": "g",
+        "note": "thick-cut or lardons"
+      },
+      {
+        "ingredient": "red-wine",
+        "amount": 750,
+        "unit": "ml",
+        "note": "a robust Burgundy-style red"
+      },
+      {
+        "ingredient": "brandy",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 12,
+        "unit": "piece",
+        "note": "small pearl or shallot-sized, peeled"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove"
+      },
+      {
+        "ingredient": "mushrooms",
+        "amount": 250,
+        "unit": "g",
+        "note": "button, halved"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 250,
+        "unit": "ml",
+        "note": "chicken"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped, to serve"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Season the chicken and brown it in batches in a heavy casserole in a little of the bacon fat; set aside. Fry the bacon until crisp in the same pot and set aside.",
+      "In the remaining fat, cook the carrot and half the small onions for 5 minutes. Add the garlic and tomato paste, then return the chicken. Warm the brandy in a ladle, carefully ignite it away from the heat, and pour it over; let the flames die down.",
+      "Sprinkle over 1 tablespoon of flour, stir, then add the wine, stock, thyme and bay. Bring to a simmer, cover, and cook over low heat for 50 minutes.",
+      "Meanwhile, fry the mushrooms and remaining small onions in 15 g butter until golden. Add them to the pot with the bacon for the last 20 minutes.",
+      "Mash the remaining butter with the remaining flour. Whisk it into the sauce a little at a time and simmer 5 minutes until it coats a spoon. Taste and season.",
+      "Scatter with parsley and serve with potatoes or bread."
+    ],
+    "notes": "For a deeper flavour, marinate the chicken in the wine with the carrot and herbs overnight in the fridge and pat dry before browning.",
+    "sources": [
+      "wiki-coq-au-vin"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "bouillabaisse-home",
+    "dish": "bouillabaisse",
+    "title": "Marseille-style bouillabaisse",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 50,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "white-fish",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "mixed whole fish such as rockfish, conger, monkfish, gurnard, cleaned and cut into chunks, heads and bones kept for the broth",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 80,
+        "unit": "ml",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "fennel",
+        "amount": 1,
+        "unit": "piece",
+        "note": "bulb, sliced",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 5,
+        "unit": "clove",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "ripe, chopped",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 500,
+        "unit": "g",
+        "note": "waxy, thickly sliced",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "orange-zest",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "strips",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.8,
+        "unit": "l",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Broth and fish"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 60,
+        "unit": "g",
+        "note": "for rouille",
+        "group": "Rouille"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "group": "Rouille"
+      },
+      {
+        "ingredient": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Rouille"
+      },
+      {
+        "ingredient": "dried-chiles",
+        "amount": 1,
+        "unit": "piece",
+        "note": "or a pinch of cayenne",
+        "group": "Rouille"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 60,
+        "unit": "ml",
+        "group": "Rouille"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 250,
+        "unit": "g",
+        "note": "thin slices of baguette, toasted",
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Warm the oil in a large pot, soften the onion and fennel for 8 minutes, then add 3 garlic cloves, tomato, orange zest, saffron, bay and thyme. Cook 5 minutes.",
+      "Add the fish heads and bones and the water. Simmer for 30 minutes, then strain through a sieve, pressing on the solids, and return the liquid to the pot.",
+      "Season the broth with salt, add the potato and cook 10 minutes until nearly tender.",
+      "For the rouille, soak the bread in a few spoonfuls of hot broth, then pound or blend with the garlic, saffron and chilli. Beat in the olive oil slowly until thick and smooth.",
+      "Add the firmest fish pieces to the broth first and cook 4 minutes, then add the delicate pieces and cook 4 minutes more until just opaque.",
+      "Serve the broth with the potatoes in warm bowls and the fish on a separate platter, with the toasted bread, a bowl of rouille and the remaining garlic clove for rubbing on the toast."
+    ],
+    "notes": "Traditionally includes rascasse (scorpion fish) and often shellfish. A good fishmonger will recommend a mix for fish soup. Use whole fish for the best broth.",
+    "sources": [
+      "wiki-bouillabaisse"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "choucroute-garnie-home",
+    "dish": "choucroute-garnie",
+    "title": "Alsatian-style choucroute garnie",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "sauerkraut",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "raw, from a jar or pouch, rinsed and squeezed dry"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "duck-fat",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "or lard"
+      },
+      {
+        "ingredient": "white-wine",
+        "amount": 300,
+        "unit": "ml",
+        "note": "dry Alsace Riesling or similar"
+      },
+      {
+        "ingredient": "juniper-berries",
+        "amount": 8,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 3,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "pork",
+        "amount": 600,
+        "unit": "g",
+        "note": "smoked pork shoulder or loin, in one piece"
+      },
+      {
+        "ingredient": "bacon",
+        "amount": 200,
+        "unit": "g",
+        "note": "thick slab, in one piece"
+      },
+      {
+        "ingredient": "sausage",
+        "amount": 6,
+        "unit": "piece",
+        "note": "Strasbourg or Frankfurter-style, added late"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 800,
+        "unit": "g",
+        "note": "small, peeled"
+      },
+      {
+        "ingredient": "water",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Heat the fat in a large casserole and soften the onions for 8 minutes without browning.",
+      "Add the sauerkraut, wine, water, juniper, cloves, bay and pepper. Nestle in the smoked pork and bacon.",
+      "Cover and cook over low heat or in a 160 C oven for 1.5 hours, stirring once or twice, until the meat is tender.",
+      "Add the potatoes for the final 30 minutes, and the sausages for the last 10 minutes so they only warm through.",
+      "Slice the meats and serve on top of the sauerkraut with the potatoes and mustard."
+    ],
+    "notes": "Taste the sauerkraut after rinsing; stronger brands may need more rinsing. Salt is rarely needed because the meats are salty.",
+    "sources": [
+      "wiki-choucroute"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "ratatouille-home",
+    "dish": "ratatouille",
+    "title": "Ratatouille",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "aubergine",
+        "amount": 2,
+        "unit": "piece",
+        "note": "medium, cut into 2 cm cubes"
+      },
+      {
+        "ingredient": "courgette",
+        "amount": 3,
+        "unit": "piece",
+        "note": "medium, cut into 2 cm pieces"
+      },
+      {
+        "ingredient": "bell-pepper",
+        "amount": 2,
+        "unit": "piece",
+        "note": "1 red, 1 yellow, cut into pieces"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 700,
+        "unit": "g",
+        "note": "ripe, chopped, or 2 x 400 g tins"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 90,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "basil",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "torn, to finish"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Salt the aubergine cubes and leave for 20 minutes in a colander, then pat dry.",
+      "In a large pan, fry the aubergine in 3 tablespoons of oil in two batches until golden; set aside. Repeat with the courgette and the peppers, adding oil as needed.",
+      "In the same pan, soften the onions in a little more oil for 8 minutes, add the garlic, then the tomatoes, thyme and bay.",
+      "Simmer the sauce for 10 minutes, then return the other vegetables to the pan.",
+      "Cover and cook gently for 25 to 30 minutes, uncovering for the last 10 to let the juices thicken. Season well.",
+      "Rest for 15 minutes and stir in basil. Serve warm or at room temperature."
+    ],
+    "notes": "Fry the vegetables separately for the best texture. It improves after a day in the fridge.",
+    "sources": [
+      "wiki-ratatouille"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "galette-complete-home",
+    "dish": "galette-complete",
+    "title": "Galette complète",
+    "version": "traditional",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "passive_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "buckwheat-flour",
+        "amount": 250,
+        "unit": "g",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "water",
+        "amount": 500,
+        "unit": "ml",
+        "note": "cold",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Batter"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "note": "one per galette",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "ham",
+        "amount": 4,
+        "unit": "piece",
+        "note": "thin slices",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "emmental",
+        "amount": 120,
+        "unit": "g",
+        "note": "grated",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 40,
+        "unit": "g",
+        "note": "for the pan",
+        "group": "Filling"
+      }
+    ],
+    "steps": [
+      "Whisk the buckwheat flour, salt and water to a smooth, runny batter. Rest for at least 1 hour, or overnight in the fridge.",
+      "Heat a wide non-stick pan or crêpe pan over medium-high heat and rub with a little butter.",
+      "Ladle in enough batter to cover the pan thinly, swirling it to the edges. Cook for 2 minutes until the underside is lightly browned and the edges lift.",
+      "Flip, scatter a quarter of the cheese in the centre and lay a slice of ham on top. Crack an egg in the middle.",
+      "Cook 2 to 3 minutes until the white is set but the yolk is runny. Fold the four sides in towards the centre to make a square, leaving the yolk visible, and serve at once.",
+      "Repeat for the remaining three galettes."
+    ],
+    "notes": "Keep finished galettes warm in a low oven. A little cider is the traditional drink.",
+    "sources": [
+      "wiki-galette"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "crepes-home",
+    "dish": "crepes",
+    "title": "French crêpes",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "passive_minutes": 60,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 3,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 40,
+        "unit": "g",
+        "note": "melted, plus extra for the pan"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 2,
+        "unit": "tbsp",
+        "note": "to serve"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 4,
+        "unit": "tbsp",
+        "note": "extra, to serve"
+      }
+    ],
+    "steps": [
+      "Whisk the flour, sugar and salt in a bowl. Make a well, add the eggs and a little of the milk, and whisk to a thick paste.",
+      "Gradually whisk in the rest of the milk, then the melted butter, to a thin batter like single cream. Rest it for 1 hour.",
+      "Heat a 20 to 24 cm non-stick pan over medium heat and brush lightly with butter.",
+      "Pour in about 60 ml of batter, tilt to coat the base, and cook for 1 minute until the edges lift and turn golden. Flip and cook for 30 seconds more.",
+      "Stack on a warm plate, buttering the pan again every few crêpes. Serve with sugar and lemon juice, folded in quarters."
+    ],
+    "notes": "Makes about 12 crêpes. The first is usually a test. For a Chandeleur custom, flip one while holding a coin.",
+    "sources": [
+      "wiki-crepe"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "galette-des-rois-home",
+    "dish": "galette-des-rois",
+    "title": "Galette des rois",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "passive_minutes": 45,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "puff-pastry",
+        "amount": 500,
+        "unit": "g",
+        "note": "all-butter, 2 ready-rolled sheets",
+        "group": "Pastry"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 100,
+        "unit": "g",
+        "note": "ground",
+        "group": "Frangipane"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 100,
+        "unit": "g",
+        "note": "softened",
+        "group": "Frangipane"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 100,
+        "unit": "g",
+        "group": "Frangipane"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Frangipane"
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Frangipane"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "note": "beaten, for glaze",
+        "group": "Glaze"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "for syrup glaze",
+        "group": "Glaze"
+      }
+    ],
+    "steps": [
+      "Beat the butter and sugar until pale. Beat in the 2 eggs one at a time, then the ground almonds and vanilla, to a thick cream. Chill for 30 minutes.",
+      "Heat the oven to 200 C. Lay one pastry round on a lined baking sheet, prick it lightly, and mark a 2 cm border with a knife.",
+      "Spoon the frangipane into the centre of the round, spreading to the border. Press the fève (a dried bean or ceramic charm, wrapped in foil if it is a charm) into the cream.",
+      "Brush the border with beaten egg, lay the second round over the top and press the edges to seal. Chill for 15 minutes.",
+      "Brush the top with egg and score a pattern with the tip of a knife, without cutting through. Pierce a small steam hole in the centre.",
+      "Bake for 15 minutes, then lower the oven to 180 C and bake 25 minutes more until deep golden. Brush with a syrup of 1 tablespoon sugar dissolved in 1 tablespoon hot water. Serve warm or cool."
+    ],
+    "notes": "Warn guests about the fève before cutting. Use a large bean if you do not have a charm.",
+    "sources": [
+      "wiki-galette-des-rois"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "tarte-tatin-home",
+    "dish": "tarte-tatin",
+    "title": "Tarte Tatin",
+    "version": "traditional",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 55,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "apple",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "firm eating apples such as Golden Delicious or Braeburn, peeled, cored, quartered"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "puff-pastry",
+        "amount": 320,
+        "unit": "g",
+        "note": "1 sheet, rolled slightly larger than the pan"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200 C. Melt the butter in a 24 cm oven-proof frying pan, scatter in the sugar and cook over medium heat until it turns amber caramel, about 6 to 8 minutes.",
+      "Remove from the heat and arrange the apple quarters closely in the caramel, rounded sides down, packing tightly because they will shrink.",
+      "Return to medium heat and cook for 10 to 15 minutes until the apples soften and the caramel is deep gold.",
+      "Lay the pastry over the apples, tucking the edges down inside the pan. Prick the top a few times.",
+      "Bake for 25 to 30 minutes until the pastry is puffed and golden. Rest for 5 minutes, then run a knife around the edge, place a plate over the pan and carefully turn the tart out. Serve warm."
+    ],
+    "notes": "The caramel is very hot: use oven gloves when turning the tart out.",
+    "sources": [
+      "wiki-tarte-tatin"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "soupe-a-l-oignon-home",
+    "dish": "soupe-a-l-oignon",
+    "title": "French onion soup",
+    "version": "traditional",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 75,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "kg",
+        "note": "about 6 medium, thinly sliced"
+      },
+      {
+        "ingredient": "butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "white-wine",
+        "amount": 150,
+        "unit": "ml",
+        "note": "dry"
+      },
+      {
+        "ingredient": "stock",
+        "amount": 1.2,
+        "unit": "l",
+        "note": "beef, hot"
+      },
+      {
+        "ingredient": "thyme",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "dried"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "bread",
+        "amount": 8,
+        "unit": "piece",
+        "note": "slices of baguette, toasted"
+      },
+      {
+        "ingredient": "gruyere",
+        "amount": 150,
+        "unit": "g",
+        "note": "grated"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Melt the butter with the oil in a heavy pot. Add the onions with a pinch of salt and cook over medium-low heat, stirring often, for 40 to 50 minutes until deep golden brown and very soft.",
+      "Sprinkle over the flour and cook 2 minutes, then pour in the wine and scrape up the browned bits.",
+      "Add the hot stock, thyme and bay. Simmer partly covered for 20 minutes. Season.",
+      "Heat the grill. Ladle the soup into ovenproof bowls, float two toasted bread slices on each and cover with the cheese.",
+      "Grill for 3 to 5 minutes until the cheese is bubbling and brown. Serve at once, warning that the bowls are hot."
+    ],
+    "notes": "Do not rush the onions; the long cooking is where the flavour comes from.",
+    "sources": [
+      "wiki-french-onion-soup"
+    ],
+    "review_status": "draft"
+  }
+]

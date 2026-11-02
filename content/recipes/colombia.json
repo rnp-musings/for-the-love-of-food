@@ -1,0 +1,821 @@
+[
+  {
+    "id": "ajiaco-santafereno-home",
+    "dish": "ajiaco-santafereno",
+    "title": "Bogotá-style ajiaco",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 90,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "bone-in thighs and breasts, skin removed",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 600,
+        "unit": "g",
+        "note": "floury type such as Maris Piper or Russet, peeled and thinly sliced",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 600,
+        "unit": "g",
+        "note": "waxy type, peeled and cut into 2 cm chunks",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 300,
+        "unit": "g",
+        "note": "small yellow potatoes (papa criolla) or extra waxy potato, halved",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "sweet-corn",
+        "amount": 3,
+        "unit": "piece",
+        "note": "cobs, each cut into 3 pieces",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "white parts, bruised",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "guascas",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "dried; use 1 tbsp dried oregano plus 1 tbsp dried parsley if unavailable",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2.5,
+        "unit": "l",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "cream",
+        "amount": 200,
+        "unit": "ml",
+        "note": "double or heavy cream",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "capers",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "drained",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "avocado",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "cooked separately, to serve alongside",
+        "optional": true,
+        "group": "To serve"
+      }
+    ],
+    "steps": [
+      "Put the chicken, spring onion, garlic, a generous pinch of salt and the water in a large pot. Bring to a boil, skim, then simmer gently for 30 minutes.",
+      "Lift out the chicken. Add the floury and waxy potatoes, half the guascas and the corn to the pot and simmer for 25 to 30 minutes, until the sliced floury potato has dissolved into the broth and thickened it.",
+      "Meanwhile shred the chicken, discarding bones.",
+      "Add the small yellow potatoes and the rest of the guascas and cook for 10 minutes more, until just tender. Return the chicken, season with salt and pepper and heat through for 5 minutes.",
+      "Serve in deep bowls with a corn piece in each. Pass the cream, capers and avocado at the table, with rice on the side if you like."
+    ],
+    "notes": "The soup should be thick enough to coat a spoon. If it is thin, mash a few potato slices against the side of the pot.",
+    "review_status": "draft"
+  },
+  {
+    "id": "bandeja-paisa-home",
+    "dish": "bandeja-paisa",
+    "title": "Bandeja paisa for four",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 150,
+    "difficulty": "hard",
+    "ingredients": [
+      {
+        "ingredient": "red-kidney-beans",
+        "amount": 300,
+        "unit": "g",
+        "note": "dried, soaked overnight",
+        "group": "Beans"
+      },
+      {
+        "ingredient": "pork-belly",
+        "amount": 150,
+        "unit": "g",
+        "note": "in one piece, for the beans",
+        "group": "Beans"
+      },
+      {
+        "ingredient": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "note": "peeled",
+        "group": "Beans"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 0.5,
+        "unit": "piece",
+        "group": "Beans"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "group": "Beans"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "white, cooked in the usual way",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "pork-belly",
+        "amount": 400,
+        "unit": "g",
+        "note": "skin-on slab, cut into 4 pieces for crisping",
+        "group": "Chicharrón"
+      },
+      {
+        "ingredient": "beef",
+        "amount": 400,
+        "unit": "g",
+        "note": "minced",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Beef"
+      },
+      {
+        "ingredient": "chorizo",
+        "amount": 4,
+        "unit": "piece",
+        "note": "small",
+        "group": "Platter"
+      },
+      {
+        "ingredient": "plantain",
+        "amount": 2,
+        "unit": "piece",
+        "note": "very ripe, sliced lengthwise",
+        "group": "Platter"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "note": "fried",
+        "group": "Platter"
+      },
+      {
+        "ingredient": "avocado",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced",
+        "group": "Platter"
+      },
+      {
+        "ingredient": "masarepa",
+        "amount": 200,
+        "unit": "g",
+        "note": "for 4 small arepas",
+        "group": "Arepas"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "chopped",
+        "group": "Hogao"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Hogao"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Hogao"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 8,
+        "unit": "tbsp",
+        "note": "in total, for frying and the hogao"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Simmer the soaked beans with the 150 g pork belly, carrot, half an onion and garlic in plenty of water for about 1.5 hours, until very tender. Season with salt towards the end. Remove the carrot and mash it into the beans to thicken them.",
+      "For the hogao, soften the spring onion and garlic in 2 tbsp oil, add the tomato and a pinch of salt and cook 15 minutes until jammy.",
+      "Simmer the pork belly slab in salted water for 40 minutes until tender, drain and dry well. Fry it skin side down in a little oil over medium heat for 15 to 20 minutes, turning, until crisp and golden.",
+      "Brown the minced beef with cumin and salt, then stir in half the hogao and cook until the beef is moist but not wet.",
+      "Mix the masarepa with 1/2 tsp salt and about 300 ml warm water into a soft dough, rest 5 minutes, shape into four discs and cook on a lightly oiled griddle for 5 minutes per side.",
+      "Fry the plantain slices until caramelised, then the chorizo until browned, then the eggs.",
+      "Arrange rice, beans, chicharrón, beef, chorizo, plantain, egg, arepa and avocado on each plate, with the remaining hogao on the side."
+    ],
+    "notes": "Chicharrón is also sold ready-made in Colombia. Any firm sausage can replace the chorizo.",
+    "review_status": "draft"
+  },
+  {
+    "id": "arepa-de-huevo-home",
+    "dish": "arepa-de-huevo",
+    "title": "Fried egg-filled arepas",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "masarepa",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "water",
+        "amount": 400,
+        "unit": "ml",
+        "note": "warm"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "note": "small, fresh"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "l",
+        "note": "for deep frying"
+      }
+    ],
+    "steps": [
+      "Mix the masarepa with 1 tsp salt (and the sugar if using) and the warm water. Knead briefly into a smooth soft dough and rest for 5 minutes.",
+      "Divide into four balls and flatten each into a disc about 10 cm across and 1 cm thick. Smooth any cracks at the edges.",
+      "Heat the oil to about 170 C. Fry the discs two at a time for 3 to 4 minutes, turning once, until they puff and turn golden. Drain on paper.",
+      "Let them cool for a minute, then cut a small slit along one edge and gently open a pocket with a knife, taking care not to cut through.",
+      "Crack each egg into a cup and slide it into a pocket. Pinch the slit closed with a dab of dough if needed.",
+      "Fry again, one at a time, for 2 to 3 minutes, spooning hot oil over the top, until the egg is set. Drain and serve hot."
+    ],
+    "notes": "Use small eggs so they fit. Some cooks fill the arepa with a spoon of cooked beef or cheese before the egg.",
+    "review_status": "draft"
+  },
+  {
+    "id": "encocado-de-pescado-home",
+    "dish": "encocado-de-pescado",
+    "title": "Fish in coconut sauce",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "white-fish",
+        "amount": 700,
+        "unit": "g",
+        "note": "firm fillets, cut into large pieces"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "finely chopped"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "minced"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "coconut-milk",
+        "amount": 400,
+        "unit": "ml",
+        "note": "full-fat"
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "to serve, cooked",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Season the fish with the lime juice, salt and pepper and leave for 15 minutes.",
+      "Heat the oil in a wide pan. Cook the onion and garlic over medium heat for 5 minutes until soft, then add the tomato and cumin and cook for 8 minutes until it breaks down.",
+      "Pour in the coconut milk and simmer gently for 5 minutes, stirring, until slightly thickened.",
+      "Slide in the fish and spoon sauce over it. Cover and simmer very gently for 6 to 8 minutes, until the fish is just opaque.",
+      "Stir in most of the cilantro, adjust the salt and serve with rice and patacones, topped with the remaining cilantro."
+    ],
+    "notes": "Do not boil hard once the fish is in or the coconut milk may split.",
+    "review_status": "draft"
+  },
+  {
+    "id": "ternera-a-la-llanera-home",
+    "dish": "ternera-a-la-llanera",
+    "title": "Oven or barbecue llanero-style beef ribs",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 240,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 2.5,
+        "unit": "kg",
+        "note": "beef short ribs or a rack of veal ribs, in large pieces"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 40,
+        "unit": "g",
+        "note": "coarse, for the meat"
+      },
+      {
+        "ingredient": "cassava",
+        "amount": 800,
+        "unit": "g",
+        "note": "peeled, cut into chunks",
+        "group": "To serve"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Guiso"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 6,
+        "unit": "piece",
+        "note": "chopped",
+        "group": "Guiso"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Guiso"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Guiso"
+      },
+      {
+        "ingredient": "lime-juice",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Guiso"
+      }
+    ],
+    "steps": [
+      "Pat the ribs dry and rub with the coarse salt on all sides. Leave for 1 hour at room temperature.",
+      "For a barbecue, bank the coals to one side and set the ribs on the other (indirect heat), lid on, at about 150 C. In an oven, roast on a rack at 150 C. Turn every 40 minutes.",
+      "Cook for 3.5 to 4 hours, until the meat is tender and pulls easily from the bone, and the outside has browned.",
+      "Boil the cassava in salted water for 25 to 30 minutes until tender, and drain.",
+      "Cook the spring onion and garlic in the oil for 3 minutes, add the tomato and a pinch of salt and cook 10 minutes. Finish with lime juice.",
+      "Rest the meat for 10 minutes, carve and serve with the cassava and sauce."
+    ],
+    "notes": "Traditionally the meat is cooked staked beside a wood fire; this home method imitates its slow, dry heat.",
+    "review_status": "draft"
+  },
+  {
+    "id": "bunuelos-home",
+    "dish": "bunuelos",
+    "title": "Colombian cheese buñuelos",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "queso-fresco",
+        "amount": 250,
+        "unit": "g",
+        "note": "salty white fresh cheese, finely grated"
+      },
+      {
+        "ingredient": "cornstarch",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "eggs",
+        "amount": 1,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "baking-powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "plus a little more if the dough is dry"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "l",
+        "note": "for deep frying"
+      }
+    ],
+    "steps": [
+      "Mix the cheese, cornstarch, sugar and baking powder in a bowl.",
+      "Add the egg and milk and knead with your hands for 3 to 5 minutes until the dough is smooth and holds together without cracking. Add a spoonful of milk if too dry.",
+      "Roll into balls about 3 cm across, with no cracks on the surface.",
+      "Heat the oil to about 160 C. Fry in batches for 6 to 8 minutes, moving them gently, until evenly golden and puffed. They should rise and turn on their own.",
+      "Drain on paper and eat warm."
+    ],
+    "notes": "If the oil is too hot, the buñuelos brown outside and stay raw inside. If they burst, the dough was too wet.",
+    "review_status": "draft"
+  },
+  {
+    "id": "natilla-home",
+    "dish": "natilla",
+    "title": "Panela and cinnamon natilla",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "milk",
+        "amount": 1,
+        "unit": "l"
+      },
+      {
+        "ingredient": "panela",
+        "amount": 200,
+        "unit": "g",
+        "note": "grated or chopped"
+      },
+      {
+        "ingredient": "cornstarch",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "note": "stick"
+      },
+      {
+        "ingredient": "cloves",
+        "amount": 3,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "extract",
+        "optional": true
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 50,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Warm 800 ml of the milk with the panela, cinnamon, cloves and a pinch of salt, stirring until the panela dissolves.",
+      "Whisk the cornstarch into the remaining 200 ml cold milk until smooth.",
+      "Remove the cinnamon and cloves if you like, then pour the starch mixture into the pan through a sieve, whisking constantly.",
+      "Cook over medium-low heat, stirring without stopping, for 12 to 15 minutes until very thick and glossy and it leaves the base of the pan as you stir. Add vanilla and raisins if using.",
+      "Pour into a wet dish and level the top. Cool, then chill for at least 3 hours before cutting."
+    ],
+    "notes": "The pudding firms a lot as it cools. Panela may need to be chopped finely so it melts completely.",
+    "review_status": "draft"
+  },
+  {
+    "id": "patacones-home",
+    "dish": "patacones",
+    "title": "Twice-fried green plantain",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "plantain",
+        "amount": 3,
+        "unit": "piece",
+        "note": "very green and firm"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 500,
+        "unit": "ml",
+        "note": "for shallow frying"
+      },
+      {
+        "ingredient": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "with 1 tsp salt, for dipping"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Peel the plantains by cutting off the ends and slitting the skin lengthwise. Cut into chunks 2.5 cm thick.",
+      "Heat the oil to about 160 C. Fry the chunks for 3 to 4 minutes per side until pale gold and tender but not browned.",
+      "Lift them out and press each one flat to about 5 mm with a flat-bottomed glass or a tortilla press, between sheets of baking paper.",
+      "Dip each flattened disc briefly in the salted water and shake off.",
+      "Raise the oil to 180 C and fry again for 2 to 3 minutes until golden and crisp. Drain and sprinkle with salt. Serve hot."
+    ],
+    "notes": "Hot oil spatters when wet discs go in, so pat them lightly dry or fry in small batches.",
+    "review_status": "draft"
+  },
+  {
+    "id": "sancocho-de-gallina-home",
+    "dish": "sancocho-de-gallina",
+    "title": "Chicken sancocho with plantain and cassava",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 100,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1.5,
+        "unit": "kg",
+        "note": "bone-in, cut into pieces; an older hen is more traditional"
+      },
+      {
+        "ingredient": "water",
+        "amount": 3,
+        "unit": "l"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "quartered"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "whole"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "half chopped for cooking, half for serving"
+      },
+      {
+        "ingredient": "plantain",
+        "amount": 2,
+        "unit": "piece",
+        "note": "green, peeled and cut in thick slices"
+      },
+      {
+        "ingredient": "cassava",
+        "amount": 500,
+        "unit": "g",
+        "note": "peeled, cut into chunks"
+      },
+      {
+        "ingredient": "potato",
+        "amount": 500,
+        "unit": "g",
+        "note": "peeled, cut in large chunks"
+      },
+      {
+        "ingredient": "sweet-corn",
+        "amount": 3,
+        "unit": "piece",
+        "note": "cobs, each cut into 3 pieces"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "white, cooked, to serve",
+        "optional": true
+      },
+      {
+        "ingredient": "avocado",
+        "amount": 2,
+        "unit": "piece",
+        "note": "sliced, to serve",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      },
+      {
+        "ingredient": "black-pepper",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the chicken, onion, spring onions, garlic, cumin, half the cilantro and the water in a large pot with a generous pinch of salt. Bring to a boil, skim, then simmer for 45 minutes (about 1.5 hours if using an older hen).",
+      "Add the plantain and cassava and simmer for 15 minutes.",
+      "Add the potato and corn and simmer for 20 to 25 minutes more until everything is tender and the broth has thickened slightly.",
+      "Season to taste, remove the onion and spring onion if you like, and scatter with the remaining cilantro.",
+      "Serve each person a piece of chicken, some vegetables and broth, with rice and avocado alongside."
+    ],
+    "notes": "Ripe plantain can also be added in the last 10 minutes for a sweeter note.",
+    "review_status": "draft"
+  },
+  {
+    "id": "suero-costeno-home",
+    "dish": "suero-costeno",
+    "title": "Home-cultured suero costeño",
+    "version": "home",
+    "servings": 8,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "passive_minutes": 1800,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "milk",
+        "amount": 500,
+        "unit": "ml",
+        "note": "whole, pasteurised (not UHT)"
+      },
+      {
+        "ingredient": "cream",
+        "amount": 500,
+        "unit": "ml",
+        "note": "heavy cream"
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": 3,
+        "unit": "tbsp",
+        "note": "plain, live cultures, as a starter"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "or to taste"
+      }
+    ],
+    "steps": [
+      "Warm the milk and cream gently to about 30 C, no hotter than body temperature. Wash a glass jar with hot water and let it cool.",
+      "Whisk in the yogurt until smooth and pour into the jar. Cover with a clean cloth.",
+      "Leave in a warm place, around 24 to 28 C, for 24 to 36 hours, until thick, set and pleasantly sour.",
+      "Stir in the salt, taste and adjust, then cover and chill for several hours. It thickens further in the fridge and keeps for about a week.",
+      "Serve spooned over arepas, fried plantain, cassava or soups."
+    ],
+    "notes": "Use clean equipment and discard if you see mould or smell anything other than clean sourness. Not suitable to ferment in very cold rooms.",
+    "licence": "CC-BY-4.0 (original text)",
+    "sources": [
+      "wiki-suero-costeno"
+    ],
+    "review_status": "draft"
+  }
+]

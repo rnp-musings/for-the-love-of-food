@@ -1,0 +1,769 @@
+[
+ {
+  "id": "feijoada-home",
+  "dish": "feijoada",
+  "title": "Feijoada with rice, greens and orange",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 40,
+  "cook_minutes": 180,
+  "passive_minutes": 720,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "black-beans",
+    "amount": 500,
+    "unit": "g",
+    "note": "dried, soaked overnight and drained",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "dried-salted-beef",
+    "amount": 250,
+    "unit": "g",
+    "note": "desalted by soaking in water for 12 hours, changing the water 3 times",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "pork",
+    "amount": 500,
+    "unit": "g",
+    "note": "spare ribs or shoulder, cut in chunks",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "smoked-sausage",
+    "amount": 300,
+    "unit": "g",
+    "note": "sliced",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "bacon",
+    "amount": 150,
+    "unit": "g",
+    "note": "diced",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 2,
+    "unit": "piece",
+    "note": "chopped",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 6,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "bay-leaf",
+    "amount": 3,
+    "unit": "piece",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "citrus",
+    "amount": 2,
+    "unit": "piece",
+    "note": "oranges, sliced, to serve",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "collard-greens",
+    "amount": 400,
+    "unit": "g",
+    "note": "finely shredded and sauteed with garlic in oil",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "rice",
+    "amount": 400,
+    "unit": "g",
+    "note": "cooked plain, to serve",
+    "group": "To serve"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "To serve"
+   }
+  ],
+  "steps": [
+   "Cover the soaked beans with fresh water in a large heavy pot and bring to a boil. Skim, then simmer for 30 minutes.",
+   "Add the desalted dried beef, the pork, bay leaves and about 1.5 l more hot water to keep everything covered. Simmer gently for 1.5 hours.",
+   "Fry the bacon and sausage in a pan until the fat is rendered, add the onion and garlic and cook for 5 minutes. Add to the pot.",
+   "Continue to simmer for 45 to 60 minutes until the beans are very soft and the broth has thickened. Mash a ladleful of beans against the side of the pot and stir back in to thicken. Taste and add salt only at the end, as the meats are salty.",
+   "Serve in a bowl with rice, sauteed greens and orange slices on the side. Farofa (toasted cassava flour) is a traditional addition."
+  ],
+  "notes": "Use a pressure cooker to cut the beans' cooking time to about 45 minutes. Do not skip desalting the dried beef.",
+  "sources": [
+   "wiki-feijoada"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pao-de-queijo-home",
+  "dish": "pao-de-queijo",
+  "title": "Cassava cheese rolls",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 25,
+  "cook_minutes": 22,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "tapioca-starch",
+    "amount": 250,
+    "unit": "g",
+    "note": "sour or sweet polvilho"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 125,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "water",
+    "amount": 60,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 60,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece"
+   },
+   {
+    "ingredient": "parmesan",
+    "amount": 80,
+    "unit": "g",
+    "note": "finely grated"
+   },
+   {
+    "ingredient": "mozzarella",
+    "amount": 70,
+    "unit": "g",
+    "note": "grated, to approximate Minas cheese"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200 C and line a tray with baking paper.",
+   "Bring the milk, water, oil and salt to a boil. Pour over the tapioca starch in a bowl and mix with a spoon until no dry starch is left. Let cool for 10 minutes.",
+   "Beat in the eggs one at a time, then knead in the cheeses by hand until you have a sticky, stretchy dough. If it is too stiff add a spoonful of milk.",
+   "Roll into walnut-sized balls, about 30 g each, and place 3 cm apart on the tray.",
+   "Bake for 20 to 25 minutes until puffed and pale golden. Eat warm."
+  ],
+  "notes": "Makes about 24 rolls. Minas meia-cura cheese is traditional; the cheese mix here is a common substitute abroad. They can be frozen unbaked.",
+  "sources": [
+   "wiki-pao-de-queijo"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "moqueca-baiana-home",
+  "dish": "moqueca-baiana",
+  "title": "Bahian fish and coconut stew",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "passive_minutes": 20,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "white-fish",
+    "amount": 800,
+    "unit": "g",
+    "note": "thick steaks or fillets, cut in large pieces",
+    "group": "Fish"
+   },
+   {
+    "ingredient": "lime-juice",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Fish"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 3,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Fish"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "large, sliced in rings",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "tomato",
+    "amount": 3,
+    "unit": "piece",
+    "note": "sliced",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "bell-pepper",
+    "amount": 2,
+    "unit": "piece",
+    "note": "1 red, 1 green, sliced",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "cilantro",
+    "amount": 1,
+    "unit": "bunch",
+    "note": "chopped",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "dende-oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "coconut-milk",
+    "amount": 400,
+    "unit": "ml",
+    "note": "1 can",
+    "group": "Stew"
+   },
+   {
+    "ingredient": "malagueta-pepper",
+    "amount": 1,
+    "unit": "piece",
+    "note": "or other fresh hot chilli, optional",
+    "optional": true,
+    "group": "Stew"
+   }
+  ],
+  "steps": [
+   "Toss the fish with lime juice, garlic and salt and marinate for 20 minutes.",
+   "In a wide shallow pot, layer half the onion, tomato, peppers and coriander. Lay the fish on top, then cover with the remaining vegetables.",
+   "Pour the coconut milk over, trickle on the dende oil, add the chilli if using, cover and bring to a simmer over medium heat.",
+   "Cook for 15 to 20 minutes without stirring, shaking the pot now and then, until the fish is just cooked through.",
+   "Finish with extra coriander and serve with white rice and farofa."
+  ],
+  "notes": "Dende (red palm) oil is available at Brazilian and African grocers. Without it the dish will still be good but lacks its distinctive flavour and colour.",
+  "sources": [
+   "wiki-moqueca"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "acaraje-home",
+  "dish": "acaraje",
+  "title": "Acaraje with shrimp filling",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 60,
+  "cook_minutes": 40,
+  "passive_minutes": 720,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "black-eyed-peas",
+    "amount": 400,
+    "unit": "g",
+    "note": "dried, soaked overnight",
+    "group": "Fritters"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "coarsely chopped",
+    "group": "Fritters"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "dende-oil",
+    "amount": 700,
+    "unit": "ml",
+    "note": "for deep frying",
+    "group": "Fritters"
+   },
+   {
+    "ingredient": "shrimp",
+    "amount": 300,
+    "unit": "g",
+    "note": "peeled",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "tomato",
+    "amount": 2,
+    "unit": "piece",
+    "note": "diced",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "dried-shrimp",
+    "amount": 30,
+    "unit": "g",
+    "note": "rinsed and chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "malagueta-pepper",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped, or to taste",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "cilantro",
+    "amount": 1,
+    "unit": "bunch",
+    "note": "chopped",
+    "group": "Filling"
+   }
+  ],
+  "steps": [
+   "Rub the soaked peas between your hands in water to loosen the skins, and skim the skins off as they float. Drain well.",
+   "Grind the peas with the onion in a food processor with just a splash of water to a thick, grainy paste. Season with salt, then beat the paste vigorously for 5 minutes with a wooden spoon so it turns pale and fluffy.",
+   "For the filling, cook the chopped onion in 2 tablespoons of dende oil for 3 minutes, add the shrimp, dried shrimp, tomato and chilli, and cook for 5 minutes until the shrimp are pink. Stir in the coriander.",
+   "Heat the dende oil in a deep pan to about 180 C. Using two wet spoons, shape egg-sized ovals of paste and lower them in, cooking 3 to 4 at a time for 4 to 5 minutes, turning until deep reddish-brown.",
+   "Drain, split each fritter open lengthways and fill with the shrimp mixture. Serve straight away."
+  ],
+  "notes": "The paste must be beaten well or the fritters will be dense. Vatapa and caruru are traditional additional fillings. Dende oil can smoke at high heat, so keep the temperature steady.",
+  "sources": [
+   "wiki-acaraje"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "canjica-home",
+  "dish": "canjica",
+  "title": "Creamy white corn pudding",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 15,
+  "cook_minutes": 120,
+  "passive_minutes": 720,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "dried-white-hominy",
+    "amount": 250,
+    "unit": "g",
+    "note": "soaked overnight"
+   },
+   {
+    "ingredient": "water",
+    "amount": 1500,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 700,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "coconut-milk",
+    "amount": 200,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 150,
+    "unit": "g"
+   },
+   {
+    "ingredient": "cinnamon",
+    "amount": 2,
+    "unit": "piece",
+    "note": "sticks"
+   },
+   {
+    "ingredient": "cloves",
+    "amount": 4,
+    "unit": "piece"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 1,
+    "unit": "pinch"
+   }
+  ],
+  "steps": [
+   "Drain the soaked corn and boil it in the water for 60 to 90 minutes, until tender. Top up with hot water if needed.",
+   "Add the milk, sugar, cinnamon, cloves and salt. Simmer on low for 25 to 30 minutes, stirring often, until creamy.",
+   "Stir in the coconut milk and cook for 5 more minutes. Remove the spices.",
+   "Serve warm in bowls, dusted with ground cinnamon if you wish."
+  ],
+  "notes": "A pressure cooker will soften the corn in about 30 minutes. Some cooks add condensed milk and top with crushed peanuts.",
+  "sources": [
+   "wiki-canjica"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "pamonha-home",
+  "dish": "pamonha",
+  "title": "Sweet corn pamonha",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 40,
+  "cook_minutes": 55,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "maize",
+    "amount": 800,
+    "unit": "g",
+    "note": "fresh kernels cut from about 8 ears"
+   },
+   {
+    "ingredient": "milk",
+    "amount": 250,
+    "unit": "ml"
+   },
+   {
+    "ingredient": "sugar",
+    "amount": 100,
+    "unit": "g"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 30,
+    "unit": "g"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 0.5,
+    "unit": "tsp"
+   },
+   {
+    "ingredient": "corn-husks",
+    "amount": 12,
+    "unit": "piece",
+    "note": "soaked in warm water if dried"
+   },
+   {
+    "ingredient": "cinnamon",
+    "amount": 1,
+    "unit": "tsp",
+    "note": "ground, optional",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "Blend the kernels with the milk until smooth, then strain through a sieve, pressing to extract all the liquid.",
+   "Pour the liquid into a pot with the sugar, butter and salt. Cook over medium heat, stirring all the time, for 8 to 10 minutes until it thickens into a soft paste. Cool.",
+   "Place about 4 tablespoons of paste on each husk, fold the sides over and fold the ends, then tie with strips of husk or string.",
+   "Boil the packets in plenty of water for 40 minutes. Serve warm, dusted with cinnamon if you like."
+  ],
+  "notes": "Dried husks may need an extra layer to keep the paste in. A savoury version can be made by omitting the sugar and adding cheese.",
+  "sources": [
+   "wiki-pamonha"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "churrasco-gaucho-home",
+  "dish": "churrasco-gaucho",
+  "title": "Salt-grilled picanha",
+  "version": "home",
+  "servings": 6,
+  "prep_minutes": 15,
+  "cook_minutes": 50,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "beef",
+    "amount": 1200,
+    "unit": "g",
+    "note": "picanha (rump cap) with its fat layer, or similar thick-cut beef"
+   },
+   {
+    "ingredient": "salt",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "coarse sea salt"
+   }
+  ],
+  "steps": [
+   "Take the beef out of the refrigerator 45 minutes before cooking. Score the fat in a diamond pattern and cut the meat into 3 thick steaks, or leave in one piece.",
+   "Light charcoal and let it burn to grey embers with no flames. Salt the meat generously on all sides just before grilling.",
+   "Cook over medium heat, fat side down first, for 10 minutes until the fat is golden, then turn and cook 10 to 15 minutes per side for steaks, longer for a whole cut, to an internal temperature of 55 C for medium rare.",
+   "Rest for 10 minutes, then slice across the grain and serve with vinaigrette, farofa and rice."
+  ],
+  "notes": "Only salt is used so the beef flavour shines. Keep flare-ups under control with a spray of water.",
+  "sources": [
+   "wiki-churrasco"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "tacaca-home",
+  "dish": "tacaca",
+  "title": "Tacaca with tucupi",
+  "version": "home",
+  "servings": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "difficulty": "medium",
+  "ingredients": [
+   {
+    "ingredient": "tucupi",
+    "amount": 1000,
+    "unit": "ml",
+    "note": "bottled, from Brazilian shops",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "malagueta-pepper",
+    "amount": 2,
+    "unit": "piece",
+    "note": "whole",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "dried-shrimp",
+    "amount": 50,
+    "unit": "g",
+    "note": "rinsed and soaked 10 minutes",
+    "group": "Broth"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "tapioca-starch",
+    "amount": 60,
+    "unit": "g",
+    "group": "Goma"
+   },
+   {
+    "ingredient": "water",
+    "amount": 300,
+    "unit": "ml",
+    "group": "Goma"
+   },
+   {
+    "ingredient": "jambu",
+    "amount": 100,
+    "unit": "g",
+    "note": "leaves, blanched 2 minutes in boiling water",
+    "group": "To serve"
+   }
+  ],
+  "steps": [
+   "Bring the tucupi to a boil with the garlic and whole chillies, then simmer at least 20 minutes. Never serve tucupi that has not been boiled thoroughly.",
+   "Stir the tapioca starch into the cold water, then heat in a small pot stirring constantly until it turns translucent and gelatinous, about 3 minutes. Keep warm.",
+   "Add the soaked dried shrimp to the broth and simmer for 5 more minutes. Season with salt.",
+   "Put 2 spoonfuls of the tapioca gel, some jambu and a few shrimp in each bowl and ladle on the very hot broth. Serve immediately."
+  ],
+  "notes": "Jambu numbs the tongue slightly and may be hard to find outside Brazil; frozen jambu is sold in some shops. No ingredient replicates it exactly. This is a home approximation of the street version, which uses goma made from pressed cassava.",
+  "sources": [
+   "wiki-tacaca",
+   "wiki-tucupi"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "brigadeiro-home",
+  "dish": "brigadeiro",
+  "title": "Chocolate brigadeiros",
+  "version": "home",
+  "servings": 12,
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "passive_minutes": 60,
+  "difficulty": "easy",
+  "ingredients": [
+   {
+    "ingredient": "condensed-milk",
+    "amount": 395,
+    "unit": "g",
+    "note": "1 can"
+   },
+   {
+    "ingredient": "cocoa-powder",
+    "amount": 2,
+    "unit": "tbsp"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 1,
+    "unit": "tbsp",
+    "note": "plus extra for greasing hands"
+   },
+   {
+    "ingredient": "sprinkles",
+    "amount": 100,
+    "unit": "g",
+    "note": "chocolate, for rolling"
+   }
+  ],
+  "steps": [
+   "Mix the condensed milk, cocoa and butter in a non-stick pot. Cook over medium-low heat, stirring constantly with a spatula.",
+   "After 8 to 12 minutes, when the mixture is thick and you can see the bottom of the pot for a moment when you drag the spatula through it, remove from the heat.",
+   "Pour onto a greased plate and cool completely, about 1 hour.",
+   "With buttered hands, roll teaspoonfuls into balls, then roll in the sprinkles. Put into paper cups."
+  ],
+  "notes": "Makes about 25. Do not overcook or the sweets turn hard.",
+  "sources": [
+   "wiki-brigadeiro"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "coxinha-home",
+  "dish": "coxinha",
+  "title": "Chicken coxinhas",
+  "version": "home",
+  "servings": 8,
+  "prep_minutes": 60,
+  "cook_minutes": 40,
+  "difficulty": "hard",
+  "ingredients": [
+   {
+    "ingredient": "chicken",
+    "amount": 500,
+    "unit": "g",
+    "note": "breast or boneless thighs",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "note": "finely chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "garlic",
+    "amount": 2,
+    "unit": "clove",
+    "note": "crushed",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "parsley",
+    "amount": 2,
+    "unit": "tbsp",
+    "note": "chopped",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "cream-cheese",
+    "amount": 100,
+    "unit": "g",
+    "optional": true,
+    "group": "Filling"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Filling"
+   },
+   {
+    "ingredient": "stock",
+    "amount": 500,
+    "unit": "ml",
+    "note": "chicken poaching broth",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "wheat-flour",
+    "amount": 250,
+    "unit": "g",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "butter",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "Dough"
+   },
+   {
+    "ingredient": "salt",
+    "amount": null,
+    "unit": "to-taste"
+   },
+   {
+    "ingredient": "eggs",
+    "amount": 2,
+    "unit": "piece",
+    "note": "beaten",
+    "group": "Coating"
+   },
+   {
+    "ingredient": "breadcrumbs",
+    "amount": 200,
+    "unit": "g",
+    "group": "Coating"
+   },
+   {
+    "ingredient": "oil",
+    "amount": 1000,
+    "unit": "ml",
+    "note": "for deep frying",
+    "group": "Coating"
+   }
+  ],
+  "steps": [
+   "Poach the chicken in salted water for 20 minutes. Remove, shred, and reserve 500 ml of the broth.",
+   "Soften the onion and garlic in the oil, add the shredded chicken and parsley and season well. Stir in the cream cheese if using. Cool.",
+   "Bring the 500 ml of broth to a boil with the butter, then add the flour all at once and stir hard for about 5 minutes until the dough pulls away from the pot. Turn out and knead until smooth while still warm.",
+   "Take a 40 g portion of dough, flatten in your palm, put a spoonful of filling in the middle, and seal and shape into a teardrop.",
+   "Dip each coxinha into beaten egg, then breadcrumbs. Chill 20 minutes.",
+   "Heat oil to 170 C and fry in batches for 4 to 5 minutes until deep golden. Drain on paper."
+  ],
+  "notes": "Makes about 20. Do not overfill, or the dough cracks in the fryer.",
+  "sources": [
+   "wiki-coxinha"
+  ],
+  "review_status": "draft"
+ }
+]

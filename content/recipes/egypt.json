@@ -1,0 +1,944 @@
+[
+  {
+    "id": "koshari-home",
+    "dish": "koshari",
+    "title": "Koshari",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "rice",
+        "amount": 200,
+        "unit": "g",
+        "note": "rinsed",
+        "group": "Base"
+      },
+      {
+        "ingredient": "lentils",
+        "amount": 150,
+        "unit": "g",
+        "note": "brown, rinsed",
+        "group": "Base"
+      },
+      {
+        "ingredient": "macaroni",
+        "amount": 150,
+        "unit": "g",
+        "note": "short, dried",
+        "group": "Base"
+      },
+      {
+        "ingredient": "chickpeas",
+        "amount": 200,
+        "unit": "g",
+        "note": "cooked or canned, drained",
+        "group": "Base"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Base"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste",
+        "group": "Base"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Tomato sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "minced",
+        "group": "Tomato sauce"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 600,
+        "unit": "g",
+        "note": "blended or crushed",
+        "group": "Tomato sauce"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Tomato sauce"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Tomato sauce"
+      },
+      {
+        "ingredient": "chili-flakes",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Tomato sauce"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Garlic vinegar"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Garlic vinegar"
+      },
+      {
+        "ingredient": "water",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Garlic vinegar"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Garlic vinegar"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "very thinly sliced",
+        "group": "Fried onions"
+      },
+      {
+        "ingredient": "wheat-flour",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Fried onions"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 250,
+        "unit": "ml",
+        "note": "for frying",
+        "group": "Fried onions"
+      }
+    ],
+    "steps": [
+      "Cook the lentils in plenty of boiling water for 20 minutes until just tender. Drain and keep warm.",
+      "Heat 1 tbsp oil in a pot, stir in the rice and 400 ml water with salt. Cook covered for 15 minutes until done. Meanwhile cook the macaroni in salted water per packet instructions and drain.",
+      "For the tomato sauce, fry the garlic in oil for 30 seconds, add the tomatoes, vinegar, cumin and chilli. Simmer for 20 minutes until thick, and season.",
+      "For the garlic vinegar, mix the garlic, vinegar, water, cumin and a pinch of salt and leave to infuse.",
+      "For the onions, toss the slices in the flour and a pinch of salt. Fry in batches in hot oil, stirring, until deep golden and crisp. Drain on paper.",
+      "Layer the rice, lentils, macaroni and chickpeas in bowls, spoon over tomato sauce, a little garlic vinegar and crown with the fried onions."
+    ],
+    "sources": [
+      "wiki-koshari"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-ful-medames-home",
+    "dish": "egyptian-ful-medames",
+    "title": "Ful medames",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "passive_minutes": 720,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "fava-beans",
+        "amount": 300,
+        "unit": "g",
+        "note": "dried, small Egyptian-type, soaked overnight"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "olive-oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 1,
+        "unit": "piece",
+        "note": "diced"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 0.5,
+        "unit": "bunch",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 1,
+        "unit": "piece",
+        "note": "chopped",
+        "optional": true
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Drain the soaked beans and put in a pot with fresh water to cover by 5 cm. Bring to a boil, then simmer gently for 1.5 to 2 hours until very soft, adding water as needed.",
+      "Drain, keeping about 150 ml of the liquid. Mash roughly with the garlic and cumin, loosening with the reserved liquid.",
+      "Season with salt and the lemon juice. Spoon into bowls.",
+      "Top with olive oil, tomato, parsley and chilli. Serve with bread."
+    ],
+    "notes": "Canned cooked fava beans (about 800 g) can be used: warm them with water and mash. Tahini or a boiled egg are common additions.",
+    "sources": [
+      "wiki-ful-medames"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-taameya-home",
+    "dish": "egyptian-taameya",
+    "title": "Ta'ameya",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "passive_minutes": 45,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "split-fava-beans",
+        "amount": 400,
+        "unit": "g",
+        "note": "peeled and split, soaked 12 to 16 hours"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "dill",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "ingredient": "spring-onion",
+        "amount": 4,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 6,
+        "unit": "clove"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "coriander-seed",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "ground"
+      },
+      {
+        "ingredient": "baking-soda",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredient": "sesame-seeds",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 1,
+        "unit": "l",
+        "note": "for deep frying"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Drain the soaked beans well. Pulse them in a food processor with the herbs, spring onions, garlic and spices to a coarse, damp paste. Do not add water.",
+      "Season with salt, stir in the baking soda and rest for 30 minutes.",
+      "Wet your hands and shape the paste into 4 cm patties with a slight dip in the middle. Press one face into the sesame seeds.",
+      "Heat the oil to 180 C and fry the patties in batches for 2 to 3 minutes per side until deep golden and crisp. Drain on paper.",
+      "Serve hot in bread with tomato, salad and tahini."
+    ],
+    "sources": [
+      "wiki-taamiya"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-molokhia-home",
+    "dish": "egyptian-molokhia",
+    "title": "Molokhia with chicken",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "chicken",
+        "amount": 1,
+        "unit": "kg",
+        "note": "legs and thighs",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 3,
+        "unit": "piece",
+        "note": "pods",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "water",
+        "amount": 1.5,
+        "unit": "l",
+        "group": "Broth"
+      },
+      {
+        "ingredient": "molokhia-leaves",
+        "amount": 400,
+        "unit": "g",
+        "note": "frozen chopped, thawed",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "ghee",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Ta'liya"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 8,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Ta'liya"
+      },
+      {
+        "ingredient": "coriander-seed",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "ground",
+        "group": "Ta'liya"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 1,
+        "unit": "tbsp",
+        "note": "to serve",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "cooked, to serve",
+        "group": "Soup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the chicken, onion, bay leaves, cardamom and water in a pot with salt. Simmer for 40 minutes until the chicken is tender. Lift out the chicken and keep warm; strain the broth.",
+      "Heat 1 l of the broth to a gentle simmer. Add the molokhia and stir. Do not boil hard or it can turn stringy; keep it at a gentle simmer for 10 minutes.",
+      "In a small pan, heat the ghee and fry the garlic and ground coriander until the garlic is golden, about 1 minute.",
+      "Pour the garlic mix into the soup, which will hiss. Stir and cook for 2 minutes.",
+      "Serve the soup over rice with the chicken on the side and a squeeze of lemon."
+    ],
+    "notes": "Fresh molokhia leaves can be used (about 300 g, stripped and finely chopped). Dried leaves need soaking first.",
+    "sources": [
+      "wiki-mulukhiyah"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-mahshi-home",
+    "dish": "egyptian-mahshi",
+    "title": "Mahshi (herb rice stuffed vegetables)",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 50,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "zucchini",
+        "amount": 6,
+        "unit": "piece",
+        "note": "small, cored"
+      },
+      {
+        "ingredient": "bell-pepper",
+        "amount": 3,
+        "unit": "piece",
+        "note": "tops cut, deseeded"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 4,
+        "unit": "piece",
+        "note": "large, tops cut and hollowed"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 150,
+        "unit": "g",
+        "note": "short-grain, rinsed",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "parsley",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "dill",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "coriander",
+        "amount": 1,
+        "unit": "bunch",
+        "note": "chopped",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "grated",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 4,
+        "unit": "tbsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "tomato-paste",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Cooking liquid"
+      },
+      {
+        "ingredient": "water",
+        "amount": 800,
+        "unit": "ml",
+        "group": "Cooking liquid"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Mix the filling ingredients with salt and pepper. Chop and add the pulp from the hollowed tomatoes.",
+      "Fill the zucchini, peppers and tomatoes only two-thirds full, as the rice swells.",
+      "Pack the vegetables upright and tightly in a wide pot, tucking in the tomato lids and pepper tops.",
+      "Dissolve the tomato paste in the water with a little salt and pour around the vegetables to come halfway up. Place a plate on top to hold them down.",
+      "Bring to a boil, cover and simmer for 40 to 50 minutes until the rice and vegetables are tender. Serve warm."
+    ],
+    "notes": "Cabbage or vine leaves can be rolled with the same filling. Add 300 g minced beef for a meat version (then it is not vegan).",
+    "sources": [
+      "wiki-mahshi"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-fattah-home",
+    "dish": "egyptian-fattah",
+    "title": "Fattah",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "beef",
+        "amount": 1.2,
+        "unit": "kg",
+        "note": "bone-in shin or brisket pieces",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "note": "halved",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "bay-leaf",
+        "amount": 2,
+        "unit": "piece",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": 4,
+        "unit": "piece",
+        "note": "pods",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "water",
+        "amount": 2,
+        "unit": "l",
+        "group": "Meat"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "rinsed",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "ghee",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "pita",
+        "amount": 3,
+        "unit": "piece",
+        "note": "torn and toasted or fried",
+        "group": "Bread"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 8,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "ghee",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": 3,
+        "unit": "tbsp",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 400,
+        "unit": "g",
+        "note": "blended",
+        "group": "Sauce"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Put the meat, onion, bay, cardamom and water in a pot with salt. Simmer covered for 2 hours until the meat is tender. Remove the meat and strain the broth.",
+      "Heat the ghee in a pot, stir in the rice, then add 500 ml of the broth and cook covered for 15 minutes until done.",
+      "Toast the bread pieces in a hot oven at 200 C for 10 minutes, or fry until crisp.",
+      "For the sauce, fry the garlic in ghee until golden, add the vinegar, then the tomato and 150 ml broth. Simmer for 10 minutes and season.",
+      "Layer the bread in a deep dish, moisten with ladlefuls of hot broth, cover with rice, then the meat and finish with the tomato sauce. Serve immediately."
+    ],
+    "sources": [
+      "wiki-fatteh"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "fesikh-home",
+    "dish": "fesikh",
+    "title": "Fesikh, dressed for serving",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "salted-mullet",
+        "amount": 800,
+        "unit": "g",
+        "note": "bought ready-cured from a reputable specialist"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "note": "sliced"
+      },
+      {
+        "ingredient": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "note": "cut in wedges"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredient": "green-chilli",
+        "amount": 1,
+        "unit": "piece",
+        "note": "sliced",
+        "optional": true
+      },
+      {
+        "ingredient": "pita",
+        "amount": 4,
+        "unit": "piece",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      "Take the fish from its packaging, rinse briefly under cold water and pat dry.",
+      "Remove the skin and the bones and cut the flesh into pieces.",
+      "Mix the oil with the lemon juice and dress the fish. Alternatively warm the oil and pour it over the fish.",
+      "Serve at once with raw sliced onion, tomato wedges, chilli and bread."
+    ],
+    "notes": "Do not attempt to ferment fish at home. Buy it only from a trusted vendor, keep it refrigerated and eat promptly. Pregnant women, young children and people with weakened immunity should avoid it.",
+    "sources": [
+      "wiki-feseekh"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "sayadeya-home",
+    "dish": "sayadeya",
+    "title": "Sayadeya",
+    "version": "home",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "passive_minutes": 20,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "white-fish",
+        "amount": 900,
+        "unit": "g",
+        "note": "fillets or steaks",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 3,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 1,
+        "unit": "tsp",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "lemon-juice",
+        "amount": 2,
+        "unit": "tbsp",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Fish"
+      },
+      {
+        "ingredient": "onion",
+        "amount": 4,
+        "unit": "piece",
+        "note": "large, thinly sliced",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "oil",
+        "amount": 100,
+        "unit": "ml",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "note": "crushed",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "cumin",
+        "amount": 2,
+        "unit": "tsp",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 300,
+        "unit": "g",
+        "note": "rinsed",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "water",
+        "amount": 700,
+        "unit": "ml",
+        "group": "Rice"
+      },
+      {
+        "ingredient": "salt",
+        "amount": null,
+        "unit": "to-taste"
+      }
+    ],
+    "steps": [
+      "Rub the fish with garlic, cumin, lemon juice and salt and leave for 20 minutes.",
+      "Fry the fish in a little of the oil for 3 to 4 minutes per side until cooked and golden. Set aside.",
+      "In a wide pot, cook the onions in the oil for 25 to 30 minutes, stirring often, until deep brown. Add the garlic and cumin and cook for 1 minute.",
+      "Add the water and bring to a boil, then add the rice and salt. Cook covered on low for 15 minutes until the rice is tender and brown.",
+      "Fluff the rice, top with the fish and serve with lemon wedges."
+    ],
+    "notes": "Some cooks fry the onions separately and use the cooking oil to tint the rice. A tahini or tomato sauce is an optional side.",
+    "sources": [
+      "wiki-sayadieh"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-om-ali-home",
+    "dish": "egyptian-om-ali",
+    "title": "Om Ali",
+    "version": "home",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "difficulty": "easy",
+    "ingredients": [
+      {
+        "ingredient": "puff-pastry",
+        "amount": 300,
+        "unit": "g",
+        "note": "ready-made sheets"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "cream",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "almonds",
+        "amount": 50,
+        "unit": "g",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "pistachios",
+        "amount": 50,
+        "unit": "g",
+        "note": "chopped"
+      },
+      {
+        "ingredient": "raisins",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "coconut",
+        "amount": 40,
+        "unit": "g",
+        "note": "shredded"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200 C. Bake the pastry on a tray for 15 minutes until golden and crisp. Cool and break into small pieces.",
+      "Lower the oven to 180 C. Scatter the pastry in a baking dish with the nuts, raisins and coconut, keeping some nuts for the top.",
+      "Heat the milk with the sugar until the sugar dissolves, and pour it over the pastry.",
+      "Spoon over the cream and sprinkle with the reserved nuts.",
+      "Bake for 15 to 20 minutes until bubbling and golden-brown in patches. Serve warm."
+    ],
+    "sources": [
+      "wiki-umm-ali"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "egyptian-kahk-home",
+    "dish": "egyptian-kahk",
+    "title": "Kahk",
+    "version": "home",
+    "servings": 12,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "passive_minutes": 30,
+    "difficulty": "medium",
+    "ingredients": [
+      {
+        "ingredient": "wheat-flour",
+        "amount": 500,
+        "unit": "g",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "ghee",
+        "amount": 250,
+        "unit": "g",
+        "note": "melted and slightly cooled",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "milk",
+        "amount": 100,
+        "unit": "ml",
+        "note": "warm",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": 1,
+        "unit": "tbsp",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "salt",
+        "amount": 1,
+        "unit": "pinch",
+        "group": "Dough"
+      },
+      {
+        "ingredient": "dates",
+        "amount": 250,
+        "unit": "g",
+        "note": "pitted, mashed into a paste",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp",
+        "group": "Filling"
+      },
+      {
+        "ingredient": "icing-sugar",
+        "amount": 100,
+        "unit": "g",
+        "note": "for dusting",
+        "group": "Finish"
+      }
+    ],
+    "steps": [
+      "Rub the flour with the melted ghee and a pinch of salt until it resembles wet sand. Rest the mixture for 30 minutes.",
+      "Add the sugar and milk gradually and bring together into a soft dough, without overworking.",
+      "Mix the date paste with the cinnamon and shape into small balls.",
+      "Heat the oven to 180 C. Flatten a walnut-sized piece of dough, place a date ball in the centre and seal into a ball. Flatten slightly and stamp or mark the top with a fork.",
+      "Bake on lined trays for 15 to 20 minutes until the bases are pale gold. Cool completely and dust with icing sugar."
+    ],
+    "notes": "Flavourings such as ground mahlab or sesame can be added; plain ones keep for about 2 weeks in a tin.",
+    "sources": [
+      "wiki-kahk"
+    ],
+    "review_status": "draft"
+  }
+]

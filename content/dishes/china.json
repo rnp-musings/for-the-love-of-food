@@ -1,0 +1,413 @@
+[
+ {
+  "id": "mapo-tofu",
+  "name": "Mapo tofu",
+  "local_name": "麻婆豆腐",
+  "country": "china",
+  "region": "sichuan",
+  "type": "other",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "spicy",
+   "umami",
+   "rich"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "simmered"
+  ],
+  "spice_level": 4,
+  "summary": "Soft tofu and minced beef in a red, chilli-bean and Sichuan pepper sauce that is both hot and numbing.",
+  "story": "Mapo tofu is one of the best-known Sichuan dishes. Silken tofu is simmered with minced meat in a sauce built on fermented broad bean chilli paste (doubanjiang), fermented black beans, chilli oil and ground Sichuan pepper, then thickened lightly and served over rice. The mix of heat (la) and numbing tingle (ma) is typical of Sichuan cooking.\n\nThe name is usually explained as \"pockmarked grandmother's tofu\", linked to a woman who ran a small eatery in Chengdu in the 19th century. That story is widely told, but details vary and are hard to verify.",
+  "origin_period": "19th century (traditionally told)",
+  "origin_claims": [
+   {
+    "claim": "Created by the pock-marked wife of a restaurant owner near Chengdu in the Qing dynasty.",
+    "confidence": "widely-told",
+    "source": "wiki-mapo-tofu"
+   }
+  ],
+  "sources": [
+   "wiki-mapo-tofu",
+   "wiki-chinese-cuisine"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "kung-pao-chicken",
+  "name": "Kung pao chicken",
+  "local_name": "宫保鸡丁",
+  "country": "china",
+  "region": "sichuan",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "spicy",
+   "tangy",
+   "sweet",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "fried"
+  ],
+  "spice_level": 3,
+  "summary": "Diced chicken stir-fried with dried chillies, Sichuan pepper and peanuts in a sweet, sour and savoury sauce.",
+  "story": "Kung pao chicken (gongbao jiding) is a stir-fry of diced chicken, peanuts, dried chillies and Sichuan pepper, finished with a glossy sauce balanced between sweet, sour and salty. Versions outside China are often sweeter and less numbing than the Sichuan original.\n\nThe name is commonly linked to Ding Baozhen, a Qing dynasty official and governor of Sichuan who held the honorary title \"Gongbao\" (Palace Guardian). Stories say he enjoyed the dish, but the connection is a tradition rather than a settled fact. A related Shandong style, where he also served, is sometimes credited with the earlier form.",
+  "origin_period": "Qing dynasty (traditionally told)",
+  "origin_claims": [
+   {
+    "claim": "Named for Ding Baozhen, a Qing official with the title Gongbao, who is said to have favoured it.",
+    "confidence": "widely-told",
+    "source": "wiki-kung-pao-chicken"
+   },
+   {
+    "claim": "Its Sichuan and Shandong lineages are discussed; the exact origin is not settled.",
+    "confidence": "disputed",
+    "source": "wiki-kung-pao-chicken"
+   }
+  ],
+  "sources": [
+   "wiki-kung-pao-chicken"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "dan-dan-noodles",
+  "name": "Dan dan noodles",
+  "local_name": "担担面",
+  "country": "china",
+  "region": "sichuan",
+  "type": "pasta-noodle",
+  "course": [
+   "main",
+   "snack"
+  ],
+  "flavours": [
+   "spicy",
+   "umami",
+   "rich"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "sauteed"
+  ],
+  "spice_level": 3,
+  "summary": "Wheat noodles in a spicy, nutty, vinegary sauce with stir-fried minced pork.",
+  "story": "Dan dan mian is a street noodle dish from Sichuan. Noodles are tossed or served in a sauce of chilli oil, soy sauce, sesame paste and vinegar, topped with stir-fried minced pork and often a preserved vegetable. The name refers to a carrying pole (dan dan) used by vendors who sold the noodles from baskets at each end.\n\nThe vendor story is widely accepted as the source of the name; the dish is generally traced to Zigong or Chengdu in the 19th century, though precise details are not firmly documented.",
+  "origin_period": "19th century",
+  "origin_claims": [
+   {
+    "claim": "Sold by street vendors carrying baskets on a shoulder pole, which gave the dish its name.",
+    "confidence": "widely-told",
+    "source": "wiki-dandan-noodles"
+   }
+  ],
+  "sources": [
+   "wiki-dandan-noodles"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "paocai",
+  "name": "Sichuan pickled vegetables",
+  "local_name": "泡菜",
+  "country": "china",
+  "region": "sichuan",
+  "type": "pickle-ferment",
+  "course": [
+   "side"
+  ],
+  "flavours": [
+   "sour",
+   "salty",
+   "tangy"
+  ],
+  "diet": [
+   "vegetarian",
+   "vegan",
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "fermented",
+   "raw"
+  ],
+  "spice_level": 1,
+  "summary": "Crisp vegetables fermented in a salty, chilli-spiked brine in a special jar, eaten as a side or used in cooking.",
+  "story": "Paocai means \"soaked vegetables\". In Sichuan, cabbage, radish, carrot and chillies are submerged in salted brine, often in a jar with a water-sealed rim that keeps air out, and left to ferment for a few days with salt, Sichuan pepper and other seasonings. Lactic fermentation gives a sour, crunchy side dish, and the brine can be used for months.\n\nPickled vegetables are used across China, and the Sichuan form is also a building block in cooking, such as in fish stews and stir-fries. Fermentation of vegetables in China has a long history, though the exact origin of Sichuan paocai is not documented.",
+  "origin_claims": [
+   {
+    "claim": "Vegetable pickling has a long history in China; paocai is the Sichuan form.",
+    "confidence": "widely-told",
+    "source": "wiki-pao-cai"
+   }
+  ],
+  "sources": [
+   "wiki-pao-cai"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "har-gow",
+  "name": "Har gow",
+  "local_name": "虾饺",
+  "country": "china",
+  "region": "guangdong",
+  "type": "dumpling",
+  "course": [
+   "starter",
+   "snack"
+  ],
+  "flavours": [
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "nut-free",
+   "egg-free"
+  ],
+  "cook_methods": [
+   "steamed"
+  ],
+  "spice_level": 0,
+  "summary": "Translucent steamed dumplings filled with shrimp, a staple of Cantonese dim sum.",
+  "story": "Har gow (xiajiao) are small, pleated dumplings with a thin, translucent wrapper made from wheat starch and tapioca starch, filled with shrimp and sometimes bamboo shoots and pork fat. They are a benchmark of a dim sum cook, because the wrapper must be thin, not break and cook cleanly.\n\nDim sum belongs to the Cantonese yum cha (tea) tradition of Guangzhou and Hong Kong. The dumplings are commonly said to have developed in the early 20th century in teahouses near Guangzhou, but the exact origin is not well documented.",
+  "origin_period": "20th century (commonly told)",
+  "origin_claims": [
+   {
+    "claim": "Developed in Cantonese teahouses of the Guangzhou area.",
+    "confidence": "widely-told",
+    "source": "wiki-har-gow"
+   }
+  ],
+  "sources": [
+   "wiki-har-gow"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "char-siu",
+  "name": "Char siu",
+  "local_name": "叉烧",
+  "country": "china",
+  "region": "guangdong",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "sweet",
+   "umami",
+   "salty"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "roasted"
+  ],
+  "spice_level": 0,
+  "summary": "Cantonese barbecued pork glazed with a sweet and savoury marinade, with sticky charred edges.",
+  "story": "Char siu means \"fork roast\", from the way marinated strips of pork were once skewered on forks and roasted in an oven or over fire. The pork is marinated in a mix of soy, hoisin, honey, rice wine and spices and glazed repeatedly while roasting. It is sliced over rice, eaten with noodles or used in buns and dim sum.\n\nIt belongs to the Cantonese siu mei tradition of roasted meats, which are hung in restaurant windows. Many char siu recipes today use red food colouring, which is not necessary.",
+  "origin_claims": [
+   {
+    "claim": "A Cantonese roasting tradition whose name means fork roast.",
+    "confidence": "well-documented",
+    "source": "wiki-char-siu"
+   }
+  ],
+  "sources": [
+   "wiki-char-siu"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "dongpo-pork",
+  "name": "Dongpo pork",
+  "local_name": "东坡肉",
+  "country": "china",
+  "region": "zhejiang",
+  "type": "meat-dish",
+  "course": [
+   "main"
+  ],
+  "flavours": [
+   "rich",
+   "sweet",
+   "umami"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "slow-cooked",
+   "simmered"
+  ],
+  "spice_level": 0,
+  "summary": "Cubes of pork belly slowly braised in soy sauce, rice wine and sugar until melting.",
+  "story": "Dongpo rou is a famous braised dish associated with Hangzhou in Zhejiang. Squares of pork belly are cooked slowly in rice wine, soy sauce, sugar, ginger and spring onion until the fat is soft and the sauce is thick and glossy. The dish is named after Su Dongpo (Su Shi), the Song dynasty poet and official.\n\nStories say that he popularised slow-braised pork while serving in the area, but it is not clear that he invented the dish. The link to him is better treated as a tradition than a fact.",
+  "origin_period": "Song dynasty (traditionally linked)",
+  "origin_claims": [
+   {
+    "claim": "Named for Su Dongpo, the Song poet and official, who is said to have promoted slow-braised pork.",
+    "confidence": "legend",
+    "source": "wiki-dongpo-pork"
+   }
+  ],
+  "sources": [
+   "wiki-dongpo-pork"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "jiaozi",
+  "name": "Jiaozi",
+  "local_name": "饺子",
+  "country": "china",
+  "region": "northern-china",
+  "type": "dumpling",
+  "course": [
+   "main",
+   "snack"
+  ],
+  "flavours": [
+   "umami",
+   "salty",
+   "rich"
+  ],
+  "diet": [
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "boiled",
+   "steamed",
+   "fried"
+  ],
+  "spice_level": 0,
+  "summary": "Crescent-shaped wheat dumplings filled with pork and cabbage, boiled, steamed or pan-fried.",
+  "story": "Jiaozi are the best-known dumplings of northern China. A simple dough is rolled into rounds, filled with minced pork and vegetables such as napa cabbage, and pleated shut. They are usually boiled and dipped in black vinegar and soy sauce, or pan-fried as guotie (potstickers).\n\nIn the north, making jiaozi together is a family activity for New Year, and their shape is often linked to old gold ingots, which gives them associations with wealth. They have a long history in China, but precise origin stories are mixed with legend.",
+  "origin_claims": [
+   {
+    "claim": "Dumplings have been eaten in China for many centuries; a long-told story credits a Han dynasty physician with inventing them.",
+    "confidence": "legend",
+    "source": "wiki-jiaozi"
+   },
+   {
+    "claim": "Jiaozi are a central New Year food in northern China.",
+    "confidence": "well-documented",
+    "source": "wiki-jiaozi"
+   }
+  ],
+  "sources": [
+   "wiki-jiaozi",
+   "wiki-chinese-new-year"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "yangrou-chuan",
+  "name": "Xinjiang lamb skewers",
+  "local_name": "羊肉串",
+  "country": "china",
+  "region": "xinjiang",
+  "type": "grill-bbq",
+  "course": [
+   "snack",
+   "main"
+  ],
+  "flavours": [
+   "smoky",
+   "aromatic",
+   "spicy",
+   "salty"
+  ],
+  "diet": [
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "grilled"
+  ],
+  "spice_level": 2,
+  "summary": "Cubes of lamb on skewers grilled over charcoal and seasoned with cumin and chilli.",
+  "story": "Skewered lamb is the signature street food of Xinjiang, in north-west China, where Uyghur cooks grill small cubes of lamb, often with fat between the pieces, over charcoal and dust them with ground cumin, salt and chilli. It is eaten straight from the skewer with flatbread.\n\nGrilled meat on skewers is found across Central Asia and the Middle East, and the Xinjiang kebabs, called kawap in Uyghur, are one part of that wider tradition. From Xinjiang, \"chuan'r\" skewers spread through northern China.",
+  "origin_claims": [
+   {
+    "claim": "Skewered meat is a long-standing Central Asian cooking tradition shared with Xinjiang.",
+    "confidence": "widely-told",
+    "source": "wiki-chuanr"
+   }
+  ],
+  "sources": [
+   "wiki-chuanr"
+  ],
+  "review_status": "draft"
+ },
+ {
+  "id": "nian-gao",
+  "name": "Nian gao",
+  "local_name": "年糕",
+  "country": "china",
+  "type": "dessert",
+  "course": [
+   "dessert",
+   "snack"
+  ],
+  "flavours": [
+   "sweet"
+  ],
+  "diet": [
+   "vegetarian",
+   "vegan",
+   "gluten-free",
+   "dairy-free",
+   "egg-free",
+   "nut-free"
+  ],
+  "cook_methods": [
+   "steamed"
+  ],
+  "spice_level": 0,
+  "summary": "A sticky, chewy steamed cake of glutinous rice flour and brown sugar, eaten at Chinese New Year.",
+  "story": "Nian gao is a sweet, sticky cake made from glutinous rice flour and sugar and steamed. Its name sounds like \"year high\", so it is eaten at Chinese New Year as a wish for progress in the year ahead. Styles vary: Cantonese families eat sweet brown sugar versions, often sliced and pan-fried, while in eastern China savoury stir-fried rice cakes are also common.\n\nIt is also offered at ancestral altars and kitchen god ceremonies in some regions. This recipe makes the Cantonese-style sweet cake.",
+  "origin_claims": [
+   {
+    "claim": "Name wordplay (nian gao sounds like \"higher year\") underlies its New Year role.",
+    "confidence": "well-documented",
+    "source": "wiki-niangao"
+   }
+  ],
+  "sources": [
+   "wiki-niangao",
+   "wiki-chinese-new-year"
+  ],
+  "review_status": "draft"
+ }
+]
