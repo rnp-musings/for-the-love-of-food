@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { url } from '../../lib/url';
+import { countries, regions, dishes, ingredientById, festivals } from '../../lib/data';
+
+export function getStaticPaths() {
+  return countries.map((country) => ({ params: { id: country.id }, props: { country } }));
+}
+const { country } = Astro.props;
+const myRegions = regions.filter((r) => r.country === country.id);
+const myDishes = dishes.filter((d) => d.country === country.id);
+const myFestivals = festivals.filter((f) => f.countries.includes(country.id));
+---
+<Base title={country.name} description={country.summary}>
+  <p class="muted"><a href={url('/countries/')}>← All countries</a></p>
+  <h1>{country.name} {country.local_name && <small class="muted">{country.local_name}</small>}</h1>
+  <p>{country.summary}</p>
+  <h2>How the cuisine varies by region</h2>
+  <p>{country.regional_variation}</p>
+
+  {myRegions.map((r) => (
+    <section id={r.id}>
+      <h3>{r.name} {r.local_name && <small class="muted">{r.local_name}</small>}</h3>
+      <p>{r.summary}</p>
+      <p class="muted">Signature ingredients: {r.signature_ingredients.map((i: string) => ingredientById[i]?.name.toLowerCase() ?? i).join(', ')}</p>
+      <ul class="grid">{myDishes.filter((d) => d.region === r.id).map((d) => <DishCard dish={d} />)}</ul>
+    </section>
+  ))}
+
+  {myDishes.some((d) => !d.region) && (
+    <section>
+      <h3>Found across the country</h3>
+      <ul class="grid">{myDishes.filter((d) => !d.region).map((d) => <DishCard dish={d} />)}</ul>
+    </section>
+  )}
+
+  {myFestivals.length > 0 && (
+    <>
+      <h2>Festivals</h2>
+      <ul>{myFestivals.map((f) => <li><a href={url(`/festivals/${f.id}/`)}>{f.name}</a>: {f.timing}</li>)}</ul>
+    </>
+  )}
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { url } from '../../lib/url';
+import { festivals, festivalDishes, dishById, countryById, sourceById, label } from '../../lib/data';
+
+export function getStaticPaths() {
+  return festivals.map((festival) => ({ params: { id: festival.id }, props: { festival } }));
+}
+const { festival } = Astro.props;
+const links = festivalDishes.filter((fd) => fd.festival === festival.id);
+---
+<Base title={festival.name} description={festival.summary}>
+  <p class="muted"><a href={url('/festivals/')}>← All festivals</a></p>
+  <h1>{festival.name} {festival.local_name && <small class="muted">{festival.local_name}</small>}</h1>
+  <p class="muted">
+    {festival.countries.map((c: string) => countryById[c].name).join(', ')} · {festival.timing} · {festival.duration}
+  </p>
+  <p>{festival.summary}</p>
+  <h2>The story</h2>
+  <p>{festival.story}</p>
+  <h2>Food traditions</h2>
+  <p>{festival.food_traditions}</p>
+  <h2>Dishes</h2>
+  <ul class="grid">
+    {links.map((fd) => (
+      <DishCard dish={dishById[fd.dish]} />
+    ))}
+  </ul>
+  <ul>{links.map((fd) => <li><strong>{dishById[fd.dish].name}</strong> ({label(fd.role)}): {fd.note}</li>)}</ul>
+  <h2>Sources</h2>
+  <ul>{(festival.sources ?? []).map((s: string) => <li><a href={sourceById[s].url}>{sourceById[s].title}</a></li>)}</ul>
+  <script>
+    import { initFavButtons } from '../../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/url';
+import { festivals, festivalDishes, dishById, countryById, MONTHS } from '../../lib/data';
+const sorted = [...festivals].sort((a, b) => a.months[0] - b.months[0]);
+---
+<Base title="Festivals" description="Food festivals around the world and the dishes eaten at each.">
+  <h1>Festivals and their dishes</h1>
+  <ul class="grid">
+    {sorted.map((f) => (
+      <li class="card">
+        <h3><a href={url(`/festivals/${f.id}/`)}>{f.name}</a></h3>
+        <p class="muted">{f.countries.map((c: string) => countryById[c].name).join(', ')} · {f.months.map((m: number) => MONTHS[m - 1]).join('/')}</p>
+        <p>{f.summary}</p>
+        <ul class="chips">
+          {festivalDishes.filter((fd) => fd.festival === f.id).map((fd) => <li class="chip">{dishById[fd.dish].name}</li>)}
+        </ul>
+      </li>
+    ))}
+  </ul>
+</Base>

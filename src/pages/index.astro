@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import DishCard from '../components/DishCard.astro';
+import { url } from '../lib/url';
+import { dishes, countries, regions, festivals } from '../lib/data';
+---
+<Base title="For the Love of Food">
+  <h1>For the Love of Food</h1>
+  <p>Explore how the same country can taste completely different from one region to the next: the dishes, the stories behind them, the recipes, and the festivals that bring them to the table.</p>
+  <p><a href={url('/dishes/')}><strong>Browse and filter {dishes.length} dishes →</strong></a></p>
+  <p class="muted">{countries.length} countries · {regions.length} regions · {festivals.length} festivals. This is an early seed collection and is growing.</p>
+
+  <h2>Countries</h2>
+  <ul class="grid">
+    {countries.map((c) => (
+      <li class="card">
+        <h3><a href={url(`/countries/${c.id}/`)}>{c.name}</a></h3>
+        <p>{c.summary}</p>
+        <p class="muted">{regions.filter((r) => r.country === c.id).map((r) => r.name).join(' · ')}</p>
+      </li>
+    ))}
+  </ul>
+
+  <h2>Festivals</h2>
+  <ul class="grid">
+    {festivals.map((f) => (
+      <li class="card">
+        <h3><a href={url(`/festivals/${f.id}/`)}>{f.name}</a></h3>
+        <p class="muted">{f.timing}</p>
+        <p>{f.summary}</p>
+      </li>
+    ))}
+  </ul>
+
+  <h2>Some dishes to start with</h2>
+  <ul class="grid">{dishes.slice(0, 6).map((d) => <DishCard dish={d} />)}</ul>
+  <script>
+    import { initFavButtons } from '../scripts/favourites';
+    initFavButtons();
+  </script>
+</Base>

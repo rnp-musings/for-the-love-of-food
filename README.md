@@ -2,7 +2,7 @@
 
 A read-only, filterable atlas of world cuisine: regional food by country, recipes, the stories behind dishes, food festivals, and the dishes eaten at each festival.
 
-Status: research and seed data. See [docs/research.md](docs/research.md) for scope and decisions.
+Status: early seed collection, live at https://rnp-musings.github.io/for-the-love-of-food/ once GitHub Pages is enabled. See [docs/research.md](docs/research.md) for scope and decisions.
 
 ## Layout
 
@@ -16,6 +16,18 @@ Status: research and seed data. See [docs/research.md](docs/research.md) for sco
 | `content/festivals.json`, `festival-dishes.json` | Festivals and the dish-to-festival links |
 | `content/sources.json` | Every source cited by other records |
 | `scripts/validate.py` | Schema, cross-reference and diet-tag checks |
+| `src/` | Astro pages, components and the favourites script |
+| `.github/workflows/deploy.yml` | Validates content, builds and deploys to GitHub Pages |
+
+## Run the site
+
+```bash
+npm install
+npm run dev      # http://localhost:4321/for-the-love-of-food/
+npm run build    # static output in dist/
+```
+
+The site is static Astro. Filtering runs in the browser, and favourites are kept in the visitor's own browser (localStorage). Filters are mirrored in the URL so a filtered view can be shared.
 
 ## Validate content
 

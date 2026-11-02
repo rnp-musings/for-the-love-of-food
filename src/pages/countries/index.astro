@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/url';
+import { countries, regions, dishes } from '../../lib/data';
+---
+<Base title="Countries">
+  <h1>Countries</h1>
+  <ul class="grid">
+    {countries.map((c) => (
+      <li class="card">
+        <h3><a href={url(`/countries/${c.id}/`)}>{c.name}</a></h3>
+        <p>{c.summary}</p>
+        <p class="muted">{regions.filter((r) => r.country === c.id).length} regions · {dishes.filter((d) => d.country === c.id).length} dishes</p>
+      </li>
+    ))}
+  </ul>
+</Base>

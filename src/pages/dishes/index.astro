@@ -1,0 +1,258 @@
+---
+import Base from '../../layouts/Base.astro';
+import DishCard from '../../components/DishCard.astro';
+import { dishes, countries, regions, festivals, ingredientById, MONTHS, label, uniq } from '../../lib/data';
+
+const usedCountries = countries.filter((c) => dishes.some((d) => d.country === c.id));
+const usedRegions = regions.filter((r) => dishes.some((d) => d.region === r.id));
+const types = uniq(dishes.map((d) => d.type));
+const courses = uniq(dishes.flatMap((d) => d.course));
+const flavours = uniq(dishes.flatMap((d) => d.flavours));
+const diets = uniq(dishes.flatMap((d) => d.diet));
+const usedFestivals = festivals.filter((f) => dishes.some((d) => d.festivals.some((x: any) => x.festival.id === f.id)));
+const usedMonths = uniq(dishes.flatMap((d) => d.months.map(String))).map(Number).sort((a, b) => a - b);
+const usedIngredientIds = uniq(dishes.flatMap((d) => d.ingredientIds));
+// One datalist entry per name or alias, all pointing at the same ingredient id.
+const ingredientOptions = usedIngredientIds.flatMap((id) => {
+  const ing = ingredientById[id];
+  return [ing.name, ...(ing.aliases ?? [])].map((n: string) => ({ name: n, id }));
+});
+---
+<Base title="Dishes" description="Filter dishes by country, region, ingredient, flavour, type, diet and festival.">
+  <h1>Dishes</h1>
+
+  <form id="filters" class="filters" autocomplete="off" role="search" aria-label="Filter dishes">
+    <div class="row">
+      <label class="wide">Search
+        <input type="search" name="q" placeholder="Name, ingredient, local name…" />
+      </label>
+      <label>Country
+        <select name="country"><option value="">All</option>{usedCountries.map((c) => <option value={c.id}>{c.name}</option>)}</select>
+      </label>
+      <label>Region
+        <select name="region"><option value="">All</option>{usedRegions.map((r) => <option value={r.id} data-country={r.country}>{r.name}</option>)}</select>
+      </label>
+      <label>Dish type
+        <select name="type"><option value="">All</option>{types.map((t) => <option value={t}>{label(t)}</option>)}</select>
+      </label>
+      <label>Course
+        <select name="course"><option value="">All</option>{courses.map((t) => <option value={t}>{label(t)}</option>)}</select>
+      </label>
+      <label>Festival
+        <select name="festival"><option value="">Any</option>{usedFestivals.map((f) => <option value={f.id}>{f.name}</option>)}</select>
+      </label>
+      <label>Festival month
+        <select name="month"><option value="">Any</option>{usedMonths.map((m) => <option value={m}>{MONTHS[m - 1]}</option>)}</select>
+      </label>
+      <label>Active time
+        <select name="time">
+          <option value="">Any</option><option value="30">30 min or less</option><option value="60">1 hour or less</option><option value="120">2 hours or less</option>
+        </select>
+      </label>
+      <label>Max spice level: <output id="spice-out">5</output>
+        <input type="range" name="spice" min="0" max="5" value="5" />
+      </label>
+    </div>
+
+    <div class="row">
+      <fieldset>
+        <legend>Flavour (all selected)</legend>
+        {flavours.map((f) => <label class="check"><input type="checkbox" name="flavour" value={f} /> {f}</label>)}
+      </fieldset>
+      <fieldset>
+        <legend>Diet</legend>
+        {diets.map((f) => <label class="check"><input type="checkbox" name="diet" value={f} /> {label(f)}</label>)}
+      </fieldset>
+    </div>
+
+    <div class="row">
+      <div class="ing">
+        <label for="inc-in">Includes ingredient</label>
+        <div class="add"><input id="inc-in" list="ingredient-list" placeholder="e.g. saffron" /><button type="button" id="inc-add">Add</button></div>
+        <ul class="chips" id="inc-chips" aria-label="Included ingredients"></ul>
+      </div>
+      <div class="ing">
+        <label for="exc-in">Excludes ingredient</label>
+        <div class="add"><input id="exc-in" list="ingredient-list" placeholder="e.g. pork" /><button type="button" id="exc-add">Add</button></div>
+        <ul class="chips" id="exc-chips" aria-label="Excluded ingredients"></ul>
+      </div>
+      <datalist id="ingredient-list">
+        {ingredientOptions.map((o) => <option value={o.name} data-id={o.id}></option>)}
+      </datalist>
+    </div>
+
+    <div class="row actions">
+      <label class="check"><input type="checkbox" name="fav" /> ♥ Favourites only</label>
+      <button type="button" id="clear">Clear all filters</button>
+      <span id="count" role="status" aria-live="polite"></span>
+    </div>
+  </form>
+
+  <ul class="grid" id="results">
+    {dishes.map((d) => (
+      <DishCard dish={d} filterable ingredientNames={d.ingredientIds.flatMap((i: string) => [ingredientById[i].name, ...(ingredientById[i].aliases ?? [])]).join(' ')} />
+    ))}
+  </ul>
+  <p id="empty" class="callout" hidden>No dishes match these filters. Try removing one.</p>
+
+  <script>
+    import { initFavButtons, readFavs } from '../../scripts/favourites';
+
+    const form = document.getElementById('filters') as HTMLFormElement;
+    const cards = [...document.querySelectorAll<HTMLElement>('#results > .card')];
+    const countEl = document.getElementById('count')!;
+    const emptyEl = document.getElementById('empty')!;
+    const spiceOut = document.getElementById('spice-out')!;
+    const regionSel = form.elements.namedItem('region') as HTMLSelectElement;
+    const countrySel = form.elements.namedItem('country') as HTMLSelectElement;
+
+    // Ingredient name or alias -> id, and id -> display name.
+    const nameToId = new Map<string, string>();
+    const idToName = new Map<string, string>();
+    document.querySelectorAll<HTMLOptionElement>('#ingredient-list option').forEach((o) => {
+      nameToId.set(o.value.toLowerCase(), o.dataset.id!);
+      if (!idToName.has(o.dataset.id!)) idToName.set(o.dataset.id!, o.value);
+    });
+
+    const include = new Set<string>();
+    const exclude = new Set<string>();
+
+    const val = (n: string) => (form.elements.namedItem(n) as HTMLInputElement | HTMLSelectElement).value;
+    const checked = (n: string) => [...form.querySelectorAll<HTMLInputElement>(`input[name="${n}"]:checked`)].map((i) => i.value);
+    const words = (s: string | undefined) => (s ?? '').split(' ').filter(Boolean);
+
+    function syncRegions() {
+      const c = countrySel.value;
+      [...regionSel.options].forEach((o) => {
+        if (!o.value) return;
+        const ok = !c || o.dataset.country === c;
+        o.hidden = !ok; o.disabled = !ok;
+      });
+      if (regionSel.selectedOptions[0]?.disabled) regionSel.value = '';
+    }
+
+    function renderChips(el: string, set: Set<string>) {
+      const ul = document.getElementById(el)!;
+      ul.innerHTML = '';
+      set.forEach((id) => {
+        const li = document.createElement('li');
+        li.className = 'chip';
+        li.textContent = (idToName.get(id) ?? id) + ' ';
+        const b = document.createElement('button');
+        b.type = 'button'; b.textContent = '×'; b.setAttribute('aria-label', `Remove ${idToName.get(id) ?? id}`);
+        b.onclick = () => { set.delete(id); renderChips(el, set); apply(); };
+        li.appendChild(b); ul.appendChild(li);
+      });
+    }
+
+    function addIngredient(inputId: string, set: Set<string>, chipsId: string) {
+      const input = document.getElementById(inputId) as HTMLInputElement;
+      const id = nameToId.get(input.value.trim().toLowerCase());
+      if (id) { set.add(id); input.value = ''; renderChips(chipsId, set); apply(); }
+      else input.setCustomValidity('Pick an ingredient from the list');
+      input.reportValidity(); input.setCustomValidity('');
+    }
+
+    function apply() {
+      syncRegions();
+      spiceOut.textContent = val('spice');
+      const q = val('q').trim().toLowerCase();
+      const favs = new Set(readFavs());
+      const favOnly = (form.elements.namedItem('fav') as HTMLInputElement).checked;
+      const flv = checked('flavour'), dt = checked('diet');
+      const maxTime = Number(val('time')) || Infinity;
+      const maxSpice = Number(val('spice'));
+      let shown = 0;
+      cards.forEach((c) => {
+        const d = c.dataset;
+        const ings = words(d.ingredients);
+        const ok =
+          (!q || q.split(/\s+/).every((t) => d.search!.includes(t))) &&
+          (!val('country') || d.country === val('country')) &&
+          (!val('region') || d.region === val('region')) &&
+          (!val('type') || d.type === val('type')) &&
+          (!val('course') || words(d.course).includes(val('course'))) &&
+          (!val('festival') || words(d.festivals).includes(val('festival'))) &&
+          (!val('month') || words(d.months).includes(val('month'))) &&
+          flv.every((f) => words(d.flavours).includes(f)) &&
+          dt.every((f) => words(d.diet).includes(f)) &&
+          Number(d.spice) <= maxSpice &&
+          Number(d.time) <= maxTime &&
+          [...include].every((i) => ings.includes(i)) &&
+          [...exclude].every((i) => !ings.includes(i)) &&
+          (!favOnly || favs.has(d.id!));
+        c.hidden = !ok;
+        if (ok) shown++;
+      });
+      countEl.textContent = `${shown} of ${cards.length} dishes`;
+      emptyEl.hidden = shown > 0;
+      writeUrl();
+    }
+
+    // Keep filters in the URL so a filtered view can be shared or bookmarked.
+    function writeUrl() {
+      const p = new URLSearchParams();
+      ['q', 'country', 'region', 'type', 'course', 'festival', 'month', 'time'].forEach((n) => val(n) && p.set(n, val(n)));
+      if (val('spice') !== '5') p.set('spice', val('spice'));
+      checked('flavour').forEach((v) => p.append('flavour', v));
+      checked('diet').forEach((v) => p.append('diet', v));
+      include.forEach((v) => p.append('inc', v));
+      exclude.forEach((v) => p.append('exc', v));
+      if ((form.elements.namedItem('fav') as HTMLInputElement).checked) p.set('fav', '1');
+      const s = p.toString();
+      history.replaceState(null, '', location.pathname + (s ? '?' + s : ''));
+    }
+
+    function readUrl() {
+      const p = new URLSearchParams(location.search);
+      ['q', 'country', 'region', 'type', 'course', 'festival', 'month', 'time', 'spice'].forEach((n) => {
+        if (p.has(n)) (form.elements.namedItem(n) as HTMLInputElement).value = p.get(n)!;
+      });
+      syncRegions();
+      if (p.has('region')) regionSel.value = p.get('region')!;
+      p.getAll('flavour').forEach((v) => (form.querySelector<HTMLInputElement>(`input[name="flavour"][value="${v}"]`)!.checked = true));
+      p.getAll('diet').forEach((v) => (form.querySelector<HTMLInputElement>(`input[name="diet"][value="${v}"]`)!.checked = true));
+      p.getAll('inc').forEach((v) => idToName.has(v) && include.add(v));
+      p.getAll('exc').forEach((v) => idToName.has(v) && exclude.add(v));
+      if (p.get('fav')) (form.elements.namedItem('fav') as HTMLInputElement).checked = true;
+      renderChips('inc-chips', include); renderChips('exc-chips', exclude);
+    }
+
+    form.addEventListener('input', apply);
+    form.addEventListener('submit', (e) => e.preventDefault());
+    document.getElementById('inc-add')!.onclick = () => addIngredient('inc-in', include, 'inc-chips');
+    document.getElementById('exc-add')!.onclick = () => addIngredient('exc-in', exclude, 'exc-chips');
+    ['inc-in', 'exc-in'].forEach((id) =>
+      document.getElementById(id)!.addEventListener('keydown', (e) => {
+        if ((e as KeyboardEvent).key === 'Enter') { e.preventDefault(); document.getElementById(id === 'inc-in' ? 'inc-add' : 'exc-add')!.click(); }
+      }));
+    document.getElementById('clear')!.onclick = () => {
+      form.reset(); include.clear(); exclude.clear();
+      renderChips('inc-chips', include); renderChips('exc-chips', exclude); apply();
+    };
+
+    initFavButtons(apply);
+    readUrl();
+    apply();
+  </script>
+</Base>
+
+<style is:global>
+  .filters { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 20px; }
+  .filters .row { display: flex; flex-wrap: wrap; gap: 12px 16px; margin-bottom: 12px; align-items: flex-end; }
+  .filters label { display: flex; flex-direction: column; font-size: .85rem; font-weight: 600; gap: 4px; }
+  .filters label.wide { flex: 1 1 260px; }
+  .filters label.check { flex-direction: row; align-items: center; gap: 6px; font-weight: 400; display: inline-flex; margin-right: 10px; }
+  .filters input, .filters select, .filters button { font: inherit; padding: 6px 8px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); }
+  .filters input[type="checkbox"] { padding: 0; }
+  .filters button { cursor: pointer; }
+  .filters fieldset { border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; }
+  .filters legend { font-size: .85rem; font-weight: 600; padding: 0 4px; }
+  .filters .ing { flex: 1 1 260px; }
+  .filters .add { display: flex; gap: 6px; }
+  .filters .add input { flex: 1; }
+  .filters .chip button { border: 0; background: none; padding: 0 2px; cursor: pointer; }
+  .filters .actions { margin-bottom: 0; }
+  #count { margin-left: auto; font-weight: 600; }
+  .card[hidden], [hidden] { display: none !important; }
+</style>

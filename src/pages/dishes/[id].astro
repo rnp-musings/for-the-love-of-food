@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/url';
+import { dishes, ingredientById, sourceById, label, MONTHS } from '../../lib/data';
+
+export function getStaticPaths() {
+  return dishes.map((dish) => ({ params: { id: dish.id }, props: { dish } }));
+}
+const { dish } = Astro.props;
+const paragraphs = dish.story.split('\n\n');
+const fmt = (n: number | null, unit: string) => (unit === 'to-taste' ? 'to taste' : `${n} ${unit === 'piece' ? '' : unit}`.trim());
+---
+<Base title={dish.name} description={dish.summary}>
+  <p class="muted"><a href={url('/dishes/')}>← All dishes</a></p>
+  <h1>{dish.name} {dish.local_name && <small class="muted">{dish.local_name}</small>}</h1>
+  <p class="muted">
+    {dish.regionName && <><a href={url(`/countries/${dish.country}/#${dish.region}`)}>{dish.regionName}</a>, </>}
+    <a href={url(`/countries/${dish.country}/`)}>{dish.countryName}</a>
+  </p>
+  <p>{dish.summary}</p>
+  <ul class="chips">
+    <li class="chip">{label(dish.type)}</li>
+    {dish.course.map((c: string) => <li class="chip">{c}</li>)}
+    {dish.flavours.map((f: string) => <li class="chip">{f}</li>)}
+    {dish.diet.map((d: string) => <li class="chip">{label(d)}</li>)}
+    <li class="chip">Spice {dish.spice_level}/5</li>
+  </ul>
+
+  <h2>The story</h2>
+  {paragraphs.map((p: string) => <p>{p}</p>)}
+  {dish.origin_period && <p class="muted">Period: {dish.origin_period}</p>}
+
+  <h2>Where does it come from?</h2>
+  <ul>
+    {dish.origin_claims.map((c: any) => (
+      <li>{c.claim} <span class="chip">{label(c.confidence)}</span>
+        {c.source && sourceById[c.source] && <> <a href={sourceById[c.source].url}>[source]</a></>}
+      </li>
+    ))}
+  </ul>
+
+  {dish.festivals.length > 0 && (
+    <>
+      <h2>Festivals</h2>
+      <ul>
+        {dish.festivals.map((f: any) => (
+          <li><a href={url(`/festivals/${f.festival.id}/`)}>{f.festival.name}</a> ({f.festival.months.map((m: number) => MONTHS[m - 1]).join('/')}): {f.note}</li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {dish.recipes.map((r: any) => {
+    const groups = [...new Set(r.ingredients.map((i: any) => i.group ?? ''))] as string[];
+    return (
+      <section>
+        <h2>Recipe: {r.title}</h2>
+        <p class="muted">
+          Serves {r.servings} · Prep {r.prep_minutes} min · Cook {r.cook_minutes} min
+          {r.passive_minutes ? ` · Resting/proving ${r.passive_minutes} min` : ''} · {label(r.difficulty)} · {label(r.version)} version
+        </p>
+        <h3>Ingredients</h3>
+        {groups.map((g) => (
+          <>
+            {g && <h4>{g}</h4>}
+            <ul>
+              {r.ingredients.filter((i: any) => (i.group ?? '') === g).map((i: any) => (
+                <li>{fmt(i.amount, i.unit)} {ingredientById[i.ingredient].name.toLowerCase()}{i.note ? `, ${i.note}` : ''}{i.optional ? ' (optional)' : ''}</li>
+              ))}
+            </ul>
+          </>
+        ))}
+        <h3>Method</h3>
+        <ol>{r.steps.map((s: string) => <li>{s}</li>)}</ol>
+        {r.notes && <p class="callout">{r.notes}</p>}
+      </section>
+    );
+  })}
+
+  <h2>Sources</h2>
+  <ul>{dish.sources.map((s: string) => <li><a href={sourceById[s].url}>{sourceById[s].title}</a></li>)}</ul>
+  <p class="muted">Draft: not yet reviewed by a person. Check sources before relying on any claim.</p>
+</Base>

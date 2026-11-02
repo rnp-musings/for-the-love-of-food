@@ -1,0 +1,31 @@
+---
+import { url } from '../lib/url';
+import { label } from '../lib/data';
+const { dish, filterable = false, ingredientNames = '' } = Astro.props;
+const data = filterable ? {
+  'data-id': dish.id,
+  'data-country': dish.country,
+  'data-region': dish.region ?? '',
+  'data-type': dish.type,
+  'data-flavours': dish.flavours.join(' '),
+  'data-course': dish.course.join(' '),
+  'data-diet': dish.diet.join(' '),
+  'data-spice': String(dish.spice_level),
+  'data-time': String(dish.activeMinutes ?? 9999),
+  'data-ingredients': dish.ingredientIds.join(' '),
+  'data-festivals': dish.festivals.map((f: any) => f.festival.id).join(' '),
+  'data-months': dish.months.join(' '),
+  'data-search': `${dish.name} ${dish.local_name ?? ''} ${dish.summary} ${ingredientNames}`.toLowerCase(),
+} : {};
+---
+<li class="card" {...data}>
+  <h3><a href={url(`/dishes/${dish.id}/`)}>{dish.name}</a></h3>
+  <button type="button" class="fav" data-fav={dish.id} aria-pressed="false" aria-label={`Save ${dish.name} to favourites`} title="Save to favourites">♡</button>
+  <div class="muted">{dish.regionName ? `${dish.regionName}, ` : ''}{dish.countryName}</div>
+  <p>{dish.summary}</p>
+  <ul class="chips">
+    <li class="chip">{label(dish.type)}</li>
+    {dish.flavours.slice(0, 3).map((f: string) => <li class="chip">{f}</li>)}
+    {dish.festivals.map((f: any) => <li class="chip">🎉 {f.festival.name}</li>)}
+  </ul>
+</li>
