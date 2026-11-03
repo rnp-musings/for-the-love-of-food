@@ -15,10 +15,12 @@
     "app:dev": "astro dev --root app",
     "app:build": "astro build --root app",
     "app:start": "node app/dist/server/entry.mjs",
-    "app:test": "tsx --test app/test/app.test.ts"
+    "app:test": "tsx --test app/test/app.test.ts",
+    "app:vercel-build": "astro build --root app && node scripts/place-vercel-output.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^11.1.9",
+    "@astrojs/vercel": "^11.0.18",
     "@electric-sql/pglite": "^0.5.14",
     "astro": "^7.4.5",
     "drizzle-orm": "^0.45.4",
@@ -27,5 +29,8 @@
   },
   "devDependencies": {
     "drizzle-kit": "^0.31.11"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }

@@ -43,6 +43,13 @@ jobs:
         run: npm run db:smoke
       - name: App builds
         run: npm run app:build
+      - name: Vercel build (and the embedded database must not be shipped)
+        run: |
+          VERCEL=1 npm run app:vercel-build
+          test -f .vercel/output/functions/_render.func/.vc-config.json
+          test ! -e .vercel/output/functions/_render.func/node_modules/@electric-sql/pglite
+          rm -rf .vercel
+          npm run app:build
       - name: App tests (embedded Postgres)
         run: npm run app:test
       - name: Migrate and import into real Postgres

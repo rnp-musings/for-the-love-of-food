@@ -1,0 +1,54 @@
+name: Sync database
+
+# Keeps the hosted Postgres in step with the repository: applies migrations, then imports /content.
+# Does nothing until a repository secret named DATABASE_URL_ADMIN exists (see docs/deploy-vercel.md).
+# Safe to re-run: the import upserts, and a reviewer's status in the database is never overwritten.
+
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'db/**', 'schemas/**', 'scripts/validate.py']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: db-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL_ADMIN }}
+    steps:
+      - name: Check configuration
+        id: cfg
+        run: |
+          if [ -z "$DATABASE_URL" ]; then echo "DATABASE_URL_ADMIN secret not set: nothing to do."; echo "go=false" >> "$GITHUB_OUTPUT"; else echo "go=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.cfg.outputs.go == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.cfg.outputs.go == 'true'
+        with:
+          python-version: '3.12'
+      - name: Validate content
+        if: steps.cfg.outputs.go == 'true'
+        run: |
+          pip install jsonschema
+          python3 scripts/validate.py
+      - uses: actions/setup-node@v4
+        if: steps.cfg.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install
+        if: steps.cfg.outputs.go == 'true'
+        run: npm ci
+      - name: Migrate
+        if: steps.cfg.outputs.go == 'true'
+        run: npx tsx db/migrate.ts
+      - name: Import content
+        if: steps.cfg.outputs.go == 'true'
+        run: npx tsx db/import.ts --skip-validate

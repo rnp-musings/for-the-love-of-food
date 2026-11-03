@@ -16,7 +16,8 @@ export const onRequest = defineMiddleware(async (ctx, next) => {
   h.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
   if (isAdminPath) h.set('Cache-Control', 'private, no-store');
   else if (ctx.request.method === 'GET' && !h.has('Cache-Control') && !path.startsWith('/api/')) {
-    h.set('Cache-Control', 'public, max-age=60, stale-while-revalidate=300');
+    // Browsers 1 min; a CDN (Vercel) 5 min, then serve stale while refreshing. Cuts function and database load.
+    h.set('Cache-Control', 'public, max-age=60, s-maxage=300, stale-while-revalidate=600');
   }
   return res;
 });

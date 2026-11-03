@@ -138,3 +138,16 @@ describe('admin guard', () => {
     assert.equal((await get('/admin')).headers.get('cache-control'), 'private, no-store');
   });
 });
+
+// Runs last on purpose: it locks this client out of login for ten minutes. Skipped for a persistent
+// TEST_DATABASE_URL so repeated runs against the same database do not start out locked.
+describe('login throttle', { skip: Boolean(process.env.TEST_DATABASE_URL) }, () => {
+  it('refuses further attempts after 10 in ten minutes, even with the right token', async () => {
+    const bad = () => get('/admin/login', { method: 'POST', body: new URLSearchParams({ token: 'wrong', reviewer: 'me' }) });
+    let last = '';
+    for (let i = 0; i < 12; i++) last = await (await bad()).text();
+    assert.match(last, /Too many attempts/);
+    const good = await get('/admin/login', { method: 'POST', body: new URLSearchParams({ token: 'test-admin-token-1234', reviewer: 'Tester' }) });
+    assert.equal(good.headers.get('set-cookie'), null);
+  });
+});

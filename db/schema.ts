@@ -302,6 +302,14 @@ export const reviewLog = pgTable('review_log', {
   details: jsonb('details'),
 }, (t) => [index('review_log_entity_idx').on(t.entityType, t.entityId)]);
 
+// ---------------------------------------------------------------- admin login throttle
+/** One row per login attempt, so the throttle works across serverless instances. Old rows are pruned on write. */
+export const loginAttempts = pgTable('login_attempts', {
+  id: serial('id').primaryKey(),
+  clientKey: text('client_key').notNull(),
+  at: timestamp('at', { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [index('login_attempts_client_idx').on(t.clientKey, t.at)]);
+
 // ---------------------------------------------------------------- views
 /**
  * One row per (dish, ingredient) across all of a dish's recipes. This is what

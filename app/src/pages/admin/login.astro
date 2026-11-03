@@ -1,13 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { adminEnabled, checkToken, isAdmin, startSession, throttled } from '../../lib/auth';
+import { adminEnabled, checkToken, clientKey, isAdmin, startSession, throttled } from '../../lib/auth';
 
 if (!adminEnabled()) return Astro.rewrite('/404');
 if (isAdmin(Astro.cookies)) return Astro.redirect('/admin');
 
 let error = '';
 if (Astro.request.method === 'POST') {
-  if (throttled(Astro.clientAddress ?? 'unknown')) {
+  if (await throttled(clientKey(Astro))) {
     error = 'Too many attempts. Wait ten minutes and try again.';
   } else {
     const form = await Astro.request.formData();

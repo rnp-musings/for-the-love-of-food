@@ -4,7 +4,9 @@
  * and changing the token logs everyone out.
  */
 import { createHmac, timingSafeEqual } from 'node:crypto';
+import { and, eq, sql } from 'drizzle-orm';
 import type { APIContext } from 'astro';
+import { getDb, t } from './db';
 
 export const COOKIE = 'ftlof_admin';
 const token = () => process.env.ADMIN_TOKEN ?? '';
@@ -28,12 +30,30 @@ export const startSession = (cookies: APIContext['cookies']) =>
   cookies.set(COOKIE, sign(), { httpOnly: true, sameSite: 'strict', secure: import.meta.env.PROD && process.env.INSECURE_COOKIES !== '1', path: '/', maxAge: 60 * 60 * 8 });
 export const endSession = (cookies: APIContext['cookies']) => cookies.delete(COOKIE, { path: '/' });
 
-// Very small in-memory throttle for login attempts: 10 per 10 minutes per client address.
-const attempts = new Map<string, number[]>();
-export function throttled(key: string): boolean {
-  const now = Date.now();
-  const recent = (attempts.get(key) ?? []).filter((t) => now - t < 600_000);
-  recent.push(now);
-  attempts.set(key, recent);
-  return recent.length > 10;
+/**
+ * Who is calling, for rate limiting. Astro.clientAddress is the socket address and cannot be spoofed, so it
+ * is preferred. The Vercel adapter does not implement it; there the platform sets x-real-ip and overwrites
+ * x-forwarded-for, so those headers are trustworthy.
+ */
+export function clientKey(ctx: { clientAddress: string; request: Request }): string {
+  try {
+    return ctx.clientAddress || 'unknown';
+  } catch {
+    const h = ctx.request.headers;
+    return h.get('x-real-ip') ?? h.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown';
+  }
+}
+
+/**
+ * Login throttle: 10 attempts per 10 minutes per client address, counted in the database so it holds
+ * across serverless instances. Returns true when the client should be refused.
+ */
+export async function throttled(clientKey: string): Promise<boolean> {
+  const db = await getDb();
+  const key = clientKey.slice(0, 64);
+  await db.delete(t.loginAttempts).where(sql`${t.loginAttempts.at} < now() - interval '1 hour'`);
+  await db.insert(t.loginAttempts).values({ clientKey: key });
+  const [{ n }] = await db.select({ n: sql<number>`count(*)::int` }).from(t.loginAttempts)
+    .where(and(eq(t.loginAttempts.clientKey, key), sql`${t.loginAttempts.at} > now() - interval '10 minutes'`));
+  return n > 10;
 }

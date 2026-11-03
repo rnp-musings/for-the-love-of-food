@@ -16,6 +16,8 @@ With no `DATABASE_URL` the app uses an embedded Postgres in `./.pgdata`, created
 
 ## Production
 
+On Vercel: see [docs/deploy-vercel.md](../docs/deploy-vercel.md). The steps below are for a server you run yourself (Docker, Fly.io, Railway, a VPS).
+
 1. Create a Postgres database (Supabase, Neon, or any Postgres 14+ with `pg_trgm`).
 2. Release step, run on every deploy: `DATABASE_URL=... npx tsx db/migrate.ts && DATABASE_URL=... npx tsx db/import.ts --skip-validate` (validate content in CI first).
 3. Run the server: `DATABASE_URL=... ADMIN_TOKEN=... node app/dist/server/entry.mjs`, or use the `Dockerfile` (Fly.io, Railway, Render, Cloud Run, a VPS).
@@ -42,7 +44,7 @@ With no `DATABASE_URL` the app uses an embedded Postgres in `./.pgdata`, created
 
 ## Security notes
 
-- Admin uses one shared secret and a signed, HttpOnly, SameSite=Strict cookie. Login attempts are throttled in memory (per process), so run one instance or put a proper rate limit at the proxy.
+- Admin uses one shared secret and a signed, HttpOnly, SameSite=Strict cookie. Login attempts are throttled in the database (10 per 10 minutes per client address), so the limit holds across instances.
 - Cross-site form posts are rejected by Astro's origin check; a browser-side test for this is in `test/browser.e2e.cjs`.
 - All SQL uses bound parameters; enum filters are checked against allow-lists; numbers are clamped; requests containing a NUL byte are refused.
 - Public pages are cacheable for 60 seconds; admin pages are never cached.

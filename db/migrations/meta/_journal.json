@@ -15,6 +15,13 @@
       "when": 1793635573253,
       "tag": "0001_search_extras",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793673872022,
+      "tag": "0002_login_attempts",
+      "breakpoints": true
     }
   ]
 }
