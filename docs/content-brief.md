@@ -1,6 +1,6 @@
 # Content brief (rules for writing dishes, recipes, regions and festivals)
 
-This is the brief that was given to the AI writers who produced the first 298 dishes. It is kept here so anyone adding content, human or AI, follows the same rules. Read it together with [the README](../README.md#how-to-add-or-change-content) and [review-queue.md](review-queue.md).
+This is the brief that was given to the AI writers who produced the first 298 dishes. It is kept here so anyone adding content, human or AI, follows the same rules. Read it together with [the README](../README.md#6-how-to-add-or-change-content) and [review-queue.md](review-queue.md).
 
 How it was used: twelve writers worked in parallel, each in a private copy of the repo (`content/` and `schemas/` and `scripts/`), each writing only new files named after its group (for example `content/regions/asia-a.json`) plus its own countries' dish and recipe files. The group files were then copied into the main repo and folded together with `python3 scripts/merge_collections.py`, then `python3 scripts/validate.py` was run on the result. Two things went wrong that way and are worth remembering: two groups invented the same region id (`west-coast`), and several groups defined the same ingredient with slightly different display names (the merge keeps the first and reports the rest). Give region and dish ids a country or cuisine prefix whenever the name is generic.
 
